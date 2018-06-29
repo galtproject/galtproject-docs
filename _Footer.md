@@ -1,1 +1,0 @@
-[< Back](https://github.com/andromedaspace/WIJG/wiki)
