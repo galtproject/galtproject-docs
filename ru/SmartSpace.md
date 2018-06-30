@@ -11,8 +11,8 @@
 * Аренда/Лизинг
 
 ## Контракты, предоставляемые нашей командой
-* SpaceRentalBasic - базовый контракт аренды Space токена
-* SharedSpaceBasic - базовый контракт совместной собственности Space токена
+* [SpaceRentalBasic](SmartSpace-Rental.md) - базовый контракт аренды Space токена
+* [SharedSpaceBasic](SmartSpace-SharedSpace.md) - базовый контракт совместной собственности Space токена
 
 ## Разработка кастомных решений
 
