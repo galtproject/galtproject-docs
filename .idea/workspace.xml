@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9343b203-665d-4c7d-8731-0a6f4aeacf94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ru/Аукцион-SPACE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ru/Аукцион-кандидатов-в-делегаты.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ru/Аукцион-для-SPACE.md" afterPath="$PROJECT_DIR$/ru/Аукцион-Викри.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ru/Аукцион-SPACE.md" afterPath="$PROJECT_DIR$/ru/Аукцион-SPACE.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Аукцион-SPACE.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Аукцион-SPACE.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ru/Аукцион-SPACE.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="50" />
+            <state relative-caret-position="413">
+              <caret line="58" column="84" lean-forward="false" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Аукцион-кандидатов-в-делегаты.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Аукцион-кандидатов-в-делегаты.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru/Аукцион-кандидатов-в-делегаты.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="405">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -68,16 +67,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Аукцион-для-кандидатов-в-Делегаты.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru/Аукцион-для-кандидатов-в-Делегаты.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -88,8 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/ru/Аукцион-для-SPACE.md" />
         <option value="$PROJECT_DIR$/ru/Аукцион-Викри.md" />
-        <option value="$PROJECT_DIR$/ru/Аукцион-SPACE.md" />
         <option value="$PROJECT_DIR$/ru/Аукцион-кандидатов-в-делегаты.md" />
+        <option value="$PROJECT_DIR$/ru/Аукцион-SPACE.md" />
       </list>
     </option>
   </component>
@@ -170,12 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530346863456</updated>
       <workItem from="1530346864604" duration="404000" />
-      <workItem from="1530519939626" duration="7872000" />
+      <workItem from="1530519939626" duration="10999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8276000" />
+    <option name="totallyTimeSpent" value="11403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -210,14 +199,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ru/Аукцион Эмиссии.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ru/Home.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -234,14 +215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru/Аукцион-для-кандидатов-в-Делегаты.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ru/Аукцион-Викри.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -250,18 +223,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru/Аукцион-SPACE.md">
+    <entry file="file://$PROJECT_DIR$/ru/Аукцион-для-кандидатов-в-Делегаты.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="50" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru/Аукцион Эмиссии.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ru/Аукцион-кандидатов-в-делегаты.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru/Аукцион-SPACE.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="58" column="84" lean-forward="false" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
           <folding />
         </state>
       </provider>
