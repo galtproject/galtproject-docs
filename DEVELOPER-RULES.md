@@ -6,4 +6,4 @@
 
 ### Formatting of file names
 - Use only english
-- Use "_" instead of "-"
+- Use "-" instead of "_"
