@@ -4,6 +4,6 @@
 - Add term in the glossary
 - Use unified naming/terminology
 
-### Formatting of file names
+### File names formatting
 - Use only english
-- Use "-" instead of "_"
+- Use "-" as a separator only for logically different parts of a file name. Correct names are: `ManagementFee`, `SmartSpace`, `SmartSpace-Rental`(SmartSpace is a contract type, while Rental is a concrete implementation). Bad file names are `Management_Fee` or `Smart-Space`.
