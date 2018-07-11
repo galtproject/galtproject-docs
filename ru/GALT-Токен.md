@@ -4,7 +4,12 @@
 Проекту необходим ERC20 контракт для валютных операций в проекте.
 
 ## Спецификация контракта
-Контракт ничем не отличается от стандарта [OpenZeppelin Mintable ERC20](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC20).
+* Название токена (name) - `GALT`
+* Символ токена (symbol) - `GLT`
+* Кол-во знаков после запятой (decimals) - `0` (токен неделим)
+* Макс. возможное кол-во выпущенных токенов - `2^256 = 1.1579209e+77`
+
+Контракт использует имплементацию стандарта [OpenZeppelin Mintable ERC20](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC20).
 
 ## Особенности реализации на Solidity
 
