@@ -2,12 +2,12 @@
 
 ### Статус готовности
 
-| Контракт, функционал | Ответственный | Cтатус | Процент готовности | Тикет |
+| Контракт, функционал | Ответственный | Cтатус | Процент готовности | Issues |
 | ----- | ----- | ----- | ----- | ----- |
 | Initial Deploy | chebykin | in progress | 5% |  |
 | Galt Token | chebykin | in progress | 90% |  |
 | Galt Genesis | goodstemy | done | 100% |  |
-| Galt Exit | goodstemy | n progress | 50% |  |
+| Galt Exit | goodstemy | in progress | 50% |  |
 | Emission | goodstemy | done | 100% |  |
 | Supply Space Token | IgorFrolov | in progress | 0% | #52 |
 | Space Token | Jonybang | done | 100% |  |
