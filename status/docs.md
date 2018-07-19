@@ -9,7 +9,7 @@
 | Galt Genesis | goodstemy |  | 100% |  |
 | Galt Exit | goodstemy |  | 50% |  |
 | Emission | goodstemy |  | 100% |  |
-| Supply Space Token | IgorFrolov |  | 0% | #52 |
+| Supply Space Token | npopeka |  | 0% | #52 |
 | Space Token | Jonybang |  | 100% |  |
 | Space Auction | Jonybang |  | 100% |  |
 | Vickrey Auction | Jonybang |  | 100% |  |
