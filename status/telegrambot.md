@@ -8,7 +8,7 @@
 | Galt Genesis | goodstemy |  | 100% |  |
 | Galt Exit | goodstemy |  | 0% |  |
 | Emission | goodstemy |  | 90% |  |
-| Supply Space Token | npopeka |  | 0% |  |
+| Create Territory | Jonybang |  | 0% |  |
 | Space Token | Jonybang |  | 100% |  |
 | Space Auction | Jonybang |  | 100% |  |
 | Vickrey Auction | Jonybang |  | 100% |  |
