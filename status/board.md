@@ -12,14 +12,14 @@
 | Create Territory | npopeka |  | 0% | #52 |
 | [Space Token](../ru/contracts/SpaceToken.md) | Jonybang |  | 100% |  |
 | [Space Auction](../ru/contracts/SpaceAuction.md) | Jonybang |  | 100% |  |
-| [Vickrey Auction](../ru/contacts/VickreyAuction.md) | Jonybang |  | 100% |  |
+| [Vickrey Auction](../ru/contracts/VickreyAuction.md) | Jonybang |  | 100% |  |
 | [Height Management](../ru/HeightManagement.md) | goodstemy |  | 100% |  |
 | [Split Merge](../ru/SplitMerge.md) | goodstemy |  | 100% |  |
-| [Smart Space](../ru/contracts/SmartSpace.md) | chebykin |  | 50% |  |
-| [Smart Space Rental](../ru/contracts/3rd-party/SmartSpaceRental.md) | chebykin |  | 0% |  |
-| [Smart Space SharedSpace](../ru/contracts/3rd-party/SmartSpaceSharedSpace.md) | chebykin |  | 0% |  |
+| [Smart Space](../ru/SmartSpace.md) | chebykin |  | 50% |  |
+| [Smart Space Rental](../ru/contracts/3rd-party/SmartSpace-Rental.md) | chebykin |  | 0% |  |
+| [Smart Space SharedSpace](../ru/contracts/3rd-party/SmartSpace-SharedSpace.md) | chebykin |  | 0% |  |
 | [Property Verification](../ru/PropertyVerification.md) | goodstemy |  | 100% |  |
-| [Reputation](../ru/Reputation.md) | chebykin |  | 20% |  |
+| Reputation | chebykin |  | 20% |  |
 | [ReputationFine](../ru/ReputationFine.md) | Jonybang |  | 100% |  |
 | [Controller](../ru/contracts/Controller.md) | Jonybang |  | 100% |  |
 | [Permissions And Ownership](../ru/PermissionsAndOwnership.md) | chebykin |  | 10% |  |
@@ -28,8 +28,8 @@
 | [MultiSig](../ru/contracts/MultiSig.md) | chebykin |  | 100% |  |
 | [MultiSig Proposal](../ru/contracts/MultiSigProposal.md) | chebykin |  | 100% |  |
 | [Management Fee](../ru/contracts/ManagementFee.md) | goodstemy |  | 100% |  |
-| [Fund Registry](../ru/FundRegistry.md) | chebykin |  | 10% |  |
-| [Multi Fund](../ru/MultiFund.md) | chebykin |  | 10% |  |
+| Fund Registry | chebykin |  | 10% |  |
+| Multi Fund | chebykin |  | 10% |  |
 
 
 ## Interface of Telegram Bot
