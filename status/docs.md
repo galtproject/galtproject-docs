@@ -4,29 +4,29 @@
 
 | Контракт, функционал | Ответственный | Cтатус | Процент готовности | Issues |
 | ----- | ----- | ----- | ----- | ----- |
-| Initial Deploy | chebykin | in progress | 5% |  |
-| Galt Token | chebykin | in progress | 90% |  |
-| Galt Genesis | goodstemy | done | 100% |  |
-| Galt Exit | goodstemy | in progress | 50% |  |
-| Emission | goodstemy | done | 100% |  |
-| Supply Space Token | IgorFrolov | in progress | 0% | #52 |
-| Space Token | Jonybang | done | 100% |  |
-| Space Auction | Jonybang | done | 100% |  |
-| Vickrey Auction | Jonybang | done | 100% |  |
-| Height Management | goodstemy | done | 100% |  |
-| Split Merge | goodstemy | done | 100% |  |
-| Smart Space | chebykin | in progress | 50% |  |
-| Smart Space Rental | chebykin | in progress | 0% |  |
-| Smart Space SharedSpace | chebykin | in progress | 0% |  |
-| Property Verification | goodstemy | done | 100% |  |
-| Reputation | chebykin | in progress | 20% |  |
-| Reputation Fine | Jonybang | done | 100% |  |
-| Controller | Jonybang | done | 100% |  |
-| Permissions And Ownership | chebykin | in progress | 10% |  |
-| Delegate Candidate Auction | Jonybang | done | 100% |  |
-| Delegate Voting | Jonybang | done | 100% |  |
-| MultiSig | chebykin | done | 100% |  |
-| MultiSig Proposal | chebykin | done | 100% |  |
-| Management Fee | goodstemy | done | 100% |  |
-| FundRegistry | chebykin | in progress | 10% |  |
-| MultiFund | chebykin | in progress | 10% |  |
+| Initial Deploy | chebykin |  | 5% |  |
+| Galt Token | chebykin |  | 90% |  |
+| Galt Genesis | goodstemy |  | 100% |  |
+| Galt Exit | goodstemy |  | 50% |  |
+| Emission | goodstemy |  | 100% |  |
+| Supply Space Token | IgorFrolov |  | 0% | #52 |
+| Space Token | Jonybang |  | 100% |  |
+| Space Auction | Jonybang |  | 100% |  |
+| Vickrey Auction | Jonybang |  | 100% |  |
+| Height Management | goodstemy |  | 100% |  |
+| Split Merge | goodstemy |  | 100% |  |
+| Smart Space | chebykin |  | 50% |  |
+| Smart Space Rental | chebykin |  | 0% |  |
+| Smart Space SharedSpace | chebykin |  | 0% |  |
+| Property Verification | goodstemy |  | 100% |  |
+| Reputation | chebykin |  | 20% |  |
+| Reputation Fine | Jonybang |  | 100% |  |
+| Controller | Jonybang |  | 100% |  |
+| Permissions And Ownership | chebykin |  | 10% |  |
+| Delegate Candidate Auction | Jonybang |  | 100% |  |
+| Delegate Voting | Jonybang |  | 100% |  |
+| MultiSig | chebykin |  | 100% |  |
+| MultiSig Proposal | chebykin |  | 100% |  |
+| Management Fee | goodstemy |  | 100% |  |
+| FundRegistry | chebykin |  | 10% |  |
+| MultiFund | chebykin |  | 10% |  |
