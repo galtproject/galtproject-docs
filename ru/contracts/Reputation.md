@@ -1,4 +1,4 @@
-# Global Reputation
+# Reputation
 Контракт репутации
 
 ## Разделы
