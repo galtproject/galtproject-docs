@@ -14,6 +14,7 @@ For each contract Documentation contains:
 ## About Galt Project
 ### Galt Project Tokens
 GALT - erc20 standart ethereum based token.
+
 SPACE - ERC721 standart ethereum based token.
 ### Galt Project Contact information
 http://galtproject.io/
