@@ -10,3 +10,10 @@ For each contract Documentation contains:
 
 ## File structure
 - ru - directory contains documentation in Russian Language. One file for each contract.
+
+## About Galt Project
+### Galt Project Tokens
+GALT - erc20 standart ethereum based token.
+SPACE - ERC721 standart ethereum based token.
+### Galt Project Contact information
+http://galtproject.io/
