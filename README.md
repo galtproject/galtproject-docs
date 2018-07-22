@@ -1,6 +1,7 @@
 # Galt Project Documentation
 This repository contains Software Design Documents for Galt Project.
-For each contract Documentation contains:
+
+For each smart contract Documentation contains:
 - problems descriptions;
 - goals;
 - requirements;
