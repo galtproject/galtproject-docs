@@ -28,7 +28,7 @@
 | [MultiSig](../ru/contracts/MultiSig.md) | chebykin |  | 100% |  |
 | [MultiSig Proposal](../ru/contracts/MultiSigProposal.md) | chebykin |  | 100% |  |
 | [Management Fee](../ru/contracts/ManagementFee.md) | goodstemy |  | 100% |  |
-| Fund Registry | chebykin |  | 10% |  |
+| [Fund Registry](../ru/contracts/FundRegistry.md) | chebykin |  | 10% |  |
 
 
 ## Interface of Telegram Bot
