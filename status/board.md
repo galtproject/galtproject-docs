@@ -81,7 +81,7 @@
 | Smart Space SharedSpace | chebykin |  | 0% |  |  |
 | Property Verification | goodstemy |  | 0% |  |  |
 | Reputation | chebykin |  | 0% |  |  |
-| Reputation Fine | Jonybang |  | 0% |  |  |
+| Reputation Fine | Jonybang |  | 80% |  |  |
 | Controller | Jonybang |  | 100% |  |  |
 | Permissions And Ownership | chebykin |  | 0% |  |  |
 | Delegate Candidate Auction | Jonybang |  | 100% |  |  |
