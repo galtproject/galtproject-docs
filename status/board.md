@@ -16,10 +16,10 @@
 | [Height Management](../ru/contracts/HeightManagement.md) | goodstemy |  | 100% |  |
 | [Split Merge](../ru/contracts/SplitMerge.md) | goodstemy |  | 100% |  |
 | [Smart Space](../ru/SmartSpace.md) | chebykin |  | 50% |  |
-| [Smart Space Rental](../ru/contracts/3rd-party/SmartSpace-Rental.md) | chebykin |  | 0% |  |
-| [Smart Space SharedSpace](../ru/contracts/3rd-party/SmartSpace-SharedSpace.md) | chebykin |  | 0% |  |
+| [Smart Space Rental](../ru/contracts/3rd-party/SmartSpace-Rental.md) | chebykin |  | 100% |  |
+| [Smart Space SharedSpace](../ru/contracts/3rd-party/SmartSpace-SharedSpace.md) | chebykin |  | 100% |  |
 | [Property Verification](../ru/contracts/PropertyVerification.md) | goodstemy |  | 100% |  |
-| [Reputation](../ru/contracts/Reputation.md) | chebykin |  | 20% |  |
+| [Reputation](../ru/contracts/Reputation.md) | chebykin |  | 100% |  |
 | [ReputationFine](../ru/contracts/ReputationFine.md) | Jonybang |  | 100% |  |
 | [Controller](../ru/contracts/Controller.md) | Jonybang |  | 100% |  |
 | [Permissions And Ownership](../ru/PermissionsAndOwnership.md) | chebykin |  | 10% |  |
