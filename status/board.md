@@ -15,7 +15,6 @@
 | [Vickrey Auction](../ru/contracts/VickreyAuction.md) | Jonybang |  | 100% |  |
 | [Height Management](../ru/contracts/HeightManagement.md) | goodstemy |  | 100% |  |
 | [Split Merge](../ru/contracts/SplitMerge.md) | goodstemy |  | 100% |  |
-| [Smart Space](../ru/SmartSpace.md) | chebykin |  | 50% |  |
 | [Smart Space Rental](../ru/contracts/3rd-party/SmartSpace-Rental.md) | chebykin |  | 100% |  |
 | [Smart Space SharedSpace](../ru/contracts/3rd-party/SmartSpace-SharedSpace.md) | chebykin |  | 100% |  |
 | [Property Verification](../ru/contracts/PropertyVerification.md) | goodstemy |  | 100% |  |
