@@ -89,4 +89,4 @@
 | MultiSig | chebykin |  | 100% |  |  |
 | MultiSig Proposal | chebykin |  | 100% |  |  |
 | Management Fee | goodstemy |  | 100% |  |  |
-| Fund Registry | chebykin |  | 0% |  |  |
+| Fund Registry | chebykin |  | 90% |  |  |
