@@ -35,4 +35,4 @@ GALT - ERC20 standart ethereum based token.
 
 SPACE - ERC721 standart ethereum based token.
 ### Galt Project Contact information
-http://galtproject.io/
+https://galtproject.io/

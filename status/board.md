@@ -7,20 +7,20 @@
 | [Initial Deploy](../ru/InitialDeploy.md) | chebykin |  | 5% |  |
 | [Galt Token](../ru/contracts/GaltToken.md) | chebykin |  | 90% |  |
 | [Galt Genesis](../ru/contracts/GaltGenesis.md) | goodstemy |  | 100% |  |
-| [Galt Exit](../ru/GaltExit.md) | goodstemy |  | 50% |  |
+| [Galt Exit](../ru/contracts/GaltExit.md) | goodstemy |  | 50% |  |
 | [Emission](../ru/contracts/Emission.md) | goodstemy |  | 100% |  |
-| Create Territory | npopeka |  | 0% | #52 |
+| [Create Territory](../ru/contracts/CreateTerritory.md) | npopeka |  | 0% | #52 |
 | [Space Token](../ru/contracts/SpaceToken.md) | Jonybang |  | 100% |  |
 | [Space Auction](../ru/contracts/SpaceAuction.md) | Jonybang |  | 100% |  |
 | [Vickrey Auction](../ru/contracts/VickreyAuction.md) | Jonybang |  | 100% |  |
-| [Height Management](../ru/HeightManagement.md) | goodstemy |  | 100% |  |
-| [Split Merge](../ru/SplitMerge.md) | goodstemy |  | 100% |  |
+| [Height Management](../ru/contracts/HeightManagement.md) | goodstemy |  | 100% |  |
+| [Split Merge](../ru/contracts/SplitMerge.md) | goodstemy |  | 100% |  |
 | [Smart Space](../ru/SmartSpace.md) | chebykin |  | 50% |  |
 | [Smart Space Rental](../ru/contracts/3rd-party/SmartSpace-Rental.md) | chebykin |  | 0% |  |
 | [Smart Space SharedSpace](../ru/contracts/3rd-party/SmartSpace-SharedSpace.md) | chebykin |  | 0% |  |
-| [Property Verification](../ru/PropertyVerification.md) | goodstemy |  | 100% |  |
-| Reputation | chebykin |  | 20% |  |
-| [ReputationFine](../ru/ReputationFine.md) | Jonybang |  | 100% |  |
+| [Property Verification](../ru/contracts/PropertyVerification.md) | goodstemy |  | 100% |  |
+| [Reputation](../ru/contracts/Reputation.md) | chebykin |  | 20% |  |
+| [ReputationFine](../ru/contracts/ReputationFine.md) | Jonybang |  | 100% |  |
 | [Controller](../ru/contracts/Controller.md) | Jonybang |  | 100% |  |
 | [Permissions And Ownership](../ru/PermissionsAndOwnership.md) | chebykin |  | 10% |  |
 | [Delegate Candidate Auction](../ru/contracts/DelegateCandidateAuction.md) | Jonybang |  | 100% |  |
@@ -29,7 +29,6 @@
 | [MultiSig Proposal](../ru/contracts/MultiSigProposal.md) | chebykin |  | 100% |  |
 | [Management Fee](../ru/contracts/ManagementFee.md) | goodstemy |  | 100% |  |
 | Fund Registry | chebykin |  | 10% |  |
-| Multi Fund | chebykin |  | 10% |  |
 
 
 ## Interface of Telegram Bot
@@ -60,7 +59,6 @@
 | MultiSig Proposal | chebykin |  | 100% |  |
 | Management Fee | goodstemy |  | 90% |  |
 | Fund Registry | chebykin |  | 0% |  |
-| Multi Fund | chebykin |  | 0% |  |
 
 
 ## Smart Contracts, TypeScript & Solidity
@@ -92,4 +90,3 @@
 | MultiSig Proposal | chebykin |  | 100% |  |  |
 | Management Fee | goodstemy |  | 100% |  |  |
 | Fund Registry | chebykin |  | 0% |  |  |
-| Multi Fund | chebykin |  | 0% |  |  |
