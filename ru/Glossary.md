@@ -25,7 +25,7 @@
 Различные организации зарегистрированные или не зарегистрированные в правовом поле, осуществляющие разработку программного обеспечения Проекта в соответствии с идеологией и стратегией GALT Foundation, финансируемые GALT Foundation.
 
 ## GALT Project CORE Team
-Первая и основная команда, разрабатывающая ядро программного обеспечения Проекта и осуществляющая запуск первого Генезиса GALT Территории. 
+Первая и основная команда, разрабатывающая ядро программного обеспечения Проекта и осуществляющая запуск первого Генезиса GALT Территории. [Nikolai Popeka](https://github.com/orgs/andromedaspace/people/npopeka) [Nikita Chebykin](https://github.com/orgs/andromedaspace/people/chebykin) [Evgeniy Panichev](https://github.com/orgs/andromedaspace/people/Jonybang) [Igor Frolov](https://github.com/orgs/andromedaspace/people/IgorFrolov) [Efremov Ivan](https://github.com/orgs/andromedaspace/people/goodstemy)
 
 ## Участник Проекта
 Владелец токенов [GALT](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#galt) и/или [SPACE](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#space).
