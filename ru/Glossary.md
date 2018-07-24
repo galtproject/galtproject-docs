@@ -28,7 +28,7 @@ https://en.wikipedia.org/wiki/Geohash
 
 ## SPACE
 Это токен стандарта ERC721, соответствующий Земельному участку. 
-Он содержит в себе геохеш Участка земли. 
+Он содержит в себе геохеш Земельного участка. 
 Пример: [24qexh](http://explorer.galtproject.io/map/#w24qexh). 
 Фактически это право собственности на Земельный участок, которое для себя принимают все [Участник проекта](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Golossary.md#%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA-%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0). Токен SPACE можно выиграть на [Аукционе земли](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Golossary.md#%D0%90%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD-%D0%97%D0%B5%D0%BC%D0%BB%D0%B8) за токены [GALT](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Golossary.md#galt).
 
