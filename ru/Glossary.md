@@ -31,7 +31,7 @@
 Владелец токенов [GALT](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#galt) и/или [SPACE](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#space).
 
 ## Токен
-[Определение Токена](https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0)
+[Определение из Википедии](https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0))
 
 ## GALT
 Это токен стандарта ERC20 сети Ethereum. Токен представляет собой оцифрованное право долевого владения или распоряжения землей, включенной в Проект и эквивалент доли в инвестиционном Фонде, который занимается развитием Территории в Проекте. Токен используется для учета того, сколько вложил каждый Участник проекта. На GALT можно выиграть Земельный участок на Аукционе земли, GALT можно обменять у Фондов на Эфиры в любой момент. GALT это доля во всех Территориях проекта и во всех Фондах проекта.
