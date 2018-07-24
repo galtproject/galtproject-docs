@@ -21,21 +21,22 @@
 - Избранные "Делегаты" могут создавать предложения по выводу Эфиров(если они есть в Фонде) и GALT из Фонда, и утверждать эти заявки. См. подробнее - Контракт [MultiSigProposal](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/MultiSigProposal.md), Контракт [MultiSig](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/MultiSig.md).
 - GALT Project CORE Team запускает контракт Emission. Начинается "Аукцион эмиссии GALT". "Аукцион эмиссии" выпускает новые GALT и распределяет их между теми, кто перечислил эфиры и Владельцами земли. См. подробнее - [Контракт Emission](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/Emission.md).
 
-7. GALT Project CORE Team запускает контракт ManagementFee. Делагаты начинают получать вознаграждение исходя из остатка Эфиров в Фонде и увеличения их количества. См. подробнее - контракт ManagementFee.
+7. GALT Project CORE Team запускает контракт ManagementFee. Делагаты начинают получать вознаграждение исходя из остатка Эфиров в Фонде и увеличения их количества. См. подробнее - контракт [ManagementFee](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/ManagementFee.md).
 
-8. GALT Project CORE Team запускает контракт SplitMerge. Владелец земли может разделять и обьединять земельные участки. См. подробнее - контракт SplitMerge. 
+8. GALT Project CORE Team запускает контракт SplitMerge. Владелец земли может разделять и обьединять земельные участки. См. подробнее - контракт [SplitMerge](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SplitMerge.md). 
 
-9. GALT Project CORE Team запускает контракт HeightManagement. Владельцы земли смогут определять путем голосования верхние и нижние границы участков, покупать друг у друга пространство над участками. См. подробнее - контракт HeightManagement.
+9. GALT Project CORE Team запускает контракт HeightManagement. Владельцы земли смогут определять путем голосования верхние и нижние границы участков, покупать друг у друга пространство над участками. См. подробнее - контракт [HeightManagement](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/HeightManagement.md).
 
-10. GALT Project CORE Team запускает контракт ReputationFine. Владельцы земли смогут голосовать и налагать репутационные штрафы друг на друга. См. подробнее - контракт ReputationFine.
+10. GALT Project CORE Team запускает контракт ReputationFine. Владельцы земли смогут голосовать и налагать репутационные штрафы друг на друга. См. подробнее - контракт [ReputationFine](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/ReputationFine.md).
 
-11. GALT Project CORE Team запускает контракт PropertyVerification. Владельцы земли смогут подтверждать свое право на владение конкретными участками по GPS координатам. См. подробнее - контракт PropertyVerification.
+11. GALT Project CORE Team запускает контракт PropertyVerification. Владельцы земли смогут подтверждать свое право на владение конкретными участками по GPS координатам. См. подробнее - контракт [PropertyVerification](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/PropertyVerification.md).
 
-12. GALT Project CORE Team запускает контракт GaltExit. Участники проекта, владеющие GALT смогут автоматически обменивать GALT на Эфиры у Фондов. См. подробнее - контракт GaltExit.
+12. GALT Project CORE Team запускает контракт GaltExit. Участники проекта, владеющие GALT смогут автоматически обменивать GALT на Эфиры у Фондов. См. подробнее - контракт [GaltExit](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltExit.md).
 
 13. GALT Project CORE Team запускает контракт CreateTerritory. Любой может предложить ввести в проект новый большой участок земли (мы называем его Территория). У этой Территории, как может быть владелец, так его может и не быть из-за каких-либо правовых коллизий. При создании заявки указывается определенный набор параметров.  Участники проекта могут проголосовать за заявку и создать новый выпуск токенов GALT под эту землю. См. подробнее - [Контракт CreateTerritory](contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F).
 
 14. Если Участники проекта проголосовали за заявку и  решили ввести новую землю в проект и выпустить токены GALT - запускается новый Генезис GALT Территории. Любой может купить токены GALT за Эфиры. Если необходимая цель по сбору средств будет достигнута, то выпущенные токены GALT будут распределены между адресами, которые перечислили Эфиры. Полученные Эфиры будут в общем случае разделены между тем, кто создал заявку на ввод новой земли в проект, текущим владельцем земли, который ее продает проекту и Фондом, который будет управлять этой территорией. См. подробнее - [Контракт GALTGenesis](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltGenesis.md). Могут одновременно проходить неограниченное количество Генезисов GALT Территорий.
 
 15. GALT Project CORE Team отдает права на владение Умными Контрактами Сообществу.
+16. В проект будет введена новая Территория - Бир Тавил и будет собран Фонд для ее развития.
 
