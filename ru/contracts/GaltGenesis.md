@@ -1,12 +1,21 @@
 # Контракт GALTGenesis - Требования
 
 ## Описание проблемы
-- Для создания экономики необходимо выпустить токены GALT[1];
+- Для создания экономики необходимо выпустить токены GALT;
 - Для покупки земель на аукционе и взаимодействия с другим функционалом Galt Project у пользователя должна быть возможность купить токены за ETH на этапе GALTGenesis;
+- может быть неограниченное количество параллельных Генезисов на разные [Территории](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F);
+- Генезис может запускать контракт [Аукциона земли](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%90%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD-%D0%97%D0%B5%D0%BC%D0%BB%D0%B8) на [Территорию](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F) при запуске Генезиса или при его завершении;
 
 ## Цели контракта
 - Обеспечить выпуск GALT токенов;
 - Обеспечить покупку GALT токенов любому пользователю за ETH;
+
+## Входные параметры
+
+| Параметр | Название параметра | Контракт - источник | Тип данных |
+|----------|----------------| --------------- | ------------- |
+|Количество выпускаемых токенов GALT не территорию|GaltMintAmmount|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|uint|
+|Геохеши Территории|TerritoryID|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|массив string|
 
 ## Сценарий контракта
 ### Сценарий 1: GALTGenesis
