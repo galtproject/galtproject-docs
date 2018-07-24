@@ -13,7 +13,7 @@ For each smart contract Documentation contains:
 - ru - directory contains documentation in Russian Language. One file for each contract.
 
 ## About Galt Project
-### Who is John Galt? - simple answer
+### Who is John Galt?
 What is John Galt Project in 10 sentences.
 
 John Galt Project - open-source software for land accounting and self-governance in the form of a set of smart contracts in the Ethereum blockchain, which gives effective tools for any group of people (crypto-enthusiasts, landowners, small nationalities and local tribes):
@@ -28,7 +28,8 @@ John Galt Project - open-source software for land accounting and self-governance
 - at any time, split the fund into several funds by participants voting;
 - confirm the one’s right to own or lease a land plot using cryptography.
 
-### Who is John Galt? - manifest
+### Main goal
+The main goal of Galt Project is to create self - governed community runned by smart contracts. 
 
 ### Galt Project Tokens
 GALT - ERC20 standart ethereum based token.
