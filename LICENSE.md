@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 GALT Foundation
+Copyright (c) 2018 GALT FOUNDATION (Nikolai Popeka, Dima Starodubcev, Valery Litvin)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
