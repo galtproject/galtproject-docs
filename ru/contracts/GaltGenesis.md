@@ -1,5 +1,9 @@
 # Контракт GALTGenesis - Требования
 
+## Ссылки на термины
+[Территория](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F)
+[Аукцион земли](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%90%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD-%D0%97%D0%B5%D0%BC%D0%BB%D0%B8)
+
 ## Описание проблем
 - для создания экономики необходимо выпустить токены GALT, который будет выполнять функцию обьекта долевой собственности на землю и пая инвестиционного Фонда, который будет развивать ее (землю);
 - для покупки земель на аукционе и взаимодействия с другим функционалом Galt Project у Участников проекта должна быть возможность купить токены GALT за ETH на этапе GALTGenesis;
@@ -25,7 +29,7 @@
 
 | Параметр | Название параметра | Контракт - источник | Тип данных |
 |----------|----------------| --------------- | ------------- |
-|Количество выпускаемых токенов GALT не территорию|GaltMintAmmount|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|uint|
+|Количество выпускаемых токенов GALT на Территорию|GaltMintAmmount|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|uint|
 |Геохеши Территории|TerritoryID|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|массив string|
 |Адрес Контракта Аукциона земли|LandAuctionAdress|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|adress|
 |id Генезиса|GenesisID|Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)|adress|
