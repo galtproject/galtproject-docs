@@ -1,6 +1,6 @@
 ## Общий сценарий взаимодействия пользователей в контрактах
 
-[Глоссарий](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md).
+[Глоссарий](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md)
 
 1. Основой проекта являются токен стандарта ERC20 GALT и токен стандарта ERC721 SPACE. Токен GALT по сути является правом долевого владения или распоряжения землей и эквивалентом пая в инвестиционном фонде, который занимается развитием этой земли, а SPACE - правом на конкретный земельный участок с конкретными границами. См. подробнее - [Контракт GaltToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltToken.md) , [Контракт SpaceToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SpaceToken.md).
 
