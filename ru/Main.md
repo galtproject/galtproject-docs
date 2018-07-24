@@ -19,6 +19,7 @@
 - Любой может получить право стать "Кандидатом в Делегаты" на Аукционе делегатов. См. подробнее - [Контракт DelegateCandidateAuction](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/DelegateCandidateAuction.md).
 - Любой может создать "Смежный Фонд", любой "Владелец земли" может перевести туда часть своей "Репутации" и Эфиры(если они есть в Фонде) / GALT, которые находятся у Фонда. См. подробнее - [Контракт FundRegistry](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/FundRegistry.md). 
 - Избранные "Делегаты" могут создавать предложения по выводу Эфиров(если они есть в Фонде) и GALT из Фонда, и утверждать эти заявки. См. подробнее - Контракт [MultiSigProposal](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/MultiSigProposal.md), Контракт [MultiSig](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/MultiSig.md).
+- Делегаты могут создавать заявки на голосования о необходимости сбора средств в Фонд. Если заявка будет принята, то Владельцы земли будут должны пополнить Фонд или получить штраф Репутации. См. подробнее - контракт FundEthReplenish.
 - GALT Project CORE Team запускает контракт Emission. Начинается "Аукцион эмиссии GALT". "Аукцион эмиссии" выпускает новые GALT и распределяет их между теми, кто перечислил эфиры и Владельцами земли. См. подробнее - [Контракт Emission](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/Emission.md).
 
 7. GALT Project CORE Team запускает контракт ManagementFee. Делагаты начинают получать вознаграждение исходя из остатка Эфиров в Фонде и увеличения их количества. См. подробнее - контракт [ManagementFee](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/ManagementFee.md).
@@ -27,7 +28,7 @@
 
 9. GALT Project CORE Team запускает контракт HeightManagement. Владельцы земли смогут определять путем голосования верхние и нижние границы участков, покупать друг у друга пространство над участками. См. подробнее - контракт [HeightManagement](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/HeightManagement.md).
 
-10. GALT Project CORE Team запускает контракт ReputationFine. Владельцы земли смогут голосовать и налагать репутационные штрафы друг на друга. См. подробнее - контракт [ReputationFine](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/ReputationFine.md).
+10. GALT Project CORE Team запускает контракт ReputationFine. Владельцы земли смогут голосовать и налагать репутационные штрафы друг на друга. Владельцы земли могут пополнять свою Репутацию токенами GALT. См. подробнее - контракт [ReputationFine](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/ReputationFine.md).
 
 11. GALT Project CORE Team запускает контракт PropertyVerification. Владельцы земли смогут подтверждать свое право на владение конкретными участками по GPS координатам. См. подробнее - контракт [PropertyVerification](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/PropertyVerification.md).
 
