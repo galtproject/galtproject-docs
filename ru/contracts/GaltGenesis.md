@@ -42,8 +42,8 @@
 |Адрес Контракта Аукциона земли|LandAuctionAdress|Контракт CreateTerritory|adress|
 |id Генезиса|GenesisID|Контракт CreateTerritory|adress|
 |Количество привлекамых Эфиров|ETHAmmount|Контракт CreateTerritory|uint|
-|Признак запуска Аукциона земли|AuctionStartType|Контракт CreateTerritory|string|
-|Признак запуска Аукциона земли (В начала / в конце)|AuctionStartType|Контракт CreateTerritory|string|
+|Признак запуска Аукциона земли на Территорию (В начала / в конце)|AuctionStartType|Контракт CreateTerritory|string|
+|Признак типа  Генезиса GALT Территории (Тип 1 / Тип 2)|GALTGenesysType|Контракт CreateTerritory|string|
 |Длительность проведения Генезиса| GenesisDuration|Контракт CreateTerritory|day|
 |Адрес Оператора ввода|TerritoryOperatorAdress|Контракт CreateTerritory|adress|
 |Адрес Владельца Территории|TerritoryOwnerAdress|Контракт CreateTerritory|adress|
