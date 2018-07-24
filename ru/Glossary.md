@@ -17,7 +17,7 @@
 Криптографическая организация, мультисиг 2 к 3, основанная и управляемая Основателями Проекта, определяющая идеологию, стратегию развития и осуществляющая финансирование Проекта. Организация получает 5% токенов GALT от каждого Генезиса GALT Территории и распределяет их между Основателями Проекта, Инвесторами GALT Foundation и Командами Проекта. Организация получает 50% средств в Эфирах, полученных Оператором ввода Территории в Проект от первого Генезиса GALT Территории.
 
 ## Основатели Проекта
-[Nikolai Popeka](https://github.com/orgs/andromedaspace/people/npopeka) [Dima Starodubcev](https://github.com/orgs/andromedaspace/people/xhipster) [Valery Litvin](https://github.com/orgs/andromedaspace/people/litvintech)
+[Nikolai Popeka](https://github.com/npopeka) [Dima Starodubcev](https://github.com/xhipster) [Valery Litvin](https://github.com/litvintech)
 
 ## Инвесторы GALT Foundation
 Частные инвесторы и организации, проинвестировавшие в GALT Foundation Эфиры.
@@ -26,7 +26,7 @@
 Различные организации зарегистрированные или не зарегистрированные в правовом поле, осуществляющие разработку программного обеспечения Проекта в соответствии с идеологией и стратегией GALT Foundation, финансируемые GALT Foundation.
 
 ## GALT Project CORE Team
-Первая и основная команда, разрабатывающая ядро программного обеспечения Проекта и осуществляющая запуск первого Генезиса GALT Территории. [Nikolai Popeka](https://github.com/orgs/andromedaspace/people/npopeka) [Nikita Chebykin](https://github.com/orgs/andromedaspace/people/chebykin) [Evgeniy Panichev](https://github.com/orgs/andromedaspace/people/Jonybang) [Igor Frolov](https://github.com/orgs/andromedaspace/people/IgorFrolov) [Efremov Ivan](https://github.com/orgs/andromedaspace/people/goodstemy)
+Первая и основная команда, разрабатывающая ядро программного обеспечения Проекта и осуществляющая запуск первого Генезиса GALT Территории. [Nikolai Popeka](https://github.com/npopeka) [Nikita Chebykin](https://github.com/chebykin) [Evgeniy Panichev](https://github.com/Jonybang) [Igor Frolov](https://github.com/IgorFrolov) [Efremov Ivan](https://github.com/goodstemy)
 
 ## Участник Проекта
 Владелец токенов [GALT](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#galt) и/или [SPACE](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#space).
