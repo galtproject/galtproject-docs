@@ -1,7 +1,7 @@
 # Galt Токен - Описание
 
 ## Описание проблемы
-Проекту необходим ERC20 контракт и токен для учета вложений участников проекта в [Фонды](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#%D0%A4%D0%BE%D0%BD%D0%B4), которые будут развивать [Территории](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F).
+Проекту необходим ERC20 контракт и токен для учета вложений участников проекта в [Фонды](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#%D0%A4%D0%BE%D0%BD%D0%B4), которые будут развивать [Территории](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F) и эквивалент цифрового права на все Территории Проекта без права на конкретные Земельные участки. Самый близкий аналог - [Земельный пай].
 
 ## Основные задачи токена
 - токен позволяет учесть вклад каждого Участника проекта в Фонды проекта; 
