@@ -26,7 +26,7 @@ John Galt Project - open-source software for land tokenization (accounting on bl
 - at any time, withdraw the cryptographic keys from the current fund managers and transfer them to another managers;
 - at any time, withdraw money from the fund;
 - at any time, split the fund into several funds by participants voting;
-- to regulate the relationship between the Project Participants by means of cryptography
+- to regulate the relationship between the Project Participants by means of cryptography;
 - confirm the one’s right to own or lease a land plot using cryptography.
 
 ### Main goal
