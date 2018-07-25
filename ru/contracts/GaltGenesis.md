@@ -1,16 +1,5 @@
 # Контракт GALTGenesis - Требования
 
-## Ссылки на термины
-[Территория](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F)
-[Аукцион земли](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%90%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD-%D0%97%D0%B5%D0%BC%D0%BB%D0%B8)
-[Владелец Территории](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%92%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D0%B5%D1%86-%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8)
-[Оператор Ввода](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0-%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D0%B8%D0%BB%D0%B8-%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0)
-[Фонд](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%A4%D0%BE%D0%BD%D0%B4-%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%B8%D0%BB%D0%B8-%D0%A4%D0%BE%D0%BD%D0%B4)
-[GALT](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#galt)
-[Участник проекта](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA-%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
-[Проект](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82)
-[Генезис GALT Территории](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%93%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81-galt-%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8)
-[Земельный участок](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/Glossary.md#%D0%97%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA-%D0%B8%D0%BB%D0%B8-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA-%D0%B7%D0%B5%D0%BC%D0%BB%D0%B8)
 ## Контракты - источники данных
 1. Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
 2. Контракт GaltGenesisRegistry.
@@ -33,8 +22,10 @@
 
 ## Ограничения
 Существует 2 принципиальных варианта исполнения:
-- Тип№1: Генезис GALT Территории продает большое количество GALT без зафиксированной цели в Эфирах. Генезис GALT Территории считается успешным при привлечении любой сумму эфиров. Токены GALT передаются Участникам проекта сразу после перечисления Эфиров. Не распределенные токены GALT уничтожаются после завершения выполнения Генезис GALT Территории.
-- Тип№2: Генезис GALT Территории продает фиксированное количество GALT за фиксированное количество ETH. Генезис GALT Территории выполняется фиксированное время. Если по истечении заданного времени Цель в количестве Эфиров не достигнута, то все выпущенные GALT уничтожаются, а Эфиры можно забрать обратно. Если цель достигнута, то те, кто перечислял Эфиры на контракт получают GALT, а те, кто должен получить Эфиры - Эфир.
+- Тип№1: Генезис GALT Территории продает большое количество GALT без зафиксированной цели в Эфирах. Генезис GALT Территории считается успешным при привлечении любой сумму Эфиров. Токены GALT передаются Участникам проекта сразу после перечисления Эфиров. Не распределенные токены GALT уничтожаются после завершения выполнения Генезис GALT Территории.
+- Тип№2: Генезис GALT Территории продает фиксированное количество GALT за фиксированное количество ETH. Генезис GALT Территории выполняется фиксированное время. Если по истечении заданного времени Цель в количестве Эфиров не достигнута, то  перечисленные Эфиры можно забрать обратно, а новые GALT просто не создаются. Если цель достигнута, то создаются GALT и те, кто перечислял Эфиры на контракт получают GALT, а те, кто должен получить Эфиры - Эфир.
+
+Могут быть созданы любые дополнительные варианты реализации контракта GaltGenesis. Они могут быть включены в контракт GaltGenesisRegistry и запущены, если будет принята соответствующая заявка в контракте CreateTerritory.
 
 ## Входные параметры
 
