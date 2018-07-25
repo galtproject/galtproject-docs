@@ -28,7 +28,7 @@ Private investors and organizations that invested Ethers in the GALT Foundation.
 Various organizations registered or not registered in the legal field that develop the software of the Project in accordance with the ideology and strategy of the GALT Foundation, funded by the GALT Foundation.
 
 ## GALT Project CORE Team
-The first and the main team developing the core of the Project software and launching the first GALT Territory Genesis.
+The first and the main team developing the core of the Project software and launching the first GALT Territory Genesis. [Nikolai Popeka](https://github.com/npopeka) [Nikita Chebykin](https://github.com/chebykin) [Evgeniy Panichev](https://github.com/Jonybang) [Igor Frolov](https://github.com/IgorFrolov) [Efremov Ivan](https://github.com/goodstemy)
 
 ## Project Participant
 Owner of GALT and/or SPACE tokens.
