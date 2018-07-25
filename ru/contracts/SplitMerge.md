@@ -60,6 +60,27 @@
 | 0x112...fc1 | sezu0b | 500 |
 
 
+### Сценарий: Создание уникальных участков
+1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge и создать уникальный токен SPACE с уникальным идентификатором, например ghskkdsd73883nncjsgs6644. Владелец SPACE - токена ghskkdsd73883nncjsgs6644 контракт SplitMerge.
+
+2. Владелец  SPACE токенов может вызвать метод контракта SplitMerge и добавить к созданному уникальному токену ghskkdsd73883nncjsgs6644 маппинг <id уникального токена> - <id стандартного токена с геохешем>.
+Например, у пользователя есть 2 токена: [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87). Он вызывает метод и записывает маппинг:
+
+|id уникального участка|id геохеша|
+|------------------|------------|
+|ghskkdsd73883nncjsgs6644|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
+|ghskkdsd73883nncjsgs6644|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+
+Пользователь записал маппинг.
+
+3. Теперь пользователь может вызвать метод MergeCustomPlot контракта SplitMerge и указать в качестве аргумента ghskkdsd73883nncjsgs6644. 
+
+3.1.1 Контракт SplitMerge проверяет, что ghskkdsd73883nncjsgs6644 принадлежит ему.
+
+3.1.2. Контракт SplitMerge выполняет переводит токен ghskkdsd73883nncjsgs6644 пользователю, а токены [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87) переводит себе.
+
+3.1.3. Контракт SplitMerge переносит Залоги с w24qg87 и w24qg86 на ghskkdsd73883nncjsgs6644.
+
 ## Спецификация контракта
 
 ## Детальный Сценарий пользователя и описание интерфейса
