@@ -47,3 +47,30 @@ This is an ERC721 token of the Ethereum network, which corresponds to a specific
 
 ## Project Territory or Territory
 This is a ERC721 standard token, corresponding to the aggregate of Land Plots, which belongs to the smart contract of the Land Auction. These tokens serve as a white-sheet function and are used to verify that the Geohash the Project Participant wants to put up for Land auction is agreed by all Project Participants. According to the general scheme of allocation of Land plots, each Project Participant can create a bet for the Land Auction for a specific Land plot to which the SPACE token corresponds, for example [24qexh](https://explorer.galtproject.io/map/#w24qexh) and win it for the GALT tokens. In order to control what Land plots can be put up for Land auction and which ones are not the concept of Territory is introduced.
+
+## Territory Owner
+A natural person, a legal entity, an economic agent who owns the Territory in one or another legal jurisdiction. By means of certain legal mechanisms, they can sell the land to the Project Participants. Has its address in the network Ethereum and receives Ethers for the land.
+
+## Territory Entry Operator
+An individual, a legal entity, an economic agent who proposes to include the Territory in the Project. Has its address in the Ethereum network and receives Ethers from the Territory Owner, as a commission.
+
+## GALT Territory Genesis
+Mint of GALT tokens and distribution of GALT tokens between Project Participants in exchange for Ethers. Performed for a specific Territory. Purchase of the Territory from the Territory Owner for the Ethers and including the Territory into the Project.
+
+## Vickrey auction
+[Wikipedia definition](https://en.wikipedia.org/wiki/Vickrey_auction).
+
+## Project Fund or Fund
+Registered or not registered in the legal field organization that develops one or more Territories. Managed by seven elected Delagates. The Fund invests Ethers in infrastructure development, so that the Territory is attractive and comfortable for the life of talented people and companies. The fund invests Ethers in start-ups and derives profit from its investments. An unlimited number of Funds can be created in the Project. Each Project Participant is a shareholder of all existing Funds. If the Fund's capitalization grows, then each Project Participant becomes richer. Thus, the Funds will always act exclusively in the interests of the Project Participants.
+
+## Land Auction
+If the Territory is not divided between the Project Participants, then an honest mechanism for its separation is needed. Auction - the most effective and honest way. The auction takes place in a closed format. Each auction participant can place a bet on a piece of land. The auction follows the Auction scheme of the second price or Vickrey. The auction wins the maximum bet, but the winner actually pays not her, but the second bet.
+
+## Land pledge or Pledge
+When the Project Participant wins the Land Auction, the winning bid in GALT tokens is transferred to the Fund as Pledge. The Fund can not move this Pledge. The Project participant can exchange his Land plot (SPACE token) to the Pledge (GALT tokens) at any time. At the same time, the Land plot (SPACE token) will be put back on the Land Auction.
+
+## Land Owner
+Owner of the SPACE token.
+
+## Reputation
+Reputation is an integer. It determines the weight of the Land Owner in voting for the election of fund managers - Delegates. This is the sum of all Pledges on all Land Plots of the Land Owner. If the Project Participant does not have Land Plots, then he does not have a Reputation. For example, the Land Owner has 2 plots of land: Plot No. 1 "sgbh9" - 12,500 GALT in pledge. The plot number 2 "sgbh3u" - 1200 GALT in the pledge. His reputation is 13,700 points. The more the Project participant has invested in the Fund and the more Pledge for the Plots, the more Reputation and more weight when choosing Delegates.
