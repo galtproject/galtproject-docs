@@ -35,3 +35,12 @@ Owner of GALT and/or SPACE tokens.
 
 ## GALT
 This is the ERC20 token of the Ethereum network. A token is a digitized right to share ownership or disposal of land included in the Project and the equivalent of a share in the investment Fund that is engaged in the development of the Territory in the Project. The token is used to account for how much each Project participant has invested. Using GALT one can win a Land plot on the Land Auction, GALT can be exchanged from the Funds for Ethers at any time. GALT is the share in all Project Territories and in all Project Funds.
+
+## Land plot
+Part of the earth's surface that has a fixed boundary.
+
+## Geohash
+[Wikipedia definition](https://en.wikipedia.org/wiki/Geohash)
+
+## SPACE
+This is an ERC721 token of the Ethereum network, which corresponds to a specific Land plot. It contains the Geohash of the Land plot. Example: [24qexh](https://explorer.galtproject.io/map/#w24qexh). In fact, this is the right of ownership or disposal of the Land Plot which all Project Participants accept for themselves. The SPACE token can be won at the Land Auction for GALT tokens.
