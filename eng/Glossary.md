@@ -20,3 +20,18 @@ Cryptographic organization, multisig 2 to 3, founded and managed by the Project 
 
 ## Project Founders
 [Nikolai Popeka](https://github.com/npopeka) [Dima Starodubcev](https://github.com/xhipster) [Valery Litvin](https://github.com/litvintech)
+
+## GALT Foundation Investors
+Private investors and organizations that invested Ethers in the GALT Foundation.
+
+## Project Teams
+Various organizations registered or not registered in the legal field that develop the software of the Project in accordance with the ideology and strategy of the GALT Foundation, funded by the GALT Foundation.
+
+## GALT Project CORE Team
+The first and the main team developing the core of the Project software and launching the first GALT Territory Genesis.
+
+## Project Participant
+Owner of GALT and/or SPACE tokens.
+
+## GALT
+This is the ERC20 token of the Ethereum network. A token is a digitized right to share ownership or disposal of land included in the Project and the equivalent of a share in the investment Fund that is engaged in the development of the Territory in the Project. The token is used to account for how much each Project participant has invested. Using GALT one can win a Land plot on the Land Auction, GALT can be exchanged from the Funds for Ethers at any time. GALT is the share in all Project Territories and in all Project Funds.
