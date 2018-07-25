@@ -1,6 +1,6 @@
 # Glossary
 
-### Galt Project or John Galt Project or Project
+## Galt Project or John Galt Project or Project
 
 John Galt Project - open-source software for land tokenization (accounting on blockchain) and self-governance in the form of a set of smart contracts in the Ethereum blockchain, which gives effective tools for any group of people (crypto-enthusiasts, landowners, small nationalities and local tribes):
 
@@ -14,3 +14,9 @@ John Galt Project - open-source software for land tokenization (accounting on bl
 - at any time, split the Fund into several Funds by Project participants voting;
 - to regulate the relationship between the Project participants by means of cryptography
 - confirm the one’s right to own or lease a Land plot using cryptography.
+
+## GALT Foundation
+Cryptographic organization, multisig 2 to 3, founded and managed by the Project Founders, tha defines ideology, development strategy and financing the Project. GALT Foundation receives 5% of GALT tokens from each GALT Territory Genesis  and distributes them among the Project Founders, GALT Foundation Investors and Project Teams. The organization receives 50% of the funds in the Ethers received by the Territory Entry Operator in the Project from the first Genesis of the GALT Territory.
+
+## Project Founders
+[Nikolai Popeka](https://github.com/npopeka) [Dima Starodubcev](https://github.com/xhipster) [Valery Litvin](https://github.com/litvintech)
