@@ -17,7 +17,7 @@
 * Макс. возможное кол-во выпущенных токенов - `2^256/1e18 = 1.1579209e+59`
 
 Контракт использует имплементацию стандарта [OpenZeppelin Mintable ERC20](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC20).
-Контракт использует имплементацию стандарта [StandardBurnableToken](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/token/ERC20/StandardBurnableToken.sol).
+Контракт использует имплементацию стандарта [BurnableToken](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/token/ERC20/BurnableToken.sol).
 
 ## Особенности реализации на Solidity
 ### Владелец Контракта
