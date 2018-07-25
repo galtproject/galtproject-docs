@@ -1,7 +1,7 @@
 # Контракт GALTGenesis - Требования
 
 ## Контракты - источники данных
-1. Контракт [CreateTerritory](https://github.com/andromedaspace/galtproject-docs/blob/npopeka-review-big/ru/contracts/CreateTerritory.md#%D0%92%D0%B2%D0%BE%D0%B4-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8---%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
+1. Контракт CreateTerritory.
 2. Контракт GaltGenesisRegistry.
 
 ## Описание проблем
@@ -33,18 +33,42 @@
 |----------|----------------| --------------- | ------------- |
 |Количество выпускаемых токенов GALT на Территорию|GaltMintAmmount|Контракт CreateTerritory|uint|
 |Геохеши Территории|TerritoryID|Контракт CreateTerritory|массив string|
-|Адрес Контракта Аукциона земли|LandAuctionAdress|Контракт CreateTerritory|adress|
-|id Генезиса|GenesisID|Контракт CreateTerritory|adress|
+|Адрес Контракта Аукциона земли|LandAuctionAdress|Контракт CreateTerritory|address|
+|Адрес контракта Генезиса|GenesisID|Контракт CreateTerritory|address|
 |Количество привлекамых Эфиров|ETHAmmount|Контракт CreateTerritory|uint|
-|Признак запуска Аукциона земли на Территорию (В начала / в конце)|AuctionStartType|Контракт CreateTerritory|string|
+|Признак запуска Аукциона земли на Территорию (В начала / в конце/ не запускать)|AuctionStartType|Контракт CreateTerritory|string|
 |Признак типа  Генезиса GALT Территории (Тип 1 / Тип 2)|GALTGenesysType|Контракт CreateTerritory|string|
 |Длительность проведения Генезиса| GenesisDuration|Контракт CreateTerritory|day|
-|Адрес Оператора ввода|TerritoryOperatorAdress|Контракт CreateTerritory|adress|
-|Адрес Владельца Территории|TerritoryOwnerAdress|Контракт CreateTerritory|adress|
-|Адрес Фонда|TerritoryFundAdress|Контракт CreateTerritory|adress|
+|Адрес Оператора ввода|TerritoryOperatorAddress|Контракт CreateTerritory|address|
+|Вознаграждение Оператора ввода|TerritoryOperatorETH|Контракт CreateTerritory|address|
+|Адрес Владельца Территории|TerritoryOwnerAddress|Контракт CreateTerritory|address|
+|Вознаграждение Владельца Территории|TerritoryOwnerETH|Контракт CreateTerritory|address|
+|Адрес Фонда|TerritoryFundAddress|Контракт CreateTerritory|address|
+|Вознаграждение Фонда|TerritoryFundETH|Контракт CreateTerritory|address|
 
 ## Сценарий контракта
-### Сценарий 1: GALTGenesis
+### Сценарий 1: GALTGenesis общий случай Тип 2.
+1. Успешно принятая заявка в CreateTerritory добавила в контракт GaltGenesisRegistry следующую  информацию:
+
+|Адрес контракта Генезиса GALT Территории|Количество выпускаемых токенов GALT|Флаг Выпущены / не выпущены| id заявки на ввод новой территории из контракта CreateTerritory |
+|------------|-----------|----------| -------- |
+|Адрес контракта | 55 000 |не выпущены| id заявки |
+
+2. Деплой конкретного контракта  Генезиса GALT Территории уже сделан.
+
+3. Пользователи отправляют Эфиры на контракт Генезиса GALT Территории. Фиксируется общее количество полученных Эфиров в перемнной TotalGenesisEthAmmount и сколько перечислил каждый адрес.
+
+|Адрес отправителя ETH| Количество ETH|
+|-----------------| -------------|
+|Адрес отправителя ETH| 10 |
+|Все остальные отправители ETH| 50 000 |
+
+4.  
+
+
+
+
+
 1. При деплое контракта происходит mint N GALT токенов на контракт GALTGenesis. ETH полученные при продаже GALT токенов идут на multisig.
 2. После выпуска каждый пользователь на этапе GALTGenesis, который длится T времени ( T - 3 месяца ), может купить GALT токены за ETH.
 3. Пользователь А отправляет 1 ETH на контракт GALTGenesis:
