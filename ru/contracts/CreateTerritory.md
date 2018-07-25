@@ -39,7 +39,7 @@
 
 | Параметр | Значение | Комментарий |
 |---------|-----------| ----------- |
-| Геохеш территори| [w24qg]( https://explorer.galtproject.io/map/#w24qg ) и [w24qex](https://explorer.galtproject.io/map/#w24qex) | Новая большая территория для проекта. Задается одним или несколькими геохешами.|
+| Геохеши Территории| [w24qg]( https://explorer.galtproject.io/map/#w24qg ) и [w24qex](https://explorer.galtproject.io/map/#w24qex) | Новая большая территория для проекта. Задается одним или несколькими геохешами.|
 | Максимальный размер участка на аукционе| 7 |	Примерный размер ≤ 153m	×	153m Например, этот участок [24qgvd](https://explorer.galtproject.io/map/#w24qgvd) |
 | Минимальный размер участка на аукционе| 8 | Примерный размер ≤ 38.2m	×	19.1m Например, [24qgvdс](https://explorer.galtproject.io/map/#w24qgvdc) |
 | Стоимость Территории в Эфирах| 15 000 | Эта сумма, которую хочет получить владелец за передачу прав на всю землю [w24qg]( https://explorer.galtproject.io/map/#w24qg ) и [w24qex](https://explorer.galtproject.io/map/#w24qex)|
