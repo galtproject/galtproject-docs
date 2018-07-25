@@ -75,5 +75,18 @@ Owner of the SPACE token.
 ## Reputation
 Reputation is an integer. It determines the weight of the Land Owner in voting for the election of fund managers - Delegates. This is the sum of all Pledges on all Land Plots of the Land Owner. If the Project Participant does not have Land Plots, then he does not have a Reputation. For example, the Land Owner has 2 plots of land: Plot No. 1 "sgbh9" - 12,500 GALT in pledge. The plot number 2 "sgbh3u" - 1200 GALT in the pledge. His reputation is 13,700 points. The more the Project participant has invested in the Fund and the more Pledge for the Plots, the more Reputation and more weight when choosing Delegates.
 
-## Reverse repurchase
+## Reverse purchase
 Land plots (Tokens SPACE) and GALT are always liquid! The Project participant can at any time return the Land plot to the Fund and get back the pledged GALT. GALT can also be exchanged from all Funds for Ethers at any time.
+
+## GALT Reverse Purchase
+Suppose that all the Funds have only 10 000 Ethers. All GALT owners now have 10,000 GALT. Everyone can automatically exchange 1 GALT for 1 ETH. If all Funds have 11 000 Ethers, then each GALT can be exchanged for 1.1 ETH.
+
+## Delegates Candidate or Candidate
+It's just a list of addresses. Behind every address is a person - a public person who wants to be among the fund managers - Delegates. Land owners vote on this list with their Reputation.
+
+## Fund Delegate or Delegate
+Public figures elected by the Land Owners to manage the Ethers and Tokens of the Fund. They, as a board of directors, should ensure the development of the infrastructure of the Territory and the development of its economy with the ethers of the Fund. Their task is to make the Territory attractive to people and companies by investing in infrastructure and companies. They invest in local companies and start-ups, as an investment fund. Their task is to make sure that the ethers in the Fund does not decrease, but increase due to competent management.
+
+## Emission Auction
+After the completion of the first GALT Territory Genesis, the GALT tokens will be issued in the auction format. Every 23 hours will be issued, for example 100 GALT (the specific amount is calculated by the formula). During these 23 hours, everyone can send the Ethers for Emission auction smart contract. After the Emission auction round ends, 50 GALT will be received by those who sent Ethers in proportion to their contribution. A 50 GALT will receive Land owners in proportion to their Reputation. The Funds will receive Ethers from the Emission Auction in proportion to Reputation ot their Land owners.
+
