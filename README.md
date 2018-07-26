@@ -11,6 +11,7 @@ For each smart contract Documentation contains:
 
 ## File structure
 - ru - directory contains documentation in Russian Language. One file for each contract.
+- eng - directory contains documentation in English Language. One file for each contract.
 
 ## About Galt Project
 ### Who is John Galt?
@@ -34,7 +35,6 @@ The main goal of Galt Project is to create self - governed community runned by s
 
 ### Galt Project Tokens
 GALT - ERC20 standart ethereum based token.
-
 SPACE - ERC721 standart ethereum based token.
 ### Galt Project Contact information
 https://galtproject.io/
