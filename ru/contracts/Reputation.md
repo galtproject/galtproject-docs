@@ -75,19 +75,19 @@
 
 | Фонд| Репутация Пользователя A | Репутация Пользователя B | Репутация Пользователя C | Земельный Участок |
 | ---- | ---- | ---- | ---- |-----|
-| Фонд 0 | 0 | 0 | 300 |sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
-| Фонд 1 | 0 | 0 | 0 |sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
-| Фонд 2 | 0 | 250 | 0 |sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
-| Фонд 3 | 450 | 0 | 0 |sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 0 | 0 | 0 | 300 |[sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 1 | 0 | 0 | 0 |[sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 2 | 0 | 250 | 0 |[sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 3 | 450 | 0 | 0 |[sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
 
 6. Пользоватей А и С устраивает распределение их репутации по фондам, а пользователя B нет. Он решает перенести 100 GALT репутации в фонд 3 и 50 в фонд 1, т.к. считает, что эти фонды смогут лучше использовать его `Залоги`. Для этого он использует метод `distributeStakeReputation`.
 
 | Фонд| Репутация Пользователя A | Репутация Пользователя B | Репутация Пользователя C | Земельный Участок |
 | ---- | ---- | ---- | ---- | -----|
-| Фонд 0 | 0 | 0 | 300 | sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
-| Фонд 1 | 0 | 50 | 0 | sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
-| Фонд 2 | 0 | 100 | 0 | sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
-| Фонд 3 | 450 | 100 | 0 | sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 0 | 0 | 0 | 300 | [sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 1 | 0 | 50 | 0 | [sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 2 | 0 | 100 | 0 | [sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
+| Фонд 3 | 450 | 100 | 0 | [sezu0456](http://explorer.galtproject.io/map/#sezu0456)|
 
 ### Пример 3. Токен SPACE передан на контракт совместной аренды.
 Подробнее - см. контракт [SmartSpace-Rental](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/3rd-party/SmartSpace-Rental.md).
