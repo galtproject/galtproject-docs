@@ -16,7 +16,7 @@ John Galt Project - open-source software for land tokenization (accounting on bl
 - confirm the one’s right to own or lease a Land plot using cryptography.
 
 ## GALT Foundation
-Cryptographic organization, multisig 2 to 3, founded and managed by the Project Founders, that defines ideology, development strategy and financing the Project. GALT Foundation receives 5% of GALT tokens from each GALT Territory Genesis  and distributes them among the Project Founders, GALT Foundation Investors and Project Teams. The organization receives 50% of the funds in the Ethers, received by the Territory Entry Operator from the first GALT Territory Genesis.
+Cryptographic organization, multisig 2 to 3, founded and managed by the Project Founders, that defines ideology, development strategy and financing the Project. GALT Foundation receives 5% of GALT tokens from each Territory Crowdsale  and distributes them among the Project Founders, GALT Foundation Investors and Project Teams. The organization receives 50% of the funds in the Ethers, received by the Territory Entry Operator from the first Territory Crowdsale.
 
 ## Project Founders
 [Nikolai Popeka](https://github.com/npopeka) [Dima Starodubcev](https://github.com/xhipster) [Valery Litvin](https://github.com/litvintech)
@@ -28,7 +28,7 @@ Private investors and organizations that invested Ethers in the GALT Foundation.
 Various organizations registered or not registered in the legal field that develop the software of the Project in accordance with the ideology and strategy of the GALT Foundation, funded by the GALT Foundation.
 
 ## GALT Project CORE Team
-The first and the main team developing the core of the Project software and launching the first GALT Territory Genesis. [Nikolai Popeka](https://github.com/npopeka) [Nikita Chebykin](https://github.com/chebykin) [Evgeniy Panichev](https://github.com/Jonybang) [Igor Frolov](https://github.com/IgorFrolov) [Efremov Ivan](https://github.com/goodstemy)
+The first and the main team developing the core of the Project software and launching the first Territory Crowdsale. [Nikolai Popeka](https://github.com/npopeka) [Nikita Chebykin](https://github.com/chebykin) [Evgeniy Panichev](https://github.com/Jonybang) [Igor Frolov](https://github.com/IgorFrolov) [Efremov Ivan](https://github.com/goodstemy)
 
 ## Project Participant
 Owner of GALT and/or SPACE tokens.
@@ -54,7 +54,7 @@ A natural person, a legal entity, an economic agent who owns the Territory in on
 ## Territory Entry Operator
 An individual, a legal entity, an economic agent who proposes to include the Territory in the Project. Has its address in the Ethereum network and receives Ethers from the Territory Owner, as a commission.
 
-## GALT Territory Genesis
+## Territory Crowdsale
 Mint of GALT tokens and distribution of GALT tokens between Project Participants in exchange for Ethers. Performed for a specific Territory. Purchase of the Territory from the Territory Owner for the Ethers and including the Territory into the Project.
 
 ## Vickrey auction
@@ -88,5 +88,4 @@ It's just a list of addresses. Behind every address is a person - a public perso
 Public figures elected by the Land Owners to manage the Ethers and Tokens of the Fund. They, as a board of directors, should ensure the development of the infrastructure of the Territory and the development of its economy with the ethers of the Fund. Their task is to make the Territory attractive to people and companies by investing in infrastructure and companies. They invest in local companies and start-ups, as an investment fund. Their task is to make sure that the ethers in the Fund does not decrease, but increase due to competent management.
 
 ## Emission Auction
-After the completion of the first GALT Territory Genesis, the GALT tokens will be issued in the auction format. Every 23 hours will be issued, for example 100 GALT (the specific amount is calculated by the formula). During these 23 hours, everyone can send the Ethers for Emission auction smart contract. After the Emission auction round ends, 50 GALT will be received by those who sent Ethers in proportion to their contribution. A 50 GALT will receive Land owners in proportion to their Reputation. The Funds will receive Ethers from the Emission Auction in proportion to Reputation ot their Land owners.
-
+After the completion of the first Territory Crowdsale, the GALT tokens will be issued in the auction format. Every 23 hours will be issued, for example 100 GALT (the specific amount is calculated by the formula). During these 23 hours, everyone can send the Ethers for Emission auction smart contract. After the Emission auction round ends, 50 GALT will be received by those who sent Ethers in proportion to their contribution. A 50 GALT will receive Land owners in proportion to their Reputation. The Funds will receive Ethers from the Emission Auction in proportion to Reputation ot their Land owners.
