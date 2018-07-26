@@ -61,7 +61,7 @@
 
 
 ### Сценарий: Создание уникальных участков
-1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge и создать уникальный токен SPACE с уникальным идентификатором, например ghskkdsd73883nncjsgs6644. Владелец SPACE - токена ghskkdsd73883nncjsgs6644 контракт SplitMerge.
+1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge CreateCustomPlot() и создать уникальный токен SPACE с уникальным идентификатором, например ghskkdsd73883nncjsgs6644. Владелец SPACE - токена ghskkdsd73883nncjsgs6644 контракт SplitMerge.
 Пусть у пользователя есть 2 токена: [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87).
 
 |Токен|Владелец|
