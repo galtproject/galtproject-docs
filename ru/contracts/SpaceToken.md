@@ -42,11 +42,26 @@
 
 Пользователь записал маппинг.
 
+3. У пользователя есть токен [w24qg88](http://explorer.galtproject.io/map/#w24qg88) и он тоже хочет его добавит в маппинг. ОН вызывает метод, указывает в нем ghskkdsd73883nncjsgs6644 и w24qg88. Контракт проверяет, что в маппинге хотя бы один токен, например, w24qg86 принадлежит пользователю и добавляет новую запись в маппинг.
+
+|id уникального участка|id геохеша|
+|------------------|------------|
+|ghskkdsd73883nncjsgs6644|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
+|ghskkdsd73883nncjsgs6644|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+|ghskkdsd73883nncjsgs6644|[w24qg88](http://explorer.galtproject.io/map/#w24qg88)|
+
 3. Теперь пользователь может вызвать метод MergeCustomPlot контракта SplitMerge и указать в качестве аргумента ghskkdsd73883nncjsgs6644. 
 
 3.1.1 Контракт SplitMerge проверяет, что ghskkdsd73883nncjsgs6644 принадлежит ему.
 
-3.1.2. Контракт SplitMerge выполняет переводит токен ghskkdsd73883nncjsgs6644 пользователю, а токены [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87) переводит себе.
+3.1.2. Контракт SplitMerge выполняет переводит токен ghskkdsd73883nncjsgs6644 пользователю, а токены [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87), ghskkdsd73883nncjsgs6644|[w24qg88](http://explorer.galtproject.io/map/#w24qg88)| переводит себе.
+
+|Токен|Владелец|
+|-----|--------|
+|ghskkdsd73883nncjsgs6644|Пользователь|
+|w24qg86|Контракт SplitMerge|
+|w24qg87|Контракт SplitMerge|
+|w24qg88|Контракт SplitMerge|
 
 3.1.3. Контракт SplitMerge переносит Залоги с w24qg87 и w24qg86 на ghskkdsd73883nncjsgs6644.
 
