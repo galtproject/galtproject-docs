@@ -35,6 +35,7 @@ The main goal of Galt Project is to create self - governed community runned by s
 
 ### Galt Project Tokens
 GALT - ERC20 standart ethereum based token.
+
 SPACE - ERC721 standart ethereum based token.
 ### Galt Project Contact information
 https://galtproject.io/
