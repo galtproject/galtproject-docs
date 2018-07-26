@@ -11,7 +11,7 @@
 
 3. GALT Project CORE Team запускает контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md). Теперь каждый может внести свой `Земельный участок` в `Проект`, подтвердив свои права GALT Project CORE Team и получить немного GALT! Подробнее - Контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md)
 
-4. GALT Project CORE Team запускает контракт CreateLandForSpaceAuction. При помощи него Владелец земли, которая первой будет продана проекту, сможет создать все токены SPACE, которые потом будут участсовать в `Аукционе земли`.
+4. GALT Project CORE Team запускает контракт CreateLandForSpaceAuction. При помощи него Владелец земли, которая первой будет продана проекту, сможет создать все токены SPACE, которые потом будут участвовать в `Аукционе земли`.
 
 5. GALT Project CORE Team совместно с Самым первым Владельцем Территории запускает контракт TerritoryCrowdsale и начинает Первый Краудсейл Территории. Будут выпущены токены GALT для пилотного проекта Территории, управляемой при помощи криптографии. Это будет место, расположенная в надежной правовой юрисдикции. См. подробнее - [TerritoryCrowdsale](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/TerritoryCrowdsale.md). Все участки для Аукциона земли будут определены заранее согласно генеральному плану. 
 
