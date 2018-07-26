@@ -2,9 +2,9 @@
 
 Special terms in the text begin with a capital letter or like `this`. To understand the terms - [Glossary](https://github.com/andromedaspace/galtproject-docs/blob/master/eng/Glossary.md).
 
-The basis of the `Project` is the Token standard ERC20 GALT and Token standard ERC721 SPACE. The GALT Token is the right to share or dispose of land and the equivalent of a share in an investment Fund that is engaged in the development of the `Territory`, the SPACE token - the right to a specific Land with specific boundaries. These rights are determined by the smart contracts of the `Project`. See more details - GaltToken contract, SpaceToken contract.
+The basis of the `Project` is the Token standard ERC20 GALT and Token standard ERC721 SPACE. The GALT Token is the right to share or dispose of land and the equivalent of a share in an investment  `Fund` that is engaged in the development of the `Territory`, the SPACE token - the right to a specific Land with specific boundaries. These rights are determined by the smart contracts of the `Project`. See more details - GaltToken contract, SpaceToken contract.
 
-The procedure for the GALT Project CORE Team to launch the Project:
+The procedure for the GALT Project CORE Team to launch the `Project`:
 
 1. GALT Project CORE Team runs on its own behalf the contract GaltToken and SpaceToken. SpaceToken contracts create SPACE tokens of `Territories` and SPACE tokens of The `Land plots` that will be passed on to the leaders of the cryptographic Community's opinion. See more details - GaltToken contract, SpaceToken contract.
 
