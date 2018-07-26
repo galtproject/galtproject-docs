@@ -9,7 +9,7 @@
 
 2. GALT Project CORE Team запускает контракт SplitMerge. См. подробнее - контракт [SplitMerge](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SplitMerge.md).
 
-3. GALT Project CORE Team запускает контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md). Теперь каждый может внести свой ]Земельный участок] в `Проект`, подтвердив свои права GALT Project CORE Team и получить немного GALT! Подробнее - Контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md)
+3. GALT Project CORE Team запускает контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md). Теперь каждый может внести свой `Земельный участок` в `Проект`, подтвердив свои права GALT Project CORE Team и получить немного GALT! Подробнее - Контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md)
 
 4. GALT Project CORE Team запускает контракт CreateLandForSpaceAuction. При помощи него Владелец земли, которая первой будет продана проекту, сможет создать все токены SPACE, которые потом будут участсовать в `Аукционе земли`.
 
