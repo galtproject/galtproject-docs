@@ -33,7 +33,7 @@
 | Фонд 0 | 0 | 0 |
 | Фонд 1 | 0 | 0 |
 | Фонд 2 | 0 | 0 |
-| Фонд 3 | 1000 |
+| Фонд 3 | 1000 |0 |
 
 2. Пользователь А передает Земельный участок [sezu0456](http://explorer.galtproject.io/map/#sezu0456) Пользователю Б методом transfer() контракта [SpaceToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SpaceToken.md).
 
