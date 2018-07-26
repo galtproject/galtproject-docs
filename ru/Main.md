@@ -9,9 +9,11 @@
 
 2. GALT Project CORE Team запускает контракт SplitMerge. См. подробнее - контракт [SplitMerge](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SplitMerge.md).
 
+3. GALT Project CORE Team запускает контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md). Теперь каждый может внести свой участок в Реестр, подтвердив свои права GALT Project CORE Team и получить немного GALT! Подробнее - Контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md)
+
 3. GALT Project CORE Team запускает контракт CreateLandForSpaceAuction. При помощи него Владелец земли, которая первой будет продана проекту, сможет создать все токены SPACE, которые потом будут участсовать в `Аукционе земли`.
 
-4. GALT Project CORE Team совместно с Владельцем Территории запускает контракт TerritoryCrowdsale и начинает Первый Краудсейл Территории. Будут выпущены токены GALT для пилотного проекта Территории, управляемой при помощи криптографии. Это будет место, расположенная в надежной правовой юрисдикции. См. подробнее - [TerritoryCrowdsale](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/TerritoryCrowdsale.md). Все участки для Аукциона земли будут определены заранее согласно генеральному плану. 
+4. GALT Project CORE Team совместно с Самым первым Владельцем Территории запускает контракт TerritoryCrowdsale и начинает Первый Краудсейл Территории. Будут выпущены токены GALT для пилотного проекта Территории, управляемой при помощи криптографии. Это будет место, расположенная в надежной правовой юрисдикции. См. подробнее - [TerritoryCrowdsale](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/TerritoryCrowdsale.md). Все участки для Аукциона земли будут определены заранее согласно генеральному плану. 
 
 5. Пока идет Первый Краудсейл Территории каждый может отправить Эфиры на контракт TerritoryCrowdsale. Краудсейл Территории будет иметь цель по сбору средств в Эфирах. Если необходимая цель по сбору средств будет достигнута, то выпущенные токены GALT будут распределены между адресами, которые перечислили Эфиры. Полученные Эфиры будут разделены между GALT Project CORE Team, GALT Foundation и текущим Владельцем Территории, который ее продает Проекту. Если цель не будет достигнута, то выпущенные токены GALT будут уничтожены, а Эфиры будут возвращены. См. подробнее - [Контракт GALTGenesis].
 
