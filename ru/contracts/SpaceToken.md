@@ -35,20 +35,20 @@
 2. Владелец  SPACE токенов может вызвать метод контракта SplitMerge и добавить к созданному уникальному токену ghskkdsd73883nncjsgs6644 маппинг <id уникального токена> - <id стандартного токена с геохешем>.
 Например, у пользователя есть 2 токена: [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87). Он вызывает метод и записывает маппинг:
 
-|id уникального участка|id геохеша|
+|id уникального участка|номер позиции|id геохеша|
 |------------------|------------|
-|ghskkdsd73883nncjsgs6644|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
-|ghskkdsd73883nncjsgs6644|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+|ghskkdsd73883nncjsgs6644|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
+|ghskkdsd73883nncjsgs6644|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
 
 Пользователь записал маппинг.
 
 3. У пользователя есть токен [w24qg88](http://explorer.galtproject.io/map/#w24qg88) и он тоже хочет его добавит в маппинг. ОН вызывает метод, указывает в нем ghskkdsd73883nncjsgs6644 и w24qg88. Контракт проверяет, что в маппинге хотя бы один токен, например, w24qg86 принадлежит пользователю и добавляет новую запись в маппинг.
 
-|id уникального участка|id геохеша|
+|id уникального участка|номер позиции|id геохеша|
 |------------------|------------|
-|ghskkdsd73883nncjsgs6644|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
-|ghskkdsd73883nncjsgs6644|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
-|ghskkdsd73883nncjsgs6644|[w24qg88](http://explorer.galtproject.io/map/#w24qg88)|
+|ghskkdsd73883nncjsgs6644|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
+|ghskkdsd73883nncjsgs6644|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+|ghskkdsd73883nncjsgs6644|3|[w24qg88](http://explorer.galtproject.io/map/#w24qg88)|
 
 3. Теперь пользователь может вызвать метод MergeCustomPlot контракта SplitMerge и указать в качестве аргумента ghskkdsd73883nncjsgs6644. 
 
