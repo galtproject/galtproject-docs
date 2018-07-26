@@ -79,21 +79,6 @@
 |------------|-----------|----------| -------- |
 |Адрес контракта | 55 000 |успешен| id заявки |
 
-Контракт GaltGenesisRegistry создает токен или токены GALT Территории, вызывая метод mint() контракта GaltToken и назначает их Владельцем SPACEAuctionRegistry. 
-
-|Токен  SPACE |Владелец|
-|--------|----------|
-|[w24qg]( https://explorer.galtproject.io/map/#w24qg )|SPACEAuctionRegistry|
-|[w24qex](https://explorer.galtproject.io/map/#w24qex)|SPACEAuctionRegistry|
-
-
-7. Если в Заявке было указано более одного геохеша, то SPACEAuctionRegistry, как владелец созданных токенов Территории, вызывает метод CreateCustomPlot() контракта SplitMerge и создается уникальный SPACE токен всей Территории с идентификатором 738438947793. Контракт SPACEAuctionRegistry вызывает метод MergeCustomPlot() контракта SplitMerge или выполняются действия по обьединению токенов Террритории в один токен. См. подробнее - Контракт [SplitMerge](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SplitMerge.md).
-
-|Токен  SPACE |Владелец|
-|--------|----------|
-|[w24qg]( https://explorer.galtproject.io/map/#w24qg )|SplitMerge|
-|[w24qex](https://explorer.galtproject.io/map/#w24qex)|SplitMerge|
-|738438947793|SPACEAuctionRegistry|
 
 Контракт TerritoryCrowdsale по id заявки и по соответствующей этой заявке записи в контракте SPACEAuctionRegistry запускает соответствующий контракт Аукциона земли.   
 
