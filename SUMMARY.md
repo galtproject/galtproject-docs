@@ -3,7 +3,7 @@
 * [Plan](ru/Plan.md)
 * [Initial Deploy](ru/InitialDeploy.md)
 * [Galt Token](ru/contracts/GaltToken.md)
-* [Galt Genesis](ru/contracts/GaltGenesis.md)
+* [Galt Genesis Registry](ru/contracts/GaltGenesisRegistry.md)
 * [Galt Exit](ru/contracts/GaltExit.md)
 * [Emission](ru/contracts/Emission.md)
 * [Create Territory](ru/contracts/CreateTerritory.md)
