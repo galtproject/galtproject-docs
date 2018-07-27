@@ -72,8 +72,14 @@ When the Project Participant wins the Land Auction, the winning bid in GALT toke
 ## Land Owner
 Owner of the SPACE token.
 
+## Land Tenant
+`Project participant` renting partially or completely the SPACE token with the help of a smart lease contract.
+
+## Reputation Owner
+A `Reputation Owner` is a `Project Participant` who has a `Reputation` by fully or partially owning specific SPACE tokens or by renting out specific SPACE tokens in full and in part through SPACE token lease smart contracts. It is `Land Owner` or `Land Tenant`.
+
 ## Reputation
-Reputation is an integer. It determines the weight of the Land Owner in voting for the election of fund managers - Delegates. This is the sum of all Pledges on all Land Plots of the Land Owner. If the Project Participant does not have Land Plots, then he does not have a Reputation. For example, the Land Owner has 2 plots of land: Plot No. 1 "sgbh9" - 12,500 GALT in pledge. The plot number 2 "sgbh3u" - 1200 GALT in the pledge. His reputation is 13,700 points. The more the Project participant has invested in the Fund and the more Pledge for the Plots, the more Reputation and more weight when choosing Delegates.
+Reputation is an integer. It determines the weight of the `Reputation Owner` in voting for the election of fund managers - Delegates. This is the sum of all Pledges on all Land Plots of the `Land Owner` or `Land Tenant`. If the `Project Participant` does not have Land Plots, then he does not have a Reputation. For example, the `Land Owner` has 2 plots of land: Plot No. 1 "sgbh9" - 12,500 GALT in pledge. The plot number 2 "sgbh3u" - 1200 GALT in the pledge. His `Reputation` is 13,700 points. The more the `Project participant` has invested in the `Fund` and the more `Pledge` for the `Land Plots`, the more `Reputation` and more weight when choosing `Delegates`.
 
 ## Reverse purchase
 Land plots (Tokens SPACE) and GALT are always liquid! The Project participant can at any time return the Land plot to the Fund and get back the pledged GALT. GALT can also be exchanged from all Funds for Ethers at any time.
