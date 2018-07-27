@@ -62,12 +62,12 @@
 
 
 ### Сценарий 3: Создание уникальных участков
-1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge CreateCustomPlot() и создать уникальный токен SPACE с уникальным идентификатором, например ghskkdsd73883nncjsgs6644. Владелец SPACE - токена ghskkdsd73883nncjsgs6644 контракт SplitMerge.
+1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge CreateCustomPlot() и создать уникальный токен SPACE с уникальным идентификатором. Пользователь в качестве аргументов метода указывает геохеши точек границ Земельного участка. Земельный имеет форму многоугольника. Каждая точка имеет разрядность 11 символов и является вершиной многоугольника. Например, были переданы следующие координаты треугольного участка: [w24qgug5cf](http://explorer.galtproject.io/map/#w24qgug5cf), [w24qgugjcf](http://explorer.galtproject.io/map/#w24qgugjcf),[w24qgufucf](http://explorer.galtproject.io/map/#w24qgufucf). Идентификатор SPACE токена уникального участка w24qgug5cfw24qgufucfw24qgugjcf. В уникальный идентификатору Владелец SPACE - токена w24qgug5cfw24qgufucfw24qgugjcf контракт SplitMerge.
 Пусть у пользователя есть 2 токена: [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87).
 
 |Токен|Владелец|
 |-----|--------|
-|ghskkdsd73883nncjsgs6644|Контракт SplitMerge |
+|w24qgug5cfw24qgufucfw24qgugjcf|Контракт SplitMerge |
 |w24qg86|Пользователь |
 |w24qg87|Пользователь |
 
@@ -75,16 +75,16 @@
 
 |id уникального участка|номер позиции|id геохеша|
 |------------------|------------|----------|
-|ghskkdsd73883nncjsgs6644|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
-|ghskkdsd73883nncjsgs6644|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+|w24qgug5cfw24qgufucfw24qgugjcf|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
+|w24qgug5cfw24qgufucfw24qgugjcf|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
 
 Контракт записал маппинг.
 
-Контракт SplitMerge переводит токен ghskkdsd73883nncjsgs6644 пользователю, а токены [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87) переводит себе.
+Контракт SplitMerge переводит токен w24qgug5cfw24qgufucfw24qgugjcf пользователю, а токены [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87) переводит себе.
 
 |Токен|Владелец|
 |-----|--------|
-|ghskkdsd73883nncjsgs6644|Пользователь|
+|w24qgug5cfw24qgufucfw24qgugjcf|Пользователь|
 |w24qg86|Контракт SplitMerge|
 |w24qg87|Контракт SplitMerge|
 
