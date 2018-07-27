@@ -11,6 +11,8 @@
 * [Space Auction](ru/contracts/SpaceAuction.md)
 * [Vickrey Auction](ru/contracts/VickreyAuction.md)
 * [Height Management](ru/contracts/HeightManagement.md)
+* [Harvest Management](ru/contracts/HarvestManagement.md)
+* [Land](ru/contracts/Land.md)
 * [Split Merge](ru/contracts/SplitMerge.md)
 * [Smart Space Rental](ru/contracts/3rd-party/SmartSpace-Rental.md)
 * [Smart Space SharedSpace](ru/contracts/3rd-party/SmartSpace-SharedSpace.md)
@@ -25,3 +27,11 @@
 * [MultiSig Proposal](ru/contracts/MultiSigProposal.md)
 * [Management Fee](ru/contracts/ManagementFee.md)
 * [Fund Registry](ru/contracts/FundRegistry.md)
+* [Add New Plot](ru/contracts/AddNewPlot.md)
+* [Fund Eth Replenish](ru/contracts/FundEthReplenish.md)
+* [Territory Crowdsale](ru/contracts/TerritoryCrowdsale.md)
+* [Territory Crowdsale Type 1](ru/contracts/TerritoryCrowdsaleType1.md)
+* [SPACE Auction Registry](ru/contracts/SPACEAuctionRegistry.md)
+* [Glossary](ru/Glossary.md)
+
+
