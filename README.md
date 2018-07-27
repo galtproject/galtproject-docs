@@ -11,7 +11,7 @@ For each smart contract Documentation contains:
 
 ## File structure
 - ru - directory contains documentation in Russian Language. One file for each contract.
-- eng - directory contains documentation in English Language. One file for each contract.
+- en - directory contains documentation in English Language. One file for each contract.
 
 ## About Galt Project
 ### Who is John Galt?
