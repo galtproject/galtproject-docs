@@ -4,6 +4,7 @@
 
 John Galt Project - open-source software for land tokenization (accounting on blockchain) and self-governance in the form of a set of smart contracts in the Ethereum blockchain, which gives effective tools for any group of people (crypto-enthusiasts, landowners, small nationalities and local tribes):
 
+- add his own Land plot to the Project for Free and be a part of a global Comminity;
 - buy or use their own Territory of land and raise an investment Fund for its development: the construction of roads, hospitals, schools, the development of the economy by investing in companies and start-ups;
 - to divide whole Territory into Land plots between Project participants by auction;
 - determine the weight of each Project participant in voting in elections in proportion to the contribution to the fund;
