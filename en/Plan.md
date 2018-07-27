@@ -6,7 +6,7 @@ The basis of the `Project` is the Token standard ERC20 GALT and Token standard E
 
 The procedure for the GALT Project CORE Team to launch the `Project`:
 
-1. GALT Project CORE Team runs on its own behalf the contract GaltToken and SpaceToken. SpaceToken contracts create SPACE tokens of `Territories` and SPACE tokens of The `Land plots` that will be passed on to the leaders of the cryptographic Community's opinion. See more details - GaltToken contract, SpaceToken contract.
+1. GALT Project CORE Team runs on its own behalf the contract GaltToken and SpaceToken.  See more details - GaltToken contract, SpaceToken contract.
 
 2. GALT Project CORE Team launches the SplitMerge contract. See the SplitMerge contract for details.
 
@@ -14,7 +14,7 @@ The procedure for the GALT Project CORE Team to launch the `Project`:
 
 4. GALT Project CORE Team runs the CreateLandForSpaceAuction contract. With the help of it, the `Owner of the land`, which is the first to be sold to the `Project`, will be able to create all the SPACE tokens, which will then be auctioned in the `Land Auction`.
 
-5. GALT Project CORE Team together with the First `Territory Owner` launches the `TerritoryCrowdsale` contract and begins the First  `Territory Crowdsdale`. GALT tokens will be issued for a pilot Territory Project managed using cryptography. This will be a place located in a good legal jurisdiction. See more details - TerritoryCrowdsale. All land plots for the `Land Auction` will be determined in advance according to the master plan.
+5. GALT Project CORE Team together with the First `Territory Owner` launches the `TerritoryCrowdsale` contract and begins the First  `Territory Crowdsdale`. GALT tokens will be issued for a pilot Territory Project managed using cryptography. This will be a place located in a good legal jurisdiction. SpaceToken contracts create SPACE tokens of this `Territory`, which will be sold to the Project if `Territory Crowdsdale` will be successful, and SPACE tokens of The `Land plots` in this `Territory` that will be passed on to the leaders of the cryptographic Community's opinion. See more details - TerritoryCrowdsale. All land plots for the `Land Auction` will be determined in advance according to the master plan.
 
 6. While the First `Territory Crowdsdale` goes, everyone can send Ethers to the `TerritoryCrowdsale` contract. `Territory Crowdsdale`  will have a fundraising purpose in the Ethers. If the necessary fund-raising goal is achieved, the released GALT tokens will be distributed among the addresses listed by the Ethers. The resulting Ethers will be shared between the GALT Project CORE Team, the GALT Foundation and the current Territory Owner, who sells it to the Project. If the goal is not achieved, the released GALT tokens will be destroyed and the Ethers will be returned. See details - Contract GALTGenesis.
 
