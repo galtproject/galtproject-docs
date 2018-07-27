@@ -104,11 +104,11 @@
 
 Контракт SplitMerge переносит Залоги с [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) и [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) на 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk и происходит перераспределение `Репутации`.
 
-3. У пользователя есть токен [w24qguc](http://explorer.galtproject.io/map/#w24qguc) и он тоже хочет его добавить в маппинг и включить в 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk. Он вызывает метод AddToCustomPlot(), указывает в нем 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk и w24qguc, а так же соседний участок w24qguf.
+3. У пользователя есть токен [w24qguc](http://explorer.galtproject.io/map/#w24qguc) и он тоже хочет его добавить в маппинг и включить в 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk. Он вызывает метод AddToCustomPlot(), указывает в нем 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk и w24qguc, а так же соседний участок, который был внесен ранее - w24qguf.
 
-Контракт проверяет, что 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk принадлежит пользователю. Контракт проверяет, что w24qg88 принадлежит пользователю и его нет в маппинге. Контракт проверяет, что w24qguf принадлежит пользователю, является соседним участком с w24qguc и его нет в маппинге `i743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk - <id стандартного токена с геохешем>`.
+Контракт проверяет, что 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk принадлежит пользователю. Контракт проверяет, что w24qguc принадлежит пользователю и его нет в маппинге. Контракт проверяет, что w24qguf принадлежит SplitMerge, является соседним участком с w24qguc и есть в маппинге `i743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk - <id стандартного токена с геохешем>`.
 
-Контракт добавляет в маппинг w24qg88.
+Контракт добавляет в маппинг [w24qguc](http://explorer.galtproject.io/map/#w24qguc).
 
 Маппинг меняет вид на:
 
