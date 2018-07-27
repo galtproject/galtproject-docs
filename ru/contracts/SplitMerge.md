@@ -72,13 +72,14 @@
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk|2|[w24qgsqw3](http://explorer.galtproject.io/map/#w24qgsqw3) |
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk|3|[w24qgumbk](http://explorer.galtproject.io/map/#w24qgumbk) |
 
-Пусть у пользователя есть 3 токена: [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) и [w24qguf](http://explorer.galtproject.io/map/#w24qguf), [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4).
+Пусть у пользователя есть 3 токена: [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) и [w24qguf](http://explorer.galtproject.io/map/#w24qguf), [w24qguc](http://explorer.galtproject.io/map/#w24qguc).
 
 |Токен|Владелец|
 |-----|--------|
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk|Контракт SplitMerge |
 |[w24qgv4](http://explorer.galtproject.io/map/#w24qgv4)|Пользователь |
 |[w24qguf](http://explorer.galtproject.io/map/#w24qguf)|Пользователь |
+|[w24qguc](http://explorer.galtproject.io/map/#w24qguc)|Пользователь |
 
 2. Владелец  SPACE токенов может вызвать метод контракта SplitMerge  MergeCustomPlot() указать в качестве аргументов 743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk и w24qguf. Можно указывать только один SPACE - токен, который нужно добавить в уникальный участок.
 
