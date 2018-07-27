@@ -6,7 +6,7 @@ John Galt Project - open-source software for land tokenization (accounting on bl
 
 - add his own Land plot to the Project for Free and be a part of a global Comminity;
 - buy or use their own Territory of land and raise an investment Fund for its development: the construction of roads, hospitals, schools, the development of the economy by investing in companies and start-ups;
-- to divide whole Territory into Land plots between Project participants by auction;
+- to divide whole Territory into Land plots between Project participants by auction if needed;
 - determine the weight of each Project participant in voting in elections in proportion to the contribution to the fund;
 - elect fund managers - Delegates and give them the right to dispose of the Fund's money;
 - to make sure that Delegates increase the amount of money in the fund by means of competent investments in infrastructure, companies and people;
