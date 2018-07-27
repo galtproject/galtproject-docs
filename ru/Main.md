@@ -1,4 +1,4 @@
-## Общий сценарий развития Проекта
+## План развития Проекта GALT
 Специальные термины по тексту начинаются с заглавной буквы или `так`. Для понимания терминов - [Глоссарий](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md).
 
 Основой `Проекта` являются Токен стандарта ERC20 GALT и Токен стандарта ERC721 SPACE. Токен GALT является правом долевого владения или распоряжения землей и эквивалентом пая в инвестиционном `Фонде`, который занимается развитием `Территории`, токен SPACE - правом на конкретный `Земельный участок` с конкретными границами. Эти права определяются умными контрактами `Проекта`. См. подробнее - [Контракт GaltToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltToken.md) , [Контракт SpaceToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SpaceToken.md).
@@ -9,7 +9,7 @@
 
 2. GALT Project CORE Team запускает контракт SplitMerge. См. подробнее - контракт [SplitMerge](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SplitMerge.md).
 
-3. GALT Project CORE Team запускает контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md). Теперь каждый может внести свой `Земельный участок` в `Проект`, подтвердив свои права GALT Project CORE Team и получить немного GALT! Подробнее - Контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md)
+3. GALT Project CORE Team запускает контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md). Теперь каждый может внести свой `Земельный участок` в `Проект`, подтвердив свои права GALT Project CORE Team и получить немного GALT! Вместе с Контрактом будет запущен сервис, который позволит любому с минимальными усилиями включить свой Земельный участок в Проект. Подробнее - Контракт [AddNewPlot](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/AddNewPlot.md).
 
 4. GALT Project CORE Team запускает контракт CreateLandForSpaceAuction. При помощи него Владелец земли, которая первой будет продана проекту, сможет создать все токены SPACE, которые потом будут участвовать в `Аукционе земли`.
 
