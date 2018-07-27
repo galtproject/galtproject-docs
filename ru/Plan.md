@@ -5,7 +5,7 @@
 
 Порядок действия GALT Project CORE Team по запуску `Проекта`:
 
-1. GALT Project CORE Team запускает от своего имени контракт GaltToken и SpaceToken. В контракте SpaceToken создаются токены SPACE `Территории` и токены SPACE `Земельных участков`, которые будут переданы лидерам мнения криптографического Сообщества. См. подробнее - Контракт [GaltToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltToken.md), Контракт [SpaceToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SpaceToken.md).
+1. GALT Project CORE Team запускает от своего имени контракт GaltToken и SpaceToken. См. подробнее - Контракт [GaltToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltToken.md), Контракт [SpaceToken](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SpaceToken.md).
 
 2. GALT Project CORE Team запускает контракт SplitMerge. См. подробнее - контракт [SplitMerge](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/SplitMerge.md).
 
@@ -13,7 +13,7 @@
 
 4. GALT Project CORE Team запускает контракт CreateLandForSpaceAuction. При помощи него Владелец земли, которая первой будет продана проекту, сможет создать все токены SPACE, которые потом будут участвовать в `Аукционе земли`.
 
-5. GALT Project CORE Team совместно с Самым первым Владельцем Территории запускает контракт TerritoryCrowdsale и начинает Первый Краудсейл Территории. Будут выпущены токены GALT для пилотного проекта Территории, управляемой при помощи криптографии. Это будет место, расположенная в надежной правовой юрисдикции. См. подробнее - [TerritoryCrowdsale](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/TerritoryCrowdsale.md). Все участки для Аукциона земли будут определены заранее согласно генеральному плану. 
+5. GALT Project CORE Team совместно с Самым первым `Владельцем Территории` запускает контракт TerritoryCrowdsale и начинает Первый `Краудсейл Территории`. Будут выпущены токены GALT для пилотного проекта Территории, управляемой при помощи криптографии. Это будет место, расположенная в надежной правовой юрисдикции. В контракте SpaceToken создаются токены SPACE `Территории`, которая в случае успеха `Краудсейл Территории` будет продана Проекту и токены SPACE конкретных `Земельных участков` в этой `Территории`, которые будут переданы лидерам мнения криптографического Сообщества.  См. подробнее - [TerritoryCrowdsale](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/TerritoryCrowdsale.md). Все участки для `Аукциона земли` будут определены заранее согласно генеральному плану. 
 
 6. Пока идет Первый Краудсейл Территории каждый может отправить Эфиры на контракт TerritoryCrowdsale. Краудсейл Территории будет иметь цель по сбору средств в Эфирах. Если необходимая цель по сбору средств будет достигнута, то выпущенные токены GALT будут распределены между адресами, которые перечислили Эфиры. Полученные Эфиры будут разделены между GALT Project CORE Team, GALT Foundation и текущим Владельцем Территории, который ее продает Проекту. Если цель не будет достигнута, то выпущенные токены GALT будут уничтожены, а Эфиры будут возвращены. См. подробнее - [TerritoryCrowdsale](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/TerritoryCrowdsale.md).
 
