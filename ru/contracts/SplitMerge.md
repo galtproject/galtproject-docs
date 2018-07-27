@@ -62,43 +62,51 @@
 
 
 ### Сценарий 3: Создание уникальных участков
-1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge CreateCustomPlot() и создать уникальный токен SPACE с уникальным идентификатором. Пользователь в качестве аргументов метода указывает геохеши точек границ Земельного участка. Земельный имеет форму многоугольника. Каждая точка имеет разрядность 11 символов и является вершиной многоугольника. Например, были переданы следующие координаты треугольного участка: [w24qgug5cf](http://explorer.galtproject.io/map/#w24qgug5cf), [w24qgugjcf](http://explorer.galtproject.io/map/#w24qgugjcf),[w24qgufucf](http://explorer.galtproject.io/map/#w24qgufucf). Идентификатор SPACE токена уникального участка w24qgug5cfw24qgufucfw24qgugjcf. В уникальный идентификатору Владелец SPACE - токена w24qgug5cfw24qgufucfw24qgugjcf контракт SplitMerge.
-Пусть у пользователя есть 2 токена: [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87).
+1. Владелец  SPACE токенов может вызвать метод контракта SplitMerge CreateCustomPlot() и создать уникальный токен SPACE с уникальным идентификатором. Пользователь в качестве аргументов метода указывает геохеши точек границ Земельного участка. Земельный имеет форму многоугольника. Каждая точка имеет разрядность 10-11 символов и является вершиной многоугольника. Например, были переданы следующие координаты треугольного участка: [w24qgy48e](http://explorer.galtproject.io/map/#w24qgy48e), [w24qgsqw3](http://explorer.galtproject.io/map/#w24qgsqw3),[w24qgumbk](http://explorer.galtproject.io/map/#w24qgumbk). Идентификатор SPACE токена уникального участка w24qgy48ew24qgsqw3w24qgumbk. Владелец SPACE - токена w24qgy48ew24qgsqw3w24qgumbk контракт SplitMerge.
+Пусть у пользователя есть 2 токена: [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) и [w24qguf](http://explorer.galtproject.io/map/#w24qguf).
 
 |Токен|Владелец|
 |-----|--------|
-|w24qgug5cfw24qgufucfw24qgugjcf|Контракт SplitMerge |
-|w24qg86|Пользователь |
-|w24qg87|Пользователь |
+|w24qgy48ew24qgsqw3w24qgumbk|Контракт SplitMerge |
+|[w24qgv4](http://explorer.galtproject.io/map/#w24qgv4)|Пользователь |
+|[w24qguf](http://explorer.galtproject.io/map/#w24qguf)|Пользователь |
 
-2. Владелец  SPACE токенов может вызвать метод контракта SplitMerge  MergeCustomPlot() указать в качестве аргументов w24qgug5cfw24qgufucfw24qgugjcf и w24qg86, w24qg87. Метод  создает к уникальному токену ghskkdsd73883nncjsgs6644 маппинг <id уникального токена> - <id стандартного токена с геохешем>.
+2. Владелец  SPACE токенов может вызвать метод контракта SplitMerge  MergeCustomPlot() указать в качестве аргументов w24qgy48ew24qgsqw3w24qgumbk и w24qgv4, w24qguf. 
+
+Метод вызывает методы контракта Land для проверки `полного вхождения` Земельных участков w24qgv4 и w24qguf в участок w24qgy48ew24qgsqw3w24qgumbk.
+
+Если проверка пройдена, то метод  создает к уникальному токену w24qgv6hxw24qgue6zw24qgu898 маппинг <id уникального токена> - <id стандартного токена с геохешем>.
 
 |id уникального участка|номер позиции|id геохеша|
 |------------------|------------|----------|
-|w24qgug5cfw24qgufucfw24qgugjcf|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
-|w24qgug5cfw24qgufucfw24qgugjcf|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+|w24qgy48ew24qgsqw3w24qgumbk|1|[w24qgv4](http://explorer.galtproject.io/map/#w24qgv4)|
+|w24qgy48ew24qgsqw3w24qgumbk|2|[w24qguf](http://explorer.galtproject.io/map/#w24qguf)|
 
 Контракт записал маппинг.
 
-Контракт SplitMerge переводит токен w24qgug5cfw24qgufucfw24qgugjcf пользователю, а токены [w24qg86](http://explorer.galtproject.io/map/#w24qg86) и [w24qg87](http://explorer.galtproject.io/map/#w24qg87) переводит себе.
+Контракт SplitMerge переводит токен w24qgy48ew24qgsqw3w24qgumbk пользователю, а токены [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) и [w24qguf](http://explorer.galtproject.io/map/#w24qguf) переводит себе.
 
 |Токен|Владелец|
 |-----|--------|
-|w24qgug5cfw24qgufucfw24qgugjcf|Пользователь|
-|w24qg86|Контракт SplitMerge|
-|w24qg87|Контракт SplitMerge|
+|w24qgy48ew24qgsqw3w24qgumbk|Пользователь|
+|[w24qgv4](http://explorer.galtproject.io/map/#w24qgv4)|Контракт SplitMerge|
+|[w24qguf](http://explorer.galtproject.io/map/#w24qguf)|Контракт SplitMerge|
 
-Контракт SplitMerge переносит Залоги с w24qg87 и w24qg86 на ghskkdsd73883nncjsgs6644 и происходит перераспределение Репутации.
+Контракт SplitMerge переносит Залоги с [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) и [w24qgv4](http://explorer.galtproject.io/map/#w24qgv4) на w24qgy48ew24qgsqw3w24qgumbk и происходит перераспределение `Репутации`.
 
-3. У пользователя есть токен [w24qg88](http://explorer.galtproject.io/map/#w24qg88) и он тоже хочет его добавить в маппинг и включить в ghskkdsd73883nncjsgs6644. Он вызывает метод AddToCustomPlot(), указывает в нем ghskkdsd73883nncjsgs6644 и w24qg88. Контракт проверяет, что ghskkdsd73883nncjsgs6644 принадлежит пользователю. Контракт проверяет, что w24qg88 принадлежит пользователю и его нет в маппинге. Контракт добавляет в маппинг w24qg88.
+3. У пользователя есть токен [w24qguc](http://explorer.galtproject.io/map/#w24qguc) и он тоже хочет его добавить в маппинг и включить в w24qgy48ew24qgsqw3w24qgumbk. Он вызывает метод AddToCustomPlot(), указывает в нем w24qgy48ew24qgsqw3w24qgumbk и w24qguc. Контракт проверяет, что w24qgy48ew24qgsqw3w24qgumbk принадлежит пользователю. Контракт проверяет, что w24qg88 принадлежит пользователю и его нет в маппинге. 
+
+Контракт вызывает метод контракат Land и проверяет, что [w24qguc](http://explorer.galtproject.io/map/#w24qguc), входит
+
+Контракт добавляет в маппинг w24qg88.
 
 Маппинг меняет вид на:
 
 |id уникального участка|номер позиции|id геохеша|
 |------------------|------------|-------|
-|ghskkdsd73883nncjsgs6644|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
-|ghskkdsd73883nncjsgs6644|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
-|ghskkdsd73883nncjsgs6644|3|[w24qg88](http://explorer.galtproject.io/map/#w24qg88)|
+|w24qgv6hxw24qgue6zw24qgu898|1|[w24qg86](http://explorer.galtproject.io/map/#w24qg86)|
+|w24qgv6hxw24qgue6zw24qgu898|2|[w24qg87](http://explorer.galtproject.io/map/#w24qg87)|
+|w24qgv6hxw24qgue6zw24qgu898|3|[w24qg88](http://explorer.galtproject.io/map/#w24qg88)|
 
 Контракт забирает токен w24qg88 себе и становится его владельцем.
 
