@@ -19,6 +19,7 @@ What is John Galt Project in 10 sentences.
 
 John Galt Project - open-source software for land tokenization (accounting on blockchain) and self-governance in the form of a set of smart contracts in the Ethereum blockchain, which gives effective tools for any group of people (crypto-enthusiasts, landowners, small nationalities and local tribes):
 
+- add his own Land plot to the Project fjor Free and be a part of a global Comminity;
 - buy or use their own territory of land and raise an investment fund for its development: the construction of roads, hospitals, schools, the development of the economy by investing in companies and start-ups;
 - to divide whole territory into land plots between project participants by auction;
 - determine the weight of each participant in voting in elections in proportion to the contribution to the fund;
