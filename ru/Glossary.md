@@ -31,7 +31,7 @@
 Первая и основная команда, разрабатывающая ядро программного обеспечения Проекта и осуществляющая запуск первого Краудсейла Территории. [Nikolai Popeka](https://github.com/npopeka) [Nikita Chebykin](https://github.com/chebykin) [Evgeniy Panichev](https://github.com/Jonybang) [Igor Frolov](https://github.com/IgorFrolov) [Efremov Ivan](https://github.com/goodstemy)
 
 ## Участник Проекта
-Владелец токенов [GALT](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#galt) и/или [SPACE](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/Glossary.md#space).
+Владелец токенов [GALT](Glossary.md#galt) и/или [SPACE](Glossary.md#space).
 
 ## Токен
 [Определение из Википедии](https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0))
