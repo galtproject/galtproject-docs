@@ -1,4 +1,4 @@
-# General scenario of the Project development
+# General GALT Project development plan.
 
 Special terms in the text begin with a capital letter or like `this`. To understand the terms - [Glossary](https://github.com/andromedaspace/galtproject-docs/blob/master/eng/Glossary.md).
 
@@ -10,7 +10,7 @@ The procedure for the GALT Project CORE Team to launch the `Project`:
 
 2. GALT Project CORE Team launches the SplitMerge contract. See the SplitMerge contract for details.
 
-3. GALT Project CORE Team launches `AddNewPlot` contract. Now everyone can register their Land plot in the Project by confirming their rights to GALT Project CORE Team and get a small ammount of GALT! More details - Contract AddNewPlot.
+3. GALT Project CORE Team launches `AddNewPlot` contract. Now everyone can register their Land plot in the Project by confirming their rights to GALT Project CORE Team and get a small ammount of GALT! Together with the Contract, a service will be launched that will allow anyone with minimal effort to include their Land PLot in the Project. More details - Contract AddNewPlot.
 
 4. GALT Project CORE Team runs the CreateLandForSpaceAuction contract. With the help of it, the `Owner of the land`, which is the first to be sold to the `Project`, will be able to create all the SPACE tokens, which will then be auctioned in the `Land Auction`.
 
