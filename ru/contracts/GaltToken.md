@@ -25,8 +25,8 @@
 
 |Метод|Право на вызов|
 |------|-------------|
-|mint()|Контракт GaltGenesisRegistry|
-|burn()|Контракт GaltGenesisRegistry|
+|mint()|Контракт [GaltGenesisRegistry](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltGenesisRegistry.md)
+|burn()|Контракт [GaltGenesisRegistry](https://github.com/andromedaspace/galtproject-docs/blob/master/ru/contracts/GaltGenesisRegistry.md)|
 |transfer()||
 |approve()||
 |transferFrom()||
