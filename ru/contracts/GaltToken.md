@@ -19,7 +19,6 @@
 Контракт использует имплементацию стандарта [OpenZeppelin Mintable ERC20](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC20).
 Контракт использует имплементацию стандарта [BurnableToken](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/token/ERC20/BurnableToken.sol).
 
-## Спецификация контракта
 ### Методы
 
 |Метод|Право на вызов|
