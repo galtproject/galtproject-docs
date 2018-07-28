@@ -114,7 +114,7 @@
 ### Какой процент от купленных токенов идет на multisig команды?
 
 ## Референсы
-1. [GALT Токен](./GALT-Токен.md)
+1. [GALT Токен](GaltToken.md)
 2. [OpenZeppelin Crowdsale](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/Crowdsale.sol)
 3. [OpenZeppelin TimedCrowdsale](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/validation/TimedCrowdsale.sol)
 

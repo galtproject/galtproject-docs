@@ -123,11 +123,3 @@
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk|Заявитель 0xFB7442a......69e3 |
 
 7. Пользователь получает 1 GALT от контракта AddNewPlot.
-
-
-
-
-
-
-
-
