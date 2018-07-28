@@ -48,6 +48,7 @@ A plot of land having the shape of a rectangle, which has a unique address in th
 
 ## Unique Land Plot or Plot Pack or Pack
 Land Plot of different shape and size, consisting of 1 - N of any combination of neighboring `Geohash Plots` of different rank.
+
 ![2e0bf6646d](https://user-images.githubusercontent.com/29427584/43359486-52aab938-92a3-11e8-8ba9-9e1c47f2e72d.jpg)
 
 ## SPACE
