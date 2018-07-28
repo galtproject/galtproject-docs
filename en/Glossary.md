@@ -41,7 +41,15 @@ This is the ERC20 token of the Ethereum network. A token is a digitized right to
 Part of the earth's surface that has a fixed boundary.
 
 ## Geohash
-[Wikipedia definition](https://en.wikipedia.org/wiki/Geohash)
+[Wikipedia definition](https://en.wikipedia.org/wiki/Geohash).
+
+## Standard Land plot or Geohash Plot or Standard Geohash Plot
+A plot of land having the shape of a rectangle, which has a unique address in the form of a character string, from 1 to 11 characters in length (Geohash). In total there are 1e32 unique `Geohash Plots`. Each `Geohash Plot` of the same rank (for example, `Geohash Plots` of the 7th rank, [w24qguf](http://explorer.galtproject.io/map/#w24qguf)) consists of 32 `Geohash Plots` of the next rank (in this case 8th rank, for example, [w24qgufe](http://explorer.galtproject.io/map/#w24qgufe)).
+
+## Unique Land Plot or Plot Pack or Pack
+Land Plot of different shape and size, consisting of 1 - N of any combination of neighboring `Geohash Plots` of different rank.
+
+![2e0bf6646d](https://user-images.githubusercontent.com/29427584/43359486-52aab938-92a3-11e8-8ba9-9e1c47f2e72d.jpg)
 
 ## SPACE
 This is an ERC721 token of the Ethereum network, which corresponds to a specific Land plot. It contains the Geohash of the Land plot. Example: [24qexh](https://explorer.galtproject.io/map/#w24qexh). In fact, this is the right of ownership or disposal of the Land Plot which all Project Participants accept for themselves. The SPACE token can be won at the Land Auction for GALT tokens.
