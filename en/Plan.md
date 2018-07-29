@@ -10,9 +10,9 @@ The procedure for the GALT Project CORE Team to launch the `Project`:
 
 2. GALT Project CORE Team launches the SplitMerge contract. See the SplitMerge contract for details.
 
-3. GALT Project CORE Team launches `AddNewPlot` contract. Now everyone can register their Land plot in the Project by confirming their rights to GALT Project CORE Team and get a small ammount of GALT! Together with the Contract, a service will be launched that will allow anyone with minimal effort to include their Land PLot in the Project. More details - Contract AddNewPlot.
+3. GALT Project CORE Team launches `AddNewPlot` contract. Now everyone can register their Land plot in the Project by confirming their rights to GALT Project CORE Team and get a small ammount of GALT! Together with the Contract, a service will be launched that will allow anyone with minimal effort to include their Land PLot in the Project. One of these `Land Plots` will be sold to the `Project`, as` Territory`. More details - Contract AddNewPlot.
 
-4. GALT Project CORE Team runs the CreateLandForSpaceAuction contract. With the help of it, the `Territory Owner`, which is the first to be sold to the `Project`, will be able to create all the SPACE tokens, which will then be auctioned in the `Land Auction`.
+4. GALT Project CORE Team runs the SPACEAuctionRegistry contract. With the help of it, the `Territory Owner`, which is the first to be sold to the `Project`, will be able to split whole `Territory` into specific Land Plots, which will then be auctioned in the `Land Auction`.
 
 5. GALT Project CORE Team together with the First `Territory Owner` launches the `TerritoryCrowdsale` contract and begins the First  `Territory Crowdsdale`. GALT tokens will be issued for a pilot Territory Project managed using cryptography. This will be a place located in a good legal jurisdiction. SpaceToken contracts create SPACE tokens of this `Territory`, which will be sold to the Project if `Territory Crowdsdale` will be successful, and SPACE tokens of The `Land plots` in this `Territory` that will be passed on to the leaders of the cryptographic Community's opinion. See more details - TerritoryCrowdsale. All land plots for the `Land Auction` will be determined in advance according to the master plan.
 
