@@ -41,7 +41,7 @@
 
 Вот так это выглядит на Карте:
 
-![0b9d16798b](https://user-images.githubusercontent.com/29427584/43364314-13c4f344-9318-11e8-95c6-6f9c5c772991.jpg)
+![d462d8a20f](https://user-images.githubusercontent.com/29427584/43364428-399418fa-931a-11e8-898c-cf146792d0fd.jpg)
 
 Если Пользователь выполнит обмен токена SPACE `Упаковки` с контраком SplitMerge, то картина будет выглядеть следующим образом:
 
