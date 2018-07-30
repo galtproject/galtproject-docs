@@ -1,12 +1,9 @@
 # Контракт TerritoryCrowdsale
 
-## Контракты - источники данных
-1. Контракт CreateTerritory.
-2. Контракт GaltGenesisRegistry.
-
 ## Описание проблем
-- для создания экономики необходимо выпустить токены GALT, который будет выполнять функцию обьекта долевой собственности на Территорию и пая инвестиционного Фонда, который будет ее развивать;
-- для покупки земель на Аукционе земли и взаимодействия с другим функционалом Проекта у Участников проекта должна быть возможность купить токены GALT за ETH на этапе Краудсейла Территории;
+В контракте [AddNewPlot](AddNewPlot.md) были созданые токены SPACE `Упаковки` большого Земельного участка и соответствующие им токены SPACE `Геохеш-участков`. При помощи контракта [CreateTerritory](CreateTerritory.md) была создана и утверждена `Заявка на Краудсейл` `Территории`. Соответственно необходимо:
+- выпустить токены GALT, который будет выполнять функцию обьекта долевой собственности на Территорию и пая инвестиционного Фонда, который будет ее развивать;
+- для покупки `Земельных участков` на Аукционе земли и взаимодействия с другим функционалом Проекта у `Участников проекта` должна быть возможность купить токены GALT за ETH;
 - может быть неограниченное количество параллельных Краудсейлов Территории на разные Территории для привлечения средств для их покупки и развития;
 - Краудсейл может запускать контракт Аукциона земли на Территорию при запуске Краудсейл Территории или при его завершении;
 - выпуск GALT на конкретную Территорию должен быть фиксирован по времени, по сумме выпущенных GALT и по количеству привлекаемых Эфиров;
@@ -30,22 +27,26 @@
 
 Каждый тип контракта Краудсейла со своими особенностями будем делать отдельными контрактами.
 
+## Контракты - источники данных
+1. Контракт [CreateTerritory](CreateTerritory.md).
+2. Контракт [GaltGenesisRegistry](GaltGenesisRegistry.md).
+
 ## Входные параметры
 
 | Параметр | Название параметра | Контракт - источник | Тип данных |
 |----------|----------------| --------------- | ------------- |
-|Количество выпускаемых токенов GALT на Территорию|GaltMintAmmount|Контракт CreateTerritory|uint|
-|Адрес Контракта Аукциона земли|LandAuctionAdress|Контракт CreateTerritory|address|
-|Адрес контракта Краудсейла|GenesisID|Контракт CreateTerritory|address|
-|Количество привлекамых Эфиров|ETHAmmount|Контракт CreateTerritory|uint|
-|Признак запуска Аукциона земли на Территорию (В начала / в конце/ не запускать)|AuctionStartType|Контракт CreateTerritory|string|
-|Длительность проведения Краудсейла| GenesisDuration|Контракт CreateTerritory|day|
-|Адрес Оператора ввода|TerritoryOperatorAddress|Контракт CreateTerritory|address|
-|Вознаграждение Оператора ввода|TerritoryOperatorETH|Контракт CreateTerritory|address|
-|Адрес Владельца Территории|TerritoryOwnerAddress|Контракт CreateTerritory|address|
-|Вознаграждение Владельца Территории|TerritoryOwnerETH|Контракт CreateTerritory|address|
-|Адрес Фонда|TerritoryFundAddress|Контракт CreateTerritory|address|
-|Вознаграждение Фонда|TerritoryFundETH|Контракт CreateTerritory|address|
+|Количество выпускаемых токенов GALT на Территорию|GaltMintAmmount|Контракт [CreateTerritory](CreateTerritory.md)|uint|
+|Адрес Контракта Аукциона земли|LandAuctionAdress|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Адрес контракта Краудсейла|GenesisID|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Количество привлекамых Эфиров|ETHAmmount|Контракт [CreateTerritory](CreateTerritory.md)|uint|
+|Признак запуска Аукциона земли на Территорию (В начала / в конце/ не запускать)|AuctionStartType|Контракт [CreateTerritory](CreateTerritory.md)|string|
+|Длительность проведения Краудсейла| GenesisDuration|Контракт [CreateTerritory](CreateTerritory.md)|day|
+|Адрес Оператора ввода|TerritoryOperatorAddress|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Вознаграждение Оператора ввода|TerritoryOperatorETH|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Адрес Владельца Территории|TerritoryOwnerAddress|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Вознаграждение Владельца Территории|TerritoryOwnerETH|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Адрес Фонда|TerritoryFundAddress|Контракт [CreateTerritory](CreateTerritory.md)|address|
+|Вознаграждение Фонда|TerritoryFundETH|Контракт [CreateTerritory](CreateTerritory.md)|address|
 
 ## Сценарий контракта
 ### Сценарий 1: TerritoryCrowdsale общий случай Тип 1.
