@@ -32,14 +32,14 @@
 
 Пример: В `Заявки на Краудсейл` были указаны 2 токена SPACE, которые были переданы контракту SPACEAuctionRegistry.
 
-|Токен SPACE |Принадлежит|
+|Токен SPACE |Владелец|
 |-----------------|----------|
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk|SPACEAuctionRegistry|
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbb|SPACEAuctionRegistry|
 
 `Владелец Территории` решил, что эти токены будут участвовать в Аукционе, как единое целое. После запуска конкретного контракта `SPACEAuction_465` они были переданы контракту `SPACEAuction_465`.
 
-|Токен SPACE |Принадлежит|
+|Токен SPACE |Владелец|
 |-----------------|----------|
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbk|SPACEAuction_465|
 |743883bs7GEOw24qgy48hgdhhqgddqw663w24qgumbb|SPACEAuction_465|
@@ -52,7 +52,7 @@
 
 В `Заявки на Краудсейл` был указан 1 токен SPACE, который был передан контракту SPACEAuctionRegistry.
 
-|Токен SPACE Территории для продажи Проекту|Принадлежит|
+|Токен SPACE |Владелец|
 |-----------------|----------|
 |[w24qg]( https://explorer.galtproject.io/map/#w24qg )|SPACEAuctionRegistry|
 
