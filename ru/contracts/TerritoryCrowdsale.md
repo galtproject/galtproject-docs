@@ -97,7 +97,7 @@
 
 9. 5% GALT может затребовать GALT FOUNDATION.
 
-10. Далее - контракт SpaceAuctionForPack.
+10. Далее - контракт [SpaceAuctionPack](SpaceAuctionPack.md).
 
 ## Спецификация контракта
 - Наследуется от OpenZeppelin Crowdsale[2] контракта
