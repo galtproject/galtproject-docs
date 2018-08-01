@@ -10,7 +10,7 @@
 * [Galt Token](contracts/GaltToken.md)
 * [Space Token](contracts/SpaceToken.md)
 * [Split Merge](contracts/SplitMerge.md)
-* [Add New Plot](contracts/AddNewPlot.md)
+* [Plot Manager](contracts/PlotManager.md)
 * [Territory Crowdsale](contracts/TerritoryCrowdsale.md)
 * [Space Auction](contracts/SpaceAuction.md)
 * [Reputation](contracts/Reputation.md)
