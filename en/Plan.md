@@ -10,7 +10,7 @@ The procedure for the GALT Project CORE Team to launch the `Project`:
 
 2. GALT Project CORE Team launches the SplitMerge contract. See the SplitMerge contract for details.
 
-3. GALT Project CORE Team launches `AddNewPlot` contract. Now everyone can register their `Land plot` in the `Project` by confirming their rights to GALT Project CORE Team and get a small ammount of GALT! Together with the contract, a service will be launched that will allow anyone with minimal effort to include their `Land PLot` in the `Project`. One of these `Land Plots` will be sold to the `Project`, as` Territory`. More details - Contract AddNewPlot.
+3. GALT Project CORE Team launches `PlotManager` contract. Now everyone can register their `Land plot` in the `Project` by confirming their rights to GALT Project CORE Team and get a small ammount of GALT! Together with the contract, a service will be launched that will allow anyone with minimal effort to include their `Land PLot` in the `Project`. One of these `Land Plots` will be sold to the `Project`, as` Territory`. More details - Contract PlotManager.
 
 4. GALT Project CORE Team runs the SPACEAuctionRegistry contract. With the help of it, the `Territory Owner`, which is the first to be sold to the `Project`, will be able to split whole `Territory` into specific `Land Plots`, which will then be auctioned in the `Land Auction`.
 
