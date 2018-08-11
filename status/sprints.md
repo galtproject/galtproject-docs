@@ -1,6 +1,6 @@
 # Sprint 1
 
-## Web3 Application
+## Web3 Application (21 час)
 
 ### Действия
  - Отображение на карте
@@ -55,7 +55,7 @@
 ## GaltToken
  - Все готово
 
-## SpaceToken
+## SpaceToken (8 часов 20 минут)
 
 ### Методы
   - Разработка метода [encode](../ru/contracts/SpaceToken.md#encode), нужно разработать
@@ -95,7 +95,7 @@
   - canTransfer
     - Написать Unit test, 15 мин
 
-## PlotManager
+## PlotManager (10 часов 45 минут)
 
 ### Методы
  - Наследование и импорт стандартных контрактов (Initializable, Ownable)
@@ -156,7 +156,7 @@
    - Владелец контракта убирает валидатора и меняет статус заявки на Готово к рассмотрению
    
  
-## SplitMerge
+## SplitMerge (10 часов 45 минут)
 
 ### Методы
  - Метод mintGeohash
