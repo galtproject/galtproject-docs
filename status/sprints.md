@@ -103,6 +103,25 @@
  
 ## SplitMerge
 
+### Методы
+ - Метод mintGeohash
+   - Написать тест
+ - Метод mintPackage
+   - Написать тест, в initPackage
+ - Метод initPackage
+   - Написать тест
+ - Метод addGeohashToPackageUnsafe
+   - Написать тест, в initPackage & addGeohashToPackage (?)
+ - Метод addMultipleGeohashesToPackage
+   - Написать тест
+ - Метод removeGeohashFromPackageUnsafe
+   - Написать тест
+ - Метод removeGeohashFromPackage
+   - Добавить дополнительную проверку
+   - Написать тест
+ 
+ 
+
 ## TerritoryCrowdsale
 
 ## SpaceAuctionPack
