@@ -5,7 +5,7 @@ John Galt Project - a project, funded by a group of private investors, to develo
 - to sell or buy land with the help of the Project software with all legal formalities;
 - buy or use their own land and raise an investment fund for its development: the construction of roads, hospitals, schools, the development of the economy by investing in companies and start-ups;
 - to divide land plot between several landowners by auction if needed;
-- determine the weight of each andowners in voting in elections in proportion to the contribution to the fund;
+- determine the weight of each landowners in voting in elections in proportion to the contribution to the fund;
 - elect fund managers and give them the right to dispose of the fund's money;
 - to make sure that fund managers increase the amount of money in the fund by means of competent investments in infrastructure, companies and people;
 - at any time, withdraw the cryptographic keys from the current fund managers and transfer them to another managers;
