@@ -1,6 +1,6 @@
 ## Simple Answer
 
-John Galt Project - a project, funded by a group of private investors, to develop open-source software for land tokenization (accounting on blockchain) and self-governance in the form of a set of smart contracts in the Ethereum blockchain, which gives effective tools for any group of people (crypto-enthusiasts, landowners, small nationalities and local tribes):
+John Galt Project - a project, funded by a group of private investors, to develop open-source software for land tokenization (accounting, buying and selling on blockchain) and self-governance in the form of a set of smart contracts in the Ethereum blockchain, which gives effective tools for any group of people (crypto-enthusiasts, landowners, small nationalities and local tribes):
 - add his own land plot to the Project and be a part of a global Comminity, receive legal support from the Project partners in legal disputes;
 - to sell or buy land with the help of the Project software with all legal formalities;
 - buy or use their own land and raise an investment fund for its development: the construction of roads, hospitals, schools, the development of the economy by investing in companies and start-ups;
