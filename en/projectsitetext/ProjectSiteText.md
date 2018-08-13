@@ -16,7 +16,7 @@ John Galt Project - a project, funded by a group of private investors, to develo
 
 ## Manifest
 
-The John Galt project, funded by a group of private investors, is an initiative to develop open-source software for land tokenization and self-governance based on Ethereum blockchain.
+The John Galt project is an initiative to develop open-source software for land tokenization and self-governance based on Ethereum blockchai, funded by a group of private investors.
 
 The project will be developed according to the following plan:
 
