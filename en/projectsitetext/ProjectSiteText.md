@@ -20,7 +20,7 @@ The John Galt project is an initiative to develop open-source software for land 
 
 The project will be developed according to the following plan:
 
-1. Anyone can join the Project by making a record of his land plot in the World Land Cadastre, provided by the Project. This cadastre is independent and supranational. Land ownership  will be permanently recorded in the Ethereum blockchain. With the help of project Software and legal mechanisms land owners can sell and transfer land plots, as well as receive legal support for land disputes from the legal partners of the Project.
+1. Anyone can join the Project by making a record of his land plot in the World Land Cadastre, provided by the Project. This cadastre is independent and supranational. Land ownership  will be permanently recorded in the Ethereum blockchain. With the help of project Software and legal mechanisms land owners can buy, sell and transfer land plots, as well as receive legal support for land disputes from the legal partners of the Project.
 
 2. The Project will launch a Pilot Project of a settlement managed by Cryptography. This settlement will be in a reliable legal jurisdiction and will be bought from its current owner. In this place, self-government mechanisms will be developed with the help of cryptography: collection of funds to maintain infrastructure, election of managers, voting for decision-making. We are now choosing a site for this Pilot Project, most likely it will be a land on one of the Indonesian islands near to Singapore.
 
