@@ -15,7 +15,7 @@ For each smart contract Documentation contains:
 
 ## About Galt Project
 ### Main goal
-The main goal of Galt Project is to create sofware for land tokenization (accounting, buying and selling on blockchain) and self-governance. And to create a comminity, runned by a smart contracts.
+The main goal of Galt Project is to create sofware for land tokenization (accounting, buying and selling on blockchain) and self-governance. And to create a communities, runned by a smart contracts with the help of this software.
 
 ### Galt Project Tokens
 GALT - ERC20 standart ethereum based token.
