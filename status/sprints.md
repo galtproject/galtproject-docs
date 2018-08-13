@@ -347,6 +347,8 @@
 
 ## TypeScript Telegram Bot
  - Bintan
+   - Исправление [#444](https://github.com/galtspace/WIJG/issues/444), 60 мин
+   - Исправление строк текста [#440](https://github.com/galtspace/WIJG/issues/440), 60 мин
  - Маркетинговый бот (общего назначения)
 
 ## Технические задачи
