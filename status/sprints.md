@@ -277,4 +277,6 @@
 ## Изменения:
  - [Изменение данных по заявке](https://github.com/galtspace/galtproject-docs/blob/master/ru/contracts/PlotManager.md#%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-3-%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BF%D0%BE-%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D0%B5)
  - [Добавление Геохешей в заявку и удаление Геохешей из заявки](https://github.com/galtspace/galtproject-docs/blob/master/ru/contracts/PlotManager.md#%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-2---%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%93%D0%B5%D0%BE%D1%85%D0%B5%D1%88%D0%B5%D0%B9-%D0%B2-%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83-%D0%B8-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%93%D0%B5%D0%BE%D1%85%D0%B5%D1%88%D0%B5%D0%B9-%D0%B8%D0%B7-%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D0%B8)
+
  - Получение информации о подтвержденной транзанкции после её отправки с помощью WebWorker, который будет следить за отправленной транзакцией, пока она не подтвердится.
+ - Конвертирование на клиенте все tokenId с маской геохеша, полученные из контрактов, в геохеши. Для этого добавить в galtproject-utils-js функции для определения типа tokenId: геохеш или упаковка и преобразование из tokenId в геохеш или упаковку.
