@@ -252,7 +252,7 @@
        - Написать код, 15 мин
        - Написать тест, 15 мин
 
-## TypeScript Telegram Bot (9 часов 15 мин)
+## TypeScript Telegram Bot (12 часов)
  - Bintan
    - Составить продающие тексты для Бинтан
      - Ревью существующих текстов, 120 мин
@@ -260,8 +260,8 @@
    - Исправление [#444](https://github.com/galtspace/WIJG/issues/444), 60 мин
    - Исправление строк текста [#440](https://github.com/galtspace/WIJG/issues/440), 60 мин
    - Добавление быстрых ссылок
-     - Создание ссылки админами [#450](https://github.com/galtspace/WIJG/issues/450)
-     - Создание ссылки для входа пользователем в режим создания территорий [#451](https://github.com/galtspace/WIJG/issues/451)
+     - Создание ссылки админами [#450](https://github.com/galtspace/WIJG/issues/450), 120 мин
+     - Создание ссылки для входа пользователем в режим создания территорий [#451](https://github.com/galtspace/WIJG/issues/451), 45 мин
    - Разбиение упаковок на геохеши [#445](https://github.com/galtspace/WIJG/issues/445), 120 мин
    - Кнопка `Cбросить` с очищением территорий
      - Создание чит-команды в боте (/reset), 15 мин
