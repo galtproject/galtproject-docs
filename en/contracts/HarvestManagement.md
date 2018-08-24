@@ -1,3 +1,9 @@
+Copyright © 2018 Galt•Space Society Construction and Terraforming Company 
+([Nikolai Popeka](https://github.com/npopeka),
+[Dima Starodubcev](https://github.com/xhipster), 
+[Valery Litvin](https://github.com/litvintech) with 
+[Basic Agreement](http://cyb.ai/QmSAWEG5u5aSsUyMNYuX2A2Eaz4kEuoYWUkVBRdmu9qmct:ipfs)).
+
 # Harvest Management Smart Contract - Proof of Concept
 ## Description of the problem
 It is necessary to create an accounting system for agricultural products that would allow for the unique identification of the packaging of the final product, for example wine, to trace the entire path from a particular land plot to the bottle on Ethereum blockchain or private blockchain.
