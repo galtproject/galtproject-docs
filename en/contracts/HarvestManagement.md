@@ -59,12 +59,12 @@ In fact, 30 kg of grapes passed from the Collector to the Driver.
 
 In fact, 30 kg of grapes were transferred from the Driver to the Automatic press.
 
-7. From the weighing tank, the grapes enter the spin tank with identifier 5f1b8bf16dc8de. Smart press creates and signs a transaction and the following changes occur.
+7. From the weighing tank, the grapes enter the spin tank with identifier 5f1b8bf16dc8d. Smart press creates and signs a transaction and the following changes occur.
 
 | id of the plot | Packer ID | Number | Employee / Robot |
 | ---------- | ---------- | ---------- | ---------- |
 | [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 1E09266423d5f1B8b | 0 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
-| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 5f1b8bf16dc8de | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 5f1b8bf16dc8d | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
 
 In fact, 30 kg of grapes from the box were moved to the tank for spinning.
 
