@@ -1,8 +1,8 @@
-// Copyright © 2018 Galt•Space Society Construction and Terraforming Company 
-// ([Nikolai Popeka](https://github.com/npopeka),
-// [Dima Starodubcev](https://github.com/xhipster), 
-// [Valery Litvin](https://github.com/litvintech) with 
-// [Basic Agreement](http://cyb.ai/QmSAWEG5u5aSsUyMNYuX2A2Eaz4kEuoYWUkVBRdmu9qmct:ipfs)).
+[comment]: Copyright © 2018 Galt•Space Society Construction and Terraforming Company 
+([Nikolai Popeka](https://github.com/npopeka),
+[Dima Starodubcev](https://github.com/xhipster), 
+[Valery Litvin](https://github.com/litvintech) with 
+[Basic Agreement](http://cyb.ai/QmSAWEG5u5aSsUyMNYuX2A2Eaz4kEuoYWUkVBRdmu9qmct:ipfs)).
 
 # Harvest Management Smart Contract - Proof of Concept
 ## Description of the problem
