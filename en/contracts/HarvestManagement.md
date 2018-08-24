@@ -25,7 +25,7 @@ For Smart Equipment Aira Lab Protocol can bu used: https://aira.life/en/.
 ### Scenario # 1 Accounting for wine production.
 1. The user - the crop collector collects the grapes in Cinqua Terra. The user has his unique address 0x4FDE31E09266423d5f1B8bf16dC8DeF085C197E5, and a private key to which he can sign transactions.
 
-2. There is a token of the standard ERC721, which corresponds to the plot with the vineyard. This site is addressed to the geohash [spyfvqwnd] (https://explorer.galtproject.io/map/#spyfvqwnd). The plot size is 4.77 x 4.77 meters. Also, the site can have any random shape or size.
+2. There is a token of the standard ERC721, which corresponds to the plot with the vineyard. This site is addressed to the geohash [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd). The plot size is 4.77 x 4.77 meters. Also, the site can have any random shape or size.
 
 3. The user - crop collector 0x4FDE31E09266423d5f1B8bf16dC8DeF085C197E5 collected 30 kg of grapes from the plot. The user puts the box on the Smart Scales. Enter the plot ID and its address, create a transaction for the packaging of grapes and sign the transaction with its private key. The scales also have their address 0x4FED1fC4144c223aE3C1553be203cDFcbD38C581 and the private key. The scales weigh the grapes, create and sign a transaction based on the weighing results. The scales print the label with the bar code 1E09266423d5f1B8b.
 
@@ -33,7 +33,7 @@ Transactions record data in blockchain. In fact, it is written that Employee 0x4
 
 | id of the plot | Packer ID | Number | Employee / Robot |
 | ---------- | ---------- | ---------- | ---------- |
-| spyfvqwnd | 1E09266423d5f1B8b | 30 | 0x4FDE31E09266423d5f1B8bf16dC8DeF085C197E5 |
+|[spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 1E09266423d5f1B8b | 30 | 0x4FDE31E09266423d5f1B8bf16dC8DeF085C197E5 |
 
 These data can not be faked and changed.
 
@@ -45,8 +45,8 @@ In the blockchain, the following data changes occur:
 
 | id of the plot | Packer ID | Number | Employee / Robot |
 |----------|----------|----------|----------|
-|spyfvqwnd|1E09266423d5f1B8b|0|0x4FDE31E09266423d5f1B8bf16dC8DeF085C197E5|
-|spyfvqwnd|1E09266423d5f1B8b|30|0xf3101865bd9dbe720464e684247a13269cca70660xf|
+|[spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd)|1E09266423d5f1B8b|0|0x4FDE31E09266423d5f1B8bf16dC8DeF085C197E5|
+|[spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd)|1E09266423d5f1B8b|30|0xf3101865bd9dbe720464e684247a13269cca70660xf|
 
 In fact, 30 kg of grapes passed from the Collector to the Driver.
 
@@ -54,8 +54,8 @@ In fact, 30 kg of grapes passed from the Collector to the Driver.
 
 | id of the plot | Packer ID | Number | Employee / Robot |
 | ---------- | ---------- | ---------- | ---------- |
-| spyfvqwnd | 1E09266423d5f1B8b | 0 | 0xf3101865bd9dbe720464e684247a13269cca70660xf |
-| spyfvqwnd | 1E09266423d5f1B8b | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 1E09266423d5f1B8b | 0 | 0xf3101865bd9dbe720464e684247a13269cca70660xf |
+| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd)| 1E09266423d5f1B8b | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
 
 In fact, 30 kg of grapes were transferred from the Driver to the Automatic press.
 
@@ -63,8 +63,8 @@ In fact, 30 kg of grapes were transferred from the Driver to the Automatic press
 
 | id of the plot | Packer ID | Number | Employee / Robot |
 | ---------- | ---------- | ---------- | ---------- |
-| spyfvqwnd | 1E09266423d5f1B8b | 0 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
-| spyfvqwnd | 5f1b8bf16dc8de | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 1E09266423d5f1B8b | 0 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd) | 5f1b8bf16dc8de | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
 
 In fact, 30 kg of grapes from the box were moved to the tank for spinning.
 
@@ -72,9 +72,9 @@ In fact, 30 kg of grapes from the box were moved to the tank for spinning.
 
 | id of the plot | Packer ID | Number | Employee / Robot |
 | ---------- | ---------- | ---------- | ---------- |
-| spyfvqwnd | 5f1b8bf16dc8d | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
-| spyfvqwn6 | 5f1b8bf16dc8d | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
-| spyfvqwng | 5f1b8bf16dc8d | 40 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwnd](https://explorer.galtproject.io/map/#spyfvqwnd)| 5f1b8bf16dc8d | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwn6](https://explorer.galtproject.io/map/#spyfvqwn6) | 5f1b8bf16dc8d | 30 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
+| [spyfvqwng](https://explorer.galtproject.io/map/#spyfvqwng) | 5f1b8bf16dc8d | 40 | 0x4fde31e09266423d5f1b8bf16dc8def085c197e5 |
 
 9. The smart press produced a spin and received 100 liters of grape juice. Smart press creates a transaction to move 100 liters of juice and signs it. Through the pipes, the juice enters the fermentation tank. The cistern has the identifier 1f7b8bs1ddcld. A smart fluid volume sensor with the address 0x640bF693d3c06599300c1E2Be38c7F4AbCc597a1 signs the transaction and the following changes occur:
 
