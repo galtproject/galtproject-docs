@@ -770,6 +770,7 @@
     - ExchangeSpaceToGalt
       - Получение цены Space токена из PlotCustodianManagement
       - Передача Space токена участка контракту PlotCustodianManagement, а Galt токенов пользователю
+      - Запись Space токена в динамический
     - ExchangeGaltToSpace
       - Получение цены Space токена из PlotCustodianManagement
       - Передача Galt токенов контракту PlotCustodianManagement, а Space токена пользователю
