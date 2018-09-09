@@ -55,3 +55,29 @@
     - Вычитание суммы всех цен Space токенов при расчете курса GALT, 30 мин
     - Вычитание баланса SpaceDex при расчете курса GALT, 30 мин
     - Написание тестов, 90 мин
+
+## Common	
+* Переместить методы на external где возможно	30 мин
+* Добавить копирайты	15 мин
+* Пофиксить грамматику в текстах тестов	30 мин
+	
+## PlotManager	
+* Переименовать applyForPlotOwnership => add *Eth	30 мин
+* FeeManager role	90 мин
+* Gas commission calculation	120 мин
+* Депозит газа при подаче заявки на рассмотрение (при submitApplication())	150 мин
+* Добавить Validators.getValidatorRoles()	15 мин
+* Разборка упаковки в статусе REVERTED только заявителем	30 мин
+* Возврат залога заявителем	60 мин
+* Получение залога валидатором	90 мин
+* Получение вознаграждения валидаторами и galtSpace без указания валюты	60 мин
+	
+## PlotClarificationManager	
+* #claimValidatorDeposit()	90 мин
+* #claimApplicantGasDeposit()	120 мин
+* Передача токена обратно заявителю #withdrawPackageToken()	90 мин
+* Метод revertApplication()	90 мин
+* Редактирование полей заявки (сразу всех)	90 мин
+	
+## PlotCustodianManagement
+* Составление спецификации методов и схемы движения статусов	360 мин
