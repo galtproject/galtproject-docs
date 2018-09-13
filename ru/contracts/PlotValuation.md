@@ -22,6 +22,8 @@
 * `CONFIRMED` - подтверждена вторым оценщиком
 * `APPROVED` - подтверждена аудитором
 
+![Application Status List](../../images/PlotValuation.png?raw=true "Application Status List")
+
 ## Статусы ролей
 * `PENDING` - ожидает блокировки валидаторов с данной ролью
 * `LOCKED` - заблокирована валидатором с данной ролью
