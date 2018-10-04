@@ -52,6 +52,8 @@ https://www.emoon.io
 * CANCELLED - продажа отменена либо одним из участником сделки либо аудитором
 * EMPTY - оффер отменен, токены оплаты и Space токен выведены
 
+![Application Status List](../../images/PlotEscrow.png?raw=true "Sale Order/Offers Status List")
+
 ## Интерфейс для продавца
 
 #### #createSaleOffer()
