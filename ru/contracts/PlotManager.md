@@ -48,6 +48,64 @@
 // TODO: add scheme
 ## Интерфейс взаимодействия с контрактом
 
+### Contracts Description Table
+|  File Name  |  SHA-1 Hash  |
+|-------------|--------------|
+| PlotManager.sol | a8f96517cd8208c277d375d6b1c7d534eb831b01 |
+
+
+|  Contract  |         Type        |       Bases      |                  |                 |
+|:----------:|:-------------------:|:----------------:|:----------------:|:---------------:|
+|     └      |  **Function Name**  |  **Visibility**  |  **Mutability**  |  **Modifiers**  |
+||||||
+| **PlotManager** | Implementation | AbstractApplication |||
+| └ | \<Constructor\> | Public ❗️ | 🛑  | |
+| └ | initialize | Public ❗️ | 🛑  | isInitializer |
+| └ | setGasPriceForDeposits | External ❗️ | 🛑  | onlyFeeManager |
+| └ | setSubmissionFeeRate | External ❗️ | 🛑  | onlyFeeManager |
+| └ | approveOperator | External ❗️ | 🛑  | |
+| └ | changeApplicationDetails | External ❗️ | 🛑  | onlyApplicant |
+| └ | applyForPlotOwnership | Public ❗️ | 🛑  | ready |
+| └ | calculateAndStoreFee | Internal 🔒 | 🛑  | |
+| └ | assignRequiredValidatorRolesAndRewards | Internal 🔒 | 🛑  | |
+| └ | addGeohashesToApplication | Public ❗️ | 🛑  | onlyApplicant |
+| └ | removeGeohashesFromApplication | Public ❗️ | 🛑  | |
+| └ | submitApplication | External ❗️ |  💵 | onlyApplicant |
+| └ | resubmitApplication | External ❗️ |  💵 | onlyApplicant |
+| └ | lockApplicationForReview | External ❗️ | 🛑  | |
+| └ | resetApplicationRole | External ❗️ | 🛑  | onlyOwner |
+| └ | approveApplication | External ❗️ | 🛑  | onlyValidatorOfApplication |
+| └ | rejectApplication | External ❗️ | 🛑  | onlyValidatorOfApplication |
+| └ | revertApplication | External ❗️ | 🛑  | onlyValidatorOfApplication |
+| └ | revokeApplication | External ❗️ | 🛑  | onlyApplicant |
+| └ | claimValidatorReward | External ❗️ | 🛑  | onlyValidatorOfApplication |
+| └ | claimGaltSpaceReward | External ❗️ | 🛑  | |
+| └ | claimGasDepositByApplicant | External ❗️ | 🛑  | onlyApplicant |
+| └ | claimGasDepositByValidator | External ❗️ | 🛑  | onlyValidatorOfApplication |
+| └ | withdrawSubmissionFee | External ❗️ | 🛑  | onlyApplicant |
+| └ | changeValidationStatus | Internal 🔒 | 🛑  | |
+| └ | changeApplicationStatus | Internal 🔒 | 🛑  | |
+| └ | isCredentialsHashValid | External ❗️ |   | |
+| └ | getApplicationById | External ❗️ |   | |
+| └ | getApplicationFinanceById | External ❗️ |   | |
+| └ | getAllApplications | External ❗️ |   | |
+| └ | getApplicationsByAddress | External ❗️ |   | |
+| └ | getApplicationsByValidator | External ❗️ |   | |
+| └ | getApplicationOperator | Public ❗️ |   | |
+| └ | getEstimatedGasDeposit | Public ❗️ |   | |
+| └ | getSubmissionFee | Public ❗️ |   | |
+| └ | getSubmissionPaymentInEth | Public ❗️ |   | |
+| └ | getResubmissionFee | External ❗️ | 🛑  | |
+| └ | getApplicationValidator | External ❗️ |   | |
+
+
+### Legend
+
+|  Symbol  |  Meaning  |
+|:--------:|-----------|
+|    🛑    | Function can modify state |
+|    💵    | Function is payable |
+
 ### Интерфейс для заявителя
 #### #applyForPlotOwnership()
 Заявитель создает заявку на оценку токена
