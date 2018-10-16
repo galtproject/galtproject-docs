@@ -38,7 +38,7 @@
 - REJECTED - валидатор отклонил заявку
 - REVERTED - валидатор вернул заявку на доработку
 
-![Application Status List](https://docs.google.com/drawings/d/e/2PACX-1vQLSA2qXzlebed6lIA6bJHP6PYAwqgwXOG-0WtUeLhGPFJ49jA0vu96qwDeXKdj5zEBYtB1fIdLVu2I/pub?w=960&h=838 "Application Status List")
+![Application Status List](../../images/PlotManager.v0.3.png?raw=true "Application Status List")
 
 ## Данные заявки
 * Keccak256 хеш персональных данных заявителя (bytes32 hash)

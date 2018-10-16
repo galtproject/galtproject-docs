@@ -15,7 +15,7 @@
 * REVERTED - один из валидаторов вернул заявку на доработку
 * PACKED - в заявку добавлены необходимые геохеши
 
-![Application Status List](https://github.com/galtspace/galtproject-docs/raw/chebykin-patch-10/images/PlotClarificationManager.png?raw=true "Application Status List")
+![Application Status List](../../images/PlotClarificationManager.v0.3.png?raw=true "Application Status List")
 
 ### Дополнительные флаги заявки
 
