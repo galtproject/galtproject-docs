@@ -31,7 +31,7 @@
 * `REJECT` - отклонить
 * `REVERT` - вернуть на доработку
 
-![Claim Status List](https://docs.google.com/drawings/d/e/2PACX-1vSvuQiIwxnd6bA2FOFohsspQFeDyR_Y004r7zFwHd9EZDDp4mtzlqUuFC9xv9i2eG8ir2uc4ECU0wA9/pub?w=600&h=683 "Claim Status List")
+![Claim Status List](../../images/ClaimManager.v0.3.png?raw=true "Claim Status List")
 
 ## Интерфейс для владельца контракта
 
