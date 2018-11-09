@@ -8,16 +8,42 @@ Space token holders should have a toolset to choose representative auditors. The
 incoming claims in ClaimManager contract.
 
 ## Specification
+
 ```solidity
 interface AuditorsRegistry is RBAC {
-  function addAuditor(address _auditor) external onlyRole(`auditor_manager`);
+  struct Auditor {
+    address addr;
+    uint256 weight;
+  }
+
+  // Add a single auditor to the list
+  function addAuditor(address _auditor, uint256 weight) external onlyRole(`auditor_manager`);
+
+  // Remove a single auditor from the list
   function removeAuditor(address _auditor) external onlyRole(`auditor_manager`);
-  function setAuditorWeight(address _auditor, uint256 weight) external onlyRole(`auditor_manager`);
-  function setNofM(uint256 n, uint256 M) external onlyRole(`auditor_manager`);
+  
+  // Set N and M values (see explanation below)
+  function setNofM(uint256 n, uint256 m) external onlyRole(`auditor_manager`);
+  
+  // Synchronize auditors list with ValidatorStakeMultiSig and Validators contracts.
+  // Also sets N and M values to ValidatorStakeMultiSig contract
   function pushAuditors() external onlyRole();
+  
+  // Getter for the sorted auditors list
   function getAuditors() public view returns (address[]);
 }
 ```
+* N - required minimum number of votes for `ValidatorStakeMultiSig` contract (this value doesn't used inside the current contract).
+* M - total auditors to be pushed into dependend contracts.
+
+Auditors list stored as a sorted Red-Black tree.
+
+Auditor weight change consist of two steps:
+1. Remove current record using `#removeAuditor()` method
+2. Insert a new record using `#addAuditor()` method
+
+## Rationale
+Red-Black tree proides O(logn) insert/search complexity.
 
 ## External Roles
 * `role_manager` - addresses allowed modifying other roles
