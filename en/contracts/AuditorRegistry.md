@@ -33,7 +33,7 @@ interface AuditorsRegistry is RBAC {
   function getAuditors() public view returns (address[]);
 
   // Add RBAC role
-  function removeRoleFrom(address _operator, string _role) external onlyRole(`role_manager`);
+  function addRoleTo(address _operator, string _role) external onlyRole(`role_manager`);
 
   // Remove RBAC role
   function removeRoleFrom(address _operator, string _role) external onlyRole(`role_manager`);
