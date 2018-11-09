@@ -43,7 +43,7 @@ Auditor weight change consist of two steps:
 2. Insert a new record using `#addAuditor()` method
 
 ## Rationale
-Red-Black tree proides O(logn) insert/search complexity.
+Red-Black tree provides O(logn) insert/search complexity.
 
 ## External Roles
 * `role_manager` - addresses allowed modifying other roles
