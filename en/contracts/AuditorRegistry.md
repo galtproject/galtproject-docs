@@ -8,4 +8,15 @@ Space token holders should have a toolset to choose representative auditors. The
 incoming claims in ClaimManager contract.
 
 ## Specification
+```solidity
+interface AuditorsRegistry is RBAC {
+  function addAuditor(address _auditor) external onlyRole(`auditor_manager`);
+  function removeAuditor(address _auditor) external onlyRole(`auditor_manager`);
+  function pushAuditors() external onlyRole();
+  function getAuditors() public view returns (address[]);
+}
+```
 
+## External Roles
+* `role_manager` - 
+* `auditor_manager` - addresses allowed to add/remove auditors 
