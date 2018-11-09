@@ -80,7 +80,13 @@ interface ValidatorsStakesMultiSig is MultiSigWallet, RBAC {
         public
         constant
         returns (uint[] _transactionIds);
-  
+
+  // Add RBAC role
+  function addRoleTo(address _operator, string _role) external onlyRole(`role_manager`);
+
+  // Remove RBAC role
+  function removeRoleFrom(address _operator, string _role) external onlyRole(`role_manager`);
+
   // Forbidden methods
   function MultiSigWallet(address[] _owners, uint _required) forbidden;
   function addOwner(address owner) forbidden;
