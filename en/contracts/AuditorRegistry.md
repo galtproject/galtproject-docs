@@ -30,7 +30,7 @@ interface AuditorsRegistry is RBAC {
   function pushAuditors() external onlyRole();
   
   // Getter for the sorted auditors list
-  function getAuditors() public view returns (address[]);
+  function getAuditors() public view returns (address[] auditors, uint256[] weights);
 
   // Add RBAC role
   function addRoleTo(address _operator, string _role) external onlyRole(`role_manager`);
