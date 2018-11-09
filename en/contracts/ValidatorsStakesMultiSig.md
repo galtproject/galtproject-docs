@@ -15,6 +15,80 @@ We need to collect stake deposits from validators who entitled to work within th
 ## Specification
 To improve security of this system, funds holding and accounting functionality is split into two separate contracts. `ValidatorsStakesMultiSig` contract is intended to store funds while `ValidatorStakes` performs stakes accounting. 
 
+```solidity
+interface ValidatorsStakesMultiSig is MultiSigWallet, RBAC {
+  modifier forbidden {
+    assert(false);
+    _;
+  }
+
+  // Custom methods
+  function setAuditors(address[] auditors) external onlyRole('owner_source');
+  function proposeTransaction(address destination, uint value, bytes data)
+        public
+        onlyRole('proposer')
+        returns (uint transactionId);
+
+  // MultiSigWallet modified methods
+  function changeRequirement(uint _required) external validRequirement(owners.length, _required) onlyRole('owner_source');
+  function submitTransaction(address destination, uint value, bytes data)
+        public
+        returns (uint transactionId);
+  function confirmTransaction(uint transactionId)
+        public
+        ownerExists(msg.sender)
+        transactionExists(transactionId)
+        notConfirmed(transactionId, msg.sender);
+  function revokeConfirmation(uint transactionId)
+        public
+        ownerExists(msg.sender)
+        confirmed(transactionId, msg.sender)
+        notExecuted(transactionId);
+  function executeTransaction(uint transactionId)
+        public
+        ownerExists(msg.sender)
+        confirmed(transactionId, msg.sender)
+        notExecuted(transactionId);
+  function external_call(address destination, uint value, uint dataLength, bytes data)
+        private
+        returns (bool);
+  function isConfirmed(uint transactionId)
+        public
+        constant
+        returns (bool);
+  function addTransaction(address destination, uint value, bytes data)
+        internal
+        notNull(destination)
+        returns (uint transactionId);
+  function getConfirmationCount(uint transactionId)
+        public
+        constant
+        returns (uint count);
+  function getTransactionCount(bool pending, bool executed)
+        public
+        constant
+        returns (uint count);
+  function getOwners()
+        public
+        constant
+        returns (address[]);
+  function getConfirmations(uint transactionId)
+        public
+        constant
+        returns (address[] _confirmations);
+  function getTransactionIds(uint from, uint to, bool pending, bool executed)
+        public
+        constant
+        returns (uint[] _transactionIds);
+  
+  // Forbidden methods
+  function MultiSigWallet(address[] _owners, uint _required) forbidden;
+  function addOwner(address owner) forbidden;
+  function removeOwner(address owner) forbidden;
+  function replaceOwner(address owner, address newOwner) forbidden;
+}
+```
+
 ### Incoming funds
 This contract is intended to operate mostly with GALT tokens. Although there are no restrictions on how funds can be transferred to this contracts, the default behaviour implies that the main source of incoming funds is stake deposits method of `ValidatorStakes` contract. This method creates required internal records about deposit value and immediately transfers it to the `ValidatorsStakesMultiSig` contract.
 
