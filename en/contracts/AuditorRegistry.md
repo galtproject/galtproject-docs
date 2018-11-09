@@ -31,6 +31,12 @@ interface AuditorsRegistry is RBAC {
   
   // Getter for the sorted auditors list
   function getAuditors() public view returns (address[]);
+
+  // Add RBAC role
+  function removeRoleFrom(address _operator, string _role) external onlyRole(`role_manager`);
+
+  // Remove RBAC role
+  function removeRoleFrom(address _operator, string _role) external onlyRole(`role_manager`);
 }
 ```
 * N - required minimum number of votes for `ValidatorStakeMultiSig` contract (this value doesn't used inside the current contract).
