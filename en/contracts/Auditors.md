@@ -1,4 +1,4 @@
-# AuditorRegistry
+# Auditors contract
 
 ## Simple Summary
 Naive TCR Auditors Registry contract managed by `GaltCore` representative. In a mid term will be replaced with a more mature ERC721 holders voting system.
@@ -49,7 +49,9 @@ Auditor weight change consist of two steps:
 2. Insert a new record using `#addAuditor()` method
 
 ## Rationale
-Red-Black tree provides O(logn) insert/search complexity.
+To store auditors list with associated weight values we use Set data type.
+
+In order to push auditors list to another contracts, off-chain descending sorting required. Contract only verifies that provided input array is a valid descending sorted array.
 
 ## External Roles
 * `role_manager` - addresses allowed modifying other roles
