@@ -30,7 +30,6 @@ interface ValidatorsStakesMultiSig is MultiSigWallet, RBAC {
         returns (uint transactionId);
 
   // MultiSigWallet modified methods
-  function changeRequirement(uint _required) external validRequirement(owners.length, _required) onlyRole('owner_source');
   function submitTransaction(address destination, uint value, bytes data)
         public
         returns (uint transactionId);
@@ -92,6 +91,7 @@ interface ValidatorsStakesMultiSig is MultiSigWallet, RBAC {
   function addOwner(address owner) forbidden;
   function removeOwner(address owner) forbidden;
   function replaceOwner(address owner, address newOwner) forbidden;
+  function changeRequirement(uint _required) forbidden;
 }
 ```
 
@@ -107,8 +107,8 @@ external contract with role `owners_source` permission. This contract is granted
 
 ### External Roles
 * `role_manager` - address allowed managing all the roles whithin this contract
-* `proposer` - addresses allowed create new GALT transfer proposals
-* `owners_source` - addresses granted with `owners` list pushing permissions
+* `proposal_manager` - addresses allowed create new GALT transfer proposals
+* `auditors_manager` - addresses granted with `auditors` (owners) list pushing permissions
 
 ## Owner
 * No owner
@@ -118,5 +118,5 @@ external contract with role `owners_source` permission. This contract is granted
 
 ## Initial setup
 * `GaltCore` multisig address assigned as an only `role_manager`. In a long term this role permissions will be transferred to the community.
-* `ClaimManager` proxy contract address assigned as an only `proposer`
-* `AuditorsRegistry` contract address assigned as an only `owners_source`
+* `ClaimManager` proxy contract address assigned as an only `proposal_manager`
+* `AuditorsRegistry` contract address assigned as an only `auditors_manager`
