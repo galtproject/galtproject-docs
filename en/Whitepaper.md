@@ -1,3 +1,3 @@
 ## Abstract
 
-![gp galt protocol essentials](https://user-images.githubusercontent.com/29427584/48577611-34459200-e920-11e8-8126-4e9931ec9e89.png)
+![gp galt protocol essentials](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Galt%20Protocol%20Essentials_Part_1.png)
