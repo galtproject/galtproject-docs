@@ -44,7 +44,7 @@ Each Token cointains geospatial data and represents particular land plot or buil
 ![Property Token - ERC721 SPACE Token](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Property%20Token%20-%20ERC721%20SPACE%20Token.png)
 
 ### Geospatial Data Management
-Token owner can manage his token geospatial data. If token contains geographic coordinates of land plot, Owner can split initial plot for any amount of land plots within initial boundaries. On other wat if Owner has two tokens of two bordering land plots, he can merge them into one. this principle works the same with floors of buildings.
+Token owner can manage his token geospatial data. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with floors of buildings.
 ![Geo Data Management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20GeoData%20Management.png)
 
 
