@@ -22,3 +22,8 @@ Galt Protocol is open - source software powered by Ethereum Blockchain. In Galt 
 
 ![gp galt protocol essentials](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Galt%20Protocol%20Essentials_Part_1.png)
 
+### Protocol Overview
+![Property Token - ERC721 SPACE Token](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Property%20Token%20-%20ERC721%20SPACE%20Token.png)
+
+
+
