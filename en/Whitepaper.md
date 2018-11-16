@@ -24,8 +24,7 @@ Galt Protocol is open - source software powered by Ethereum Blockchain. In Galt 
 
 ### Property Token - ERC721 SPACE Token
 The core entity of protocol is a ERC721 standart Ethereum token. Any property owners can pay comission to protocol and Oracles and create his SPACE Token.
-Each Token cointains geospatial data. Token Owner can split and merge that geospatial data in the original boundaries without a third party. But if Owner want's to change original boundaries he must use the Oracles service.
-In both cases all changes to geospatial data can be made only by token owner himself.
+Each Token cointains geospatial data and represents particular land plot or building floor. Token Owner can split and merge that geospatial data in the original boundaries without a third party. But if Owner want's to change original boundaries he must use the Oracles service. In both cases all changes to geospatial data can be made only by token owner himself.
 ![Property Token - ERC721 SPACE Token](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Property%20Token%20-%20ERC721%20SPACE%20Token.png)
 
 
