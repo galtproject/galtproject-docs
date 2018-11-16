@@ -54,3 +54,6 @@ To be able to earn reward they buy and deposit protocol governance token - ERC20
 Property owners elect among themselves Arbitrators - special governance role. Any property owner can create a claim about Oracles dishonest behavior or mistake. If claim would be approved, than deposit will be written of. Arbitrators are elected dynamically. Voting is proportional to area of tokens in square meters.
 ![Oracles](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Oracles%20Governance%20Model.png)
 
+## Oracles
+As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. it's ultimate goal is to create a new way of property accointing and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: 10% will be used as a deposit to create first Oracles, 10% will be sold on open auction and 80% will be sold by automatic marketmaking contract.
+![Governance ERC20 GALT Token ](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Governance%20Token%20-%20ERC20%20GALT%20Token.png)
