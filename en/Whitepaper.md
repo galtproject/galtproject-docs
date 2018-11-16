@@ -13,7 +13,7 @@ By creating a Galt Protocol we are trying to solve those problems.
 Galt Protocol is a consistent geospatial registry of land and real estate (which can be used for trading, rental, creating CDP's or taking loans ), system of multisigs for storing and managing community budgets and voting system to define society rules by direct or delegative voting. 
 
 ### Protocol Overview
-Galt Protocol is open - source software powered by Ethereum Blockchain. In Galt Protocol any property owners with the help of  protocol Oracles can create their property token - ERC721 SPACE Token. Each token represents land plot or a part of the building floor and consists geospatial data. Property Owners can:
+Galt Protocol is open - source software powered by Ethereum Blockchain. In Galt Protocol any property owners with the help of  protocol Oracles can create their property token - ERC721 SPACE Token. Each token represents land plot or a part of the building floor and contains geospatial data. Property Owners can:
 - create community; 
 - create one or several Delegative Community Multisigs; 
 - elect multisigs managers; 
