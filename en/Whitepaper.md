@@ -10,6 +10,9 @@
  * [Basic Agreement](http://cyb.ai/QmaCiXUmSrP16Gz8Jdzq6AJESY1EAANmmwha15uR3c1bsS:ipfs)).
 
 --->
+
+![galt protocol screen](https://github.com/galtspace/galtproject-docs/blob/master/images/RegistryScreen.jpg)
+
 # Galt Protocol Whitepaper
 Version 0.1
 ## Abstract
