@@ -57,5 +57,6 @@ Property owners elect among themselves Arbitrators - special governance role. An
 ## Governance Utility Token - ERC20 GALT Token
 As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: 10% will be used as a deposit to create first Oracles, 10% will be sold on open auction and 80% will be sold by automatic marketmaking contract.
 All GALT from an open auction will be transfered to participants and all ETH will be transfered to Marketmaking contract. The Galt Project will take 1% to cover development costs. Also Galt Project will get 1% from all buy and sell operations from DEX to be able to make further development. 5% of all Protocol commission will be automaticaly transfered to DEX. Thanks to this GALT price in ETH guaranteed to grow. 
-Auction will start only after protocol will be developed and will be audited.
+
+Auction will start only after first version of protocol will be completely developed and fully audited.
 ![Governance ERC20 GALT Token ](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Governance%20Token%20-%20ERC20%20GALT%20Token.png)
