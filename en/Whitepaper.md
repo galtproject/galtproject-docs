@@ -2,7 +2,7 @@
 At the heart of any modern society or state lies three social contracts:
 1. A set of laws and rules, that define the relationships of members of that society.
 2. Private property and the procedure for its accounting.
-3. Public budgets, designed to protect property and society laws.
+3. Public budgets, designed to protect property and society Rules.
 
 This system of those basic contracts has several fundamental problems:
 1. Private property registries are not secured, they are stored in centralised databases or paper archives. Owners doesn’t control those registries so society need a vast judicial branch to resolve disputes. 
