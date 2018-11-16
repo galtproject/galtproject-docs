@@ -63,3 +63,6 @@ All GALT from an open auction will be transfered to participants and all ETH wil
 
 Auction will start only after first version of protocol will be completely developed and fully audited.
 ![Governance ERC20 GALT Token ](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Governance%20Token%20-%20ERC20%20GALT%20Token.png)
+
+## About Copyright and Software licenses
+The main purpose of Galt Protocol is to create open and reliable instrument for self-government communities of Property Owners. According to that, one of our main goals in Galt Project is to create pure community driven and open software product. For now Galt Project if fully self-funded, we have certain vision and we want to implement it. To ensure the achievement of our vision, before the launch, protocol is open-sourced, but it is our intellectual property. You can participate or use our code, but you need to ask us first. After the first version of protocol will be released in Ethreum Mainnet and initial Galt Auction will end, we will release all software under one of public licences. 
