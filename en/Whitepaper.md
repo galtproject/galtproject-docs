@@ -10,7 +10,8 @@
  * [Basic Agreement](http://cyb.ai/QmaCiXUmSrP16Gz8Jdzq6AJESY1EAANmmwha15uR3c1bsS:ipfs)).
 
 --->
-
+# Galt Protocol Whitepaper
+version 0.1
 ## Abstract
 At the heart of any modern society or state lies three social contracts:
 1. A set of laws and rules, that define the relationships of members of that society.
