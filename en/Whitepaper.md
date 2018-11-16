@@ -20,10 +20,13 @@ At the heart of any modern society or state lies three social contracts:
 This system of those basic contracts has several fundamental problems:
 1. Private property registries are not secured, they are stored in centralised databases or paper archives. Owners doesn’t control those registries so society need a vast judicial branch to resolve disputes. 
 2. Access to the Community budgets can be usurped.
-3. Proccess of creation of Rules is too difficult and also can be usurped.
+3. Proccess of creation of Rules is difficult and also can be easily usurped.
 
 By creating a Galt Protocol we are trying to solve those problems. 
-Galt Protocol is a consistent geospatial registry of land and real estate (which can be used for trading, rental, creating CDP's or taking loans ), system of multisigs for storing and managing community budgets and voting system to define society rules by direct or delegative voting. 
+Galt Protocol is 
+- a consistent geospatial registry of land and real estate (which can be used for trading, rental, creating CDP's or taking loans ); 
+- system of multisigs for storing and managing community budgets; 
+- voting system to define society rules by direct or delegative voting. 
 
 ### Protocol Overview
 Galt Protocol is open - source software powered by Ethereum Blockchain. In Galt Protocol any property owners with the help of  protocol Oracles can create their property token - ERC721 SPACE Token. Each token represents land plot or a part of the building floor and contains geospatial data. Property Owners can:
