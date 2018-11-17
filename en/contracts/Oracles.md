@@ -65,7 +65,7 @@ no utils
 | `oracles_manager` | `NewOracleManager` and `UpdateOracleManager` | `NewOracleManager` and `UpdateOracleManager` | addresses allowed `create` & `update` actions on oracle profiles including `CRUD` actions on assigned roles
 | `galt_share_manager` | GaltSpace MultiSig | GaltSpace MultiSig | address allowed defining Galt Project share in total fees paid by applicants
 | `oracle_stake_manager` | GaltSpace MultiSig | GaltSpace MultiSig | address allowed defining stake values for `oracle_types` 
-| `oracle_stake_slasher` | `OracleStakesAccounting` | `OracleStakesAccounting` | address allowed trigger notification callback about changed oracle stake
+| `oracle_stakes_notifier` | `OracleStakesAccounting` | `OracleStakesAccounting` | address allowed trigger notification callback about changed oracle stake
 
 ## Information sources
 No sources required for the contract functionality.

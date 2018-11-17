@@ -1,13 +1,13 @@
-# ValidatorsStakesMultiSig
+# ArbitratorsMultiSig
 
 ## Simple Summary
 
 Gnosis MultiSigWallet fork with the owners list synchronizied from an external source. Options for add/remove owner proposal
-are cutted off. Keeps stakes of all validators in the system.
+are cut off. Keeps stakes of all validators in the system.
 
-## Golossary
-* `Validator` - address who granted with validation permissions in application-like contracts depending on a roles list assigned to it.
-* `Auditor` - validator with `CM_AUDITOR` role.
+## Glossary
+* `Oracle` - address who granted with validation permissions in application-like contracts depending on a `oracle type` list assigned to it.
+* `Arbitrator` - validator with `CM_AUDITOR` role.
 
 ## Motivation
 We need to collect stake deposits from validators who entitled to work within the system. If a user submits a claim for a compensation, auditors should punish corresponding validators and fulfill the claim using funds from culprits stakes.
@@ -16,7 +16,7 @@ We need to collect stake deposits from validators who entitled to work within th
 To improve security of this system, funds holding and accounting functionality is split into two separate contracts. `ValidatorsStakesMultiSig` contract is intended to store funds while `ValidatorStakes` performs stakes accounting. 
 
 ```solidity
-interface ValidatorsStakesMultiSig is MultiSigWallet, RBAC {
+interface ValidatorsStakesMultiSig is MultiSigWallet, Permissioned {
   modifier forbidden {
     assert(false);
     _;
@@ -79,12 +79,6 @@ interface ValidatorsStakesMultiSig is MultiSigWallet, RBAC {
         public
         constant
         returns (uint[] _transactionIds);
-
-  // Add RBAC role
-  function addRoleTo(address _operator, string _role) external onlyRole(`role_manager`);
-
-  // Remove RBAC role
-  function removeRoleFrom(address _operator, string _role) external onlyRole(`role_manager`);
 
   // Forbidden methods
   function MultiSigWallet(address[] _owners, uint _required) forbidden;
