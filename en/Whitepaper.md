@@ -69,7 +69,7 @@ The are several solutions to avoid this attack:
 - an ammount of GALT, which can be written of from multisig should be limited for particular period of time.
 - summ of all Arbitrators deposit should be more then that ammount;
 
-If part of Arbitrators will try to withdraw GALT from multisig, this will ne noticed by the comminity and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators.
+If part of Arbitrators will try to withdraw GALT from multisig, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
 
 ## Governance Utility Token - ERC20 GALT Token
 As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: 10% will be used as a deposit to create first Oracles, 10% will be sold on open auction and 80% will be sold by automatic marketmaking contract.
