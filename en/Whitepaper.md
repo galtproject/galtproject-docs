@@ -63,9 +63,9 @@ In general there are technological limits in current Ethereum that restricts a m
 ![Oracles Groups](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20MultiOracles.png)
 
 ### Possible Attack - Property owners and Arbitrators conspiracy 
-There is a chance that part of Arbitrators and Property owners will conspire. Property owners will create unfounded claims and Arbitrators will approve them an will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants of the Protocol. So in that case Arbitrators will lose their votes and deposits. The only question if those deposits would be enough  to cover loses.
+There is a chance that part of Arbitrators and Property owners will conspire. Property owners will create unfounded claims and Arbitrators will approve them and will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants of the Protocol. Majority of Property Owners will change their vote and Arbitrators will lose their votes and deposits. The only question if those deposits would be enough to cover loses.
 The are several solutions to avoid this attack:
-- Arbitrators should be public;
+- Arbitrators should be public persons;
 - an ammount of GALT, which can be written of from multisig should be limited for particular period of time.
 - summ of all Arbitrators deposit should be more then that ammount;
 
