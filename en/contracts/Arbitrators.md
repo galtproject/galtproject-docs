@@ -1,7 +1,7 @@
-# Arbitrator contract
+# Arbitrators contract
 
 ## Simple Summary
-Naive TCR Arbitrator Registry contract managed by `GaltCore` representative. In a mid term will be replaced with a more mature ERC721 holders voting system.
+Temporary centralized Arbitrator Registry contract managed by `GaltCore` representative. In a mid term will be replaced with a more mature ERC721 holders voting system.
 
 ## Motivation
 Space token holders should have a toolset to choose representative arbitrators. These arbitrators would operate ArbitratorsMultiSig and process
@@ -10,7 +10,7 @@ incoming claims in ClaimManager contract.
 ## Specification
 
 ```solidity
-interface ArbitratorsRegistry is Permissioned {
+interface Arbitrators is Permissioned {
 
   string public constant ROLE_ARBITRATOR_MANAGER = "arbitrator_manager";
 
