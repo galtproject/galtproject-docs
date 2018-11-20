@@ -73,6 +73,13 @@ The are several solutions to avoid this attack:
 
 If part of Arbitrators will try to withdraw GALT from multisig, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
 
+### Custodians
+For operations like land and real easte trading and p2p loans on Ethereum, Property owners need a decentralized third party - Custodians. Custodians here perform the role of nominal owners for property. It's a company or a publick person with reputation and his own assets. Custodians hold property until SPACE Token holder will come and ask to register property rights in the state register to him. Custodians get a reward from token holders and like other Oracles, deposit pledges in GALT.
+To reduce the risks of fraud each property is divided between 5-7 Custodians.
+In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
+
+![Custodians management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Custodians%20Management.png)
+
 ## Governance Utility Token - ERC20 GALT Token
 As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: 10% will be used as a deposit to create first Oracles, 10% will be sold on open auction and 80% will be sold by automatic marketmaking contract.
 All GALT from an open auction will be transfered to participants and all ETH will be transfered to Marketmaking contract. The Galt Project will take 1% to cover development costs. Also Galt Project will get 1% from all buy and sell operations from DEX to be able to make further development. 5% of all Protocol commission will be automaticaly transfered to DEX. Thanks to this GALT price in ETH guaranteed to grow. 
