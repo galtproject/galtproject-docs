@@ -73,6 +73,13 @@ The are several solutions to avoid this attack:
 
 If part of Arbitrators will try to withdraw GALT from multisig, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
 
+### Arbitrators Voting
+To make governance system more reliable Arbitrators should be easily elected and re-elected, they should have ecomomic incentive to honestly resolve disputes and they should represent all the participants of the Protocol - both property owners and oracles. To do that they should be elected among protocol participants. There is a two main roles of Users in Protocol - property owners and Oracles. In some cases their goals can be opposite, so they should have equal rights to become Arbitrators and to Vote. 
+Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. 
+Oracles have deposits in GALT. Deposits also can be used as a Voting variable. Votes of both User's groups (Oracles and Property owners) should be equal, so voting power of Oracles must be cast to Voting power of property owners, as it described on scheme.
+
+![Arbitrators Voting](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Arbitrators%20Voting.png)
+
 ### Custodians
 For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians here perform the role of nominal owners for property. It's a company or a public person with good reputation and his own assets. Custodians hold property until SPACE Token holder will come and ask to register property rights in the state register to him. Custodians get a reward from token holders for interaction with government agencies and like other Oracles, deposit pledges in GALT. They act like a supranational property guarantor.
 To reduce the risks of fraud each property is divided between 5-7 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
