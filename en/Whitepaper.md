@@ -52,22 +52,24 @@ Token owner can manage his token geospatial data. If token contains geographic c
 ![Geo Data Management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20GeoData%20Management.png)
 
 ## Oracles
-If someone wants to create a token of land plot or building floor, there should be decentralized self-managing mechanism for checking property rights and geographic coordinates. In Galt Protocol this function perfom Oracles. They are independent economic agents, who approve new token creation for reward. Also they have a deposit, which can be written of.
+If someone wants to create a token of land plot or building floor, there should be decentralized self-managing mechanism for checking property rights and geographic coordinates. In Galt Protocol this function perfom Oracles. They are independent economic agents, who approve new token creation for reward. Also they perform different operations: valuation, custodian service etc. Oracles have a deposit, which can be written of.
 To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token.
-Property owners elect among themselves Arbitrators - special governance role. Any Property owner or Oracle or Arbitrator can create a claim about Oracles, Arbitrators or Property owners dishonest behavior or mistake. If claim would be approved, than deposit will be written of. Arbitrators are elected dynamically. Voting is proportional to area of tokens in square meters.
+Property owners elect among themselves Arbitrators - special governance role. Any Property owner or Oracle or Arbitrator can create a claim about Oracles, Arbitrators or Property owners dishonest behavior or mistake. If claim would be approved, than deposit will be written of. Arbitrators are elected dynamically by Property Owners and Oracles.
 ![Oracles](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Oracles%20Governance%20Model.png)
 
 ### Limitations and User Groups
-In general there are technological limits in current Ethereum that restricts a maximim number of Arbitrators in Multisig and Voting process. According to the test the current effective maximum is 50 addresses. Ofcourse there is a limit of number of claims, that can be considered by 50 Arbitrators. So if we want to make this system scalable and be able to work with hundreds of thousands and millions of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group Property Owners will vote to elect among themselves Arbitrator and Oracles will deposit funds in group Multisig and will provide their service only in this group.
+In general there are technological limits in current Ethereum that restricts a maximim number of Arbitrators in Multisig and Voting process. According to the test the current effective maximum is 50 addresses. Ofcourse there is a limit of number of claims, that can be considered by 50 Arbitrators. So if we want to make this system scalable and be able to work with hundreds of thousands and millions of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group of Property Owners and Oracles will vote to elect among themselves. Arbitrators and Oracles will deposit funds in group Multisig and will provide their service in this group.
 
 ![Oracles Groups](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20MultiOracles.png)
 
 ### Possible Attack - Property owners and Arbitrators conspiracy 
-There is a chance that part of Arbitrators and Property owners will conspire. Property owners will create unfounded claims and Arbitrators will approve them and will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants of the Protocol. Majority of Property Owners will change their vote and Arbitrators will lose their votes and deposits. The only question if those deposits would be enough to cover loses.
+There is a chance that part of Arbitrators and Property owners or Oracles will conspire. Property owners will create unfounded claims and Arbitrators will approve them and will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants of the Protocol. Majority of Property Owners and Oracles will change their vote and Arbitrators will lose their votes and deposits. The only question if those deposits would be enough to cover loses.
 The are several solutions to avoid this attack:
 - Arbitrators should be public persons;
 - an ammount of GALT, which can be written of from multisig should be limited for particular period of time.
 - summ of all Arbitrators deposit should be more then that ammount;
+- Arbitrators should be elected both by Property owners and Oracles;
+- There should be a fast mechanism for casting votes and reelection of Arbitrators.
 
 If part of Arbitrators will try to withdraw GALT from multisig, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
 
