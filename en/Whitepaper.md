@@ -92,7 +92,7 @@ Auction will start only after first version of protocol will be completely devel
 With a consistent registry of property rights a various operations can be performed like trading, loans, CDP's creation and others. The guarantor of rights in such transactions can be the State directly (if a particular state accepts such transactions), international nominal owners - Custodian (and a State which they interact with) or Property owners self-governance system (if there is no State).
 
 ## Property trading with Custodians
-
+If seller and buyer want to make a fast transactions or want to stay anonimous or if the particular State doesn't accepts blockchain transaction, they can 
 ![Trading with Custodians](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20Without%20State%20Registration.png)
 
 ## Property trading with State registration
