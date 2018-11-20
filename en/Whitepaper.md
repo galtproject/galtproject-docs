@@ -74,9 +74,8 @@ The are several solutions to avoid this attack:
 If part of Arbitrators will try to withdraw GALT from multisig, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
 
 ### Custodians
-For operations like land and real easte trading and p2p loans on Ethereum, Property owners need a decentralized third party - Custodians. Custodians here perform the role of nominal owners for property. It's a company or a publick person with reputation and his own assets. Custodians hold property until SPACE Token holder will come and ask to register property rights in the state register to him. Custodians get a reward from token holders and like other Oracles, deposit pledges in GALT.
-To reduce the risks of fraud each property is divided between 5-7 Custodians.
-In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
+For operations like land and real easte trading and p2p loans on Ethereum, Property owners need a decentralized third party - Custodians. Custodians here perform the role of nominal owners for property. It's a company or a public person with good reputation and his own assets. Custodians hold property until SPACE Token holder will come and ask to register property rights in the state register to him. Custodians get a reward from token holders and like other Oracles, deposit pledges in GALT.
+To reduce the risks of fraud each property is divided between 5-7 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 
 ![Custodians management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Custodians%20Management.png)
 
