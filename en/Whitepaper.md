@@ -87,7 +87,7 @@ Auction will start only after first version of protocol will be completely devel
 ![Governance ERC20 GALT Token ](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Governance%20Token%20-%20ERC20%20GALT%20Token.png)
 
 ## Operations with property
-With a consistent registry of property rights a various operations can be performed like trading, loans, CDP's creation and others. The guarantor of rights in such transactions can be the state directly (if a particular state accepts such transactions) or the nominal owner - Custodian.
+With a consistent registry of property rights a various operations can be performed like trading, loans, CDP's creation and others. The guarantor of rights in such transactions can be the State directly (if a particular state accepts such transactions), nominal owners - Custodian (and a State which they interact with) or Property owners self-governance system (if there is no State).
 
 ## Property trading with Custodians
 
