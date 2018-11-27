@@ -4,8 +4,21 @@
 
 In order to become an oracle the account should collect enough approvals from Arbitrators.
 
+## Glossare
+
+* M - required votes to eiter accept or reject an application
+* N - total slots for arbitrators
+
 ## Specification
-### Inheritance
+
+Any address could apply for being an oracle using `NewOracleManager` application. We don't perform checks is it a real user or
+a contract.
+
+Values M-of-N are copied from contract-level to a specific application at the moment of it's creation. If these
+contract-level values are changed after an application was created, this application-level values won't be affected.
+
+Any current arbitrator could lock working on application, if there are empty validators slots available. M - is a maximum arbitrators slots value. 
+
 * AbstractApplication - toolset
 ### Interface
 
