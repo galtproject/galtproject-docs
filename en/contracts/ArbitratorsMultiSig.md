@@ -7,23 +7,26 @@ are cut off. Keeps stakes of all validators in the system.
 
 ## Glossary
 * `Oracle` - address who granted with validation permissions in application-like contracts depending on a `oracle type` list assigned to it.
-* `Arbitrator` - validator with `CM_AUDITOR` role.
+* `Arbitrator` - an `owner` from `ArbitratorsMultiSig` contract.
 
 ## Motivation
-We need to collect stake deposits from validators who entitled to work within the system. If a user submits a claim for a compensation, auditors should punish corresponding validators and fulfill the claim using funds from culprits stakes.
+We need to collect stake deposits from oracles who entitled to work within the system. If a user submits a claim for a compensation, arbitrators should punish corresponding oracles and fulfill the claim using funds from culprits stakes.
 
 ## Specification
-To improve security of this system, funds holding and accounting functionality is split into two separate contracts. `ValidatorsStakesMultiSig` contract is intended to store funds while `ValidatorStakes` performs stakes accounting. 
+To improve security of this system, funds holding and accounting functionality is split into two separate contracts. `ArbitratorsMultiSig` contract is intended to store funds while `OracleStakesAccounting` performs stakes accounting. 
 
 ```solidity
-interface ValidatorsStakesMultiSig is MultiSigWallet, Permissioned {
+interface ArbitratorsMultiSig is MultiSigWallet, Permissioned {
+  string public constant ROLE_PROPOSER = "proposer";
+  string public constant ROLE_ARBITRATOR_MANAGER = "arbitrator_manager";
+
   modifier forbidden {
     assert(false);
     _;
   }
 
   // Custom methods
-  function setAuditors(address[] auditors) external onlyRole('owner_source');
+  function setArbitrators(address[] auditors) external onlyRole('owner_source');
   function proposeTransaction(address destination, uint value, bytes data)
         public
         onlyRole('proposer')
@@ -90,7 +93,7 @@ interface ValidatorsStakesMultiSig is MultiSigWallet, Permissioned {
 ```
 
 ### Incoming funds
-This contract is intended to operate mostly with GALT tokens. Although there are no restrictions on how funds can be transferred to this contracts, the default behaviour implies that the main source of incoming funds is stake deposits method of `ValidatorStakes` contract. This method creates required internal records about deposit value and immediately transfers it to the `ValidatorsStakesMultiSig` contract.
+This contract is intended to operate mostly with GALT tokens. Although there are no restrictions on how funds can be transferred to this contracts, the default behaviour implies that the main source of incoming funds is stake deposits method of `OrackeStakesAccounting` contract. This method creates required internal records about deposit value and immediately transfers it to the `ArbitratorsMultiSig` contract.
 
 ### Funds claim fulfilment
 The only way to transfer assets from this contract is using proposal-voting process. Transfer assets proposals could be created by `proposer` role.
@@ -101,8 +104,8 @@ external contract with role `owners_source` permission. This contract is granted
 
 ### External Roles
 * `role_manager` - address allowed managing all the roles whithin this contract
-* `proposal_manager` - addresses allowed create new GALT transfer proposals
-* `auditors_manager` - addresses granted with `auditors` (owners) list pushing permissions
+* `proposer` - addresses allowed create new GALT transfer proposals
+* `arbitrator_manager` - addresses granted with `arbitrators` (owners) list pushing permissions
 
 ## Owner
 * No owner
@@ -112,5 +115,5 @@ external contract with role `owners_source` permission. This contract is granted
 
 ## Initial setup
 * `GaltCore` multisig address assigned as an only `role_manager`. In a long term this role permissions will be transferred to the community.
-* `ClaimManager` proxy contract address assigned as an only `proposal_manager`
-* `AuditorsRegistry` contract address assigned as an only `auditors_manager`
+* `ClaimManager` proxy contract address assigned as an only `proposer`
+* `ArbitratorsVoting` contract address assigned as an only `arbitrator_manager`
