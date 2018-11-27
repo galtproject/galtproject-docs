@@ -17,9 +17,12 @@ a contract.
 Values M-of-N are copied from contract-level to a specific application at the moment of it's creation. If these
 contract-level values are changed after an application was created, this application-level values won't be affected.
 
-Any current arbitrator could lock working on application, if there are empty validators slots available. M - is a maximum arbitrators slots value. 
+Any current arbitrator could lock working on application, if there are empty validators slots available. M - is a maximum arbitrators slots value.
 
-* AbstractApplication - toolset
+Voting is available immediately after locking.
+
+Oracles reward is shared by equal shares among all the oracles who managed to lock the application. It doesn't matter whether he has voted or not.
+
 ### Interface
 
 ````solidity
