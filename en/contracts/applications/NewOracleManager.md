@@ -5,7 +5,7 @@
 In order to become an oracle the account should collect enough approvals from Arbitrators.
 
 ## Specification
-
+Is [ArbitratorApprovableApplication](./ArbitratorApprovableApplication.md) application.
 
 ### Interface
 
