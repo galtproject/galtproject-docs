@@ -28,9 +28,9 @@ interface NewOracleManager is ArbitratorApprovableApplication {
 
     // MODIFIERS
 
-    // An applicant submits a new application, providing his name, a list of IPFS document hashses 
-    // and a list of roles he applying for
-    function submit(bytes32 _name, bytes32[] _documents, bytes32[] _roles);
+    // An applicant submits a new application, providing his name, a list of IPFS document hashses
+    // and a list of oracle types he applying for
+    function submit(bytes32 _name, bytes32[] _descriptionHashes, bytes32[] _oracleTypes, uint256 _applicationFeeInGalt) external payable;
     
     // This function will be executed in case of approval
     function _execute(bytes32 _id) internal;
