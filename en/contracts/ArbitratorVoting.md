@@ -121,21 +121,43 @@ contract ArbitratorVoting {
         uint256 weight = candidateSpaceWeight + candidateStakesWeight;
         candidates[_candidate].weight = weight;
         
-        // try push to the top
-        if (weight > candidates[firstCandidate].weight) {
-            // insert to the top
-            // remove the last
-        } else if (weight > candidates[lastCandidate].weight) {
-            address current = candidates[lastCandidate].current;
+        // existing element
+        if (candidates[_candidate].active) {
+            address currentWeight = candidates[_candidate].current;
 
-            while (weight > candidates[current].weight) {
-                current = candidates[current].prev;
+            // walk up
+            if (weight > candidates[_candidate].weight) {
+                while (weight > candidates[current].weight) {
+                    current = candidates[current].prev;
+                }
+                // insert and re-link elements
+                // remove the last
+            // walk down
+            } else {
+                while (weight < candidates[current].weight) {
+                    current = candidates[current].next;
+                }
+                // insert and re-link elements
+                // remove the last
             }
-
-            // insert and re-link elements
-            // remove the last
+        //new element
         } else {
-            // do nothing
+            // try push to the top
+            if (weight > candidates[firstCandidate].weight) {
+                // insert to the top
+                // remove the last
+            } else if (weight > candidates[lastCandidate].weight) {
+                address current = candidates[lastCandidate].current;
+    
+                while (weight > candidates[current].weight) {
+                    current = candidates[current].prev;
+                }
+    
+                // insert and re-link elements
+                // remove the last
+            } else {
+                // do nothing
+            }
         }
     }
 }
