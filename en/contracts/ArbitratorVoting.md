@@ -79,7 +79,9 @@ contract ArbitratorVoting {
     
     mapping(address => Candidate) candidates;
 
+    // candidate from Top-N with the highest weight
     address firstCandidate;
+    // candidate from Top-N with the lower weight
     address lastCandidate;
 
     // space owner => candidate
