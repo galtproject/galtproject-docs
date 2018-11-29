@@ -30,16 +30,112 @@
 Пример `SpaceReputationAccounting`
 
 ````solidity
-contract SpaceReputationAccounting {
+pragma solidity ^0.4.18;
+
+interface Accounting {
+    function balanceOf(address _for) public returns (uint256);
+    function totalSupply() public returns (uint256);
+}
+
+contract SpaceReputationAccounting is Accounting {
     uint256 totalSpace;
     uint256 totalStakedSpace;
 
     // SpaceOwner => totalStakedSpace
     mapping(address => uint256) ownerStakedSpace;
     mapping(address => mapping(address => uint256)) ownerTotalStakedSpacePerSpaceToken;
-    
-    function getWeightFor(address _for) public returns (uint256);
+
+    function balanceOf(address _for) public returns (uint256);
+    function totalSupply() public returns (uint256);
 }
+
+contract ArbitratorVoting {
+    modifier onlySpaceHolder() {
+        _;
+    }
+
+    modifier onlyOracle() {
+        _;
+    }
+
+    // SpaceReputationAccounting
+    Accounting sra;
+    // OracleStakesAccounting
+    Accounting osa;
+
+    address arbitratorsMultiSig;
+    uint256 public limit = 50;
+
+    struct Candidate {
+        address current;
+        address next;
+        address prev;
+        uint256 weight;
+    }
+    
+    mapping(address => Candidate) candidates;
+
+    address firstCandidate;
+    address lastCandidate;
+
+    // space owner => candidate
+    mapping(address => address) spaceOwnerVotesFor;
+    
+    // oracle => candidate
+    mapping(address => address) oracleVotesFor;
+
+    // candidate => space
+    mapping(address => uint256) candidateTotalSpace;
+    
+    // candidate => stake
+    mapping(address => uint256) candidateTotalStake;
+
+    address[50] pool;
+
+    function voteAsSpaceOwner(address _for) external onlySpaceHolder {
+        uint256 weight = sra.balanceOf(msg.sender);
+        spaceOwnerVotesFor[msg.sender] = _for;
+        candidateTotalSpace[_for] = candidateTotalSpace[_for] + weight;
+    }
+
+    function voteAsOracle(address _for) external onlyOracle {
+        uint256 weight = osa.balanceOf(msg.sender);
+        spaceOwnerVotesFor[msg.sender] = _for;
+        candidateTotalStake[_for] = candidateTotalStake[_for] + weight;
+    }
+
+    function recalculateCandidateVotes(address _candidate) external {
+        // recalcualte space weight
+        uint256 totalSpace = sra.totalSupply();
+        uint256 candidateSpaceWeight = candidateTotalSpace[_candidate] * 100 / totalSpace;
+
+        // recalcualte stakes weight
+        uint256 totalStake = osa.totalSupply();
+        uint256 candidateStakesWeight = candidateTotalStake[_candidate] * 100 / totalStake;
+        
+        // save the sum
+        uint256 weight = candidateSpaceWeight + candidateStakesWeight;
+        candidates[_candidate].weight = weight;
+        
+        // try push to the top
+        if (weight > candidates[firstCandidate].weight) {
+            // insert to the top
+            // remove the last
+        } else if (weight > candidates[lastCandidate].weight) {
+            address current = candidates[lastCandidate].current;
+
+            while (weight > candidates[current].weight) {
+                current = candidates[current].prev;
+            }
+
+            // insert and re-link elements
+            // remove the last
+        } else {
+            // do nothing
+        }
+    }
+}
+
 ````
 
 ### Голосование оракула
