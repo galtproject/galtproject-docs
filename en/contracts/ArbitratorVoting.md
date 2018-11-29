@@ -19,15 +19,10 @@
     * Возможность передачи токена блокируется
     * Чтобы передать SPACE токен, необходимо сначала его разблокировать.
     * Разные SPACE токены можно лочить на разные мультисиги даже если у них один владелец
-* Контракт SpaceReputationAccounting ведет учет (получает коллбеки от 721 контракта) и служит источником информации:
-    * totalSpace (over all multisigs)
-    * totalStakedSpace (over all multisigs)
-    * (multisig => totalStakedSpace)
-    * (multisig => (owner => totalStakedSpace))
 * Текущий вес голоса на момент голосования рассчитывается как (owner stake at given multisig / total multisig stakes).
 * Total multisig stakes суммирует только те участки, владельцы которых явно сделали стейк на этот мультисиг. Участки, у которых не назначены мультисиги не учитываются.
 
-Пример `SpaceReputationAccounting`
+Пример набора контрактов:
 
 ````solidity
 pragma solidity ^0.4.18;
@@ -43,11 +38,16 @@ contract SpaceReputationAccounting is Accounting {
 
     // SpaceOwner => totalStakedSpace
     mapping(address => uint256) ownerStakedSpace;
+    // SpaceOwner => (multisig => space)
     mapping(address => mapping(address => uint256)) ownerTotalStakedSpacePerSpaceToken;
 
     function balanceOf(address _for) public returns (uint256);
     function totalSupply() public returns (uint256);
 }
+
+contract OraclesStakesAccounting is Accounting {
+}
+
 
 contract ArbitratorVoting {
     modifier onlySpaceHolder() {
@@ -58,10 +58,8 @@ contract ArbitratorVoting {
         _;
     }
 
-    // SpaceReputationAccounting
-    Accounting sra;
-    // OracleStakesAccounting
-    Accounting osa;
+    SpaceReputationAccounting sra;
+    OraclesStakesAccounting osa;
 
     address arbitratorsMultiSig;
     uint256 public limit = 50;
@@ -138,11 +136,6 @@ contract ArbitratorVoting {
 
 ````
 
-### Голосование оракула
-* Оракул уже работает в рамках одного из мультисигов, поэтому его голоса не требуют отдельной привязки
-* Контракт OraclesMultisigAccounting ведет учет и служит источником информации:
-    * Залогов каждого оракла в разрезе (multisig=>(oracle=>totalStakes))
-    * Залогов всех оракулов по конкретному мультисигу (multisig=>totalStakes)
 
 ## Интеграция с существующими контрактами
 ### SpaceToken
