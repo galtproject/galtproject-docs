@@ -57,6 +57,10 @@ contract SpaceReputationAccounting {
 * safeTransferFrom()
 * burn()
 
+![alt text](https://docs.google.com/drawings/d/e/2PACX-1vTHs-0ZSvvgisoPGW1V434Y2JwptSRCx2TqxWG6VOrvYOQJwJz2nBZIyflnUyPmVFxZDPKLJDTiV0pE/pub?w=960&h=720)
+
+
+
 ## Questions
 
 * Все ли готовы голосовать публично?
