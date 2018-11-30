@@ -45,3 +45,31 @@ interface ArbitratorApprovableApplication is AbstractArbitratorApplication, Stat
     function claimArbitratorReward(bytes32 _applicationId) external onlyInvolvedArbitrator;
 }
 ````
+
+### Methods
+#### Inheritance
+* AbstractArbitratorApplication
+* Statusable
+
+#### GALT_SPACE role metods
+##### #setMofN()
+Set values for required and total available slots correspondingly.
+
+* M - required votes to make an application being accepted
+* N - total slots available for arbitrators
+* M should be greater or equal to 2
+* N should be greater or equal to M
+
+#### #lock()
+Any arbitrator locks an application if an empty slots available
+
+* Requires SUBMITTED status
+* There should be at least one empty slot available
+* 
+
+
+## TBD
+* Case when the arbitrator has locked an application slot, but was revoked from `ArbitratorsMultiSig` before:
+    * voting
+    * withdrawing funds
+
