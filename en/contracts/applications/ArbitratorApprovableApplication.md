@@ -61,12 +61,30 @@ Set values for required and total available slots correspondingly.
 * N should be greater or equal to M
 
 #### #lock()
-Any arbitrator locks an application if an empty slots available
+Any active arbitrator locks an application if an empty slots available
 
 * Requires SUBMITTED status
-* There should be at least one empty slot available
-* 
+* There should be at least one empty slot available for an arbitrator
 
+#### #aye()
+Any active arbitrator votes `aye`
+
+* Should not wait for all slots being locked
+* Requires SUBMITTED status
+* Requireds arbitrator not voted `aye` yet
+* If the arbitrator has already voted `nay`, `nayCount` decrements
+* If `ayeCount` reaches the threshold `M`:
+    * the application status changes to `APPROVED`
+    * `_execute()` function of the descendant is called
+
+#### #nay()
+Any active arbitrator votes `nay`
+
+* Should not wait for all slots being locked
+* Requires SUBMITTED status
+* Requireds arbitrator not voted `nay` yet
+* If the arbitrator has already voted `aye`, `ayeCount` decrements
+* If `nayCount` reaches the threshold `M`, the application status changes to `REJECTED`
 
 ## TBD
 * Case when the arbitrator has locked an application slot, but was revoked from `ArbitratorsMultiSig` before:
