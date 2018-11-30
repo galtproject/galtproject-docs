@@ -41,6 +41,9 @@ interface ArbitratorApprovableApplication is AbstractArbitratorApplication, Stat
     // Any involved arbitrator who already has a slot in voices stack can unlock it, if he decide do not work
     // on the application
     function unlock(bytes32 _applicationId) external onlyInvolvedArbitrator;
+    // Any active arbitrator could lock an already locked slot, which was previously locked by another
+    // arbitrator and this arbitrator were expelled from ArbitratorsMultiSig
+    function lockSlot(bytes32 _applicationId, address _expelledArbitrator) external onlyArbitrator;
 
     // Any involved arbitrator could vote for the application approval
     function aye(bytes32 _applicationId) external onlyInvolvedArbitrator;
@@ -102,6 +105,18 @@ Any active arbitrator locks an application if an empty slots available
 
 * Requires SUBMITTED status
 * There should be at least one empty slot available for an arbitrator
+
+#### #unlock() - (not imlemented yet)
+Any involved arbitrator who already has a slot in voices stack can unlock it, if he decide to not work on the application
+
+* Requires SUBMITTED status
+* Sender should be an active validator which has already locked the application
+
+#### #lockSlot() - (not imlemented yet)
+Any active arbitrator locks the slot which was left after an expelled arbitrator
+
+* Requires SUBMITTED status
+* Previous arbitrator shouldn't be in the multisig owners list, but should be in the application arbitrators list
 
 #### #aye()
 Any active arbitrator votes `aye`
