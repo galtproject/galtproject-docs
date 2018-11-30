@@ -25,8 +25,16 @@ Arbitrators reward is shared by equal shares among all the arbitrators who manag
 ````solidity
 
 interface ArbitratorApprovableApplication is AbstractArbitratorApplication, Statusable {
+    // Descendant contract initialization
+    function _initialize(
+        ERC20 _galtToken,
+        ArbitratorsMultiSig _arbitratorsMultiSig,
+        address _galtSpaceRewardsAddress
+      )
+        internal;
+
     // Descendant contract notifies about a new application, providing an unique id and payment in GALT
-    function submit(bytes32 _id, uint256 _applicationFeeInGalt) internal;
+    function _submit(bytes32 _id, uint256 _applicationFeeInGalt) internal;
 
     // Any active arbitrator could lock an empty slot in voices stack if such one exists 
     function lock(bytes32 _applicationId) external onlyArbitrator;
@@ -43,6 +51,35 @@ interface ArbitratorApprovableApplication is AbstractArbitratorApplication, Stat
     function claimGaltSpaceReward(bytes32 _applicationId) external onlyGaltSpaceCore;
     // After successful voting each arbitrator could withdraw his share of fee
     function claimArbitratorReward(bytes32 _applicationId) external onlyInvolvedArbitrator;
+    
+    // GETTERS
+    
+    function getApplicationById(
+        bytes32 _id
+      )
+        external
+        view
+        returns (
+          ApplicationStatus status,
+          address applicant,
+          address[] arbitrators,
+          uint256 m,
+          uint256 n,
+          uint256 ayeCount,
+          uint256 nayCount
+        );
+
+    function getApplicationFees(
+        bytes32 _id
+      )
+        external
+        view
+        returns (
+          Currency currency,
+          uint256 arbitratorsReward,
+          uint256 galtSpaceReward,
+          bool galtSpaceRewardPaidOut
+        );
 }
 ````
 
