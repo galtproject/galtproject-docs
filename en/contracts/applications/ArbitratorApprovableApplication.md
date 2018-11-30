@@ -138,8 +138,3 @@ Any active arbitrator votes `nay`
 * If the arbitrator has already voted `aye`, `ayeCount` decrements
 * If `nayCount` reaches the threshold `M`, the application status changes to `REJECTED`
 
-## TBD
-* Case when the arbitrator has locked an application slot, but was revoked from `ArbitratorsMultiSig` before:
-    * voting
-    * withdrawing funds
-
