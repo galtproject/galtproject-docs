@@ -19,6 +19,8 @@
 
 ## SpaceLocker
 
+![alt text](https://docs.google.com/drawings/d/e/2PACX-1vTLbXG1TU-JbJrPeBOJoElf-cd-RDeJbSeiVmyPdJ_H1zJYp4r8FnKZbhGKxEOr7Tl0EjIYgAztrhDy/pub?w=1610&h=1458)
+
 * Для минта репутации в SRA владелец SpaceLocker выполняет следующие действия:
     * Вызывает метод #mint(sraAddress) в контракте SpaceLocker - аналог approve erc20.
         * TRMC инкрементируется при каждом минте в новый уникальный SRA
@@ -34,6 +36,8 @@
     * Владелец SpaceLocker может вывести токен на свой адрес только в случае, если счетчик заминченных репутаций равен 0.
 
 ## ASRA(Arbitration SpaceReputationAccounting) и контракты Arbiration
+
+![alt text](https://docs.google.com/drawings/d/e/2PACX-1vQtja1-NTq5jgExmi3uo_la_5W6W1bNq4WAmOxX7KVtn1OVMUCP4CCsWCNz-lF56l3FJRMkKhjtLyLf/pub?w=1325&h=513)
 
 * Контракт учитывает и перераспределяет репутацию между владельцем и делегатами
 * Контракт позволяет переносить репутацию делегатов в контракты голосований, которые в свою очередь входят в группу контрактов Arbitration. Перевод репутации разрешен только в те контракты голосований, мультисиги которых зарегистрированы в ArbitrationRegistry .
@@ -53,6 +57,8 @@
     * Контракт голосования, указанный в вызове метода перевода репутации, уведомляется о новом балансе залоченной репутации с помощью коллбека.
 
 ## RSRA(Reference SpaceReputationAccounting) и контракты уровня Fund
+
+![alt text](https://docs.google.com/drawings/d/e/2PACX-1vSxFUa8lXEZq3qVc5QZkvnK7wwphf_COWPN1C0nuKFf_VtxXFRWfq32g5qwPEizqvgw9aLRpMCwPXir/pub?w=1325&h=513)
 
 * Контракт входит в группу контрактов Fund и разворачивается вместе с остальными контрактами.
 * Контракт учитывает и перераспределяет репутацию между владельцем и делегатами.
