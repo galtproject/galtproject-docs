@@ -20,12 +20,6 @@
 - ArbitratorsMultiSigRegistry.sol
 - sandbox/*
 - structs/*
-- utils/MartinezRueda.sol
-- utils/PointUtils.sol
-- utils/SegmentUtils.sol
-- utils/SweepEventUtils.sol
-- utils/VectorUtils.sol
-- utils/WeilerAtherton.sol
 - registries/*
 - multisig/*
 - factories/*
@@ -40,6 +34,12 @@
 - utils/PolygonUtils.sol
 - utils/LandUtils.sol
 - utils/GeohashUtils.sol
+- utils/MartinezRueda.sol
+- utils/PointUtils.sol
+- utils/SegmentUtils.sol
+- utils/SweepEventUtils.sol
+- utils/VectorUtils.sol
+- utils/WeilerAtherton.sol
 
 ## 5. galtproject-basic-fund
 - fund/*.sol
