@@ -11,8 +11,6 @@
 
 --->
 
-![galt protocol screen](https://github.com/galtspace/galtproject-docs/blob/master/images/RegistryScreen.jpg)
-
 # Galt Protocol Whitepaper
 Version 0.1
 ## Abstract
