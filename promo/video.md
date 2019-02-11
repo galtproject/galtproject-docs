@@ -1,6 +1,6 @@
 # Promo video for galtproject.io 
 
-## First screen
+## First screen video
 
 ### Text and voice
 |№|English text|Russian text|Screen Action|
