@@ -18,3 +18,13 @@
 
 ### Additional requirements
 Video sequence and text should be consistent in duration.
+
+## Key Features - Consistent Geospatial Registry
+
+### Text and voice
+
+|№|English text|Russian text|Screen Action|
+|------|-------|----------|-------|
+|1|In Galt Project land plots and real estate are stored on Ethereum as ERC721 tokens with geospatial data|В Galt Project земельные участки и недвижимость хранятся в блокчейне Ethereum, как токены стандарта ERC721 с привязанными к ним гео-пространственными координатами |Открыт экран просмотра токенов. На нем показаны три токена в списке слева: токен земельного участка, токен этажа здания и токен квартиры, с заданной заранее площадью.|
+|2|There are 3 types of tokens: land plots, parts of bulding areas and pre-defined real-estate tokens|Существует три типа токенов: земельные участки, площади зданий и предопределенные токены недвижимости |Открыт экран просмотра токенов, как выше|
+|3|Land plot tokens represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the polygon corresponding to the plot.|Каждый токен хранит информацию о границах земельного участка в умном контракте в виде координат вершин многоугольника, соответствующего участку| Пользователь нажимает на токен в списке. Участок выделяется на карте. Пользователь нажимает на маркет и выделяет координаты в окне маркера участка|
