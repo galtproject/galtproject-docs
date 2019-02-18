@@ -54,6 +54,6 @@ Video sequence and text should be consistent in duration.
 |10|After all transaction were executed we can withdraw land plot tokens. Now we can sell part of our land to Bob.||Забираем токены. Показываем на карте, потом в облаке точек.|
 |11|But we decided not to do it. Instead of that we will merge our two land plots.||Показываем экран с токенами.|
 |12|We need to choose Merge in menu. Application will automaticaly check if there are land plots available for merge.||Нажимаем merge. Нажимаем merge у токена, который мы обьединяем.|
-|13|Merge operation is done. You can do same operations for building area tokens. For more information watch further videos, test sotware, read whitepaper and join us on telegram!||Показываем карту, потом облако точек, потом ссылки на группы.|
+|13|Merge operation is done. You can perform same operations for building area tokens. For more information watch further videos, test sotware, read whitepaper and join us on telegram!||Показываем карту, потом облако точек, потом ссылки на группы.|
 
 
