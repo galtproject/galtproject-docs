@@ -33,3 +33,13 @@ Video sequence and text should be consistent in duration.
 |6|Sometimes it's not necessary to store information about precise coordinates for part of the building. For example you probably don't need to store geographic coordinates of your appartment. In that case it's enought to store building address and appartment number or any other identification data. For that purpose you can use `pre-defined real-estate tokens`.|Иногда нет необходимости хранить информацию о точных координатах для части здания. Например, вам, вероятно, не нужно хранить географические координаты вашей квартиры. В этом случае достаточно хранить адрес здания, номер квартиры или любые дополнительные идентификационные данные. Для этого вы можете использовать `предопределенные токены недвижимости`.|Остаемся на экране с токенами.|
 |7|For example here I have my appartment token. Token contains geographic coordinates of my apartment house, address and appartment number. The difference is that geographic coordinates are not unique. All appartments in the building have same coordinates. Also appartment area is set manually, it's not calculated by smart contract.|Например, у меня есть токен моей квартиры. Токен содержит географические координаты моего многоквартирного дома, адрес и номер квартиры. Разница в том, что географические координаты не являются уникальными. Все квартиры в здании имеют одинаковые координаты. Также площадь квартиры задана вручную, а не рассчитана умным контрактом.| Нажимаем на токен квартиры, отображаем его на карте, видим, что там много других токенов. Нажимаем на свой маркер, показываем на координаты и на площадь.|
 |8|You can use your tokens for trading or other commercial purposes. Or you can create a comminity of homeowners for self-governance. For more information watch further videos, test sotware, read whitepaper and join us on telegram! |Вы можете использовать свои токены для купли-продажи или любых других коммерческих целей. Или вы можете создать сообщество домовладельцев для самоуправления.Для того, чтобы узнать больше - смотрите дальнейшие видео, тестируйте платформу, читайте вайтпейпер и присоединяйтесь к нам в телеграм канале!|Показываем ссылки.|
+
+
+
+## Key Features - Smart contract Land surveying
+
+### Text and voice
+
+|№|English text|Russian text|Screen Action|
+|------|-------|----------|-------|
+|1||||
