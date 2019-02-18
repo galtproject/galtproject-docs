@@ -44,14 +44,14 @@ Video sequence and text should be consistent in duration.
 |------|-------|----------|-------|
 |1|Hello everyone. In Galt Project you can use smart contracts to split and merge land plots and building areas.||Показываем экран с токенами|
 |2|In case of split operation special algorithms ensure that borders of the new land plot or building area will correspond to the old one. Let's see how it works.||Показываем экран с токенами|
-|3|For example I want to split my current land plot with vineyard and transfer part of it to my friend Bob.||Показываем экран с токенами. Показываем виноградник в облаке точек и переходим обратно.|
+|3|For example I want to split my current land plot with vineyard and sell part of it to my friend Bob.||Показываем экран с токенами. Показываем виноградник в облаке точек и переходим обратно.|
 |4|On the left panel, you can see my land plot token. I will choose split operation in menu.||Выбираем сплит|
 |5|I need to set contour of a new land plot. I can point it on a map, or fill the coordinates. Ok, let's do that. (pause) Here I can see information about area before and after split.  ||Выбираем сплит. Выбираем новый контур, показываем верху значения площади.|
 |6|After setting the new contour i need to aprove my land plot token to smart contract by signing transaction. ||Делаем апрув.|
 |7|Now we can start split operation. During split operation land plot token is transfered to smart contract. Smart contract performs calculations, changes borders of source land plot and creates new one. ||Ничего не делаем|
 |8|- |-|Нажимаем сплит и отправляем транзакцию.|
 |9|To performs split operation we need to perform multiple transactions. For better user experience we will use local built-in temporary wallet. We will transfer ETH to pay for gas. Unspent ETH will be sent back. ||Показываем временный кошелек и отправляем ETH. Запускаем и показываем очередь транзакций.|
-|10|After all transaction were executed we can withdraw land plot tokens. Now we can send part of our land to Bob.||Забираем токены. Показываем на карте, потом в облаке точек.|
+|10|After all transaction were executed we can withdraw land plot tokens. Now we can sell part of our land to Bob.||Забираем токены. Показываем на карте, потом в облаке точек.|
 |11|But we decided not to do it. Instead of that we will merge our two land plots.||Показываем экран с токенами.|
 |12|We need to choose Merge in menu. Application will automaticaly check if there are land plots available for merge.||Нажимаем merge. Нажимаем merge у токена, который мы обьединяем.|
 |13|Merge operation is done. You can do same operations for building area tokens. For more information watch further videos, test sotware, read whitepaper and join us on telegram!||Показываем карту, потом облако точек, потом ссылки на группы.|
