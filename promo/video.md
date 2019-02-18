@@ -42,4 +42,7 @@ Video sequence and text should be consistent in duration.
 
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
-|1||||
+|1|Hello everyone. In Galt Project you can use smart contracts to split and merge land plots and building areas.||Показываем экран с токенами|
+|2|In case of split operation special algorithms ensure that borders of the new land plot or building area will correspond to the old one. Let's see how it works.||Показываем экран с токенами|
+|3|||Показываем экран с токенами|
+
