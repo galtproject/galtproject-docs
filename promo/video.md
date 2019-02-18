@@ -49,7 +49,6 @@ Video sequence and text should be consistent in duration.
 |5|I need to set contour of a new land plot. I can point it on a map, or fill the coordinates. Ok, let's do that. (pause) Here I can see information about area before and after split.  ||Выбираем сплит. Выбираем новый контур, показываем верху значения площади.|
 |6|After setting the new contour i need to aprove my land plot token to smart contract by signing transaction. ||Делаем апрув.|
 |7|Now we can start split operation. During split operation land plot token is transfered to smart contract. Smart contract performs calculations, changes borders of source land plot and creates new one. ||Ничего не делаем|
-
 |8|- |-|Нажимаем сплит и отправляем транзакцию.|
 |9|To performs split operation we need to perform multiple transactions. For better user experience we will use local built-in temporary wallet. We will transfer ETH to pay for gas. Unspent ETH will be sent back. ||Показываем временный кошелек и отправляем ETH. Запускаем и показываем очередь транзакций.|
 |10|After all transaction were mined we can |
