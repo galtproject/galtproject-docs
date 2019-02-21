@@ -57,3 +57,10 @@ Video sequence and text should be consistent in duration.
 |13|Merge operation is done. You can perform same operations for building area tokens. For more information watch further videos, test sotware, read whitepaper and join us on telegram!|Операция обьединения выполнена. Эти операции так же можно применять к площадям зданий.|Показываем карту, потом облако точек, потом ссылки на группы.|
 
 
+## Key Features - Real Estate operations on Ethereum
+
+|№|English text|Russian text|Screen Action|
+|------|-------|----------|-------|
+|1|Ok, lets talk about the most interesting part - trading.|----------|Показываем окно с токенами|
+|2|In Galt Project you can trade your land or real estate for ETH, Stable Coins or any ERC20 tokens.|----------|Показываем окно с токенами|
+|2|In Galt Project you can trade your land or real estate for ETH, Stable Coins or any ERC20 tokens.|----------|Показываем окно с токенами|
