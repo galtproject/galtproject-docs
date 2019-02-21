@@ -12,7 +12,7 @@
 --->
 
 # Galt Protocol Whitepaper
-Version 0.1
+Version 0.2
 ## Abstract
 At the heart of any modern society or state lies three social contracts:
 1. A set of laws and rules, that define the relationships of members of that society.
