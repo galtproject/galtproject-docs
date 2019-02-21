@@ -82,5 +82,5 @@ Video sequence and text should be consistent in duration.
 |19|After both land plot token and ether were transfered to smart contract, both parties can confirm the deal or make a cancellation request. Cancellation requests are reviewed by the oracles community. But now everything is ok. And me and Alice confirm the deal. ||Показываем, как отправляется оплата. Показываем кнопку отмены и подтверждаем сделку обеими сторонами.|
 |20|Alice can withdraw her brand new vineyard ERC721 Token.||Показываем, как выводится токен участка.|
 |21|Аnd I can get my 1900 Ether.||Показываем, как беру оплату|
-|22|Land and real estate trading on Ethereum is super fast, secure and reliable. You can buy and sell land, houses, appartment and offices in few clicks. With reliable international custodians, you don't need to think about local laws or due diligence||ПОказываем экран токенов|
-|23|For more information watch further videos, test sotware, read whitepaper and join us on telegram! Like our video on youtube and join our channel.||Экран с токенами|
+|22|Land and real estate trading on Ethereum is super fast, secure and reliable. You can buy and sell land, houses, appartment and offices in few clicks. With reliable international custodians, you don't need to think about local laws or due diligence. ||ПОказываем экран токенов|
+|23|For more information watch further videos, test sotware, read whitepaper, join us on telegram, put likes, subscribe to the channel.||Экран с токенами|
