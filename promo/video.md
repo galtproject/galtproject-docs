@@ -62,9 +62,10 @@ Video sequence and text should be consistent in duration.
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
 |1|Ok, lets talk about the most interesting part of platform - trading.|----------|Показываем окно с токенами|
-|2|In Galt Project you can trade your land or real estate for ETH, Stable Coins or any ERC20 tokens on smart contracts.|----------|Показываем окно с токенами|
+|2|In Galt Project you can trade your land or real estate for Ether, Stable Coins or any ERC20 tokens on smart contracts.|----------|Показываем окно с токенами|
 |3|Of course if you want to buy or sell land or real estate tokens on Ethereum you need to interact with the legal systems and state institutions. |----------|Показываем окно с токенами|
-|4|We provide 3 options to do that. In First option Buyer and Seller use government agency as a notary. Government agency on the basis of a smart contract registers ownership in the national registry and approves escrow. This can be done automatically. |----------|Показываем окно с токенами|
+|4|We provide 3 options to do that. In First option Buyer and Seller use government agency as a notary. Government agency on the basis of a smart contract registers ownership in the government property registry and approves escrow. This can be done automatically. |----------|Показываем окно с токенами|
 |5|In Second option Buyer and Seller use Decentralized Custodians service. Custodians are organisations (asset management companies or Trust funds) in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also they can convert fiat income from real estate to Ether or stable coins and transfer them to token owners. |----------|Показываем окно с токенами|
-|6|In Third option Seller becomes a Custodian for Buyer. We will talk about all options in detail in further videos.|----------|Показываем окно с токенами|
-|7|I will show how i can sell my land plot or real estate token. In this case I use Castodians. |----------|Показываем окно с токенами|
+|6|In Third option Seller becomes a Custodian for Buyer. We will talk about all options in details in further videos.|----------|Показываем окно с токенами|
+|7|In this video I will show how i can sell my land plot or real estate token with Custodians service. |----------|Показываем окно с токенами|
+|8|In this video I will show how i can sell my land plot or real estate token with Custodians service. |----------|Показываем окно с токенами|
