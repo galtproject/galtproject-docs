@@ -87,10 +87,9 @@ In some cases Custodians are not necessary, because state accepts blockchain tra
 ![Custodians management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Custodians%20Management.png)
 
 ## Governance Utility Token - ERC20 GALT Token
-As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: 10% will be used as a deposit to create first Oracles, 10% will be sold on open auction and 80% will be sold by automatic marketmaking contract.
-All GALT from an open auction will be transfered to participants and all ETH will be transfered to Marketmaking contract. The Galt Project will take 1% to cover development costs. Also Galt Project will get 1% from all buy and sell operations from DEX to be able to make further development. 5% of all Protocol commission will be automaticaly transfered to DEX. Thanks to this GALT price in ETH guaranteed to grow. 
+As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: part will be used as a deposit to create first Oracles, part will take Galt Project team, part will be sold on open EOS-like auction and final part will be sold by automatic marketmaking contract, forked from Bancor.
+All GALT from an auction will be transfered to participants and all ETH will be transfered to Marketmaking contract. 
 
-Auction will start only after first version of protocol will be completely developed and fully audited.
 ![Governance ERC20 GALT Token ](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Governance%20Token%20-%20ERC20%20GALT%20Token.png)
 
 ## Operations with property
@@ -106,5 +105,3 @@ If seller and buyer want to make a fast transactions or want to stay anonimous o
 
 ## About Copyright and Software licenses
 The main purpose of Galt Protocol is to create open and reliable instrument for self-government communities of Property Owners. According to that, one of our main goals in Galt Project is to create pure community driven and open software product. For now Galt Project if fully self-funded, we have certain vision and we want to implement it. To ensure the achievement of our vision, before the launch, protocol is open-sourced, but it is and it will be our intellectual property. You need to ask us, if you want to participate or use our code. We will decide if it's possible at that moment.
-
-After the first version of protocol will be released in Ethereum Mainnet and initial Galt Auction will end, we will release all software (including front-end) under one of public licences. But before that, please, respect the time and work of others and the will of the creators!
