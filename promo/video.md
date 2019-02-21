@@ -62,7 +62,7 @@ Video sequence and text should be consistent in duration.
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
 |1|Ok, lets talk about the most interesting part of platform - trading.|----------|Показываем окно с токенами|
-|2|In Galt Project you can trade your land or real estate ERC721 token for Ether, Stable Coins or any ERC20 tokens on smart contracts.|----------|Показываем окно с токенами|
+|2|In Galt Project you can trade your land or real estate ERC721 tokens for Ether, Stable Coins or any ERC20 tokens on smart contracts.|----------|Показываем окно с токенами|
 |3|Of course if you want to buy or sell land or real estate on Ethereum you need to interact with the different legal systems and state institutions. |----------|Показываем окно с токенами|
 |4|We provide 3 options to do that. In First option Buyer and Seller use government agency as a notary. Government agency on the basis of a smart contract registers ownership in the government property registry and approves escrow. This can be done automatically. |----------|Показываем окно с токенами|
 |5|In Second option Buyer and Seller use Decentralized Custodians service. Custodians are organisations (Asset management companies or Trust funds) in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also they can convert fiat income from real estate to Ether or stable coins and transfer them to token owners. |----------|Показываем окно с токенами|
