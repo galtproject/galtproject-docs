@@ -71,7 +71,7 @@ Video sequence and text should be consistent in duration.
 |8|I have 2 Custodians for my land plot. One company is based in Switzerland and the other one in Singapore. |----------|Нажимает на каждого из кастодианов. Должны быть человеческая информация: Название, адрес, Сайт , Government Registration number. Нужно подготовить реальные данные.|
 |9|I will create a market order in token menu.|---|Нажимаем кнопку поставить на рынок.|
 |10|I need to choose Ether or any other ERC20 token as payment, selling price.....let's make it 2000 ether, and ammount of contract fee. Also I can attach any legal or commercial documents in IPFS.|---|Нажимаем кнопку поставить на рынок.|
-|11|Transaction is signed and confirmed and and we can see sales order.|---|Показываем заказ на продажу в меню|
+|11|Transaction is signed and confirmed and we can see our sale order.|---|Показываем заказ на продажу в меню|
 |12|Bob wants to buy my vineyard for Ether. He can see my land plot here. He sees price, custodians information, commercial and legal documents.||Показываем раздел покупки и наш токен. Показываем кастодианов и документы.|
 |13|Bob doesn't want to pay 2000 Ether. He thinks, that a good price is 1700. He makes a bid..... And we can see his offer here. Anytime Bob can change his bid.||Показываем, как Боб делает предложение.|
 |14|Alice is also interested in my vineyard. She is ok to pay 1800 Ether. ||Показываем, как Элис делает предложение.|
