@@ -62,10 +62,25 @@ Video sequence and text should be consistent in duration.
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
 |1|Ok, lets talk about the most interesting part of platform - trading.|----------|Показываем окно с токенами|
-|2|In Galt Project you can trade your land or real estate for Ether, Stable Coins or any ERC20 tokens on smart contracts.|----------|Показываем окно с токенами|
-|3|Of course if you want to buy or sell land or real estate tokens on Ethereum you need to interact with the legal systems and state institutions. |----------|Показываем окно с токенами|
+|2|In Galt Project you can trade your land or real estate ERC721 token for Ether, Stable Coins or any ERC20 tokens on smart contracts.|----------|Показываем окно с токенами|
+|3|Of course if you want to buy or sell land or real estate on Ethereum you need to interact with the different legal systems and state institutions. |----------|Показываем окно с токенами|
 |4|We provide 3 options to do that. In First option Buyer and Seller use government agency as a notary. Government agency on the basis of a smart contract registers ownership in the government property registry and approves escrow. This can be done automatically. |----------|Показываем окно с токенами|
-|5|In Second option Buyer and Seller use Decentralized Custodians service. Custodians are organisations (asset management companies or Trust funds) in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also they can convert fiat income from real estate to Ether or stable coins and transfer them to token owners. |----------|Показываем окно с токенами|
+|5|In Second option Buyer and Seller use Decentralized Custodians service. Custodians are organisations (Asset management companies or Trust funds) in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also they can convert fiat income from real estate to Ether or stable coins and transfer them to token owners. |----------|Показываем окно с токенами|
 |6|In Third option Seller becomes a Custodian for Buyer. We will talk about all options in details in further videos.|----------|Показываем окно с токенами|
-|7|In this video I will show how i can sell my land plot or real estate token with Custodians service. |----------|Показываем окно с токенами|
-|8|In this video I will show how i can sell my land plot or real estate token with Custodians service. |----------|Показываем окно с токенами|
+|7|In this video I will show, how i can sell my land plot or real estate token with Custodians service. I want to sell my vineyards. Absolutely like that, I can sell house, appartment or office. |----------|Показываем окно с токенами|
+|8|I have 2 Custodians here. One company is based in Switzerland and the other one in Singapore. |----------|Нажимает на каждого из кастодианов. Должны быть человеческая информация: Название, адрес, Сайт , Government Registration number. Нужно подготовить реальные данные.|
+|9|I will create a market order in token menu.|---|Нажимаем кнопку поставить на рынок.|
+|10|I need to choose Ether or any other ERC20 token as payment, selling price.....let's make it 2000 ether, and ammount of contract fee. Also I can attach any legal or commercial documents in IPFS.|---|Нажимаем кнопку поставить на рынок.|
+|11|Transaction is signed and confirmed and and we can see sales order.|---|Показываем заказ на продажу в меню|
+|12|Bob wants to buy my vineyard for Ether. He can see my land plot here. He sees price, custodians information, commercial and legal documents.||Показываем раздел покупки и наш токен. Показываем кастодианов и документы.|
+|13|Bob doesn't want to pay 2000 Ether. He thinks, that a good price is 1700. He makes a bid..... And we can see his offer here. Anytime Bob can change his bid.||Показываем, как Боб делает предложение.|
+|14|Alice is also interested in my vineyard. She is ok to pay 1800 Ether. ||Показываем, как Элис делает предложение.|
+|15|I don't like both offers, but i can make small discount. I change selling price for Alice and Bob to 1900 ether. ||Показываем, как я меняю цену для обоих предложений.|
+|16|Now Alice is ok with my price. She changes her offer.||Показываем, как Алиса меняет цену.|
+|17|When ask and bid prices are equal, I can select her offer and transfer my land plot token to escrow contract. Now I can withdraw my token back. But if Alice makes her payment, I wont be able to do that.||Принимаем предложение и отправляем токен на контракт.|
+|18|Alice sends her payment.||Показываем, как отправляется оплата.|
+|19|After both land plot token and ether were transfered to smart contract, both parties can confirm the deal or make a cancellation request. Cancellation requests are reviewed by the oracles community. But now everything is ok. And me and Alice confirm the deal. ||Показываем, как отправляется оплата. Показываем кнопку отмены и подтверждаем сделку обеими сторонами.|
+|20|Alice can withdraw her brand new vineyard ERC721 Token.||Показываем, как выводится токен участка.|
+|21|Аnd I can get my 1900 Ether.||Показываем, как беру оплату|
+|22|Land and real estate trading on Ethereum is super fast, secure and reliable. You can buy and sell land, houses, appartment and offices in few clicks. With reliable international custodians, you don't need to think about local laws or due diligence||ПОказываем экран токенов|
+|23|For more information watch further videos, test sotware, read whitepaper and join us on telegram! Like our video on youtube and join our channel.||Экран с токенами|
