@@ -8,7 +8,7 @@
 
 | Service| Action | ETH| 	GALT (ERC20)| 	Any ERC20 |
 | -- | -- | -- | -- | -- |
-| @fund/FundFactory	| Create a new fund fee	| + / 100%	| + / 100%	| 
+| @fund-basic/FundFactory	| Create a new fund fee	| + / 100%	| + / 100%	| 
 | @core/MultiSigFactory	| Create a new multiSig fee	| + / 100%	| + / 100%	| 
 | @core/SpaceLockerFactory	| Create a new locker fee	| + / 100%	| + / 100%	| 
 | @core/Applications	| Application submission fee	| + / custom	| + / custom	| 
@@ -25,3 +25,5 @@
 | @core/OracleStakeAccounting	| Currency for oracle stakes	| 	+	| | | 
 | @core/ArbitratorStakeAccounting	| Currency for arbitrator stakes | +	| | | 
 | @market/PlotEscrow	| Escrow currency	| +	| +	| + | 
+| @fund-basic/OneOffFee	| Fee currency	| -	| -	| - |
+| @fund-basic/RegularFee | Fee currency | -	| -	| - |
