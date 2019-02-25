@@ -20,10 +20,10 @@
 
 | Contract	| Purpose	| ETH	| GALT (ERC20)	| Any ERC20 |
 | -- | -- | -- | -- | -- |
-| @core/ClaimManager	| Amount claimed by an applicant	| 	+	| | | 
-| @core/ClaimManager	| Oracle/Arbitrator fee proposed by an arbitrator		| +	| | | 
-| @core/OracleStakeAccounting	| Currency for oracle stakes	| 	+	| | | 
-| @core/ArbitratorStakeAccounting	| Currency for arbitrator stakes | +	| | | 
+| @core/ClaimManager	| Amount claimed by an applicant	| 		| + | | 
+| @core/ClaimManager	| Oracle/Arbitrator fee proposed by an arbitrator		| 	| +| | 
+| @core/OracleStakeAccounting	| Currency for oracle stakes	| 		| +| | 
+| @core/ArbitratorStakeAccounting	| Currency for arbitrator stakes | 	|+ | | 
 | @market/PlotEscrow	| Escrow currency	| +	| +	| + | 
 | @fund-basic/FineMemberProposalManager	| Fee currency	| -	| +	| - |
 | @fund-basic/ManageFeeProposalManager	| Currency for Fee contract | -	| -	| - |
