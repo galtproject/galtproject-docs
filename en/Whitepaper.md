@@ -103,6 +103,7 @@ All GALT from an auction will be transfered to participants and all ETH will be 
 
 ## Operations with property
 With a consistent registry of property rights a various operations can be performed like trading, loans, CDP's creation and others. The guarantor of rights in such transactions can be the State directly (if a particular state accepts such transactions), international nominal owners - Custodian (and a State which they interact with) or Property owners self-governance system (if there is no State).
+![Real Estate operations on Ethereum ](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-07.png)
 
 ## Property trading with Custodians
 If seller and buyer want to make a fast transactions or want to stay anonimous or if the particular State doesn't accepts blockchain transaction, they can 
