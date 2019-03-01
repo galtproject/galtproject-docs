@@ -14,7 +14,9 @@
 # Galt Protocol Whitepaper
 Version 0.2
 
-Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all. A fair justice system will ensure that both the rich and the poor have property rights. – Adam Smith, Wealth of Nations, Book V, Chapter I, Part II On the Expence of Justice
+Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all. A fair justice system will ensure that both the rich and the poor have property rights. 
+
+– Adam Smith, Wealth of Nations, Book V, Chapter I, Part II On the Expence of Justice
 
 
 
