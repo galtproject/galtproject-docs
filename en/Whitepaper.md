@@ -13,6 +13,11 @@
 
 # Galt Protocol Whitepaper
 Version 0.2
+
+“Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all.”
+
+― Adam Smith
+
 ## Abstract
 At the heart of any modern society or state lies three social contracts:
 1. A set of laws and rules, that define the relationships of members of that society.
