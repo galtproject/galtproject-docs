@@ -91,16 +91,20 @@ Video sequence and text should be consistent in duration.
 
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
-|1|In Galt Project you can create Ethereum ERC721 Token for your land plot or real estate. Token represents your ownership record, which is impossible to fake. You can use your Token for commercial purposes or for self-governance between owners.  Of course you can not create tokens by yourself. Someone should verify geographic coordinates, additional information and your rights. ||Показываем иллюстрацию|
-|2|This verification is made by a decentralized community of Cadastral engineers and Notaries. We call them Oracles. They check geographical coordinates and property rights in your jurisdiction for a fee. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.||Показываем иллюстрацию|
-|3|There is a reliable governance mechanism for the prevention and correction of errors and frauds. We will talk about it in details in further Videos. ||То же самое|
-|4|In this video I will show you, how I can create token for my land plot and house ||Показываем деревню в облаке точек|
+|1|In Galt Project you can create Ethereum ERC721 Token for your land plot or real estate. Token represents your ownership record, which is impossible to fake. Tokens are used for commercial purposes or for self-governance between owners.  You can not create tokens by yourself. Geographic coordinates, additional information and your rights should be verified. ||Показываем иллюстрацию|
+|2|Verification is made by a decentralized community of Cadastral engineers and Notaries. We call them Oracles. They check geographical coordinates and property rights in your jurisdiction for a fee. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.||Показываем иллюстрацию|
+|3|There is a reliable governance mechanism to prevent and correct errors and frauds. We will talk about it in details in further Videos. ||То же самое|
+|4|In this video I create token for my land plot, house and apartment. ||Показываем деревню в облаке точек|
 |5|I have a house with land near vineyards from the previous videos. It's very nice. You can see it in Point Cloud View and on the map.||Показываем токен виноградника. Потом переводим на участок с домом, потом переключаемся на вида с обычной картой.|
-|6|To create a token a I need to go to New Application page. Here I need to enter my cadastral number, chose token type:  (pause) It's a Land plot. Enter point cloud link in IPFS. It was the same for land plot with vineyard. I can provide additional notes, for example if i have any burden. ||Вводим последовательно данные|
-|7|I need to enter coordinates of the vertices of my plot as Latitude and Longitude or Geohash. I can point them on the map or enter in field. Let's do that. I will paste latitude and longitude and Altitude in meters above sea level for each point.||Вставляем координаты.|
-|8|Now I need to send coordinates to Ethereum smart contract. I sign and send transaction to blockchain. Coordinates will be used to calculate the land area and the fee for creating a token. ||Нажимаем кнопку кеширования координат.|
-|9|Land area and fee were calculated in smart contract. Oracles can set prices above the minimum fee. You can contact local Oracles to understand the pricing or you can look last approved applications in your area. ||Нажимаем кнопку кеширования координат.|
-|10|I will change fee to 1 Ether and push "Send application for review" button.||Нажимаем кнопку|
-|11|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blochchain. |Заполняем данные|
-|12|Ok, new applications was created. We can see it here. Status is "Submitted for review". ||Показываем заявку, выделяем статус.|
-|13||||
+|6|To create a token a I need to go to New Application page. Here I need to enter my cadastral number, chose token type:  (pause) It's a Land plot. Enter point cloud link in IPFS. It was the same for land plot with vineyard. I can provide additional notes, for example if i have any burdens. ||Вводим последовательно данные|
+|7|I need to enter coordinates of the vertices of my plot as Latitude and Longitude or Geohash. I can point them on the map or enter in fields. Let's do that. I will paste Latitude, Longitude and Altitude for each point.||Вставляем координаты.|
+|8|Now I need to write coordinates in Ethereum smart contract. I will sign and send transaction to blockchain. Coordinates will be used to calculate the land area and the token creation fee. ||Нажимаем кнопку кеширования координат.|
+|9|Land area and fee were calculated in smart contract. Oracles can set prices above this minimum fee. You can contact local Oracles to understand the pricing or you can look last approved applications in your area. ||Нажимаем кнопку кеширования координат.|
+|10|We will make a more convenient user interface in future. I promise. ||То же самое|
+|11|I will change fee to 1 Ether and push "Send application for review" button.||Нажимаем кнопку|
+|12|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blochchain. I'm signing and sending transaction with payment. |Заполняем данные,  нажимаем кнопку.|
+|13|Ok, new applications was created. We can see it here with status "Submitted for review". ||Показываем заявку, выделяем статус.|
+|14|Oracles have different types: Cadastral engineers, Notaries, Auditors, Custodians etc. Each role performs specific operations.||Переключаем на Оракла.|
+|15|Cadastral engineers check and approve coordinates for Tokens. Our Cadastral engineer can see all apllications in "Application for review page". He sees all necessary information from my application, roles fee, review status for each role and land plot on the map. |||
+|16|He takes my aplication, chooses his role, signs and sends transaction to blockchain. Now we can see information about him in application. ||Выбираем роль и отправляет транзакцию.|
+|17|Notaries check property rights. Notary takes my application too. ||Показываем, как он берет заявку.|
