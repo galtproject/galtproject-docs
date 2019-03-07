@@ -112,6 +112,6 @@ Video sequence and text should be consistent in duration.
 |19|I edit point coordinates and return application for review.|Редактируем точку. Отправляет заявку.|
 |20|Cadastral engineer can approve application. He enters my ID number and Full Name. Application checks informations in smart contract. If it's correct, he will be able to approve application. |||Показываем нажатие кнопки и ввод сначала неправильных, а потом правильных данных.|
 |21|Same operations performs Notary.||Показываем, как нотариус принимает заявку.|
-|22|After Cadastral engineer and Notary both approved my application, I can withdraw land plot token and see it in "My tokens" page ||Забираем токен, показываем на странице токенов. Показываем на карте и в облаке точек.|
+|22|After Cadastral engineer and Notary both approved my application, I can withdraw land plot token and see it in "My tokens" page. ||Забираем токен, показываем на странице токенов. Показываем на карте и в облаке точек.|
 |23|Cadastral engineer and Notary can get their payment.||Показываем забор оплаты с изменением балансов.|
 |24|Part of the fee goes to Platform commision. We we talk about that later.||Ничего не делаем|.
