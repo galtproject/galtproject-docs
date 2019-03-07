@@ -91,9 +91,16 @@ Video sequence and text should be consistent in duration.
 
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
-|1|In Galt Project you can create Ethereum ERC721 Token for your land plot or real estate. Token represents your ownership record, which is impossible to fake. You can use your Token for commercial purposes or for self-governance between owners.  Of course you can't create it only by yourself. Someone should verify geographic coordinates, additional information and your rights. ||Показываем экран токенов и облако точек деревни|
-|2|This verification is made by a decentralized community of Cadastral engineers and Notaries. We call them Oracles. They check geographical coordinates and property rights in your jurisdiction for a fee. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.||Показываем экран токенов и облако точек деревни|
-|3|There is a reliable mechanism for the prevention and correction of errors and frauds, made by Oracles. We will talk about it in details in further Videos. ||То же самое|
+|1|In Galt Project you can create Ethereum ERC721 Token for your land plot or real estate. Token represents your ownership record, which is impossible to fake. You can use your Token for commercial purposes or for self-governance between owners.  Of course you can not create tokens by yourself. Someone should verify geographic coordinates, additional information and your rights. ||Показываем иллюстрацию|
+|2|This verification is made by a decentralized community of Cadastral engineers and Notaries. We call them Oracles. They check geographical coordinates and property rights in your jurisdiction for a fee. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.||Показываем иллюстрацию|
+|3|There is a reliable governance mechanism for the prevention and correction of errors and frauds. We will talk about it in details in further Videos. ||То же самое|
 |4|In this video I will show you, how I can create token for my land plot and house ||Показываем деревню в облаке точек|
 |5|I have a house with land near vineyards from the previous videos. It's very nice. You can see it in Point Cloud View and on the map.||Показываем токен виноградника. Потом переводим на участок с домом, потом переключаемся на вида с обычной картой.|
-|6||||
+|6|To create a token a I need to go to New Application page. Here I need to enter my cadastral number, chose token type:  (pause) It's a Land plot. Enter point cloud link in IPFS. It was the same for land plot with vineyard. I can provide additional notes, for example if i have any burden. ||Вводим последовательно данные|
+|7|I need to enter coordinates of the vertices of my plot as Latitude and Longitude or Geohash. I can point them on the map or enter in field. Let's do that. I will paste latitude and longitude and Altitude in meters above sea level for each point.||Вставляем координаты.|
+|8|Now I need to send coordinates to Ethereum smart contract. I sign and send transaction to blockchain. Coordinates will be used to calculate the land area and the fee for creating a token. ||Нажимаем кнопку кеширования координат.|
+|9|Land area and fee were calculated in smart contract. Oracles can set prices above the minimum fee. You can contact local Oracles to understand the pricing or you can look last approved applications in your area. ||Нажимаем кнопку кеширования координат.|
+|10|I will change fee to 1 Ether and push "Send application for review" button.||Нажимаем кнопку|
+|11|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blochchain. |Заполняем данные|
+|12|Ok, new applications was created. We can see it here. Status is "Submitted for review". ||Показываем заявку, выделяем статус.|
+|13||||
