@@ -85,3 +85,15 @@ Video sequence and text should be consistent in duration.
 |22||Логика выполнения смарт контракта может быть абсолютно любой и оптимизирована под различные случаи ||
 |23|Land and real estate trading on Ethereum is super fast, secure and reliable. You can buy and sell land, houses, appartment and offices in few clicks. With reliable international custodians, you don't need to think about local laws or due diligence. |Торговля землей и недвижимостью на блокчейне Ethereum быстрая, безопасная и надежная. Вы можете покупать и продавать землю, дома, квартиры, офисы, торговую недвижимость в несколько кликов при помоши защищенных криптографией смарт контрактов. Их нельзя подделать или обмануть. С надежными международными Кастодианами вам не нужно думать о местных законах или дью-ди́лидженс.|ПОказываем экран токенов|
 |24|For more information watch further videos, test sotware, read whitepaper, join us on telegram, put likes, subscribe to the channel.|Для того, чтобы узнать больше - смотрите дальнейшие видео, тестируйте платформу, читайте вайтпейпер и присоединяйтесь к нам в телеграм канале! Ставьте лайки к видео и подписывайтесь на наш канал на Youtube.|Экран с токенами|
+
+
+## Key Features - A decentralized community of Cadastral engineers and Notaries
+
+|№|English text|Russian text|Screen Action|
+|------|-------|----------|-------|
+|1|In Galt Project you can create Ethereum ERC721 Token for your land plot or real estate. Token represents your ownership record, which is impossible to fake. You can use your Token for commercial purposes or for self-governance between owners.  Of course you can't create it only by yourself. Someone should verify geographic coordinates, additional information and your rights. ||Показываем экран токенов и облако точек деревни|
+|2|This verification is made by a decentralized community of Cadastral engineers and Notaries. We call them Oracles. They check geographical coordinates and property rights in your jurisdiction for a fee. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.||Показываем экран токенов и облако точек деревни|
+|3|There is a reliable mechanism for the prevention and correction of errors and frauds, made by Oracles. We will talk about it in details in further Videos. ||То же самое|
+|4|In this video I will show you, how I can create token for my land plot and house ||Показываем деревню в облаке точек|
+|5|I have a house with land near vineyards from the previous videos. It's very nice. You can see it in Point Cloud View and on the map.||Показываем токен виноградника. Потом переводим на участок с домом, потом переключаемся на вида с обычной картой.|
+|6||||
