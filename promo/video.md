@@ -109,7 +109,7 @@ Video sequence and text should be consistent in duration.
 |16|He takes my aplication, chooses his role, signs and sends transaction to blockchain. Now we can see information about him in my application. ||Выбираем роль и отправляет транзакцию.|
 |17|Notaries check property rights. Local Notary takes my application too. His role status changed. ||Показываем, как он берет заявку. Меняется статус роли и появляется информация. Наводим не нее.|
 |18|Cadastral engineer checked coordinates and found a mistake in one point. He returns the application with note about the problem. This informations is stored on blockchain. ||Возвращаем заявку|
-|19|I edit point coordinates and return application for review.|Редактируем точку. Отправляет заявку.|
+|19|I edit point coordinates and return application for review.||Редактируем точку. Отправляет заявку.|
 |20|Cadastral engineer can approve application. He enters my ID number and Full Name. Application checks informations in smart contract. If it's correct, he will be able to approve application. |||Показываем нажатие кнопки и ввод сначала неправильных, а потом правильных данных.|
 |21|Same operations performs Notary.||Показываем, как нотариус принимает заявку.|
 |22|After Cadastral engineer and Notary both approved my application, I can withdraw land plot token and see it in "My tokens" page. ||Забираем токен, показываем на странице токенов. Показываем на карте и в облаке точек.|
