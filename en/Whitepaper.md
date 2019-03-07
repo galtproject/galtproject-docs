@@ -14,13 +14,17 @@
 # Galt Protocol Whitepaper
 Version 0.2
 
-Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all. 
+"Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all. 
 
-(A fair justice system will ensure that both the rich and the poor have property rights.)
+(A fair governance and justice systems will ensure that both the rich and the poor have property rights.)"
 
 – Adam Smith, Wealth of Nations, Book V, Chapter I, Part II On the Expence of Justice
 
+“Galt Project was founded in 2018 as an organization, which invests crypto assets and develops technological projects to change the way people live, manage their property and collaborate to each other for better. As an early blockchain adopters, We truly believe, that this technology will revolutionary change global society in technical, social and economic way, will erase borders, inequality and exploitation.
 
+Control your property, control your money, control power institution, control your data."
+
+Founders.
 
 ## Abstract
 At the heart of any modern society or state lies three social contracts:
@@ -97,8 +101,8 @@ Oracles have deposits in GALT. Deposits also can be used as a Voting variable. V
 ![Arbitrators Voting](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Arbitrators%20Voting.png)
 
 ### Custodians
-For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians here perform the role of nominal owners for property. It's a company or a public person with good reputation and his own assets. Custodians hold property until SPACE Token holder will come and ask to register property rights in the state register to him. Custodians get a reward from token holders for interaction with government agencies and like other Oracles, deposit pledges in GALT. They act like a supranational property guarantor.
-To reduce the risks of fraud each property is divided between 5-7 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
+For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are asset management companies, law firms or trust funds in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
+To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
 
