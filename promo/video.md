@@ -102,7 +102,7 @@ Video sequence and text should be consistent in duration.
 |9|Land area and fee were calculated in smart contract. Oracles can set prices above this minimum fee. You can contact local Oracles to understand the pricing or you can look last approved applications in your area. ||Нажимаем кнопку кеширования координат.|
 |10|We will make a more convenient user interface in future for that. I promise. ||То же самое|
 |11|I will change fee to 1 Ether and push "Send application for review" button.||Нажимаем кнопку|
-|12|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blochchain. I'm signing and sending transaction with payment. |Заполняем данные,  нажимаем кнопку.|
+|12|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blochchain. I'm signing and sending transaction with payment. ||Заполняем данные,  нажимаем кнопку.|
 |13|Ok, new applications was created. We can see it here with status "Submitted for review". ||Показываем заявку, выделяем статус.|
 |14|Oracles have different types: Cadastral engineers, Notaries, Auditors, Custodians etc. Each role performs specific operations.||Переключаем на Оракла.|
 |15|Cadastral engineers check and approve coordinates for Tokens. Our Cadastral engineer can see all apllications in "Application for review page". He sees all necessary information from my application, roles fee, review status for each role and land plot on the map. |||
