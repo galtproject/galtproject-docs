@@ -101,7 +101,7 @@ Video sequence and text should be consistent in duration.
 |8|Now I need to write coordinates to Ethereum smart contract. I will sign and send a transaction to the blockchain. Coordinates will be used to calculate the land area and the token creation fee. ||Нажимаем кнопку кеширования координат.|
 |9|Land area and fee were calculated in a smart contract. Oracles can set prices above this minimum fee. You can contact local Oracles to understand the pricing or you can look last approved applications in your area. ||Нажимаем кнопку кеширования координат.|
 |10|We will make a more convenient user interface in future for that. ||То же самое|
-|11|I'll change fee to 1 Ether for faster review and send application.||Нажимаем кнопку|
+|11|I change fee to 1 Ether for faster review and send application.||Нажимаем кнопку|
 |12|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blockchain. I'm signing and sending transaction with payment. ||Заполняем данные,  нажимаем кнопку.|
 |13|Ok, new applications was created. We can see it here. ||Показываем заявку, выделяем статус.|
 |14|Oracles have different types: Cadastral engineers, Notaries, Auditors, Custodians, Appraisers. Each role performs specific operations.||Переключаем на Оракла.|
