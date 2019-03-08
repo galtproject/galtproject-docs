@@ -101,7 +101,7 @@ Video sequence and text should be consistent in duration.
 |8|Now I need to write coordinates to Ethereum smart contract. I will sign and send a transaction to the blockchain. Coordinates will be used to calculate the land area and the token creation fee. ||Нажимаем кнопку кеширования координат.|
 |9|Land area and fee were calculated in a smart contract. Oracles can set prices above this minimum fee. You can contact local Oracles to understand the pricing or you can look last approved applications in your area. ||Нажимаем кнопку кеширования координат.|
 |10|We will make a more convenient user interface in future for that. ||То же самое|
-|11|I'll change fee to 1 Ether and send application for review.||Нажимаем кнопку|
+|11|I'll change fee to 1 Ether for faster review and send application.||Нажимаем кнопку|
 |12|I need to enter my identification information: passport or ID and Full Name. This information will be encrypted and written to blockchain. I'm signing and sending transaction with payment. ||Заполняем данные,  нажимаем кнопку.|
 |13|Ok, new applications was created. We can see it here. ||Показываем заявку, выделяем статус.|
 |14|Oracles have different types: Cadastral engineers, Notaries, Auditors, Custodians, Appraisers. Each role performs specific operations.||Переключаем на Оракла.|
@@ -109,7 +109,7 @@ Video sequence and text should be consistent in duration.
 |16|He takes my application, chooses his role, signs and sends a transaction to the blockchain. Now we can see the information about him in my application. ||Выбираем роль и отправляет транзакцию.|
 |17|Notaries check property rights. Local Notary takes my application too. His role status changed. ||Показываем, как он берет заявку. Меняется статус роли и появляется информация. Наводим не нее.|
 |18|Cadastral engineer checked coordinates of my land plot in person and found a mistake in one point. He returns the application with a note about the problem.||Возвращаем заявку c надпись о том, что координата такой то точки неправильная, а правильная такая.|
-|19|I edit point coordinates and return application for review.||Редактируем точку. Отправляет заявку.|
+|19|I check status of my application in My Applications page, see that it was returned due to an error. I change invalid point coordinates and return application for review.||Редактируем точку. Отправляет заявку.|
 |20|Cadastral engineer can approve application. He enters my ID number and Full Name. Application checks informations in smart contract. If it's correct, he will be able to approve application. |||Показываем нажатие кнопки и ввод сначала неправильных, а потом правильных данных.|
 |21|Same operations perform Notary. He checks property records in a government registry and my identity using cadastral number, coordinates, and my passport.||Показываем, как нотариус принимает заявку.|
 |22|After Cadastral engineer and Notary, both approved my application, I can withdraw the land plot token and see it in "My tokens" page. ||Забираем токен, показываем на странице токенов. Показываем на карте и в облаке точек.|
