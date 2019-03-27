@@ -119,8 +119,7 @@ With a consistent registry of property rights a various operations can be perfor
 ![Real Estate operations on Ethereum ](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-07.png)
 
 ## Property trading with Custodians
-It's very important to be able to perform fast international tranding transactions with land and real estate tokens. The easiest way is to use Custodians service. Custodians are asset management companies, law firms or trust funds in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners.
-To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover. 
+It's very important to be able to perform fast international tranding transactions with land and real estate tokens. The easiest way is to use Custodians service. 
 If Seller wants to sell his token, he needs to create a market order in smart contract. Buyer can make his offer. When buy and sell price are equal, seller can transfer token to escrow smart contract and buyer can transfer Ether or any other ERC20 tokens, including Stable Coins.
 Both parties can withdraw their tokens only if they will confirm the deal and if land and real estate token have one or more Custodians. If there are no Custodian for token, Seller should register them, sign all necessary legal agreements and transfer
 land or real estate to Custodian. After that both parties can confirm the deal and withdraw tokens.
@@ -130,6 +129,7 @@ If at any stage of the deal buyer or seller wants to cancel it. He can make a ca
 ![Trading with Custodians](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20Without%20State%20Registration.png)
 
 ## Property trading with State registration
+In this case Galt Protocol should be integrated with Government property registry. After both seller's and buyer's tokens were transfered to escrow contract, state representetive (notary, judge or state registrator) registers deal in government registry. After property rights were transefered from buyer to seller, he confirms the deal in smart contract.  
 
 ![Trading with State](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20With%20State%20Registration.png)
 
