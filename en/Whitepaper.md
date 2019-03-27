@@ -119,7 +119,8 @@ With a consistent registry of property rights a various operations can be perfor
 ![Real Estate operations on Ethereum ](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-07.png)
 
 ## Property trading with Custodians
-It's very important to be able to perform fast international tranding transactions with land and real estate tokens. The easiest way is to use Custodians service. If Seller wants 
+It's very important to be able to perform fast international tranding transactions with land and real estate tokens. The easiest way is to use Custodians service. 
+If Seller wants to sell his token, he needs to create a market order in smart contract. Buyer can make his offer. When buy and sell price are equal, seller can tranfser token to escrow smart contract and buyer can transfer Ether or any other ERC20 tokens, including Stable Coins.
 ![Trading with Custodians](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20Without%20State%20Registration.png)
 
 ## Property trading with State registration
