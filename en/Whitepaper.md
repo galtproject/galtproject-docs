@@ -133,5 +133,7 @@ In this case Galt Protocol should be integrated with Government property registr
 
 ![Trading with State](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20With%20State%20Registration.png)
 
+## Communities of Property Owners
+
 ## Copyright and Software licenses
 The main purpose of Galt Protocol is to create open and reliable instrument for self-government communities of Property Owners. According to that, one of our main goals in Galt Project is to create pure community driven and open software product. For now Galt Project if fully self-funded, we have certain vision and we want to implement it. To ensure the achievement of our vision, before the launch, protocol is open-sourced, but it is and it will be our intellectual property. You need to ask us, if you want to participate or use our code. We will decide if it's possible at that moment.
