@@ -131,3 +131,12 @@ Video sequence and text should be consistent in duration.
 |4|In this video I will create tokens for my land plot, house, apartment and commercial warehouse. ||Показываем деревню в облаке точек|
 |28/2|I have a warehouse in the city. I will create a token for the whole building. I chose "Pre-defined real estate tokens: Whole Building" in the menu, enter building address, building area, and coordinates of the first floor with zero height above ground.||Показываем|
 |29| All applications were approved. Now I have five land and real estate tokens. I can use them for commercial purposes or create a self-governance with other owners. ||Показываем 5 токенов|
+
+
+### Changes
+
+|№|To do|
+|------|-------|
+|1|Обрезать паузу 1:03-1:07|
+|1|Ускорить 3:06-3:14. Слишком медленно.|
+|1|3:29 очень быстро. Нормально показать заявку. Взятие заявки скомкано. все мелькает. Вообще дорожка не соответвует.|
