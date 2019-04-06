@@ -55,10 +55,18 @@ mapping(bytes32 => AddressSet) registry;
 	* [PlotManager] <=> [SplitMerge]
 	* [PlotClarificationManager] <=> [SplitMerge]
 	* [ModifySpaceManager] <=> [SplitMerge]
-* SPACE_REPUTATION (Information about locked space reputation)
+* SPACE_REPUTATION_NOTIFIER (Notifies multiSig-level contract about lock/revoke reputation changes)
 	* [SpaceRA] <=> [Arbitration/DelegateSpaceReputation]
-* GALT_REPUTATION (Information about locked space reputation)
+* GALT_REPUTATION_NOTIFIER (Notifies multiSig-level contract about lock/revoke reputation changes)
 	* [GaltRA] <=> [Arbitration/DelegateGaltReputation]
+* MULTI_SIG_REGISTRAR
+	* [MultiSigFactory] <=> [MultiSigRegistry]
+* SPACE_CUSTODIAN_REGISTRAR
+	* [PlotCustodianManager] <=> [SpaceCustodianRegistry]
+* SPACE_LOCKER_REGISTRAR
+	* [SpaceLockerFactory] <=> [SpaceLockerRegistry]
+* GALT_LOCKER_REGISTRAR
+	* [GaltLockerFactory] <=> [GaltLockerRegistry]
 
 ## Управление правами в других проектах.
 Многим проектам не требуется комплексное управление правами и они используют просто dependency injection двух типов:
