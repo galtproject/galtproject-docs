@@ -21,7 +21,7 @@
 Минусы:
 * Необходимо задавать роли в каждом контракте. В случае с контрактами мультисига, фондов, локеров и т.п. Например, в случае изменения контракта ClaimManager, кто-то должен бдует в каждом под-контракте мультисига поменять адрес этого контракта для соответствующей роли. Owner не будет этим заниматься точно, особенно, когда это будет контракт голосования. Голосованиям самого мультисига это право предоставлять так же сомнительно.
 
-### Центарлизованные варианты
+### Централизованные варианты
 #### 3. Централизованный реестр контрактов.
 Имеем глобальный контракт GGR, каждый контракт числится в нем по своему ключу:
 ```solidity
@@ -30,7 +30,7 @@ mapping(bytes32 => address) registry;
 ```
 
 
-#### 4. Центарализованный реестр ролей.
+#### 4. Централизованный реестр ролей.
 Имеем глобальный контракт ACL, адреса назназначаются на конкретные роли. Один контракт может иметь >=0 ролей.
 
 ```solidity
@@ -43,30 +43,30 @@ mapping(bytes32 => AddressSet) registry;
 ### Реестр ролей
 
 * ARBITRATION_STAKE_SLASHER
-	* [ClaimManager] <=> [Arbitration/ArbitratorStakeAccounting]
+	* [ClaimManager] => [Arbitration/ArbitratorStakeAccounting]
 * ORACLE_STAKE_SLASHER
-	* [ClaimManager] <=> [Arbitration/OracleStakesAccounting]
+	* [ClaimManager] => [Arbitration/OracleStakesAccounting]
 * ORACLE_MODIFIER (currently Oracles contract resides at global-level, but it will be moved to Arbitration level later)
-	* [NewOracleManager] <=> [Arbitration/Oracles]
-	* [UpdateOracleManager] <=> [Arbitration/Oracles]
+	* [NewOracleManager] => [Arbitration/Oracles]
+	* [UpdateOracleManager] => [Arbitration/Oracles]
 * SPACE_TOKEN_MINTER
-	* [SplitMerge] <=> [SpaceToken]
+	* [SplitMerge] => [SpaceToken]
 * GEO_DATA_MANAGER
-	* [PlotManager] <=> [SplitMerge]
-	* [PlotClarificationManager] <=> [SplitMerge]
-	* [ModifySpaceManager] <=> [SplitMerge]
+	* [PlotManager] => [SplitMerge]
+	* [PlotClarificationManager] => [SplitMerge]
+	* [ModifySpaceManager] => [SplitMerge]
 * SPACE_REPUTATION_NOTIFIER (Notifies multiSig-level contract about lock/revoke reputation changes)
-	* [SpaceRA] <=> [Arbitration/DelegateSpaceReputation]
+	* [SpaceRA] => [Arbitration/DelegateSpaceReputation]
 * GALT_REPUTATION_NOTIFIER (Notifies multiSig-level contract about lock/revoke reputation changes)
-	* [GaltRA] <=> [Arbitration/DelegateGaltReputation]
+	* [GaltRA] => [Arbitration/DelegateGaltReputation]
 * MULTI_SIG_REGISTRAR
-	* [MultiSigFactory] <=> [MultiSigRegistry]
+	* [MultiSigFactory] => [MultiSigRegistry]
 * SPACE_CUSTODIAN_REGISTRAR
-	* [PlotCustodianManager] <=> [SpaceCustodianRegistry]
+	* [PlotCustodianManager] => [SpaceCustodianRegistry]
 * SPACE_LOCKER_REGISTRAR
-	* [SpaceLockerFactory] <=> [SpaceLockerRegistry]
+	* [SpaceLockerFactory] => [SpaceLockerRegistry]
 * GALT_LOCKER_REGISTRAR
-	* [GaltLockerFactory] <=> [GaltLockerRegistry]
+	* [GaltLockerFactory] => [GaltLockerRegistry]
 
 ## Управление правами в других проектах.
 Многим проектам не требуется комплексное управление правами и они используют просто dependency injection двух типов:
