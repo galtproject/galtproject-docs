@@ -26,7 +26,5 @@
 | @core/OracleStakeAccounting	| Currency for oracle stakes	| 		| +| | 
 | @core/ArbitratorStakeAccounting	| Currency for arbitrator stakes | 	|+ | | 
 | @market/PlotEscrow	| Escrow currency	| +	| +	| + | 
-| @fund-basic/FineMemberProposalManager	| Fee currency	| -	| +	| - |
-| @fund-basic/ManageFeeProposalManager	| Currency for Fee contract | -	| -	| - |
-| @fund-basic/OneOffFee	| Fee currency	| -	| -	| - |
-| @fund-basic/RegularFee | Fee currency | -	| -	| - |
+| @fund-basic/FineMemberProposalManager	| Fee currency	| +	| +	| + |
+| @fund-basic/RegularFee | Fee currency | +	| +	| + |
