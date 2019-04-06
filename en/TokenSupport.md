@@ -8,9 +8,10 @@
 
 | Service| Action | ETH| 	GALT (ERC20)| 	Any ERC20 |
 | -- | -- | -- | -- | -- |
-| @fund-basic/FundFactory	| Create a new fund fee	| + / 100%	| + / 100%	| 
-| @core/MultiSigFactory	| Create a new multiSig fee	| + / 100%	| + / 100%	| 
-| @core/SpaceLockerFactory	| Create a new locker fee	| + / 100%	| + / 100%	| 
+| @fund-basic/FundFactory	| Create a new fund fee	| - / 100%	| + / 100%	| 
+| @core/MultiSigFactory	| Create a new multiSig fee	| - / 100%	| + / 100%	| 
+| @core/SpaceLockerFactory	| Create a new locker fee	| - / 100%	| + / 100%	| 
+| @core/GaltLockerFactory	| Create a new locker fee	| - / 100%	| + / 100%	| 
 | @core/Applications	| Application submission fee	| + / custom	| + / custom	| 
 | @market/PlotEscrow	| Application submission fee	| + / custom	| + / custom	| 
 				
