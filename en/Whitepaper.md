@@ -61,11 +61,11 @@ The core entity of protocol is a ERC721 standart Ethereum token. Any property ow
 Each Token cointains geospatial data and represents particular land plot, part of the building, whole building or room. 
 ![Consistent Geospatial Registry](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-01.png)
 
-There are fout types of tokens:
+There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate in metres above sea level. All this information is stored on Ethereum blockchain;
 - building areas tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Unlike Land plot tokens, Building area tokens store Altitude coordinate as a Height above ground in meters;
-- pre-defined real-estate tokens: Room - sometimes it's not necessary to store information about precise coordinates for part of the building. In that case it's enought to store building address and appartment number or any other identification data;
-- pre-defined real-estate tokens: Whole Building - represents whole bulding and contains it's geographical coordinates.
+- pre-defined real-estate tokens: Room/Apartment - represents one or several rooms, apartment. Contains geographical coordinates of the bulding, address, unique identification number;
+- pre-defined real-estate tokens: Whole Building - represents whole bulding and contains it's geographical coordinates and address.
 
 Token Owner can split and merge that geospatial data in the original boundaries without a third party. But if Owner want's to change original boundaries he must use the Oracles service. In both cases all changes to geospatial data can be made only by token owner himself.
 
