@@ -27,6 +27,11 @@ Control your property, control your money, control power institution, control yo
 Founders.
 
 ## Abstract
+
+Galt Project is international decentralized land and real estate property registry and self-governance protocol built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a centralized community of property owners, cadastral engineers, notaries, castodians, using smart contracts. 
+Property records creation, resolution of disputes between owners, trading, title insuranse are performed on smart contracts. Also property owners can unite in communities for voting, fundraising and managing common property. 
+
+## Introduction
 At the heart of any modern society or state lies three social contracts:
 1. A set of laws and rules, that define the relationships of members of that society.
 2. Private property and the procedure for its accounting.
