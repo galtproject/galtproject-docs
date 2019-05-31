@@ -140,3 +140,16 @@ Video sequence and text should be consistent in duration.
 |1|Обрезать паузу 1:03-1:07|
 |1|Ускорить 3:06-3:14. Слишком медленно.|
 |1|3:29 очень быстро. Нормально показать заявку. Взятие заявки скомкано. все мелькает. Вообще дорожка не соответвует.|
+
+
+## Key Features - Smart contract Land surveying
+|№|English text|Russian text|Screen Action|
+|------|-------|----------|-------|
+|1|One of our main goals is to change the way people live, manage their property and collaborate to each other for better.|||
+|2|In Galt Project owners of property tokens (which represent property rights on land, houses, apartments, offices and others) can unite together into Communities for self-governance on blockchain. By voting in smart contracts, they can make decisions, make laws and rules, collect community funds in Ether or any ERC20 tokens, elect professional managers and much more.|||
+|3|Any property owner in project can join an existing community or create a new one. You can do that on Community registry page. Here you can see a list of all communities with additional information like community name and description, number of property owners. Also you can show community on map. We will talk about community creation process in further videos.|||
+|4|Each community of propery owners is a decentralised autonomous organisation, which is a set of smart contracts in Ethereum blockchain. It can be as small as an apartment house or neighborhood on one street or as big as a whole city, giant agglomeration or whole country.  |||
+|5|Just imagine if people in one house, on one street, in a city or in a whole country could easily unite together,create a new law for their territory by voting, collect funds for common purpose, elect city or country managers and collaborate without any third-party. Let's make a quick tour.|||
+|6|In General section of Community overview page you can see community general information: Number of members, Name, description, information about total Reputation, type and others. There are two types of communities: private and public. In private communities, community members approve new members by voting. In public communities, approval of other members is not necessary. We will talk about Reputation and its role a little bit later.|||
+|7|List of all community members with address, information about reputation and other. Any community member can provide his identity to community. Identity is stored encrypted in smart contract and any community member can check it, if he wants. I just need to push on identity hash and enter community member name. Also here you can create a new public or private secret chat with one or several community members.|||
+|8|Each community has a properties. They define, how community works. Mostly it's a community type and voting thresholds. Threshold is how much Reputation is needed to make a decision or change Community parameter. For example if threshold is 51% and total Reputation in Community is 2000, you need 1020 points of reputation to Accept or Decline proposal to change parameter or make a decision. |||
