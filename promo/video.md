@@ -142,7 +142,7 @@ Video sequence and text should be consistent in duration.
 |1|3:29 очень быстро. Нормально показать заявку. Взятие заявки скомкано. все мелькает. Вообще дорожка не соответвует.|
 
 
-## Key Features - Smart contract Land surveying
+## Key Features - Communities of homeowners on Ethereum with true Democracy
 |№|English text|Russian text|Screen Action|
 |------|-------|----------|-------|
 |1|One of our main goals is to change the way people live, manage their property and collaborate to each other for better.|||
