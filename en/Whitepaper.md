@@ -11,11 +11,27 @@
 
 --->
 
-![galt protocol screen](https://github.com/galtspace/galtproject-docs/blob/master/images/RegistryScreen.jpg)
-
 # Galt Protocol Whitepaper
-Version 0.1
+Version 0.2
+
+"Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all. 
+
+(A fair governance and justice systems will ensure that both the rich and the poor have property rights.)"
+
+– Adam Smith, Wealth of Nations, Book V, Chapter I, Part II On the Expence of Justice
+
+“Galt Project was founded in 2018 as an organization, which invests crypto assets and develops technological projects to change the way people live, manage their property and collaborate to each other for better. As an early blockchain adopters, We truly believe, that this technology will revolutionary change global society in technical, social and economic way, will erase borders, inequality and exploitation.
+
+Control your property, control your money, control power institution, control your data."
+
+Founders.
+
 ## Abstract
+
+Galt Project is international decentralized land and real estate property registry and self-governance protocol built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a centralized community of property owners, cadastral engineers, notaries, castodians, using smart contracts. 
+Property records creation, resolution of disputes between owners, trading, title insuranse are performed on smart contracts. Also property owners can unite in communities for voting, fundraising and managing common property. 
+
+## Introduction
 At the heart of any modern society or state lies three social contracts:
 1. A set of laws and rules, that define the relationships of members of that society.
 2. Private property and the procedure for its accounting.
@@ -32,35 +48,38 @@ Galt Protocol is
 - system of multisigs for storing and managing community budgets; 
 - voting system to define society rules by direct or delegative voting. 
 
-## Protocol Overview
-Galt Protocol is open - source software powered by Ethereum Blockchain. In Galt Protocol any property owners with the help of  protocol Oracles can create their property token - ERC721 SPACE Token. Each token represents land plot or a part of the building floor and contains geospatial data. Property Owners can:
-- create community; 
-- create one or several Delegative Community Multisigs; 
-- elect multisigs managers; 
-- create a set of Community Rules by direct or delegative voting
-- make an operations with their property (buy, sell, rent, create CDP, take loans). 
+## Overview
+In Galt Protocol any property owners with the help of decentralized community of cadastral engineers and notaries can create their property token. Each token represents property rights record for land or real estate.
 
-![gp galt protocol essentials](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Galt%20Protocol%20Essentials_Part_1.png)
+Property Owners can:
+- buy and sell land and real estate on Ethereum on smart contracts; 
+- unite in community of homeowners for self-governance;  
+
 
 ## Property Token - ERC721 SPACE Token
-The core entity of protocol is a ERC721 standart Ethereum token. Any property owners can pay comission to protocol and Oracles and create his SPACE Token.
-Each Token cointains geospatial data and represents particular land plot or building floor. Token Owner can split and merge that geospatial data in the original boundaries without a third party. But if Owner want's to change original boundaries he must use the Oracles service. In both cases all changes to geospatial data can be made only by token owner himself.
-![Property Token - ERC721 SPACE Token](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Property%20Token%20-%20ERC721%20SPACE%20Token.png)
+The core entity of protocol is a ERC721 standart Ethereum token. Any property owners can pay comission to protocol and Oracles and create his Property token.
+Each Token cointains geospatial data and represents particular land plot, part of the building, whole building or room. 
+![Consistent Geospatial Registry](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-01.png)
+
+There are four types of tokens:
+- land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate in metres above sea level. All this information is stored on Ethereum blockchain;
+- building areas tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Unlike Land plot tokens, Building area tokens store Altitude coordinate as a Height above ground in meters;
+- pre-defined real-estate tokens: Room/Apartment - represents one or several rooms, apartment. Contains geographical coordinates of the bulding, address, unique identification number;
+- pre-defined real-estate tokens: Whole Building - represents whole bulding and contains it's geographical coordinates and address.
+
+Token Owner can split and merge that geospatial data in the original boundaries without a third party. But if Owner want's to change original boundaries he must use the Oracles service. In both cases all changes to geospatial data can be made only by token owner himself.
 
 ### Geospatial Data Management
 Token owner can manage his token geospatial data. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with floors of buildings.
-![Geo Data Management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20GeoData%20Management.png)
+![Smart contract Land surveying](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-03.png)
 
 ## Oracles
 If someone wants to create a token of land plot or building floor, there should be decentralized self-managing mechanism for checking property rights and geographic coordinates. In Galt Protocol this function perfom Oracles. They are independent economic agents, who approve new token creation for reward. Also they perform different operations: valuation, custodian service etc. Oracles have a deposit, which can be written of.
 To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token.
 Property owners and Oracles elect among themselves Arbitrators - special governance role. Any Property owner or Oracle or Arbitrator can create a claim about Oracles, Arbitrators or Property owners dishonest behavior or mistake. If claim would be approved, than deposit will be written of. Arbitrators are elected dynamically by Property Owners and Oracles.
-![Oracles](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Oracles%20Governance%20Model.png)
 
 ### Limitations and User Groups
-In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators in Multisig and Voting process. According to the test the current effective maximum is 50 addresses. Ofcourse there is a limit of number of claims, that can be considered by 50 Arbitrators. So if we want to make this system scalable and be able to work with hundreds of thousands and millions of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group of Property Owners and Oracles will vote to elect among themselves. Arbitrators and Oracles will deposit funds in group Multisig and will provide their service in this group.
-
-![Oracles Groups](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20MultiOracles.png)
+In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators in Multisig and Voting process. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group of Property Owners and Oracles will vote to elect among themselves. Arbitrators and Oracles will deposit funds in group Multisig and will provide their service in this group.
 
 ### Possible Attack - Property owners and Arbitrators conspiracy 
 There is a chance that part of Arbitrators and Property owners or Oracles will conspire. Property owners will create unfounded claims and Arbitrators will approve them and will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants of the Protocol. Majority of Property Owners and Oracles will change their vote and Arbitrators will lose their votes and deposits. The only question if those deposits would be enough to cover loses.
@@ -78,35 +97,33 @@ To make governance system more reliable Arbitrators should be easily elected and
 Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. 
 Oracles have deposits in GALT. Deposits also can be used as a Voting variable. Votes of both User's groups (Oracles and Property owners) should be equal, so voting power of Oracles and Property owners must be converted to one unit, as it described on scheme.
 
-![Arbitrators Voting](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Arbitrators%20Voting.png)
-
-### Custodians
-For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians here perform the role of nominal owners for property. It's a company or a public person with good reputation and his own assets. Custodians hold property until SPACE Token holder will come and ask to register property rights in the state register to him. Custodians get a reward from token holders for interaction with government agencies and like other Oracles, deposit pledges in GALT. They act like a supranational property guarantor.
-To reduce the risks of fraud each property is divided between 5-7 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
+## Custodians
+For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are asset management companies, law firms or trust funds in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
+To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
 
-![Custodians management](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Custodians%20Management.png)
 
 ## Governance Utility Token - ERC20 GALT Token
-As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: 10% will be used as a deposit to create first Oracles, 10% will be sold on open auction and 80% will be sold by automatic marketmaking contract.
-All GALT from an open auction will be transfered to participants and all ETH will be transfered to Marketmaking contract. The Galt Project will take 1% to cover development costs. Also Galt Project will get 1% from all buy and sell operations from DEX to be able to make further development. 5% of all Protocol commission will be automaticaly transfered to DEX. Thanks to this GALT price in ETH guaranteed to grow. 
-
-Auction will start only after first version of protocol will be completely developed and fully audited.
-![Governance ERC20 GALT Token ](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Governance%20Token%20-%20ERC20%20GALT%20Token.png)
+As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: part will be used as a deposit to create first Oracles, part will take Galt Project team, part will be sold on open EOS-like auction and final part will be sold by automatic marketmaking contract, forked from Bancor.
+All GALT from an auction will be transfered to participants and all ETH will be transfered to Marketmaking contract. 
 
 ## Operations with property
 With a consistent registry of property rights a various operations can be performed like trading, loans, CDP's creation and others. The guarantor of rights in such transactions can be the State directly (if a particular state accepts such transactions), international nominal owners - Custodian (and a State which they interact with) or Property owners self-governance system (if there is no State).
+![Real Estate operations on Ethereum ](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-07.png)
 
-## Property trading with Custodians
-If seller and buyer want to make a fast transactions or want to stay anonimous or if the particular State doesn't accepts blockchain transaction, they can 
-![Trading with Custodians](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20Without%20State%20Registration.png)
+### Property trading with Custodians
+It's very important to be able to perform fast international tranding transactions with land and real estate tokens. The easiest way is to use Custodians service. 
+If Seller wants to sell his token, he needs to create a market order in smart contract. Buyer can make his offer. When buy and sell price are equal, seller can transfer token to escrow smart contract and buyer can transfer Ether or any other ERC20 tokens, including Stable Coins.
+Both parties can withdraw their tokens only if they will confirm the deal and if land and real estate token have one or more Custodians. If there are no Custodian for token, Seller should register them, sign all necessary legal agreements and transfer
+land or real estate to Custodian. After that both parties can confirm the deal and withdraw tokens.
 
-## Property trading with State registration
+If at any stage of the deal buyer or seller wants to cancel it. He can make a cancellation request. Cancellation request are reviewed by Oracles. They can apply penalty on buyer or seller.
 
-![Trading with State](https://github.com/galtspace/galtproject-docs/blob/master/images/GP%20Land%20and%20Real%20Estate%20Trading%20With%20State%20Registration.png)
+### Property trading with State registration
+In this case Galt Protocol should be integrated with Government property registry. After both seller's and buyer's tokens were transfered to escrow contract, state representetive (notary, judge or state registrator) registers deal in government registry. After property rights were transefered from buyer to seller, he confirms the deal in smart contract.  
 
-## About Copyright and Software licenses
+## Communities of Property Owners
+
+## Copyright and Software licenses
 The main purpose of Galt Protocol is to create open and reliable instrument for self-government communities of Property Owners. According to that, one of our main goals in Galt Project is to create pure community driven and open software product. For now Galt Project if fully self-funded, we have certain vision and we want to implement it. To ensure the achievement of our vision, before the launch, protocol is open-sourced, but it is and it will be our intellectual property. You need to ask us, if you want to participate or use our code. We will decide if it's possible at that moment.
-
-After the first version of protocol will be released in Ethereum Mainnet and initial Galt Auction will end, we will release all software (including front-end) under one of public licences. But before that, please, respect the time and work of others and the will of the creators!
