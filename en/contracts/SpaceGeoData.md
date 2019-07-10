@@ -13,18 +13,21 @@ There are three token types:
 Land plots and real estate must have unique identification data in order to ensure the impossibility of double ownership of the same property.
 ### Land plot
 - coordinates of vertices of land in lat/lon, UTM and geohash and height above sea level in meters;
-- address;
+- address (if possible);
 ### Whole building
-- coordinates of the building in the form of coordinates of the vertices of the polygon of the foundation of the building in lat/lon, UTM, geohash and height above sea level in meters;
+- coordinates of the building in the form of coordinates of the vertices of the polygon of the foundation of the building 
+along the outer contour of the walls in lat/lon, UTM, geohash and height above sea level in meters;
 - address of the building;
+- height of the building in meters;
 ### Room/Apartment
-- coordinates of the building in the form of coordinates of the vertices of the polygon of the foundation of the building in lat/lon, UTM, geohash and height above sea level in meters where the room is located;
-- the zero point index of the local coordinate system of the building;
-- coordinates of each point of the room perimeter in meters in the local coordinate system;
+- coordinates of the building in the form of coordinates of the vertices of the polygon of the foundation of the building 
+  along the outer contour of the walls in lat/lon, UTM, geohash and height above sea level in meters;
+- coordinates of each point of the room perimeter in lat/lon, UTM, geohash and height above sea level in meters
 - alphanumeric designation of the floor of the building where the room is located;
 - floor height in meters from ground level;
 - alphanumeric designation of the room/apartment;
 - address;
+- height of the rooms in meters;
 ### Room
 ## Specification
 ## Rationale
