@@ -1,17 +1,17 @@
 # Geocode Systems Used in Galt Project
 
 * [UTM](#utm)
-* [Lat/Lon](#latlon)
-* [Geohash](#geohash)
-* [Geohash5](#geohash5)
-* [Geohash5z](#goehash5z)
+* [Lat/Long](#latlong)
+* [Geohash](#geohash-string)
+* [Geohash5](#geohash5-number)
+* [Geohash5z](#geohash5z-number)
 
 ## UTM
 
 References:
 * https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
 
-## LatLong
+## Lat/Long
 ...
 
 ## Geohash (string)
