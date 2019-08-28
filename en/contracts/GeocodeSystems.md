@@ -42,9 +42,12 @@ References:
 Another specific standard for Galt Project.
 
 * Represents geohash5 + height above the sea level in centimeters.
-* The sea level value is signed integer encoded into a geohash with a shift of 24 bytes from the right and takes 8 bytes (int64 solidity type).
+* The sea level value is signed integer encoded into a geohash with a shift of 12 bytes from the right and takes 4 bytes (int32 solidity type).
+* The lowest encoded value is: -2 147 483 648 centimeters (-21 474 836 meters 48 centimeters)
+* The maximum encoded value is: 2 147 483 647 centimeters (21 474 836 meters 47 centimeters)
 
-Example of encoding for 179.59 meters (`0x00004627` int64) above the sea level and `zzzzzzzzzzzz` geohash: 
+
+Example of encoding for 179.59 meters (`0x00004627` int32) above the sea level and `zzzzzzzzzzzz` geohash: 
 
 ```
 * Geohash format (string): `zzzzzzzzzzzz`
@@ -54,7 +57,7 @@ Example of encoding for 179.59 meters (`0x00004627` int64) above the sea level a
 * Geohash5z description:       0xReserved........................Height..Geohash5................
 ```
 
-And a negative example of -8000 centimeters (`0xffffe0c0` int64) encoded along with the same `zzzzzzzzzzzz` geohash:
+And a negative example of -8000 centimeters (`0xffffe0c0` int32) encoded along with the same `zzzzzzzzzzzz` geohash:
 
 ```
 * Geohash5 format (EVM word):  0x0000000000000000000000000000000000000000000000000fffffffffffffff
