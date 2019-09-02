@@ -33,7 +33,7 @@ In this paper, we propose a mechanism for registering property, creating public 
 ## Property accounting on Smart contracts
 
 ### Property Token - ERC721 Token
-The core entity of project is a ERC721 standart Ethereum token. 
+The core entity of project is a [ERC721 standart Ethereum token](http://erc721.org/). 
 Each Token cointains geospatial data and represents particular land plot, part of the building, whole building or room. 
 
 There are four types of tokens:
