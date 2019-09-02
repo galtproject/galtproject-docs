@@ -34,7 +34,7 @@ In this paper, we propose a mechanism for registering property, creating public 
 
 ### Property Token - ERC721 Token
 The core entity of project is a [ERC721 standart Ethereum token](http://erc721.org/). 
-Each Token cointains geospatial data and represents particular land plot, part of the building, whole building or room. 
+Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. 
 
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate in metres above sea level. All this information is stored on Ethereum blockchain;
