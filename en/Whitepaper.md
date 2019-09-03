@@ -52,6 +52,8 @@ Token owner can manage his token geospatial data. If token contains geographic c
 ![Smart contract Land surveying](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-03.png)
 
 ### Double ownership problem and solution
+
+![Double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
  
 ## Types of property ownership
 
