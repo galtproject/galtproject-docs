@@ -38,11 +38,11 @@ Each Token cointains geospatial data and represents particular land plot, whole 
 
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate in metres above sea level. All this information is stored on Ethereum blockchain;
-![Accurate land plots coordinates in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png | width=250)
+![Accurate land plots coordinates in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png)
 - whole building tokens  - represents whole bulding and contains it's geographical coordinates and other identification data. Information of bulding topology is stored in IPLD by using IPFS protocol;
-![Accurate Buildings coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png | width=250)
+![Accurate Buildings coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png)
 - room tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology is stored in IPLD by using IPFS protocol;
-![Accurate Rooms coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png | width=250)
+![Accurate Rooms coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png)
 - package tokens - represents one or several Room tokens, united by the owner;
 
 Token owner can split and merge its geospatial data in the original boundaries without a third party. But if Owner want's to change original boundaries he must use the Oracles service. In both cases all changes to geospatial data can be made only by token owner himself.
