@@ -19,14 +19,14 @@ Property records creation, resolution of disputes between owners, trading, mortg
 
 ## Introduction
 At the heart of any modern society or state lies three social contracts:
-1. A set of laws and rules, that define the relationships of members of that society.
-2. Private property and the procedure for its accounting i.e. property registries.
-3. Community budgets, designed to protect property and society Rules.
+- A set of laws and rules, that define the relationships of members of that society.
+- Private property and the procedure for its accounting i.e. property registries.
+- Community budgets, designed to protect property and society Rules.
 
 This system of those basic contracts has several fundamental problems:
-1. Private property registries are not secured, they are stored in centralised databases or paper archives. Owners doesn’t control those registries so society need a vast judicial branch to resolve disputes. 
-2. Access to the Community budgets can be usurped.
-3. Proccess of creation of Rules is difficult and also can be easily usurped.
+- Private property registries are not secured, they are stored in centralised databases or paper archives. Owners doesn’t control those registries so society need a vast judicial branch to resolve disputes. 
+- Access to the Community budgets can be usurped.
+- Proccess of creation of Rules is difficult and also can be easily usurped.
 
 In this paper, we propose a mechanism for registering property, creating public budgets for its protection and laws using smart contracts on the Ethereum blockchain.
 
