@@ -33,7 +33,7 @@ In this paper, we propose a mechanism for registering property, creating public 
 ## Property accounting on Smart contracts
 
 ### Property Token - ERC721 Token
-The core entity of project is a [ERC721 standart Ethereum token](http://erc721.org/). 
+The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc721.org/). 
 Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. 
 
 There are four types of tokens:
@@ -44,15 +44,18 @@ There are four types of tokens:
 - room tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology is stored in IPLD by using IPFS protocol;
 ![Accurate Rooms coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png)
 - package tokens - represents one or several Room tokens, united by the owner;
+
+Land or real estate objects have the property of uniqueness. They physically occupy an unambiguous position in space. Two land plots, houses or rooms cannot physically have the same geographical coordinates.
  
 ### Geospatial Data Management
 Token owner can split and merge its geospatial data in the original boundaries without a third party. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with Rooms. For those operations computational geometry algorithms are used: Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm and others.
 ![Smart contract Land surveying](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-03.png)
-if Owner wants to change original boundaries of land plot or Room, he must use the Oracles. In both cases all changes to geospatial data can be made only by token owner himself. 
+If Owner wants to change original boundaries of land plot or Room, he must use the Oracles. In both cases all changes to geospatial data can be made only by token owner himself. 
 There are likely cases in which the initial recording of geographical coordinates occurred with an error and the owner of the token does not want to change them for personal gain. In such cases, a claim may be created. Claims are resolved by the Arbitrators. This will be described in more detail below.
 
 ### Double ownership problem and its solutions
-We define "Land and Real estate double ownership" as the impossibility of simultaneously owning the same geographic coordinates.
+We define "Land and Real estate double ownership" as the impossibility of simultaneously owning the same geographic coordinates. Unfortunately, existing centralized registries do not have built-in independent automated solutions to block the creation of new records in cases where a record already exists that conflicts with the created one. 
+For example, when you try to create a new record about the boundaries of the land plot in the state registry, such a record can be created. Since the decision to create a record is made by a specific person authorized fo that. There will be two conflicting entries in the registry, and resolving the conflict will require the use of a state judicial system.
 ![Double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
  
 ## Types of property ownership
