@@ -60,9 +60,11 @@ For example, when you try to create a new record about the boundaries of the lan
 #### The algorithm for solving the problem
 
 #### Off-chain and on-chain hybrid sollution
-![Double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
+![On-chain double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
 
 #### Sidechain sollution
+
+![Sidechain double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-11-big.png)
  
 ## Types of property ownership - "with State" / "with out State"
 
