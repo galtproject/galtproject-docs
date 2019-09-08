@@ -56,7 +56,13 @@ There are likely cases in which the initial recording of geographical coordinate
 ### Double ownership problem and its solutions
 We define "Land and Real estate double ownership" as the impossibility of simultaneously owning the same geographic coordinates. Unfortunately, existing centralized registries do not have built-in independent automated solutions to block the creation of new records in cases where a record already exists that conflicts with the created one. 
 For example, when you try to create a new record about the boundaries of the land plot in the state registry, such a record can be created. Since the decision to create a record is made by a specific person authorized fo that. There will be two conflicting entries in the registry, and resolving the conflict will require the use of a state judicial system.
+
+#### The algorithm for solving the problem
+
+#### Off-chain and on-chain hybrid sollution
 ![Double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
+
+#### Sidechain sollution
  
 ## Types of property ownership - "with State" / "with out State"
 
