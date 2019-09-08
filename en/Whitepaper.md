@@ -116,10 +116,10 @@ To make governance system more reliable Arbitrators should be easily elected and
 Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. 
 Oracles have deposits in GALT. Deposits also can be used as a Voting variable. Votes of both User's groups (Oracles and Property owners) should be equal, so voting power of Oracles and Property owners must be converted to one unit, as it described on scheme.
  
-## Commercial operations with property
+### Commercial operations with property
 With a consistent registry of property rights a various operations can be performed like trading, loans, CDP's creation and others. The guarantor of rights in such transactions can be the State directly (if a particular state accepts such transactions), international nominal owners - Custodian (and a State which they interact with) or Property owners self-governance system (if there is no State).
 
-### Property trading with Custodians
+#### Property trading with Custodians
 It's very important to be able to perform fast international tranding transactions with land and real estate tokens. The easiest way is to use Custodians service. 
 If Seller wants to sell his token, he needs to create a market order in smart contract. Buyer can make his offer. When buy and sell price are equal, seller can transfer token to escrow smart contract and buyer can transfer Ether or any other ERC20 tokens, including Stable Coins.
 Both parties can withdraw their tokens only if they will confirm the deal and if land and real estate token have one or more Custodians. If there are no Custodian for token, Seller should register them, sign all necessary legal agreements and transfer
@@ -127,12 +127,12 @@ land or real estate to Custodian. After that both parties can confirm the deal a
 
 If at any stage of the deal buyer or seller wants to cancel it. He can make a cancellation request. Cancellation request are reviewed by Oracles. They can apply penalty on buyer or seller.
 
-### Property trading with State registration
+#### Property trading with State registration
 In this case Galt Protocol should be integrated with Government property registry. After both seller's and buyer's tokens were transfered to escrow contract, state representetive (notary, judge or state registrator) registers deal in government registry. After property rights were transefered from buyer to seller, he confirms the deal in smart contract.
 
-### Property protection
+#### Property protection
 
-### Global governance
+## Governance
 
 ## Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states
 
@@ -141,6 +141,8 @@ In this case Galt Protocol should be integrated with Government property registr
 ### Commercial operations with property
 
 ### Property protection
+
+## Governance
 
 ## Communities of Property Owners
 
