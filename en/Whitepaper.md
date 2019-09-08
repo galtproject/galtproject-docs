@@ -132,8 +132,6 @@ In this case Galt Protocol should be integrated with Government property registr
 
 #### Property protection
 
-## Governance
-
 ## Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states
 
 ### Creating property records
