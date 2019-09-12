@@ -32,7 +32,7 @@ In this paper, we propose a mechanism for registering property, creating public 
 
 ## Property accounting on Smart contracts
 
-### Property Token - ERC721 Token
+### Property Token
 The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc721.org/). 
 Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. 
 
@@ -58,9 +58,14 @@ We define "Land and Real estate double ownership" as the impossibility of simult
 For example, when you try to create a new record about the boundaries of the land plot in the state registry, such a record can be created. Since the decision to create a record is made by a specific person authorized fo that. There will be two conflicting entries in the registry, and resolving the conflict will require the use of a state judicial system.
 
 #### The algorithm for solving the problem
-Each land plot, building or room has a polygon representation. The vertices of the polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thus, the task is reduced to mathematical verification that the new polygon does not intersect with those already existing in three-dimensional space.
+Each land plot, building or room has a polygon representation. The vertices of the polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thus, the task is reduced to mathematical verification that the new polygon does not intersect with those already existing in three-dimensional space. For consistency purposes, the calculation of intersections in three-dimensional space is too complicated and can be reduced to checking intersections in planes.
+
+The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding altitude. The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane of the room in the Mercator projection, taking into account the minimum and maximum heights of the room relative to sea level.
 
 #### Off-chain and on-chain hybrid sollution
+Checking the intersection of two polygons is feasible on the Ethereum blockchain and does not require large gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all the ones written earlier must be checked off-chain. 
+Anyone can put a deposit in GALT tokens into a smart contract to become Oracle and run the script. The script checks applications with new polygons one by one. Applicant pays for the Oracles in Eth. To verify each application requires several independent Oracle. If all the Oracles confirm that there is no intersection, then they withdraw the reward. If part of the Oracles confirmed that there is no intersection and at least one Oracle has provided the ID of the token with which there is intersection into the smart contract. Smart contract automatically rejects the application, pays all the reward to the honest Oracle and removes the deposit from dishonest ones.
+
 ![On-chain double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
 
 #### Sidechain sollution
