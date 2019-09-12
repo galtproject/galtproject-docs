@@ -81,7 +81,7 @@ In modern world there is land (and real estate objects) that is divided between 
 
 ### Creating property records
 
-In Galt Project any property owners with the help of decentralized community of cadastral engineers and notaries can create their property token. Each token represents property rights record for land or real estate. Anyone can pay a commission in Eth or GALT ERC20 and apply through a smart contract for creating a token. The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data in the application and the ownership of the applicant for a fee. After the application is approved, the new object is tested for the absence of dual ownership and a token is created.
+In Galt Project any property owners with the help of decentralized community of cadastral engineers and notaries can create their property token. Each token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply through a smart contract for creating a token. The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data in the application and the ownership of the applicant for a fee. After the application is approved, the new object is tested for the absence of dual ownership and a token is created.
 
 After that Property Owner can:
 - perform commercial opeations with his property on Ethereum smart contracts;
@@ -92,7 +92,7 @@ After that Property Owner can:
 
 #### Oracles
 If someone wants to create a token of land plot or building floor, there should be decentralized self-governed mechanism for checking property rights and geographic coordinates. In Galt Project this function perfom Oracles. They are independent economic agents, who approve new token creation for reward. Also they perform different operations: valuation, custodian service etc. Oracles have a deposit, which can be written of.
-To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token.
+To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token. This deposit can be written of by governance mechanism described below.
 
 #### Custodians
 For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are legal entities in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
@@ -101,15 +101,27 @@ To reduce the risks of fraud each property is divided between 2-3 Custodians. In
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
 
 #### Disputes resolution
-Operations with land and real estate will cause disputes and disagreements between the participants. Here are some examples of such disputes:
-- the initial creation of tokens failed. Geographic coordinates and / or property rights were not determined correctly;
-- 
+Operations with land and real estate will cause disputes and disagreements both between owners and professional participants: cadastral engineers, notaries, appraisers, custodians, etc. Here are some examples of such disputes:
+- the initial creation of tokens contains an error. Geographic coordinates and / or property rights were not determined correctly. The owner of the token wants to receive compensation from the Cadastral engineer;
+- the initial creation of tokens contains an error in geographic coordinates. The owner of the land cannot create a token, since his land intersects with the land that was originally created incorrectly.
+- when making a purchase and sale transaction, one of the parties wants to cancel it. For example, due to the fact that the seller withheld significant information;
+- Custodian committed a fraud and sold the property. The owner of the token wants to receive the compensation necessary for the return of ownership through a state court.
 
-#### Governance groups
-In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group of Property Owners and Oracles will vote to elect among themselves. Arbitrators and Oracles will deposit GALT in group and will provide their service in this group.
+The solution to these problems comes down to three types of operations:
+- possibility to write off deposit from oracle;
+- the ability to block the work of a dishonest oracle;
+- the possibility of forcibly changing the geographical boundaries of a land plot or property.
+
+Fulfillment of them requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties to the dispute - Arbitrator. 
 
 #### Arbitrators 
-Property owners and Oracles elect among themselves Arbitrators - special governance role. Any Property owner or Oracle or Arbitrator can create a claim about Oracles, Arbitrators or Property owners dishonest behavior or mistake. If claim would be approved, than deposit will be written of. Arbitrators are elected by Property Owners, Oracles and Galt token holders
+Property owners, GALT token holders and Oracles elect Arbitrators - special governance role. Each Arbitrator has deposit in GALT token. Any Property owner or Oracle or Arbitrator himself can create a claim about Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay fee in ETH in smart contract. 
+Several arbitrators take a claim for consideration. Each of them can create a proposal on what should be done. What is the size of the deposit and from whom should be written of, how should the coordinates be changed, etc. After that they vote on each proposal. If claim would be approved, than deposit will be written of, geographical coordinates will be changed or escrow contract will be canceled, etc. Also Arbitrators get their reward. If the decision is not made on time, the Arbitrators do not receive a reward, lose their deposits, and the claim can be taken up by another set of Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he can create a new claim or ask the community to re-elect the Arbitrators.
+
+#### Governance groups
+In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group Property Owners and Oracles will vote to elect Arbitrators. Arbitrators will deposit GALT as a deposit and will provide their service in this group.
+
+#### Arbitrators elections
 
 To make governance system more reliable Arbitrators should be easily elected and re-elected, they should have ecomomic incentive to honestly resolve disputes and they should represent all the participants of the Protocol - both property owners and oracles. To do that they should be elected among protocol participants. There is a two main roles of Users in Protocol - property owners and Oracles. In some cases their goals can be opposite, so they should have equal rights to become Arbitrators and to Vote. 
 Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. 
