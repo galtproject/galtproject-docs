@@ -36,6 +36,7 @@ In this paper, we propose a mechanism for registering property, creating public 
 ### Property Token
 The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc721.org/). 
 Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. 
+We use World Geodetic System (WGS84) as a Geodetic datum. Its error is believed to be less than 2 centimeters to the center mass, making it far more accurate than any other datums.
 
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate. All this information is stored on Ethereum blockchain;
