@@ -37,7 +37,7 @@ The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc7
 Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. 
 
 There are four types of tokens:
-- land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate in metres above sea level. All this information is stored on Ethereum blockchain;
+- land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate. All this information is stored on Ethereum blockchain;
 ![Accurate land plots coordinates in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png)
 - whole building tokens  - represents whole bulding and contains it's geographical coordinates and other identification data. Information of bulding topology is stored in IPLD by using IPFS protocol;
 ![Accurate Buildings coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png)
@@ -58,11 +58,14 @@ We define "Land and Real estate double ownership" as the impossibility of simult
 For example, when you try to create a new record about the boundaries of the land plot in the state registry, such a record can be created. Since the decision to create a record is made by a specific person authorized fo that. There will be two conflicting entries in the registry, and resolving the conflict will require the use of a state judicial system.
 
 #### The algorithm for solving the problem
-Each land plot, building or room has a polygon representation. The vertices of the polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thus, the task is reduced to mathematical verification that the new polygon does not intersect with those already existing in three-dimensional space. For consistency purposes, the calculation of intersections in three-dimensional space is too complicated and can be reduced to checking intersections in planes.
+Each land plot, building or room has a polygon representation. The vertices of the polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thus, the task is reduced to mathematical verification that the new polygon does not intersect with those already existing in three-dimensional space. For consistency purposes, the calculation of intersections in three-dimensional space is too complicated and can be reduced to checking intersections in rectangular coordinate system in Mercator projection considering Altitude. 
+![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Galt_Polygon_intersection_02.png)
 
 The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding altitude. The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane in the Mercator projection, taking into account the minimum and maximum heights of the room relative to sea level.
 
 ![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Galt_Polygon_intersection_01.png)
+
+
 
 #### Off-chain and on-chain hybrid sollution
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and does not require large gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all the ones written earlier must be checked off-chain. 
