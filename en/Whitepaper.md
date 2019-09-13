@@ -200,4 +200,5 @@ All GALT from an auction will be transfered to participants and all ETH will be 
 
 ## Project commission distrubution
 
-
+## References
+- [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
