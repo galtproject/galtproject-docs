@@ -62,6 +62,8 @@ Each land plot, building or room has a polygon representation. The vertices of t
 
 The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding altitude. The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane of the room in the Mercator projection, taking into account the minimum and maximum heights of the room relative to sea level.
 
+![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Galt_Polygon_intersection_01.png)
+
 #### Off-chain and on-chain hybrid sollution
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and does not require large gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all the ones written earlier must be checked off-chain. 
 Anyone can put a deposit in GALT tokens into a smart contract to become Oracle and run the script. The script checks applications with new polygons one by one. Applicant pays for the Oracles in Eth. To verify each application requires several independent Oracle. If all the Oracles confirm that there is no intersection, then they withdraw the reward. If part of the Oracles confirmed that there is no intersection and at least one Oracle has provided the ID of the token with which there is intersection into the smart contract. Smart contract automatically rejects the application, pays all the reward to the honest Oracle and removes the deposit from dishonest ones.
