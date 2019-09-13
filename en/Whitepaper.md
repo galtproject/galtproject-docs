@@ -70,7 +70,6 @@ For the task of determining the fact of the intersection of polygons and interse
 - Weiler–Atherton clipping algorithm; 
 - Martinez-Rueda clipping algorithm.
 
-
 #### Off-chain and on-chain hybrid sollution
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and does not require large gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all the ones written earlier must be checked off-chain. 
 Anyone can put a deposit in GALT tokens into a smart contract to become Oracle and run the script. The script checks applications with new polygons one by one. Applicant pays for the Oracles in Eth. To verify each application requires several independent Oracle. If all the Oracles confirm that there is no intersection, then they withdraw the reward. If part of the Oracles confirmed that there is no intersection and at least one Oracle has provided the ID of the token with which there is intersection into the smart contract. Smart contract automatically rejects the application, pays all the reward to the honest Oracle and removes the deposit from dishonest ones in favor of honest.
@@ -133,7 +132,7 @@ Fulfillment of them requires the presence of a special elective role of a judge,
 #### Arbitrators 
 Property owners, GALT token holders and Oracles elect Arbitrators - special governance role. Each Arbitrator has deposit in GALT token. Any Property owner or Oracle or Arbitrator himself can create a claim about Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay fee in ETH in smart contract. 
 Several arbitrators take a claim for consideration. Each of them can create a proposal on what should be done. What is the size of the deposit and from whom should be written of, how should the coordinates be changed, etc. After that they vote on each proposal. If claim would be approved, than deposit will be written of, geographical coordinates will be changed or escrow contract will be canceled, etc. Also Arbitrators get their reward. If the decision is not made on time, the Arbitrators do not receive a reward, lose their deposits, and the claim can be taken up by another set of Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he can create a new claim or ask the community to re-elect the Arbitrators.
-
+![Arbitrators](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-20-big.png)
 #### Governance groups
 In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group Property Owners and Oracles will vote to elect Arbitrators. Arbitrators will deposit GALT as a deposit and will provide their service in this group.
 
