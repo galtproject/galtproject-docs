@@ -76,6 +76,11 @@ Anyone can put a deposit in GALT tokens into a smart contract to become Oracle a
 
 ![Off-chain double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
 
+Smart contract uses three methods to uniquely verify the intersection of polygons:
+-  "ray casting algorithm" to determine the occurrence of one of the vertices of the polygon in another polygon;
+-  intersection of two lines in the plane to determine the fact of intersection of the edges of the polygons;
+- occurrence of a point along the height coordinate in the interval.
+
 #### Sidechain sollution
 The problem can be solved completely on-chain. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be performed. Such a sidechain could be the blockchain on Parity Substrate. During the initial creation of the token, the Validator nodes check for intersections and confirm the creation of the token.
 
