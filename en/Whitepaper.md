@@ -31,12 +31,11 @@ This system of those basic contracts has several fundamental problems:
 
 In this paper, we propose a mechanism for registering property, creating public budgets for its protection and laws using smart contracts on the Ethereum blockchain. Proposed mechanism is blockchain agnostic and can be implemented simultaneously on several blockchains with the ability to exchange blockchain states. This document describes only the general principles. A detailed description of the algorithms and logic of smart contracts is described in the documentation. Decentralized applications - a living organism, changing and developing. Therefore, the principles described, documentation and code are subject to change.
 
-## Property accounting on Smart contracts
+## Consistent property accounting on Smart contracts
 
 ### Property Token
-The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc721.org/). 
-Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. 
-We use World Geodetic System (WGS84) as a Geodetic datum. Its error is believed to be less than 2 centimeters to the center mass, making it far more accurate than any other datums.
+Land or real estate objects, unlike other real assets, such as cars, art objects and others, have the mathematical property of uniqueness. They physically occupy an unambiguous position in space and can be uniquely determined only by their geographic coordinates. Two land plots, houses or rooms cannot physically have the same geographical coordinates. This means that an algorithm can be created that will ensure absolute data consistency on these objects.
+The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc721.org/). Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. We use World Geodetic System (WGS84) as a Geodetic datum. Its error is believed to be less than 2 centimeters to the center mass, making it far more accurate than any other datums.
 
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate. All this information is stored on Ethereum blockchain;
@@ -46,8 +45,6 @@ There are four types of tokens:
 - room tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology is stored in IPLD by using IPFS protocol;
 ![Accurate Rooms coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png)
 - package tokens - represents one or several Room tokens, united by the owner;
-
-Land or real estate objects, unlike other real assets, such as cars, art objects and others, have the mathematical property of uniqueness. They physically occupy an unambiguous position in space and can be uniquely determined only by their geographic coordinates. Two land plots, houses or rooms cannot physically have the same geographical coordinates. This means that an algorithm can be created that will ensure absolute data consistency on these objects.
  
 ### Geospatial Data Management
 The presence of a consistent registry of land plots, buildings and rooms objects allows owners to split and unite such objects without involving third parties. Owner can split and merge object's geospatial data within its original boundaries. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with Rooms. For those operations computational geometry algorithms are used: Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm and others.
