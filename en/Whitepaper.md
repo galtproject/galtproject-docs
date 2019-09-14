@@ -163,7 +163,7 @@ If Seller wants to sell his token, he needs to create a market order in smart co
 Both parties can withdraw their tokens only if they will confirm the deal and if land and real estate token have one or more Custodians. If there are no Custodian for token, Seller should register them, sign all necessary legal agreements and transfer
 land or real estate to Custodian. After that both parties can confirm the deal and withdraw tokens.
 
-If at any stage of the deal buyer or seller wants to cancel it. He can make a cancellation request. Cancellation request are reviewed by Oracles. They can apply penalty on buyer or seller.
+If at any stage of the deal buyer or seller wants to cancel it. He can make a cancellation request. Cancellation request are reviewed by Arbitrators. They can apply penalty on buyer or seller.
 
 #### Property trading with State registration
 In this case Galt Protocol should be integrated with Government property registry. After both seller's and buyer's tokens were transfered to escrow contract, state representetive (notary, judge or state registrator) registers deal in government registry. After property rights were transefered from buyer to seller, he confirms the deal in smart contract.
@@ -196,8 +196,6 @@ In both types of territories property owners can unite in communities for self-g
 ### Community Budget
 
 ## ERC20 GALT Token
-As was written above Oracles should deposit ammount of governance tokens to be able to provide service and be rewarded. For that purpose we use ERC20 standart utility token GALT. First of all Galt Project is a community project. And it's ultimate goal is to create a new way of property accounting and self-governance and not to create another useless ICO. According to that all fixed initial supply will be diveded in three parts: part will be used as a deposit to create first Oracles, part will take Galt Project team, part will be sold on open EOS-like auction and final part will be sold by automatic marketmaking contract, forked from Bancor.
-All GALT from an auction will be transfered to participants and all ETH will be transfered to Marketmaking contract.
 
 ## Project commission distrubution
 
