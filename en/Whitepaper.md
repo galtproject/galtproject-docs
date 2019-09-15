@@ -100,7 +100,7 @@ After that Property Owner can:
 - split and merge token's geospatial data;
 - unite in community of homeowners for self-governance.
 
-### Changing property record
+### Updating property records
 
 ### Economic agents necessary for operations with land and real estate in the territory of existing States
 
