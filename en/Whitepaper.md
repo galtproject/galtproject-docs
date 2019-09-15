@@ -113,7 +113,7 @@ For operations like land and real easte trading and p2p loans (with land and rea
 To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 
 ![custodians](https://github.com/galtproject/galtproject-docs/blob/master/images/custodians_01.jpeg)
-
+Each custodian has his own address. In this way, the custodian himself can be a DAO - decentralized autonomous organization.
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
 
 #### Disputes resolution
