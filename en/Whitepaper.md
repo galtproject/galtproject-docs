@@ -49,7 +49,7 @@ There are four types of tokens:
  
 ### Geospatial Data Management
 The presence of a consistent registry of land plots, buildings and rooms objects allows owners to split and unite such objects without involving third parties. Owner can split and merge object's geospatial data within its original boundaries. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with Rooms. For those operations computational geometry algorithms are used: Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm and others.
-![Smart contract Land surveying](https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-03.png)
+<p align="center"> <img src="https://github.com/galtspace/galtproject-docs/blob/master/images/key%20features%201.2%20vector-03.png" alt="Smart contract Land surveying" width="700"/></p>
 If Owner wants to change original boundaries of land plot or Room, he must use the Oracles. In both cases all changes to geospatial data can be made only by token owner himself. 
 There are likely cases in which the initial recording of geographical coordinates occurred with an error and the owner of the token does not want to change them for personal gain. In such cases, a claim may be created. Claims are resolved by the Arbitrators. This will be described in more detail below.
 
