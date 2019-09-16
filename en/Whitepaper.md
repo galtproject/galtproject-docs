@@ -80,8 +80,7 @@ Smart contract uses three methods to uniquely verify the intersection of polygon
 
 #### Sidechain sollution
 The problem can be solved completely on-chain. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be performed. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the token, the Validator nodes check for intersections and confirm the creation of the token.
-
-![Sidechain double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-11-big.png)
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-11-big.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room" width="700"/></p>
  
 ## Types of property ownership - "with State" / "with out State"
 
@@ -109,8 +108,7 @@ To be able to earn reward they buy and deposit protocol governance token - ERC20
 #### Custodians
 For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are legal entities in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
 To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
-
-![custodians](https://github.com/galtproject/galtproject-docs/blob/master/images/custodians_01.jpeg)
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/custodians_01.jpeg" alt="custodians" width="700"/></p>
 Each custodian has his own address. In this way, the custodian himself can be a DAO - decentralized autonomous organization.
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
 
