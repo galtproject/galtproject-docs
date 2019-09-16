@@ -44,7 +44,7 @@ There are four types of tokens:
 - whole building tokens  - represents whole bulding and contains it's geographical coordinates and other identification data. Information of bulding topology is stored in IPLD by using IPFS protocol;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
 - room tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology is stored in IPLD by using IPFS protocol;
-<p align="center"> <img src="ttps://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
 - package tokens - represents one or several Room tokens, united by the Owner;
  
 ### Geospatial Data Management
