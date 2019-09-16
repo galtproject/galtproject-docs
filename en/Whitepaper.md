@@ -200,9 +200,10 @@ Since the guarantor of the property rights are the owners themselves, in this ca
 ### Property protection
 
 ## Governance
-The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the code. 
+The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-15-big.png" alt="Decentralized governance" width="600"/></p>
 There are two levels of Governance:
+
 - Global governance;
 - Group governance;
 
