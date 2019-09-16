@@ -208,6 +208,7 @@ There are two levels of Governance:
 - Global governance;
 
 On "Arbitrators Governance groups" level protocol participants(Property owners, Oracles, Galt Holders) elect Arbitrators and determine Group parameters such as Oracles and Arbitrators Deposit amounts, Oracles and Arbitrators minimum fee, voting thresholds, total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision and others. Also they upgrade group contracts. 
+
 On "Global governance" level protocol participants (Property owners, Oracles, Galt Holders) determine by voting global parameters such as size of the general protocol commission and commision for particular smart contracts, upgrade contracts and start Auctions for unclaimed territories (This is described in "Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states" section).
 
 ### Reputation 
