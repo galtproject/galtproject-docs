@@ -140,7 +140,7 @@ Property owners, GALT token holders and Oracles elect Arbitrators - special gove
 Several arbitrators take a claim for consideration. Each of them can create a proposal on what should be done. What is the size of the deposit and from whom should be written of, how should the coordinates be changed, etc. After that they vote on each proposal. If claim would be approved, than deposit will be written of, geographical coordinates will be changed or escrow contract will be canceled, etc. Also Arbitrators get their reward. If the decision is not made on time, the Arbitrators do not receive a reward, lose their deposits, and the claim can be taken up by another set of Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he can create a new claim or ask the community to re-elect the Arbitrators.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-20-big.png" alt="Arbitrators" width="600"/></p>
 
-#### Governance groups
+#### Arbitrators Governance groups
 In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide GALT Holders, Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. There can be unlimited number of Governance groups. In each group GALT holders, Property Owners and Oracles vote to elect Arbitrators. Arbitrators deposit GALT as a deposit and provide their service in this group.
 ![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/images/Governance_group_01.png)
 In addition to voting for Arbitrators, members of the group by voting determine such parameters as the size of the Oracles and Arbitrators deposits, the minimum amount of payment for the Oracle by role, the total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision, etc.
@@ -204,10 +204,11 @@ The described system of smart contracts has a large number of parameters that re
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-15-big.png" alt="Decentralized governance" width="600"/></p>
 There are two levels of Governance:
 
+- Arbitrators Governance groups;
 - Global governance;
-- Group governance;
 
-On Group governance level protocol participants elect Arbitrators and determine Group parameters such as Oracles and Arbitrators Deposit amounts, Oracles and Arbitrators minimum fee, voting thresholds, total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision and others. Also they upgrade group contracts. 
+On "Arbitrators Governance groups" level protocol participants(Property owners, Oracles, Galt Holders) elect Arbitrators and determine Group parameters such as Oracles and Arbitrators Deposit amounts, Oracles and Arbitrators minimum fee, voting thresholds, total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision and others. Also they upgrade group contracts. 
+On "Global governance" level protocol participants (Property owners, Oracles, Galt Holders) determine by voting global parameters such as size of the general protocol commission and commision for particular smart contracts, upgrade contracts and start Auctions for unclaimed territories (This is described in "Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states" section).
 
 ### Reputation 
 ### Staking rewards
