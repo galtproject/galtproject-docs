@@ -104,7 +104,7 @@ In some cases, it may be necessary to update the data of land or real estate tok
 - the premises in the building or the whole building were destroyed;
 - the geographical coordinates of the building or room have changed due to the movement of the earth's crust.
 
-In this case, the data change occurs in the same way as the initial creation of the token described above.
+In this case, the data change occurs in the same way as the initial creation of the token described above. The owner submits an application in a smart contract, pays a commission, and the Oracles check it and approve changes.
 
 ### Economic agents necessary for operations with land and real estate in the territory of existing States
 
