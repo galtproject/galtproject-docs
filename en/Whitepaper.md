@@ -39,13 +39,16 @@ Land or real estate objects, unlike other real assets, such as cars, art objects
 The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc721.org/). Each Token cointains geospatial data and represents particular land plot, whole building, room or several rooms. We use World Geodetic System (WGS84) as a main Geodetic datum. Its error is believed to be less than 2 centimeters to the center mass, making it far more accurate than any other datums.
 
 There are four types of tokens:
-- land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM(Universal Transverse Mercator), Geohash and other Geodetic datums. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate. All this information is stored in blockchain;
+- land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM(Universal Transverse Mercator), Geohash and other Geodetic datums. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate (also in defferent Geodetic datums). All this information is stored in blockchain;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
 - whole building tokens  - represents whole bulding and contains it's geographical coordinates, topology and other identification data. Information of bulding topology (wall and roof geometry) is stored in IPLD by using IPFS protocol;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
 - room tokens - are same as Land plot tokens, except that each of them do not represent a Land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology (wall and ceiling geometry) is stored in IPLD by using IPFS protocol;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
 - package tokens - represents one or several Room tokens, united by their Owner;
+
+### Ownership
+We define Land or real estate token ownership as the ability to transfer, sell and perform various operations with token in smart contracts using one's private key. Token owner can be an external Ethereum address or internal i.e Smart contract. If the Land or Real estate token is a joint property, then its owner is multisignature wallet. In addition, a decentralized autonomous organization (DAO) or other smart contracts can own a token.
  
 ### Geospatial Data Management
 The presence of a consistent registry of land plots, buildings and rooms objects allows owners to split and unite such objects without involving third parties. Owner can split and merge object's geospatial data within its original boundaries. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with Rooms. For those operations computational geometry algorithms are used: Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm and others.
@@ -183,9 +186,9 @@ In this case, the owner of the token will be forced to go to court in order to c
 
 #### Other operations
 The consistent global registry makes it possible to perform also the following operations:
-- mortgage;
+- mortgage. It can be issued in Stablecoins. The calculation of payments and the procedure for transferring a real estate token in case of violation of the payment schedule is determined by a smart contract;
 - real estate insurance;
-- collective investment and construction management;
+- collective investment and construction management. For the construction of the property, a DAO can be created. DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership in the property.
 
 ## Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states
 
@@ -197,7 +200,9 @@ Since the guarantor of the property rights are the owners themselves, in this ca
 ### Property protection
 
 ## Governance
-The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the program code. There are two levels of Governance:
+The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the code. 
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-15-big.png" alt="Decentralized governance" width="600"/></p>
+There are two levels of Governance:
 - Global governance;
 - Group governance;
 
