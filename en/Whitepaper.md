@@ -138,14 +138,15 @@ Several arbitrators take a claim for consideration. Each of them can create a pr
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-20-big.png" alt="Arbitrators" width="600"/></p>
 
 #### Governance groups
-In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide GALT Holders, Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. In each geographical group GALT holders, Property Owners and Oracles vote to elect Arbitrators. Arbitrators deposit GALT as a deposit and provide their service in this group.
+In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide GALT Holders, Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. There can be unlimited number of Governance groups. In each group GALT holders, Property Owners and Oracles vote to elect Arbitrators. Arbitrators deposit GALT as a deposit and provide their service in this group.
 ![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/images/Governance_group_01.png)
-In addition to voting for Arbitrators, members of the group by voting determine such parameters as the size of the deposit, the minimum amount of payment for the Oracle, the total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision, etc.
+In addition to voting for Arbitrators, members of the group by voting determine such parameters as the size of the Oracles and Arbitrators deposits, the minimum amount of payment for the Oracle by role, the total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision, etc.
 
 #### Arbitrators elections
 To make governance system more reliable Arbitrators should be easily elected and re-elected, they should have ecomomic incentive to honestly resolve disputes and they should represent all the participants of the Protocol - property owners, Oracles and GALT token holders. In some cases goals of property owners, oracles and GALT token holders can be opposite, so they should have equal voting rights. 
 Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. Oracles have deposits in GALT. Deposits are used as a Voting variable. For Galt tokens holders the balance of tokens locked in a personal smart contract is used as a voting power. 
 ![Arbitrators elections](https://github.com/galtproject/galtproject-docs/blob/master/images/arbitrators_elect_01.png)
+Each of the groups has only 1/3 оf total Votes. 
 Property owners, oracles and GALT token holder get rewarded for staking reputation from protocol comission. We will describe it in "Project commission distrubution" section. Also, the reputation accounting scheme is more complex and is described in more details below.
 
 #### Possible Attack - Property owners and Arbitrators conspiracy 
@@ -173,8 +174,7 @@ In this case Galt Protocol should be integrated with Government property registr
 #### Collective investment in real estate
 Today investment in Land and Real Estate can only be made through inefficient process involving a lot of useless intermediates and paper works. For many people it’s too complicated and costly. One of the reasons is that most REITs (Real Estate Investment Trusts) have restrictions on the minimum amount of investment that is not accessible to most people. The second main reason is that they do not accept cryptocurrencies as payment, which makes a quick cross-border purchase impossible. As a result large number of retail investors do not have access to Real Estate investments, which are safest way to build long term savings. 
 
-Any Land or Real estate ERC721 token can be blocked in the smart contract, as a collateral. At the same time, a fixed number of ERC20 tokens is issued and can be sold to investors. Each token represents a share in a specific property. The custodian manages the property and converts property's rental income (if rental income comes in fiat currencies) minus his commission into ETH or Stable Coins. ERC20 token holders can withdraw this income from smart contract by their ERC20 token balance. Also, if they are no longer satisfied with the Custodian, they will be able to change it to another by voting. As a . Anyone, from student in New York to fruit seller in Jacarta can invest 20 dollars per month in real estate object from the convenience of their smartphones and get income.
-Any Land or Real estate ERC721 token can be blocked in the smart contract, as a collateral. At the same time, a fixed number of ERC20 tokens is issued and can be sold to investors. Each token represents a share in a specific property. The custodian manages the property and converts property's rental income (if rental income comes in fiat currencies) minus his commission into ETH or Stable Coins. ERC20 token holders can withdraw this income from smart contract by their ERC20 token balance. Also, if they are no longer satisfied with the Custodian, they will be able to change it to another by voting. result, anyone, from student in New York to fruit seller in Jacarta can invest 20 dollars per month in real estate object from the convenience of their smartphones and get income.
+Any Land or Real estate token can be blocked in the smart contract, as a collateral. At the same time, a fixed number of ERC20 tokens is issued and can be sold to investors. Each token represents a share in a specific property. The custodian manages the property and converts property's rental income (if rental income comes in fiat currencies) minus his commission into ETH or Stable Coins. ERC20 token holders can withdraw this income from smart contract by their ERC20 token balance. Also, if they are no longer satisfied with the Custodian, they will be able to change it to another by voting. As a result, anyone, from student in New York to fruit seller in Jacarta can invest 20 dollars per month in real estate object from the convenience of their smartphones and get income.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-19-big.png" alt="Collective investment in real estate" width="600"/></p>
 
 #### Property protection from Custodian malicious behavior
@@ -192,11 +192,19 @@ The consistent global registry makes it possible to perform also the following o
 ### Creating property records
 
 ### Commercial operations with property
-Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. 
+Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. Such updates should be accepted by majority of participants through governance mechanisms.
 
 ### Property protection
 
 ## Governance
+The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the program code. There are two levels of Governance:
+- Global governance;
+- Group governance;
+
+On Group governance level protocol participants elect Arbitrators and determine Group parameters such as Oracles and Arbitrators Deposit amounts, Oracles and Arbitrators minimum fee, voting thresholds, total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision and others. Also they upgrade group contracts. 
+
+### Reputation 
+### Staking rewards
 
 ## Communities of Property Owners
 
@@ -213,8 +221,6 @@ In both types of territories property owners can unite in communities for self-g
 ### Community Budget
 
 ## ERC20 GALT Token
-
-## Project commission distrubution
 
 ## Interoperability
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
