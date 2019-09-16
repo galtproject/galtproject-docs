@@ -103,6 +103,7 @@ In some cases, it may be necessary to update the data of land or real estate tok
 - media data (photos, video, point cloud file, etc.) or object parameters (area, number of rooms, parameters used in the sale, etc.) are out of date;
 - the premises in the building or the whole building were destroyed;
 - the geographical coordinates of the building or room have changed due to the movement of the earth's crust.
+
 In this case, the data change occurs in the same way as the initial creation of the token described above.
 
 ### Economic agents necessary for operations with land and real estate in the territory of existing States
