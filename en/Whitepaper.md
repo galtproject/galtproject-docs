@@ -96,6 +96,7 @@ After that Property Owner can:
 - perform commercial opeations with his property on Ethereum smart contracts;
 - split and merge token's geospatial data;
 - unite in community of homeowners for self-governance.
+
 ### Updating property records
 In some cases, it may be necessary to update the data of land or real estate token:
 - when creating a token, geographic coordinates were not defined correctly;
@@ -103,16 +104,20 @@ In some cases, it may be necessary to update the data of land or real estate tok
 - the premises in the building or the whole building were destroyed;
 - the geographical coordinates of the building or room have changed due to the movement of the earth's crust.
 In this case, the data change occurs in the same way as the initial creation of the token described above.
+
 ### Economic agents necessary for operations with land and real estate in the territory of existing States
+
 #### Oracles
 If someone wants to create a token of land plot or building floor, there should be decentralized self-governed mechanism for checking property rights and geographic coordinates. In Galt Project this function perfom Oracles. They are independent economic agents, who approve new token creation for reward. Also they perform different operations: valuation, custodian service etc. Oracles have a deposit, which can be written of.
 To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token. This deposit can be written of by governance mechanism described below.
+
 #### Custodians
 For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are legal entities in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
 To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/custodians_01.jpeg" alt="custodians" width="700"/></p>
 Each custodian has his own address. In this way, the custodian himself can be a DAO - decentralized autonomous organization.
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
+
 #### Disputes resolution
 Operations with land and real estate will cause disputes and disagreements both between owners and professional participants: cadastral engineers, notaries, appraisers, custodians, etc. Here are some examples of such disputes:
 - the initial creation of tokens contains an error. Geographic coordinates and / or property rights were not determined correctly. The owner of the token wants to receive compensation from the Cadastral engineer;
