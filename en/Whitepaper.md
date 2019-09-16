@@ -102,7 +102,7 @@ After that Property Owner can:
 In some cases, it may be necessary to update the data of land or real estate token:
 - when creating a token, geographic coordinates were not defined correctly;
 - media data (photos, video, point cloud file, etc.) or object parameters (area, number of rooms, parameters used in the sale, etc.) are out of date;
-- the premises in the building or the whole building were destroyed;
+- the room in the building or the whole building were destroyed;
 - the geographical coordinates of the building or room have changed due to the movement of the earth's crust.
 
 In this case, the data change occurs in the same way as the initial creation of the token described above. The owner submits an application in a smart contract, pays a commission, and the Oracles check it and approve changes.
