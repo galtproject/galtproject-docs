@@ -72,9 +72,7 @@ For the task of determining the fact of the intersection of polygons and interse
 #### Off-chain and on-chain hybrid sollution
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and does not require large gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all the ones written earlier must be checked off-chain. 
 Anyone can put a deposit in GALT tokens into a smart contract to become Oracle and run the script. The script checks applications with new polygons one by one. Applicant pays for the Oracles in Eth. To verify each application requires several independent Oracle. If all the Oracles confirm that there is no intersection, then they withdraw the reward. If part of the Oracles confirmed that there is no intersection and at least one Oracle has provided the ID of the token with which there is intersection into the smart contract. Smart contract automatically rejects the application, pays all the reward to the honest Oracle and removes the deposit from dishonest ones in favor of honest.
-
-![Off-chain double ownership check when creating Token for Land plot, Building or Room](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png)
-
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-07-big.png" alt="Off-chain double ownership check when creating Token for Land plot, Building or Room" width="700"/></p>
 Smart contract uses three methods to uniquely verify the intersection of polygons:
 - "ray casting algorithm" to determine the occurrence of one of the vertices of the polygon in another polygon;
 - intersection of two lines in the plane to determine the fact of intersection of the edges of the polygons;
