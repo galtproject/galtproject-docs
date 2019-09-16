@@ -41,11 +41,11 @@ The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc7
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate. All this information is stored on Ethereum blockchain;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
-- whole building tokens  - represents whole bulding and contains it's geographical coordinates and other identification data. Information of bulding topology is stored in IPLD by using IPFS protocol;
+- whole building tokens  - represents whole bulding and contains it's geographical coordinates, topology and other identification data. Information of bulding topology (wall and roof geometry) is stored in IPLD by using IPFS protocol;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
-- room tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology is stored in IPLD by using IPFS protocol;
+- room tokens - are same as Land plot tokens, except that each of them do not represent a Land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology (wall and ceiling geometry) is stored in IPLD by using IPFS protocol;
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
-- package tokens - represents one or several Room tokens, united by the Owner;
+- package tokens - represents one or several Room tokens, united by their Owner;
  
 ### Geospatial Data Management
 The presence of a consistent registry of land plots, buildings and rooms objects allows owners to split and unite such objects without involving third parties. Owner can split and merge object's geospatial data within its original boundaries. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with Rooms. For those operations computational geometry algorithms are used: Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm and others.
@@ -96,34 +96,33 @@ After that Property Owner can:
 - perform commercial opeations with his property on Ethereum smart contracts;
 - split and merge token's geospatial data;
 - unite in community of homeowners for self-governance.
-
 ### Updating property records
-
+In some cases, it may be necessary to update the data of land or real estate token:
+- when creating a token, geographic coordinates were not defined correctly;
+- media data (photos, video, point cloud file, etc.) or object parameters (area, number of rooms, parameters used in the sale, etc.) are out of date;
+- the premises in the building or the whole building were destroyed;
+- the geographical coordinates of the building or room have changed due to the movement of the earth's crust.
+In this case, the data change occurs in the same way as the initial creation of the token described above.
 ### Economic agents necessary for operations with land and real estate in the territory of existing States
-
 #### Oracles
 If someone wants to create a token of land plot or building floor, there should be decentralized self-governed mechanism for checking property rights and geographic coordinates. In Galt Project this function perfom Oracles. They are independent economic agents, who approve new token creation for reward. Also they perform different operations: valuation, custodian service etc. Oracles have a deposit, which can be written of.
 To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token. This deposit can be written of by governance mechanism described below.
-
 #### Custodians
 For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are legal entities in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
 To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/custodians_01.jpeg" alt="custodians" width="700"/></p>
 Each custodian has his own address. In this way, the custodian himself can be a DAO - decentralized autonomous organization.
 In some cases Custodians are not necessary, because state accepts blockchain transactions or there is no state at all and the community of property owners themselves act as guarantor of their rights.
-
 #### Disputes resolution
 Operations with land and real estate will cause disputes and disagreements both between owners and professional participants: cadastral engineers, notaries, appraisers, custodians, etc. Here are some examples of such disputes:
 - the initial creation of tokens contains an error. Geographic coordinates and / or property rights were not determined correctly. The owner of the token wants to receive compensation from the Cadastral engineer;
 - the initial creation of tokens contains an error in geographic coordinates. The owner of the land cannot create a token, since his land intersects with the land that was originally created incorrectly.
 - when making a purchase and sale transaction, one of the parties wants to cancel it. For example, due to the fact that the seller withheld significant information;
 - Custodian committed a fraud and sold the property. The owner of the token wants to receive the compensation necessary for the return of ownership through a state court.
-
 The solution to these problems comes down to three types of operations:
 - possibility to write off deposit from oracle;
 - the ability to block the work of a dishonest oracle;
 - the possibility of forcibly changing the geographical boundaries of a land plot or property.
-
 Fulfillment of them requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties to the dispute - Arbitrator. 
 
 #### Arbitrators 
@@ -141,14 +140,12 @@ Property owners have ERC721 tokens. Each token has its area in square meters. Th
 Property owners, oracles and GALT token holder get rewarded for staking reputation from protocol comission. We will describe it in "Project commission distrubution" section.
 
 #### Possible Attack - Property owners and Arbitrators conspiracy 
-There is a chance that part of Arbitrators and Property owners or Oracles will conspire. Property owners will create unfounded claims and Arbitrators will approve them and will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants of the Protocol. Majority of Property Owners and Oracles will change their vote and Arbitrators will lose their votes and deposits. The only question if those deposits would be enough to cover loses.
+There is a chance that part of Arbitrators and Property owners or Oracles will conspire. Property owners will create unfounded claims and Arbitrators will approve them and will write off deposits from Oracles to Arbitrators and Property owners benefit. If this will take massive character, then the hole governance system will be disrupted. Which is not beneficial to all participants. Majority of Property Owners, Oracles and GALT holders will change their vote and Arbitrators will lose their votes and deposits. The only question if those deposits would be enough to cover loses.
 The are several solutions to avoid this attack:
-- Arbitrators should be public persons;
+- arbitrators should be public persons;
 - an ammount of GALT, which can be written of from contract should be limited for particular period of time.
 - summ of all Arbitrators deposit should be more then that ammount;
-- Arbitrators should be elected both by Property owners and Oracles;
-- There should be a fast mechanism for casting votes and reelection of Arbitrators.
-
+- there should be a fast mechanism for casting votes and reelection of Arbitrators.
 If part of Arbitrators will try to withdraw GALT from contract, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
  
 ### Commercial operations with property
@@ -159,15 +156,22 @@ It's very important to be able to perform fast international tranding transactio
 If Seller wants to sell his token, he needs to create a market order in smart contract. Buyer can make his offer. When buy and sell price are equal, seller can transfer token to escrow smart contract and buyer can transfer Ether or any other ERC20 tokens, including Stable Coins.
 Both parties can withdraw their tokens only if they will confirm the deal and if land and real estate token have one or more Custodians. If there are no Custodian for token, Seller should register them, sign all necessary legal agreements and transfer
 land or real estate to Custodian. After that both parties can confirm the deal and withdraw tokens.
-
 If at any stage of the deal buyer or seller wants to cancel it. He can make a cancellation request. Cancellation request are reviewed by Arbitrators. They can apply penalty on buyer or seller.
 
 #### Property trading with State registration
 In this case Galt Protocol should be integrated with Government property registry. After both seller's and buyer's tokens were transfered to escrow contract, state representetive (notary, judge or state registrator) registers deal in government registry. After property rights were transefered from buyer to seller, he confirms the deal in smart contract.
 
+#### Collective investment in real estate
+
 #### Property protection
 One of the main risks is dishonest actions of Custodians who, in the eyes of the state, are the owners of real estate. Custodian may violate the legal agreement and sell the property or restrict access to it from the owner of the token. 
 In this case, the owner of the token will be forced to go to court in order to cancel the transaction and terminate the agreement with the custodian. Such a trial can be costly and time consuming. The solution to this problem is insurance of the risk of dishonest behavior of custodians. All real estate token holders regularly send ETH or Stable Coin like DAI to an insurance smart contract on a voluntary basis. If one of the token holders has a problem with the dishonest custodian, he may receive a payment from the smart contract equivalent to the value of his property. The token itself transfers to smart contract and becomes the common property of the other participants of the insurance fund.
+
+#### Other operations
+The consistent global registry makes it possible to perform also the following operations:
+- mortgage;
+- real estate insurance;
+- collective investment and construction management;
 
 ## Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states
 
