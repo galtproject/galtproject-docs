@@ -40,7 +40,7 @@ The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc7
 
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM or Universal Transverse Mercator and Geohash. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate. All this information is stored on Ethereum blockchain;
-<img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png" alt="Accurate land plots coordinates in smart contract" width="700"/>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
 - whole building tokens  - represents whole bulding and contains it's geographical coordinates and other identification data. Information of bulding topology is stored in IPLD by using IPFS protocol;
 ![Accurate Buildings coordinates and topology in smart contract](https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png)
 - room tokens - are same as Land plot tokens, except that each of them do not represent a land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology is stored in IPLD by using IPFS protocol;
