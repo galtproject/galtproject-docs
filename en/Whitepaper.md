@@ -168,8 +168,10 @@ If at any stage of the deal buyer or seller wants to cancel it. He can make a ca
 In this case Galt Protocol should be integrated with Government property registry. After both seller's and buyer's tokens were transfered to escrow contract, state representetive (notary, judge or state registrator) registers deal in government registry. After property rights were transefered from buyer to seller, he confirms the deal in smart contract.
 
 #### Collective investment in real estate
+Today investment in Land and Real Estate can only be made through inefficient process involving a lot of useless intermediates and paper works. For many people it’s too complicated and costly. As a result large number of retail investors do not have access to Real Estate investments, which are safest way to build long term savings.
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-19-big.png" alt="Collective investment in real estate" width="600"/></p>
 
-#### Property protection
+#### Property protection from Custodian malicious behavior
 One of the main risks is dishonest actions of Custodians who, in the eyes of the state, are the owners of real estate. Custodian may violate the legal agreement and sell the property or restrict access to it from the owner of the token. 
 In this case, the owner of the token will be forced to go to court in order to cancel the transaction and terminate the agreement with the custodian. Such a trial can be costly and time consuming. The solution to this problem is insurance of the risk of dishonest behavior of custodians. All real estate token holders regularly send ETH or Stable Coin like DAI to an insurance smart contract on a voluntary basis. If one of the token holders has a problem with the dishonest custodian, he may receive a payment from the smart contract equivalent to the value of his property. The token itself transfers to smart contract and becomes the common property of the other participants of the insurance fund.
 
