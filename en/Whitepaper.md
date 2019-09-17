@@ -212,6 +212,7 @@ On "Arbitrators Governance groups" level protocol participants(Property owners, 
 On "Global governance" level protocol participants (Property owners, Oracles, Galt Holders) determine by voting global parameters such as size of the general protocol commission and commision for particular smart contracts, upgrade contracts and start Auctions for unclaimed territories (This is described in "Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states" section).
 
 ### Reputation 
+![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/images/Reputation.png)
 ### Staking rewards
 
 ## Communities of Property Owners
