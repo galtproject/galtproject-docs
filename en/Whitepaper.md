@@ -97,6 +97,7 @@ In modern world there is land (and real estate objects) that is divided between 
 In Galt Project any property owners of land and real estate with the help of decentralized community of cadastral engineers and notaries can create their property token. Each token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply through a smart contract for creating a token. The application contains the geographical coordinates of the object, topology, IPFS media hashes (photos, video, point cloud file, Building Information Model, etc.), additional identification data (address, area, floor, room ID etc.). Application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data and the property rights of the applicant in a particular jurisdiction for a fee. After the application is approved, the new object is tested for the absence of dual ownership and a token is created.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-14-big.png" alt="A decentralized community of Cadastral engineers and Notaries" width="700"/></p>
 After that Property Owner can:
+
 - perform commercial opeations with his property on Ethereum smart contracts;
 - split and merge token's geospatial data;
 - unite in community of homeowners for self-governance.
