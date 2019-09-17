@@ -236,6 +236,28 @@ In both types of territories property owners can unite in communities for self-g
 ### Community Budget
 
 ## ERC20 GALT Token
+GALT token is ERC20 standart Ethereum utility token with fixed supply of 42 mln. All 100% of GALT is distributed by means of Automated Market Maker contract with Bonding curve. The project team receives GALT tokens by buying them from a contract.
+
+### Token purpose
+By issuing a token, we pursue four main goals:
+- to create a single base for accounting Oracle deposits;
+- to create a strong community of property owners, Oracles, Custodians and developers by incentive systems that enable coordination of network participants to achieve shared goals. Tokens incentivize them in an economic game towards an outcome that are mutually beneficial;
+- create incentive for Arbitrators elections. Galt holders can stake tokens to elect Arbitrators and get reward from protocol comission;
+- create incentive for protocol governance;
+
+### Token distribution
+A bonding curve is a mathematical curve that defines a relationship between price and token supply. Here’s an example of a bonding curve, where currentPrice = tokenSupply²:
+![bonding curve](https://github.com/galtproject/galtproject-docs/blob/master/images/1_rvTSneINGx3IunJcdjW8Ew.jpeg)
+When a person has purchased the token, each subsequent buyer will have to pay a slightly higher price for each token, generating a potential profit for the earliest buyer. As more people find out about the project and buying continues, the value of each token gradually increases along the bonding curve. Early buyers who find promising projects early, buy the curve-bonded token, and then sell their token back can earn a profit in the future.
+A contract hold a balance of ETH. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
+All GALT tokens are backed by ETH on 100% at any moment and forever.
+
+### Economic model
+The token model assumes a constant increase in its value due to following factors:
+- part of the protocol commission in ETH automatically goes to buy tokens in the Automated Market Maker contract 
+which constantly increases the price;
+- part of the protocol commission is distrubuted as a reward for staking GALT tokens on Arbitrators. This makes the GALT token a source of income and stimulates demand for it;
+- in order to become an Oracle, you need to place a deposit in GALT tokens. The world has millions of land and real estate that can be tokenized. All of them will require thousands of Cadastral engineers, Notaries and Custodians which will increase the demand for GALT and its price.
 
 ## Interoperability
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
