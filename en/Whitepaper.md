@@ -267,4 +267,4 @@ The set of smart contracts described above can be executed in any Turing-complet
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
 - [Bonding Curves Explained By Yos Riady](https://yos.io/2018/11/10/bonding-curves/)
-[Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
+- [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
