@@ -193,7 +193,11 @@ The consistent global registry makes it possible to perform also the following o
 
 ## Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states
 
-### Creating property records
+### Creating property records for land
+
+### Creating property records for Real estate
+
+### Updating property records
 
 ### Commercial operations with property
 Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. Such updates should be accepted by majority of participants through governance mechanisms.
@@ -231,13 +235,25 @@ Contract, which distributes it between GALT Auto buyback Contract and Reputation
 
 ## Communities of Property Owners
 
-In both types of territories property owners can unite in communities for self-governance.
+In both types of territories property owners can unite in communities for self-governance. The main goal of such a community is to unite owners in a specific territory, enact laws and raise funds in ETH, DAI or any ERC20 to achieve common goals (physical protection of property, management of common property, construction of common infrastructure, etc.). In fact, the Community is a decentralized autonomous organization (DAO) of Property owners and may be an alternative to municipal government. Such a system is devoid of the shortcomings of the existing public administration system, since it cannot be usurped by corrupt officials.
 
 ### General community architecture
+Each community is a set of smart contracts that is created using a factory. Property owners create their personal Locker smart contract and transfer the token of the land plot or real estate to it. With this contract, they can create a Reputation in proportion to the number of square meters of property. The opportunity to join the community is determined by voting of existing members. Owners use their Reputation to create Proposals and vote on them in Voting smart contract. 
+
+Voting smart contract can:
+- approve new comminity members;
+- change community parameters; 
+- enable and disable community Laws; 
+- choose professional managers who manage the community budget;
+- set tariffs for regular and one-time fundraising in the community budget.
+
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Generalcommunityarchitecture01.png" alt="General community architecture" width="700"/></p>
 
 ### Community creation and entry
 
 ### Reputation
+
+### Liquid democracy
 
 ### Community Laws
 
