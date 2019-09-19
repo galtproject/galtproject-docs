@@ -4,7 +4,7 @@ title: Register Property Application
 sidebar_label: Register New Property
 ---
 
-A new property could be registered using NewPropertyApplication
+A new property can be registered using NewPropertyApplication
 
 v0.11
 
@@ -12,7 +12,7 @@ v0.11
 
 ### Oracle rewards
 
-Oracle rewards could be claimed from the following application statuses:
+Oracle rewards can be claimed from the following application statuses:
 * STORED
 * REJECTED
 * CLOSED
@@ -122,7 +122,7 @@ Available actions:
 The application was rejected by Contour Verifiers. The status was triggered by
 CV contract #pushRejected() method.
 
-The applicant could resubmit the application with #setContour() method again
+The applicant can resubmit the application with #setContour() method again
 
 Previous statuses:
 
@@ -138,7 +138,7 @@ Available actions:
 
 #### PENDING (5)
 
-The application work in progress. Any oracle could lock his role in order to work on it.
+The application work in progress. Any oracle can lock his role in order to work on it.
 
 Previous statuses:
 
@@ -154,13 +154,13 @@ Further statuses:
 
 Available actions:
 
-* #approve() - any oracle who locked the application could approved it, approvals from all the roles required 
+* #approve() - any oracle who locked the application can approved it, approvals from all the roles required 
     in order to trigger the application to APPROVED status
-* #reject() - any oracle who locked the application could reject it if he found malicious behaviour from the applicant,
+* #reject() - any oracle who locked the application can reject it if he found malicious behaviour from the applicant,
     despite the other oracle decisions
-* #revert() - any oracle who locked the application could revert it if he found that not all the details were
+* #revert() - any oracle who locked the application can revert it if he found that not all the details were
     correct
-* #cancel() - anyone could cancel the application after `PM_APPLICATION_CANCEL_TIMEOUT`
+* #cancel() - anyone can cancel the application after `PM_APPLICATION_CANCEL_TIMEOUT`
 
 #### APPROVED (6)
 
@@ -176,7 +176,7 @@ Further statuses:
 
 Available actions:
 
-* #store() - anyone could store a contour and the highest point into SpaceGeoDataRegistry as a separate step
+* #store() - anyone can store a contour and the highest point into SpaceGeoDataRegistry as a separate step
 
 #### REJECTED (7)
 
@@ -215,7 +215,7 @@ Available actions:
     contour/highest point should be changed or not, the status changes to PARTIALLY_RESUBMITTED or
     PENDING correspondingly.
 * #close() - the applicant can close the application anytime if he wants to. After a `PM_APPLICATION_CLOSE_TIMEOUT`
-    anyone could close the application. If the applicant don't want to allow anyone to close his application,
+    anyone can close the application. If the applicant don't want to allow anyone to close his application,
     he should resubmit it before the timeout passes.
     
 #### PARTIALLY_RESUBMITTED (8)
@@ -308,7 +308,7 @@ Further statuses:
 
 Available actions:
 
-* #lock() - an oracle with a corresponding role could lock the application
+* #lock() - an oracle with a corresponding role can lock the application
 
 #### LOCKED (2)
 
@@ -366,7 +366,7 @@ Available actions:
 #### REVERTED (5)
 
 The oracle has reverted the application. He can't change his decision.
-The applicant could resubmit the application and reset all the oracle roles to `LOCKED` status
+The applicant can resubmit the application and reset all the oracle roles to `LOCKED` status
 
 Previous statuses:
 
