@@ -24,7 +24,7 @@ build_prod:
   stage: build
   artifacts:
     paths:
-      - dist
+      - ./website/build/
     expire_in: 1 hour
   script:
    - cd website
@@ -39,7 +39,7 @@ build_dev:
   stage: build
   artifacts:
     paths:
-      - dist
+      - ./website/build/
     expire_in: 1 hour
   script:
    - cd website
@@ -69,7 +69,7 @@ review:
 stop_review:
   stage: review
   script:
-    - rm -rf ./dist/*
+    - rm -rf ./website/build/*
     - rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ./website/build/galtproject-docs $GS_DEPLOY_USER@$GS_DEPLOY_HOST:$GS_DEPLOY_PATH/review/$CI_BUILD_REF_SLUG
   variables:
     GIT_STRATEGY: none
