@@ -199,6 +199,8 @@ The consistent global registry makes it possible to perform also the following o
 Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. Such updates should be accepted by majority of participants through governance mechanisms.
 
 ### Property protection
+In territories not related to existing states, owners must themselves provide  protection of property. For this purpose they must create a Homeowners Community (a detailed description of the communities is given in the corresponding section). Owners create a regular tariff in the community and replenish the multisig by ETH, DAI or any ERC20. 
+These funds are used to pay for the services of a private police or army that provides physical protection for land and real estate.
 
 ## Governance
 The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
@@ -265,7 +267,7 @@ which constantly increases the price;
 - part of the protocol commission is distrubuted as a reward for staking GALT tokens on Arbitrators. This makes the GALT token a source of income and stimulates demand for it;
 - in order to become an Oracle, you need to place a deposit in GALT tokens. The world has millions of land and real estate that can be tokenized. All of them will require thousands of Cadastral engineers, Notaries and Custodians which will increase the demand for GALT and its price.
 
-## Interoperability
+## Protocol interoperability
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
 
 ## References
