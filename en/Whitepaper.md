@@ -252,9 +252,16 @@ Voting smart contract can:
 ### Community creation and entry
 
 ### Reputation
+Every member of Community has a Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. Thats means that Bob have more influence in Community, then Alice. A community member gets a reputation for:
+- the number of square meters of his property; 
+- by voting of other members for Community service; 
+- through financial contribution to the community budget; 
+- for voting on important topics.
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-26-big.png" alt="Reputation" width="600"/></p>
 
 ### Liquid democracy
-
+If Community member not participating in the voting, he can give vote to another trusted member in the Community. In turn, he can give his votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and active "minority." Each Community member can get gis vote back instantly whenever he wants. This way we solve “apathy of voting” and “usurpation of power” problems.
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-09-big.png" alt="Liquid democracy" width="600"/></p>
 ### Community Laws
 
 ### Community Budget
