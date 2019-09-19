@@ -28,6 +28,10 @@
       "tokens/space-token": {
         "title": "SPACE Token (ERC721)",
         "sidebar_label": "SPACE (ERC721)"
+      },
+      "whitepaper": {
+        "title": "Galt Project Whitepaper",
+        "sidebar_label": "Whitepaper"
       }
     },
     "links": {
@@ -37,11 +41,11 @@
       "Blog": "Blog"
     },
     "categories": {
+      "Whitepaper": "Whitepaper",
       "Tokens": "Tokens",
       "Applications": "Applications",
       "Registries": "Registries",
-      "Other": "Other",
-      "First Category": "First Category"
+      "Other": "Other"
     }
   },
   "pages-strings": {
