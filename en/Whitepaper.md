@@ -225,7 +225,7 @@ Protocol participants are rewarded for for choosing Arbitrators. The reward is p
 ### Commission distribution
 Most of the smart contracts have commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc), etc. Commission amounts for different operations and it's dustribution is set by voting. Commission from all contracts goes to Commission distribution 
 Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by Global governance.  Reputation Staking Reward Contract distribute ETH and GALT to GALT holders, Property owners and Oracles proportionaly to their Reputation stakes. GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. GALT tokens purchased and received from the commission are locked forever in GALT Auto buyback Contract.
-![Commission distribution](https://github.com/galtproject/galtproject-docs/blob/master/images/Commission%20distribution_01.png)
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Commission%20distribution_01.png" alt="Commission distribution" width="700"/></p>
 
 ## Communities of Property Owners
 
