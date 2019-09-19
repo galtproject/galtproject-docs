@@ -245,11 +245,10 @@ Voting smart contract can:
 - change community parameters; 
 - enable and disable community Laws; 
 - choose professional managers who manage the community budget;
+- apply fines and exclude members from community;
 - set tariffs for regular and one-time fundraising in the community budget.
 
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Generalcommunityarchitecture01.png" alt="General community architecture" width="700"/></p>
-
-### Community creation and entry
 
 ### Reputation
 Every member of Community has a Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. Thats means that Bob have more influence in Community, then Alice. A community member gets a reputation for:
@@ -260,11 +259,21 @@ Every member of Community has a Reputation. This is the number that determines t
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-26-big.png" alt="Reputation" width="600"/></p>
 
 ### Liquid democracy
-If Community member not participating in the voting, he can give vote to another trusted member in the Community. In turn, he can give his votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and active "minority." Each Community member can get gis vote back instantly whenever he wants. This way we solve “apathy of voting” and “usurpation of power” problems.
+If Community member not participating in the voting, he can give vote to another trusted member in the Community. In turn, he can give his votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and active "minority." Each Community member can get his vote back instantly whenever he wants. This way we solve “apathy of voting” and “usurpation of power” problems.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-09-big.png" alt="Liquid democracy" width="600"/></p>
+
 ### Community Laws
+Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
 
 ### Community Budget
+Community Budget is stored on Multisig wallet in ETH and ERC20 tokens. It is replenished by community members through several Tariff smart contracts, which determine how and with what regularity community members should send ETH or ERC20 to Budget.
+There are several types of Tariffs:
+- regular - community members regularly send funds in ETH or ERC20, for example, to pay for garbage removal or for police services;
+- one-time - community members send funds once in ETH or ERC20 to achieve a common goal, such as building a road;
+- mandatory - community members are required to send funds. If a member of the community does not fulfill his obligations to the community, he will receive a fine and can be excluded;
+- voluntary - community members can voluntarily replenish the budget and receive rewards in the form of an additional Reputation. For example, part of the community may pay for the construction of a new playground and get Reputation.
+
+The spending of funds is managed by professional managers, which are selected by voting. Each manager must have a deposit in ETH or ERC20, as a guarantee. The total amount of funds that can be paid from the budget for a period of time (week, month or year) is equal to the total deposit of managers. Thus, in case of suspicion of corruption, Managers can be quickly re-elected, and deposits will remain in the community and cover all losses. Managers are rewarded from Community budget.
 
 ## ERC20 GALT Token
 GALT token is ERC20 standart Ethereum utility token with fixed supply of 42 mln. All 100% of GALT is distributed by means of Automated Market Maker contract with Bonding curve. The project team receives GALT tokens by buying them from a contract.
