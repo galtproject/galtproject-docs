@@ -30,7 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'galtproject-core',
+  projectName: 'galtproject-docs',
   organizationName: 'galtproject',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'applications/new-property', label: 'Docs'},
-    {doc: 'doc4', label: 'Reference Docs'},
+    {page: 'help', label: 'Reference Docs'},
     {page: 'help', label: 'Help'},
     {blog: false, label: 'Blog'},
   ],
