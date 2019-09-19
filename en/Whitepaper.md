@@ -220,6 +220,12 @@ Property owners and GALT holders create voting proposals in Global Governance an
 For voting in particular Governance Group all participants use their Reputation in this group.
 
 ### Staking rewards
+Protocol participants are rewarded for for choosing Arbitrators. The reward is proportional to how much Reputation staked on Arbitrators in a particular group.
+
+### Commission distribution
+Most of the smart contracts have commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc), etc. Commission amounts for different operations and it's dustribution is set by voting. Commission from all contracts goes to Commission distribution 
+Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by Global governance.  Reputation Staking Reward Contract distribute ETH and GALT to GALT holders, Property owners and Oracles proportionaly to their Reputation stakes. GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. GALT tokens purchased and received from the commission are locked forever in GALT Auto buyback Contract.
+![Commission distribution](https://github.com/galtproject/galtproject-docs/blob/master/images/Commission%20distribution_01.png)
 
 ## Communities of Property Owners
 
@@ -261,8 +267,6 @@ which constantly increases the price;
 
 ## Interoperability
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
-
-## The Plan
 
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
