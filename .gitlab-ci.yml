@@ -24,7 +24,7 @@ build_prod:
   stage: build
   artifacts:
     paths:
-      - ./website/build/
+      - website/build/
     expire_in: 1 hour
   script:
    - cd website
@@ -39,7 +39,7 @@ build_dev:
   stage: build
   artifacts:
     paths:
-      - ./website/build/
+      - website/build/
     expire_in: 1 hour
   script:
    - cd website
