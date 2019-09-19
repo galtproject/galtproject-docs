@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Tokens": ["tokens/galt-token", "tokens/space-token"],
+    "Applications": ["applications/new-property", "applications/update-property", "applications/contour-verification"],
+    "Registries": ["doc2"],
+    "Other": ["other/geocode-systems"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
