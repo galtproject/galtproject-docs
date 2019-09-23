@@ -208,7 +208,7 @@ These funds are used to pay for the services of a private police or army that pr
 
 ## Governance
 The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard5.png" alt="Decentralized governance" width="600"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard5.png" alt="Decentralized governance"/></p>
 There are two levels of Governance:
 
 - Arbitrators Governance groups;
@@ -260,7 +260,7 @@ Every member of Community has a Reputation. This is the number that determines t
 
 ### Liquid democracy
 If Community member not participating in the voting, he can give vote to another trusted member in the Community. In turn, he can give his votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and active "minority." Each Community member can get his vote back instantly whenever he wants. This way we solve “apathy of voting” and “usurpation of power” problems.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard3.png" alt="Liquid democracy"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard3.png" alt="Liquid democracy" width=700/></p>
 
 ### Community Laws
 Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
