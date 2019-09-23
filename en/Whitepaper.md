@@ -40,11 +40,11 @@ The core entity of project is a NFT [ERC721 standart Ethereum token](http://erc7
 
 There are four types of tokens:
 - land plots tokens - represent particular land plot with unique geographical coordinates. Each token stores information about the boundaries of the land plot in smart contract in the form of coordinates of the vertices of the plot. Token contains accurate coordinates in different form: Latitide and Longitude, UTM(Universal Transverse Mercator), Geohash and other Geodetic datums. Coordinates are three-dimensional. Every point of land plot has an Altitude coordinate (also in defferent Geodetic datums). All this information is stored in blockchain;
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-08-big.png" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard7" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
 - whole building tokens  - represents whole bulding and contains it's geographical coordinates, topology and other identification data. Information of bulding topology (wall and roof geometry) is stored in IPLD by using IPFS protocol;
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-6-vector-06-big.png" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard8" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
 - room tokens - are same as Land plot tokens, except that each of them do not represent a Land plot, but a specific area of a building. As Land plot tokens, they store geographical coordinates. Information of room topology (wall and ceiling geometry) is stored in IPLD by using IPFS protocol;
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-2.2-vector-09-big.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard9" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
 - package tokens - represents one or several Room tokens, united by their Owner;
 
 ### Ownership
@@ -52,7 +52,7 @@ We define Land or real estate token ownership as the ability to transfer, sell a
  
 ### Geospatial Data Management
 The presence of a consistent registry of land plots, buildings and rooms objects allows owners to split and unite such objects without involving third parties. Owner can split and merge object's geospatial data within its original boundaries. If token contains geographic coordinates of land plot, owner can split initial plot for any amount of land plots within initial boundaries. On other way if owner has two tokens of two bordering land plots, he can merge them into one. This principle works the same with Rooms. For those operations computational geometry algorithms are used: Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm and others.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key%20features%201.2%20vector-03.png" alt="Smart contract Land surveying" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard2.png" alt="Smart contract Land surveying" width="700"/></p>
 If Owner wants to change original boundaries of land plot or Room, he must use the Oracles. In both cases all changes to geospatial data can be made only by token owner himself. 
 There are likely cases in which the initial recording of geographical coordinates occurred with an error and the owner of the token does not want to change them for personal gain. In such cases, a claim may be created. Claims are resolved by the Arbitrators. This will be described in more detail below.
 
