@@ -208,7 +208,7 @@ These funds are used to pay for the services of a private police or army that pr
 
 ## Governance
 The described system of smart contracts has a large number of parameters that require changes depending on the current situation, as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-15-big.png" alt="Decentralized governance" width="600"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard5.png" alt="Decentralized governance" width="600"/></p>
 There are two levels of Governance:
 
 - Arbitrators Governance groups;
@@ -256,11 +256,11 @@ Every member of Community has a Reputation. This is the number that determines t
 - by voting of other members for Community service; 
 - through financial contribution to the community budget; 
 - for voting on important topics.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-26-big.png" alt="Reputation" width="600"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard4.png" alt="Reputation"/></p>
 
 ### Liquid democracy
 If Community member not participating in the voting, he can give vote to another trusted member in the Community. In turn, he can give his votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and active "minority." Each Community member can get his vote back instantly whenever he wants. This way we solve “apathy of voting” and “usurpation of power” problems.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/key-features-1.2-vector-09-big.png" alt="Liquid democracy" width="600"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard3.png" alt="Liquid democracy"/></p>
 
 ### Community Laws
 Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
@@ -286,11 +286,10 @@ By issuing a token, we pursue four main goals:
 - create incentive for protocol governance;
 
 ### Token distribution
-A bonding curve is a mathematical curve that defines a relationship between price and token supply. Here’s an example of a bonding curve, where currentPrice = tokenSupply²:
-![bonding curve](https://github.com/galtproject/galtproject-docs/blob/master/images/1_rvTSneINGx3IunJcdjW8Ew.jpeg)
+A bonding curve is a mathematical curve that defines a relationship between price and token supply.
 When a person has purchased the token, each subsequent buyer will have to pay a slightly higher price for each token, generating a potential profit for the earliest buyer. As more people find out about the project and buying continues, the value of each token gradually increases along the bonding curve. Early buyers who find promising projects early, buy the curve-bonded token, and then sell their token back can earn a profit in the future.
-A contract hold a balance of ETH. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
-All GALT tokens are backed by ETH on 100% at any moment and forever.
+An Automated Market Maker contract(forked from Bancor) hold a balance of ETH. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
+All GALT tokens are backed by ETH on 100% at any moment and forever. 
 
 ### Economic model
 The token model assumes a constant increase in its value due to following factors:
@@ -304,6 +303,7 @@ The set of smart contracts described above can be executed in any Turing-complet
 
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
+- [Bancor ProtocolContinuous Liquidity for Cryptographic Tokens through their SmartContracts by Eyal Hertzog, Guy Benartzi, Galia Benartzi] (https://storage.googleapis.com/website-bancor/2018/04/01ba8253-bancor_protocol_whitepaper_en.pdf)
 - [Bonding Curves Explained By Yos Riady](https://yos.io/2018/11/10/bonding-curves/)
 - [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
