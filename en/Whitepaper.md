@@ -62,11 +62,11 @@ For example, when you try to create a new record about the boundaries of the lan
 
 #### The algorithm for solving the problem
 Each land plot, building or room has a polygon representation. The vertices of the polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thus, the task is reduced to mathematical verification that the new polygon does not intersect with those already existing in three-dimensional space. For consistency purposes, the calculation of intersections in three-dimensional space is too complicated and can be reduced to checking intersections in rectangular coordinate system in Mercator projection considering Altitude. 
-![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Galt_Polygon_intersection_02.png)
+![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Galt_Polygon_intersection_02.png)
 
 The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding altitude. The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane in the Mercator projection, taking into account the minimum and maximum heights of the room.
 
-![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Galt_Polygon_intersection_01.png)
+![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Galt_Polygon_intersection_01.png)
 
 For the task of determining the fact of the intersection of polygons and intersection points, the following algorithms are used:
 - Weiler–Atherton clipping algorithm; 
@@ -143,13 +143,13 @@ Several arbitrators take a claim for consideration. Each of them can create a pr
 
 #### Arbitrators Governance groups
 In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide GALT Holders, Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. There can be unlimited number of Governance groups. In each group GALT holders, Property Owners and Oracles vote to elect Arbitrators. Arbitrators deposit GALT as a deposit and provide their service in this group.
-![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/images/Governance_group_01.png)
+![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Governance_group_01.png)
 In addition to voting for Arbitrators, members of the group by voting determine such parameters as the size of the Oracles and Arbitrators deposits, the minimum amount of payment for the Oracle by role, the total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision, etc.
 
 #### Arbitrators elections
 To make governance system more reliable Arbitrators should be easily elected and re-elected, they should have ecomomic incentive to honestly resolve disputes and they should represent all the participants of the Protocol - property owners, Oracles and GALT token holders. In some cases goals of property owners, oracles and GALT token holders can be opposite, so they should have equal voting rights. 
 Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. Oracles have deposits in GALT. Deposits are used as a Voting variable. For Galt tokens holders the balance of tokens locked in a personal smart contract is used as a voting power. 
-![Arbitrators elections](https://github.com/galtproject/galtproject-docs/blob/master/images/arbitrators_elect_01.png)
+![Arbitrators elections](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/arbitrators_elect_01.png)
 Each of the groups has only 1/3 оf total Votes. 
 Property owners, oracles and GALT token holder get rewarded for staking reputation from protocol comission. We will describe it in "Project commission distrubution" section. Also, the reputation accounting scheme is more complex and is described in more details below.
 
@@ -221,7 +221,7 @@ On "Global governance" level protocol participants (Property owners, Oracles, Ga
 ### Reputation
 Property owners, GALT holders and Oracles have a Reputation through which they manage the protocol. They select Arbitrators, determine protocol parameters and upgrade smart contracts. Property owners and GALT holders create personal locker smart contract. They can transfer Property token or GALT tokens to this contract and create a Reputation in the Global Reputation contracts in proportion to the area of their property or the balance of GALT tokens. From global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in GALT tokens in the Governance group and also receive a Reputation in exchange for this. All described roles stake Reputation on Arbitrators 
 and receive reward from the general commission of the protocol.
-![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/images/Reputation.png)
+![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Reputation.png)
 Property owners and GALT holders create voting proposals in Global Governance and vote on them. Oracles have Reputation only in Governance groups, so they vote using it.
 For voting in particular Governance Group all participants use their Reputation in this group.
 
@@ -231,7 +231,7 @@ Protocol participants are rewarded for for choosing Arbitrators. The reward is p
 ### Commission distribution
 Most of the smart contracts have commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc), etc. Commission amounts for different operations and it's dustribution is set by voting. Commission from all contracts goes to Commission distribution 
 Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by Global governance.  Reputation Staking Reward Contract distribute ETH and GALT to GALT holders, Property owners and Oracles proportionaly to their Reputation stakes. GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. GALT tokens purchased and received from the commission are locked forever in GALT Auto buyback Contract.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Commission%20distribution_01.png" alt="Commission distribution" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Commission%20distribution_01.png" alt="Commission distribution" width="700"/></p>
 
 ## Communities of Property Owners
 
@@ -248,7 +248,7 @@ Voting smart contract can:
 - apply fines and exclude members from community;
 - set tariffs for regular and one-time fundraising in the community budget.
 
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Generalcommunityarchitecture01.png" alt="General community architecture" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Generalcommunityarchitecture01.png" alt="General community architecture" width="700"/></p>
 
 ### Reputation
 Every member of Community has a Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. Thats means that Bob have more influence in Community, then Alice. A community member gets a reputation for:
