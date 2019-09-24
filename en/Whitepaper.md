@@ -303,7 +303,7 @@ The set of smart contracts described above can be executed in any Turing-complet
 
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
-- [Bancor ProtocolContinuous Liquidity for Cryptographic Tokens through their SmartContracts by Eyal Hertzog, Guy Benartzi, Galia Benartzi](https://storage.googleapis.com/website-bancor/2018/04/01ba8253-bancor_protocol_whitepaper_en.pdf)
+- [Bancor Protocol Continuous Liquidity for Cryptographic Tokens through their SmartContracts by Eyal Hertzog, Guy Benartzi, Galia Benartzi](https://storage.googleapis.com/website-bancor/2018/04/01ba8253-bancor_protocol_whitepaper_en.pdf)
 - [Bonding Curves Explained By Yos Riady](https://yos.io/2018/11/10/bonding-curves/)
 - [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
