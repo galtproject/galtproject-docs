@@ -317,18 +317,24 @@ The set of smart contracts described above can be executed in any Turing-complet
 ## Appendix A: Bonding curve model
 
 `const n = 4;
-const GaltTotalSupply = 42000000;
-const ethPaidPerIteration = 20;
-const iterationsCount = 2000000;
-const InitialGaltTokenSold = 4200000;
-const InitialEth = 100;
+    const GaltTotalSupply = 42000000;
+    const ethPaidPerIteration = 20;
+    const iterationsCount = 2000000;
+    const InitialGaltTokenSold = 4200000;
+    const InitialEth = 100;
+    
+    const items = [];
 
-const CW = 1 / (n + 1);
-let EthCollateral = InitialEth;
-let galtTokenSold = InitialGaltTokenSold;
+    const CW = 1 / (n + 1);
+    console.log(`CW ${CW}`);
 
-let galtPriceBefore;
-for (let round = 0; round < iterationsCount; round++) {
+    let EthCollateral = InitialEth;
+    let galtTokenSold = InitialGaltTokenSold;
+
+    console.log(`EthCollateral ${EthCollateral}`);
+
+    let galtPriceBefore;
+    for (let round = 0; round < iterationsCount; round++) {
       let buyAmount = galtTokenSold * ((1 + ethPaidPerIteration / EthCollateral) ** CW - 1);
       galtTokenSold += buyAmount;
       EthCollateral += ethPaidPerIteration;
@@ -337,5 +343,4 @@ for (let round = 0; round < iterationsCount; round++) {
 
       if (GaltBalance < 0) {
         break;
-        
-}`
+      }`
