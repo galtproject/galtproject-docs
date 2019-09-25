@@ -162,7 +162,7 @@ The are several solutions to avoid this attack:
 - there should be a fast mechanism for casting votes and reelection of Arbitrators.
 If part of Arbitrators will try to withdraw GALT from contract, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
  
-### Commercial operations with property
+### Use cases
 With a consistent registry of property rights a various operations can be performed like trading, collective investments, insurance,mortgage and others. The guarantor of rights in such transactions can be the State directly (if a particular state accepts such transactions), international nominal owners - Custodian (and a State which they interact with) or Property owners self-governance system (if there is no State).
 
 #### Property trading with Custodians
@@ -183,15 +183,15 @@ Any Land or Real estate token can be blocked in the smart contract, as a collate
 
 #### Property protection from Custodian malicious behavior
 One of the main risks is dishonest actions of Custodians who, in the eyes of the state, are the owners of real estate. Custodian may violate the legal agreement and sell the property or restrict access to it from the owner of the token. 
-In this case, the owner of the token will be forced to go to court in order to cancel the transaction and terminate the agreement with the custodian. Such a trial can be costly and time consuming. The solution to this problem is insurance of the risk of dishonest behavior of custodians. All real estate token holders regularly send ETH or Stable Coin like DAI to an insurance smart contract on a voluntary basis. If one of the token holders has a problem with the dishonest custodian, he may receive a payment from the smart contract equivalent to the value of his property. The token itself transfers to smart contract and becomes the common property of the other participants of the insurance fund.
+In this case, the owner of the token will be forced to go to court in order to cancel the transaction and terminate the agreement with the custodian. Such a trial can be costly and time consuming. The solution to this problem is insurance of the risk of dishonest behavior of custodians. Real estate token holders unite into small group (300 - 500 owners) and regularly send ETH or Stable Coin like DAI to an insurance smart contract. If one of the token holders has a problem with the dishonest custodian, he may receive a payment from the smart contract equivalent to the value of his property. The token itself transfers to smart contract and becomes the common property of the other participants of the insurance fund. Participants may allocate by voting funds from the fund in order to return property. After the property is returned, the token can be sold by fund to its original owner or put up for sale on the market.
 
-#### Other operations
+#### Other use cases
 The consistent global registry makes it possible to perform also the following operations:
 - mortgage. It can be issued in Stablecoins. The calculation of payments and the procedure for transferring a real estate token in case of violation of the payment schedule is determined by a smart contract;
 - real estate insurance;
 - collective investment and construction management. For the construction of the property, a DAO can be created. DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership in the property.
 
-## Creating property records, commercial operations, property protection and disputes resolution on the territories without existing states
+## Creating property records, property protection and use cases on the territories without existing states
 
 ### Creating property records for land
 
@@ -226,7 +226,12 @@ Property owners and GALT holders create voting proposals in Global Governance an
 For voting in particular Governance Group all participants use their Reputation in this group.
 
 ### Staking rewards
-Protocol participants are rewarded for for choosing Arbitrators. The reward is proportional to how much Reputation staked on Arbitrators in a particular group.
+Protocol participants are rewarded for choosing Arbitrators. The reward is proportional to how much Reputation staked on Arbitrators in a particular group.
+Reward receive:
+- GALT token holders for locking GALT and staking Reputation on Arbitrators;
+- Property owners for locking land plot or real estate token and staking Reputation on Arbitrators;
+- Oracles for depositing GALT and staking Reputation on Arbitrators.
+We give the opportunity to receive rewards not only to GALT holders in order to encourage people to become Oracles and register their property (land and real estate). For example, property owners participating in the election of Arbitrotors will receive a part of the commission from all future registrations of new land plots and real estate.
 
 ### Commission distribution
 Most of the smart contracts have commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc), etc. Commission amounts for different operations and it's dustribution is set by voting. Commission from all contracts goes to Commission distribution 
