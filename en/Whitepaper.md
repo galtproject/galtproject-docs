@@ -338,4 +338,4 @@ The set of smart contracts described above can be executed in any Turing-complet
 
       if (GaltBalance < 0) {
         break;
-      }
+      }}
