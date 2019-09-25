@@ -143,7 +143,7 @@ Several arbitrators take a claim for consideration. Each of them can create a pr
 
 #### Arbitrators Governance groups
 In general there are technological limits in current Ethereum that restricts a maximum number of Arbitrators. Also there is a limit of number of claims, that can be considered by Arbitrators. So to make this system scalable and be able to work with large number of users, we should divide GALT Holders, Property Owners, Arbitrators and Oracles in groups. The most obvious solution is to combine them geographically. There can be unlimited number of Governance groups. In each group GALT holders, Property Owners and Oracles vote to elect Arbitrators. Arbitrators deposit GALT as a deposit and provide their service in this group.
-![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Governance_group_01.png)
+![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard17.png)
 In addition to voting for Arbitrators, members of the group by voting determine such parameters as the size of the Oracles and Arbitrators deposits, the minimum amount of payment for the Oracle by role, the total number of Arbitrators in the group, the number of Arbitrators who consider the claim, the required number for making a decision, etc.
 
 #### Arbitrators elections
