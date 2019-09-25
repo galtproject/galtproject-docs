@@ -221,7 +221,7 @@ On "Global governance" level protocol participants (Property owners, Oracles, Ga
 ### Reputation
 Property owners, GALT holders and Oracles have a Reputation through which they manage the protocol. They select Arbitrators, determine protocol parameters and upgrade smart contracts. Property owners and GALT holders create personal locker smart contract. They can transfer Property token or GALT tokens to this contract and create a Reputation in the Global Reputation contracts in proportion to the area of their property or the balance of GALT tokens. From global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in GALT tokens in the Governance group and also receive a Reputation in exchange for this. All described roles stake Reputation on Arbitrators 
 and receive reward from the general commission of the protocol.
-![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Reputation.png)
+![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard18.png)
 Property owners and GALT holders create voting proposals in Global Governance and vote on them. Oracles have Reputation only in Governance groups, so they vote using it.
 For voting in particular Governance Group all participants use their Reputation in this group.
 
