@@ -291,9 +291,10 @@ By issuing a token, we pursue four main goals:
 - create incentive for protocol governance;
 
 ### Token distribution
-A bonding curve is a mathematical curve that defines a relationship between price and token supply.
-When a person has purchased the token, each subsequent buyer will have to pay a slightly higher price for each token, generating a potential profit for the earliest buyer. As more people find out about the project and buying continues, the value of each token gradually increases along the bonding curve. Early buyers who find promising projects early, buy the curve-bonded token, and then sell their token back can earn a profit in the future.
-An Automated Market Maker contract(forked from Bancor) hold a balance of ETH. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
+GALT token is distributed by means of Automated Market Maker contract with Bonding curve. A bonding curve is a mathematical curve that defines a relationship between price and token supply or in our case number of sold tokens.
+When a person has purchased the token, each subsequent buyer will have to pay a slightly higher price for each token, generating a potential profit for the earliest buyer. As more people find out about the project and buying continues, the value of each token gradually increases along the bonding curve. Early buyers who find Galt Project promising earlier, buy the curve-bonded GALT token, and then they can sell their token back and earn a profit in the future.
+
+An Automated Market Maker contract(forked from Bancor) hold a balance of ETH and all fixed supply of GALT Tokens. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
 All GALT tokens are backed by ETH on 100% at any moment and forever. 
 
 ### Economic model
