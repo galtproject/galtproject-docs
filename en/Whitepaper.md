@@ -62,7 +62,7 @@ For example, when you try to create a new record about the boundaries of the lan
 
 #### The algorithm for solving the problem
 Each land plot, building or room has a polygon representation. The vertices of the polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thus, the task is reduced to mathematical verification that the new polygon does not intersect with those already existing in three-dimensional space. For consistency purposes, the calculation of intersections in three-dimensional space is too complicated and can be reduced to checking intersections in rectangular coordinate system in Mercator projection considering Altitude. 
-![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Galt_Polygon_intersection_02.png)
+![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard16.png)
 
 The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding altitude. The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane in the Mercator projection, taking into account the minimum and maximum heights of the room.
 
