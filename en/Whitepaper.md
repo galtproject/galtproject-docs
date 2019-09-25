@@ -316,7 +316,8 @@ The set of smart contracts described above can be executed in any Turing-complet
 
 ## Appendix A: Bonding curve model
 
-   `const n = 4;
+   `
+    const n = 4;
     const GaltTotalSupply = 42000000;
     const ethPaidPerIteration = 20;
     const iterationsCount = 2000000;
