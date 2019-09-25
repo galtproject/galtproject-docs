@@ -90,7 +90,7 @@ The problem can be solved completely on-chain. In this case, the initial creatio
 
 In modern world there is land (and real estate objects) that is divided between owners on the basis of state registers. Recording in these registers and protection of the rights of owners is the responsibility of a state located in a particular territory. There are also territories that are not controlled by states and, accordingly, do not have their own registries and formal guarantors of rights. Examples of such territories are Bir Tawil[1] and Antarctica[2]. The proposed system of smart contracts allows one to register ownership of land and real estate, both in the first type of territories, and in the second.
 
-## Creating property records, commercial operations, property protection and disputes resolution on the territories of existing States
+## Creating property records, disputes resolution and use cases on the territories of existing States
 
 ### Creating property records
 
