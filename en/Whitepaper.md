@@ -231,7 +231,7 @@ Reward receive:
 - GALT token holders for locking GALT and staking Reputation on Arbitrators;
 - Property owners for locking land plot or real estate token and staking Reputation on Arbitrators;
 - Oracles for depositing GALT and staking Reputation on Arbitrators.
-We give the opportunity to receive rewards not only to GALT holders in order to encourage people to become Oracles and register their property (land and real estate). For example, property owners participating in the election of Arbitrotors will receive a part of the commission from all future registrations of new land plots and real estate.
+We give the opportunity to receive rewards not only to GALT holders in order to encourage people to become Oracles and register their property (land and real estate). For example, property owners participating in the election of Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate.
 
 ### Commission distribution
 Most of the smart contracts have commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc), etc. Commission amounts for different operations and it's dustribution is set by voting. Commission from all contracts goes to Commission distribution 
@@ -299,7 +299,7 @@ All GALT tokens are backed by ETH on 100% at any moment and forever.
 
 ### Economic model
 The token model assumes a constant increase in its value due to following factors:
-- part of the protocol commission in ETH automatically goes to buy tokens in the Automated Market Maker contract 
+- part of the protocol commission in ETH automatically goes to buy GALT tokens in the Automated Market Maker contract 
 which constantly increases the price;
 - part of the protocol commission is distrubuted as a reward for staking GALT tokens on Arbitrators. This makes the GALT token a source of income and stimulates demand for it;
 - in order to become an Oracle, you need to place a deposit in GALT tokens. The world has millions of land and real estate that can be tokenized. All of them will require thousands of Cadastral engineers, Notaries and Custodians which will increase the demand for GALT and its price.
@@ -316,8 +316,8 @@ The set of smart contracts described above can be executed in any Turing-complet
 
 ## Appendix A: Bonding curve model
 
-   `
-    const n = 4;
+   
+    `const n = 4;
     const GaltTotalSupply = 42000000;
     const ethPaidPerIteration = 20;
     const iterationsCount = 2000000;
