@@ -313,3 +313,29 @@ The set of smart contracts described above can be executed in any Turing-complet
 - [Bonding Curves Explained By Yos Riady](https://yos.io/2018/11/10/bonding-curves/)
 - [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
+
+## Appendix A: Bonding curve model
+`
+const n = 4;
+const GaltTotalSupply = 42000000;
+const ethPaidPerIteration = 20;
+const iterationsCount = 2000000;
+const InitialGaltTokenSold = 4200000;
+const InitialEth = 100;
+
+const CW = 1 / (n + 1);
+let EthCollateral = InitialEth;
+let galtTokenSold = InitialGaltTokenSold;
+
+let galtPriceBefore;
+for (let round = 0; round < iterationsCount; round++) {
+      let buyAmount = galtTokenSold * ((1 + ethPaidPerIteration / EthCollateral) ** CW - 1);
+      galtTokenSold += buyAmount;
+      EthCollateral += ethPaidPerIteration;
+      const GaltBalance = GaltTotalSupply - galtTokenSold;
+      const galtPriceAfter = (EthCollateral / (galtTokenSold * CW));
+
+      if (GaltBalance < 0) {
+        break;
+        
+}`
