@@ -149,7 +149,7 @@ In addition to voting for Arbitrators, members of the group by voting determine 
 #### Arbitrators elections
 To make governance system more reliable Arbitrators should be easily elected and re-elected, they should have ecomomic incentive to honestly resolve disputes and they should represent all the participants of the Protocol - property owners, Oracles and GALT token holders. In some cases goals of property owners, oracles and GALT token holders can be opposite, so they should have equal voting rights. 
 Property owners have ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have - more votes. Oracles have deposits in GALT. Deposits are used as a Voting variable. For Galt tokens holders the balance of tokens locked in a personal smart contract is used as a voting power. 
-![Arbitrators elections](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard16.png)
+![Arbitrators elections](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard15.png)
 Each of the groups has only 1/3 оf total Votes. 
 Property owners, oracles and GALT token holder get rewarded for staking reputation from protocol comission. We will describe it in "Project commission distrubution" section. Also, the reputation accounting scheme is more complex and is described in more details below.
 
