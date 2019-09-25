@@ -315,8 +315,8 @@ The set of smart contracts described above can be executed in any Turing-complet
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
 
 ## Appendix A: Bonding curve model
-`
-const n = 4;
+
+`const n = 4;
 const GaltTotalSupply = 42000000;
 const ethPaidPerIteration = 20;
 const iterationsCount = 2000000;
