@@ -236,7 +236,7 @@ We give the opportunity to receive rewards not only to GALT holders in order to 
 ### Commission distribution
 Most of the smart contracts have commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc), etc. Commission amounts for different operations and it's dustribution is set by voting. Commission from all contracts goes to Commission distribution 
 Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by Global governance.  Reputation Staking Reward Contract distribute ETH and GALT to GALT holders, Property owners and Oracles proportionaly to their Reputation stakes. GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. GALT tokens purchased and received from the commission are locked forever in GALT Auto buyback Contract.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Commission%20distribution_01.png" alt="Commission distribution" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
 
 ## Communities of Property Owners
 
@@ -253,7 +253,7 @@ Voting smart contract can:
 - apply fines and exclude members from community;
 - set tariffs for regular and one-time fundraising in the community budget.
 
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/archived/images/Generalcommunityarchitecture01.png" alt="General community architecture" width="700"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard20.png" alt="General community architecture" width="700"/></p>
 
 ### Reputation
 Every member of Community has a Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. Thats means that Bob have more influence in Community, then Alice. A community member gets a reputation for:
