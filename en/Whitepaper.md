@@ -289,23 +289,28 @@ By issuing a token, we pursue four main goals:
 - to create a strong community of property owners, Oracles, Custodians and developers by incentive systems that enable coordination of network participants to achieve shared goals. Tokens incentivize them in an economic game towards an outcome that are mutually beneficial;
 - create incentive for Arbitrators elections. Galt holders can stake tokens to elect Arbitrators and get reward from protocol comission;
 - create incentive for protocol governance;
+- create incentive to spread information about the project. GALT token holders will distribute information about the project, as each subsequent buyer of tokens increases their value.
 
 ### Token distribution
 GALT token is distributed by means of Automated Market Maker contract with Bonding curve. A bonding curve is a mathematical curve that defines a relationship between price and token supply or in our case number of sold tokens.
 When a person has purchased the token, each subsequent buyer will have to pay a slightly higher price for each token, generating a potential profit for the earliest buyer. As more people find out about the project and buying continues, the value of each token gradually increases along the bonding curve. Early buyers who find Galt Project promising earlier, buy the curve-bonded GALT token, and then they can sell their token back and earn a profit in the future.
 
 An Automated Market Maker contract(forked from Bancor) hold a balance of ETH and all fixed supply of GALT Tokens. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
-All GALT tokens are backed by ETH on 100% at any moment and forever. 
+All GALT tokens are backed by ETH on 100% at any moment and forever.
+Automated Market Maker contract has a CW=20%.
 
-#### GALT Price by TotalSupply
+#### GALT token Price by GALT sold
+This chart describes how the price of the token changes depending on how many tokens are purchased from the contract. With each purchase, the price increases along the curve, and with the sale decreases.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Price-by-TotalSupply.png" alt="GALT Price by TotalSupply" width="700"/></p>
 
-#### Price by ETH on smart contract
+#### GALT token Price by ETH balance
+This chart describes how the price of the token changes depending on the ETH balance on the contract. The buyer sends ETH to the contract and receives GALT back, while the contract balance in ETH increases, and in GALT decreases.
+The seller, on the contrary, sends GALT and receives ETH back. The GALT balance increases, and the ETH balance decreases.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Price-by-ETH-on-contract.png" alt="GALT Price by ETH on contract" width="700"/></p>
 
 #### Galt sold by ETH received
+This graph describes how the amount of GALT sold by the contract depends on its ETH balance. In order to buy back all total supply (42 million GALT) it will take 10 million ETH.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Galt-sold-by-ETH-received.png" alt="GALT sold by ETH received" width="700"/></p>
-
 
 ### Economic model
 The token model assumes a constant increase in its value due to following factors:
