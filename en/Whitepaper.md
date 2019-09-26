@@ -83,7 +83,7 @@ Smart contract uses three methods to uniquely verify the intersection of polygon
 - occurrence of a point along the height coordinate in the interval.
 
 #### Sidechain sollution
-The problem can be solved completely on-chain. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be performed. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the token, the Validator nodes check for intersections and confirm the creation of the token.
+The problem of checking the intersection of one polygon with an unlimited number of polygons can be solved completely on-chain. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be performed. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the token, the Validator nodes check for intersections and confirm the creation of the token.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
  
 ## Types of property ownership - "with State" / "with out State"
@@ -118,7 +118,7 @@ If someone wants to create a token of land plot or building floor, there should 
 To be able to earn reward they buy and deposit protocol governance token - ERC20 GALT Token. This deposit can be written of by governance mechanism described below.
 
 #### Custodians
-For operations like land and real easte trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are legal entities in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
+For operations like land and real estate trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners in some jurisdictions need a decentralized third party - Custodians. Custodians are legal entities in reliable jurisdictions. They are temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the owner of the token. Also, they can convert fiat income from real estate to Ether or Stablecoins and transfer them to token owners. To provide paid services they need a security deposit, blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover.  Custodians get a reward from token holders for interaction with government agencies and like other Oracles. They act like a supranational property guarantor.
 To reduce the risks of fraud each property is divided between 2-3 Custodians. In case of dishonest behavier their deposits will be fully withdrawn and used to retrieve property to their real owners.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard13.png" alt="custodians"/></p>
 Each custodian has his own address. In this way, the custodian himself can be a DAO - decentralized autonomous organization.
@@ -158,7 +158,7 @@ There is a chance that part of Arbitrators and Property owners or Oracles will c
 The are several solutions to avoid this attack:
 - arbitrators should be public persons;
 - an ammount of GALT, which can be written of from contract should be limited for particular period of time.
-- summ of all Arbitrators deposit should be more then that ammount;
+- sum of all Arbitrators deposit should be more then that amount;
 - there should be a fast mechanism for casting votes and reelection of Arbitrators.
 If part of Arbitrators will try to withdraw GALT from contract, this will be noticed by the community and all Arbitrators or a part of them will be reelected. The loses will be covered by dishonest Arbitrators deposits.
  
