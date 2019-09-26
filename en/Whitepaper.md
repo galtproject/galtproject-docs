@@ -310,7 +310,7 @@ The seller, on the contrary, sends GALT and receives ETH back. The GALT balance 
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Price-by-ETH-on-contract.png" alt="GALT Price by ETH on contract" width="700"/></p>
 
 #### Galt sold by ETH received
-This graph describes how the amount of GALT sold by the contract depends on its ETH balance. In order to buy all total supply (42 million GALT) it will take 10 million ETH.
+This chart describes how the amount of GALT sold by the contract depends on its ETH balance. In order to buy all total supply (42 million GALT) it will take 10 million ETH.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Galt-sold-by-ETH-received.png" alt="GALT sold by ETH received" width="700"/></p>
 
 ### Economic model
