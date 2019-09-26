@@ -297,7 +297,8 @@ When a person has purchased the token, each subsequent buyer will have to pay a 
 
 An Automated Market Maker contract(forked from Bancor) hold a balance of ETH and all fixed supply of GALT Tokens. To buy GALT, the buyer sends some amount of ETH to a bonding curve contract’s Buy function which calculates the price of the token in a ETH and send the correct amount of GALT to the buyer. The Sell function works in reverse: The contract will calculate the GALT’s current selling price and will send the correct amount of ETH to seller.
 All GALT tokens are backed by ETH on 100% at any moment and forever.
-Automated Market Maker contract has a CW=20%.
+
+Automated Market Maker contract has a CW=20% in Bancor Formula.
 
 #### GALT token Price by GALT sold
 This chart describes how the price of the token changes depending on how many tokens are purchased from the contract. With each purchase, the price increases along the curve, and with the sale decreases.
@@ -309,7 +310,7 @@ The seller, on the contrary, sends GALT and receives ETH back. The GALT balance 
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Price-by-ETH-on-contract.png" alt="GALT Price by ETH on contract" width="700"/></p>
 
 #### Galt sold by ETH received
-This graph describes how the amount of GALT sold by the contract depends on its ETH balance. In order to buy back all total supply (42 million GALT) it will take 10 million ETH.
+This graph describes how the amount of GALT sold by the contract depends on its ETH balance. In order to buy all total supply (42 million GALT) it will take 10 million ETH.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Galt-sold-by-ETH-received.png" alt="GALT sold by ETH received" width="700"/></p>
 
 ### Economic model
