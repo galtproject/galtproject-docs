@@ -208,7 +208,7 @@ Unlike land plots in the territories of existing states, these land plots are un
 Unlike land plots that are unchanged, buildings are created and destroyed. Thus, the creation of such tokens requires Cadastral engineers and Notaries. This happens in the same way as in the territory of existing states. Anyone can pay a commission in ETH or GALT ERC20 and apply through a smart contract for creating or updating a token as it described in "Creating property records, disputes resolution and use cases on the territories of existing States" section.
 
 ### Commercial operations with property
-Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. Such updates should be accepted by majority of participants through governance mechanisms.
+Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. Such transactions should be accepted by all property owners in these territories.
 
 ### Property protection
 In territories not related to existing states, owners must themselves provide  protection of property. For this purpose they must create a Homeowners Community (a detailed description of the communities is given in the corresponding section). Owners create a regular tariff in the community and replenish the multisig by ETH, DAI or any ERC20. 
