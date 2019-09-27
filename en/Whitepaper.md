@@ -194,11 +194,14 @@ The consistent global registry makes it possible to perform also the following o
 
 ## Creating property records, property protection and use cases on the territories without existing states
 
-### Creating property records for land
+### Creating an updating property records for land
+In this case, auction mechanics are used to create land plots tokens. Anyone can pay fee in ETH or GALT and create a Proposal to conduct an auction for land plots located on unclaimed territory. The creator of the proposal creates Community of Homeowners in advance, to which all funds from the auction will be transferred, as well as the smart auction contract itself. Proposal contains the geographical coordinates of the land and auction parameters, such as Min. number of Land Plots to sell to create tokens, Auction duration, Min. goal for crowdfunding, Address of Community of Homeowners contract, Auction currency ETH/ERC20 and others.
+Protocol participants vote on Proposal through Global Governance Voting Contract. If it is accepted, then the auction begins.
+Anyone can bet on the land plot. If his bet is won, as well as the minimum required number of plots was sold or the goal of raising funds was achieved, then new tokens of land plots are created. Tokens are transferred to new owners, and all received funds are sent Community Multisig. Unsold land plots may be sold later.
+The participants in the new community choose managers who will manage the funds - to pay for the construction of infrastructure, physical protection of property, etc. They also vote for the adoption of laws and for the collection of additional funds.
 
-### Creating property records for Real estate
-
-### Updating property records
+### Creating and updating property records for Real estate
+Unlike land plots that are unchanged, buildings are created and destroyed. Thus, the creation of such tokens requires Cadastral engineers and Notaries. This happens in the same way as in the territory of existing states. Anyone can pay a commission in ETH or GALT ERC20 and apply through a smart contract for creating or updating a token as it described in "Creating property records, disputes resolution and use cases on the territories of existing States" section.
 
 ### Commercial operations with property
 Since the guarantor of the property rights are the owners themselves, in this case, commercial operations do not require Custodians. Ownership is transferred only through a smart contract. Such updates should be accepted by majority of participants through governance mechanisms.
