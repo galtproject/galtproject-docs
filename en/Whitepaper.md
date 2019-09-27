@@ -330,8 +330,8 @@ which constantly increases the price;
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
 
 ## Conclusion
-The proposed mechanism for recording property rights can completely change the way people own and carry out operations with land and real estate, as well as they unite together to create public budgets for its management and protection. 
-Using the Galt Project, people will be able to instantly and globally make property transactions without third parties, resolve disputes about property and unite in homeowner communities.
+The proposed mechanism can completely change the way people own and carry out operations with land and real estate, as well as they unite together to create public budgets for its management and protection. All data will be stored forever on millions of computers in blockchain and will be protected by the cryptographic algorithm, that prevents double ownership.
+Using the Galt Project, people will be able to instantly and globally make property transactions without third parties, resolve disputes about property, perform other operations (rental,insurance, mortgage, etc.) and unite in Communities of Homeowners.
 
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
