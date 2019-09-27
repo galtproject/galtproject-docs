@@ -187,6 +187,7 @@ In this case, the owner of the token will be forced to go to court in order to c
 
 #### Other use cases
 The consistent global registry makes it possible to perform also the following operations:
+- short or long term rental;
 - mortgage. It can be issued in Stablecoins. The calculation of payments and the procedure for transferring a real estate token in case of violation of the payment schedule is determined by a smart contract;
 - real estate insurance;
 - collective investment and construction management. For the construction of the property, a DAO can be created. DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership in the property.
@@ -242,6 +243,7 @@ Contract, which distributes it between GALT Auto buyback Contract and Reputation
 ## Communities of Property Owners
 
 In both types of territories property owners can unite in communities for self-governance. The main goal of such a community is to unite owners in a specific territory, enact laws and raise funds in ETH, DAI or any ERC20 to achieve common goals (physical protection of property, management of common property, construction of common infrastructure, etc.). In fact, the Community is a decentralized autonomous organization (DAO) of Property owners and may be an alternative to municipal government. Such a system is devoid of the shortcomings of the existing public administration system, since it cannot be usurped by corrupt officials.
+Communities of Property Owners can be as small as an apartment house, or several houses on one road, or as big as whole city or region. Imagine a city where all residents (tenants and homeowners) can use their smartphone to raise funds to the budget in ETH or any ERC20, vote on important issues and choose city managers. All operations are performed on smart contracts and therefore cannot be blocked, restricted or tampered with.
 
 ### General community architecture
 Each community is a set of smart contracts that is created using a factory. Property owners create their personal Locker smart contract and transfer the token of the land plot or real estate to it. With this contract, they can create a Reputation in proportion to the number of square meters of property. The opportunity to join the community is determined by voting of existing members. Owners use their Reputation to create Proposals and vote on them in Voting smart contract. 
@@ -256,7 +258,7 @@ Voting smart contract can:
 
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard20.png" alt="General community architecture" width="700"/></p>
 
-### Reputation
+### Community Reputation
 Every member of Community has a Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. Thats means that Bob have more influence in Community, then Alice. A community member gets a reputation for:
 - the number of square meters of his property; 
 - by voting of other members for Community service; 
@@ -280,6 +282,9 @@ There are several types of Tariffs:
 - voluntary - community members can voluntarily replenish the budget and receive rewards in the form of an additional Reputation. For example, part of the community may pay for the construction of a new playground and get Reputation.
 
 The spending of funds is managed by professional managers, which are selected by voting. Each manager must have a deposit in ETH or ERC20, as a guarantee. The total amount of funds that can be paid from the budget for a period of time (week, month or year) is equal to the total deposit of managers. Thus, in case of suspicion of corruption, Managers can be quickly re-elected, and deposits will remain in the community and cover all losses. Managers are rewarded from Community budget.
+
+### GeeSome - An unstoppable social network protocol on top of IPFS
+We created GeeSome protocol for communities to freely communicate in encrypted chat groups, share images, video, text or any data without a risk of censorship or blocking.
 
 ## ERC20 GALT Token
 GALT token is ERC20 standart Ethereum utility token with fixed supply of 42 mln. All 100% of GALT is distributed by means of Automated Market Maker contract with Bonding curve. The project team receives GALT tokens by buying them from a contract.
@@ -323,6 +328,10 @@ which constantly increases the price;
 
 ## Protocol interoperability
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
+
+## Conclusion
+The proposed mechanism for recording property rights can completely change the way people own and carry out operations with land and real estate, as well as they unite together to create public budgets for its management and protection. 
+Using the Galt Project, people will be able to instantly and globally make property transactions without third parties, resolve disputes about property and unite in homeowner communities.
 
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
