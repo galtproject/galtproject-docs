@@ -231,6 +231,7 @@ Reward receive:
 - GALT token holders for locking GALT and staking Reputation on Arbitrators;
 - Property owners for locking land plot or real estate token and staking Reputation on Arbitrators;
 - Oracles for depositing GALT and staking Reputation on Arbitrators.
+
 We give the opportunity to receive rewards not only to GALT holders in order to encourage people to become Oracles and register their property (land and real estate). For example, property owners participating in the election of Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate.
 
 ### Commission distribution
