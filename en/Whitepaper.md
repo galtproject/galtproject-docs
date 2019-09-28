@@ -14,7 +14,7 @@ Nikolai Popeka @npopeka
 – Adam Smith, Wealth of Nations, Book V, Chapter I, Part II On the Expence of Justice
 
 ## Abstract
-Galt Project is an international decentralized land and real estate property registry governed by DAO (Decentralized autonomous organization) and self-governance protocol for communities of homeowners built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a decentralized community of property owners using smart contracts. Creation of property records creation, resolution of disputes between owners, trading, mortgage, title insurance, and many other operations are performed on smart contracts. Also, property owners can unite in communities for voting, fundraising, and managing the common property.
+Galt Project is an international decentralized land and real estate property registry governed by DAO (Decentralized autonomous organization) and self-governance protocol for communities of homeowners built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a decentralized community of property owners using smart contracts. Creation of property records, resolution of disputes between owners, trading, mortgage, title insurance, and many other operations are performed on smart contracts. Also, property owners can unite in communities for voting, fundraising, and managing the common property.
 
 ## Introduction
 At the heart of any society or state lies three social contracts:
@@ -23,12 +23,12 @@ At the heart of any society or state lies three social contracts:
 - community budgets, designed to protect property and society laws.
 
 This system of those basic contracts has several fundamental problems:
-- private property registries are not secured, they are stored in centralised databases or paper archives. Owners doesn’t control those registries so society need a vast judicial branch to resolve disputes. 
+- private property registries are not secured. They're stored in centralized databases or paper archives. Owners have no control over those registries. So, society needs a large and complex judicial branch to resolve disputes;
 - different national registries use different geodetic datums;
-- access to the Community budgets can be usurped by corrupt executive, judicial and legislative branches;
-- proccess of creation of Rules is difficult and also can be easily usurped.
+- access to the Community budgets can be usurped by corrupt executive, judicial, and legislative branches;
+- process of creation of Rules is challenging and also can be easily seized as well.
 
-In this paper, we propose a mechanism for registering property, creating public budgets for its protection and laws using smart contracts on the Ethereum blockchain. Proposed mechanism is blockchain agnostic and can be implemented simultaneously on several blockchains with the ability to exchange blockchain states. This document describes only the general principles. A detailed description of the algorithms and logic of smart contracts is described in the documentation. Decentralized applications - a living organism, changing and developing. Therefore, the principles described, documentation and code are subject to change.
+In this paper, we propose a mechanism for registering property, creating public budgets for its protection and laws with the help of smart contracts on the Ethereum blockchain. The proposed mechanism is blockchain-agnostic and can be implemented simultaneously on several blockchains with the capability of exchanging blockchain states. This document describes only general principles. A detailed description of the algorithms and logic of smart contracts is described in the documentation. Decentralized applications are a living organism, constantly changing and developing. Therefore, the principles described, documentation, and code are subject to change.
 
 ## Consistent property accounting on Smart contracts
 
