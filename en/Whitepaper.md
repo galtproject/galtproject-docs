@@ -14,9 +14,7 @@ Nikolai Popeka @npopeka
 – Adam Smith, Wealth of Nations, Book V, Chapter I, Part II On the Expence of Justice
 
 ## Abstract
-
-Galt Project is international decentralized land and real estate property registry, governed by DAO (Decentralized autonomous organization) and self-governance protocol for communities of homeowners built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a decentralized community of property owners using smart contracts. 
-Property records creation, resolution of disputes between owners, trading, mortgage, title insuranse and many other operations are performed on smart contracts. Also property owners can unite in communities for voting, fundraising and managing common property.
+Galt Project is an international decentralized land and real estate property registry governed by DAO (Decentralized autonomous organization) and self-governance protocol for communities of homeowners built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a decentralized community of property owners using smart contracts. Creation of property records creation, resolution of disputes between owners, trading, mortgage, title insurance, and many other operations are performed on smart contracts. Also, property owners can unite in communities for voting, fundraising, and managing the common property.
 
 ## Introduction
 At the heart of any society or state lies three social contracts:
