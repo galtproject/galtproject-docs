@@ -137,6 +137,7 @@ Property owners, the GALT token holders, and the Oracles elect the Arbitrators, 
 - what the size of the deposit is;
 - from whom it should be written off;
 - how the coordinates are meant to be changed;
+- to apply a penalty or not on the Buyer or Seller according to the escrow smart contract terms;
 - etc.
 
 After that, they vote on each proposal. If the claim is approved, the deposit will be written off, the geographical coordinates will be changed, or the escrow contract will be canceled, etc. That said, the Arbitrators will also get their reward. If the decision isn't made on time, the Arbitrators will receive no reward, lose their deposits, and the claim can be taken up by another set of the Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he or she can create a new claim or ask the community to re-elect the Arbitrators.
