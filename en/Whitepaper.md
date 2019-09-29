@@ -189,7 +189,7 @@ In this case, the owner of the token will be forced to go to court in order to c
 The consistent global registry also makes it possible to perform the following range of operations:
 - short or long term rental;
 - mortgage. It can be issued in Stablecoins. The calculation of payments and the procedure for transferring a real estate token in case of violation of the payment schedule is determined by a smart contract;
-real-estate insurance;
+- real-estate insurance;
 - collective investment and construction management. For the construction of the property, a DAO can be created. The DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership of the property.
 
 ## Creating property records, property protection and use cases on the territories without existing states
