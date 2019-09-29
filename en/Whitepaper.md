@@ -93,7 +93,8 @@ This done, a Property Owner can:
 
 - perform commercial operations with their property on the Ethereum smart contracts;
 - split and merge the geospatial data of their tokens;
-- unite in a community of homeowners and ensure self-governance.
+- unite in a community of homeowners and ensure self-governance;
+- stake property token, participate in governance and get part of the commission from all future registrations of new land plots and real estate and other contracts (see "Governance" and "Commission distribution" sections).
 
 ### Updating property records
 In some cases, it may be necessary to update the data of land or real-estate token. This may happen if:
@@ -262,7 +263,7 @@ Protocol participants are rewarded for choosing the Arbitrators. The reward is p
 - the Property owners for locking a land plot or real estate token and staking Reputation on the Arbitrators;
 - the Oracles for depositing GALT and staking Reputation on the Arbitrators.
 
-We provide the opportunity to receive rewards not only to the GALT holders to encourage people to become the Oracles and register their property (a land and real estate). For example, the Property owners participating in the election of the Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate.
+We provide the opportunity to receive rewards not only to the GALT holders to encourage people to become the Oracles and register their property (a land and real estate). For example, the Property owners participating in the election of the Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate and other contracts.
 
 ### Commission distribution
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
