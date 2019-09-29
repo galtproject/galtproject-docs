@@ -316,6 +316,9 @@ The spending of funds is controlled by professional managers, which are selected
 ### GeeSome - An unstoppable social network protocol on top of IPFS
 We've created the GeeSome protocol for Communities to freely communicate in encrypted chat groups, share images, video, text, or any data without risk of censorship or blocking.
 
+### Compatibility with different frameworks for DAO
+To create communities of homeowners, Property owners can use not only the Galt Project Community Framework, but also other frameworks for DAO’s such as DAOStack or Aragon.
+
 ## ERC20 GALT Token
 GALT token is the ERC20 standard Ethereum utility token with a fixed supply of 42 mln. All 100% of GALT is distributed by means of the Automated Market Maker contract with Bonding curve. The project team receives GALT tokens by buying them from a contract.
 
@@ -364,6 +367,8 @@ Using the Galt Project, people will be able to instantly and globally make prope
 
 ## References
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
+- [DAOstack. An Operating System for Collective Intelligence](https://daostack.io/wp/DAOstack-White-Paper-en.pdf)
+- [Aragon Network](https://github.com/aragon/whitepaper)
 - [Bancor Protocol Continuous Liquidity for Cryptographic Tokens through their SmartContracts by Eyal Hertzog, Guy Benartzi, Galia Benartzi](https://storage.googleapis.com/website-bancor/2018/04/01ba8253-bancor_protocol_whitepaper_en.pdf)
 - [Bonding Curves Explained By Yos Riady](https://yos.io/2018/11/10/bonding-curves/)
 - [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
