@@ -94,7 +94,7 @@ This done, a Property Owner can:
 - perform commercial operations with their property on the Ethereum smart contracts;
 - split and merge the geospatial data of their tokens;
 - unite in a community of homeowners and ensure self-governance;
-- stake property token, participate in governance and get part of the commission from all future registrations of new land plots and real estate and other contracts (see "Governance" and "Commission distribution" sections).
+- transfer property token to personal locker smart contract, stake Reputation from token, participate in governance and get part of the commission from all future registrations of new land plots and real estate and other contracts (see "Governance" and "Commission distribution" sections).
 
 ### Updating property records
 In some cases, it may be necessary to update the data of land or real-estate token. This may happen if:
