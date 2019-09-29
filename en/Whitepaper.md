@@ -242,7 +242,7 @@ On the "Arbitrators Governance groups" level, the protocol participants (the Pro
 
 Also they upgrade group contracts. 
 
-On the "Global governance" level, the by voting protocol participants (Property owners, Oracles, Galt Holders) determine global parameters such as:
+On the "Global governance" level, the protocol participants (Property owners, Oracles, Galt Holders) determine global parameters such as:
 
 - size of the general protocol commission and commision for particular smart contracts;
 - commission distribution between GALT Auto buyback Contract and Reputation Staking Reward Contract (This is described in the "Commission distribution" section);
