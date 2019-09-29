@@ -289,7 +289,7 @@ Voting smart contract can:
 
 ### Community Reputation
 Every member of a Community has Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. In other words, Bob has more influence in Community, then Alice. A community member gets a reputation for:
-- the number of square meters of his or her property;
+- the number of square meters of his or her property(own or rented);
 - by voting of other members for Community service;
 - through a financial contribution to the community budget;
 - for voting on important topics.
