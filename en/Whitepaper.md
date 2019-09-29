@@ -129,7 +129,7 @@ The solution to these problems comes down to three types of operations:
 Their fulfillment requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties in the dispute – the Arbitrator. 
 
 #### GALT token Holders and their role
-GALT Token Holders are the third force designed to balance the interests of Property owners and Oracles. Since one of the most effective decision-making systems is an odd number of votes (2 to 3, 4 to 7, etc.). They are protocol developers, enthusiasts and, possibly, speculators who are financially interested in the protocol developing, and the market price of the token increasing. The GALT token is described in more detail in the corresponding section.
+GALT Token Holders are the third force designed to balance the interests of Property owners and Oracles. Since one of the most effective decision-making systems is even-numbered odd vote (2 to 3, 4 to 7, etc.). They are protocol developers, enthusiasts and, possibly, speculators who are financially interested in the protocol developing, and the market price of the token increasing. The GALT token is described in more detail in the corresponding section.
 
 #### Arbitrators 
 Property owners, the GALT token holders, and the Oracles elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Any Property owner or Oracle or Arbitrator himself can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
