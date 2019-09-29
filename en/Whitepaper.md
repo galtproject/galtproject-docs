@@ -198,6 +198,8 @@ An effective solution to the settlement problem may be crowdfunding with a large
 
 This approach can be used both on Earth and beyond it. For example, on Moon on Mars. In the near future, the cost of a flight to Mars may amount 100,000 dollars at most. Just as in the Age of Discovery, hundreds and thousands of explorers will rush to those new worlds trying to find a better life and opportunities. With smart contracts, such a settler community will be able to unite, gather necessary funds, and build the society devoid of the imperfections of the existing state systems.
 
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
+
 ### Creating an updating property records for land
 In this case, the auction mechanics are used for creating land-plot tokens. Anyone can pay a fee in ETH or GALT and create a Proposal to start an auction for land plots located on an unclaimed or disputed territory. The creator of the proposal creates Community of Homeowners in advance, to which all funds from the auction will be transferred, as well as the smart auction contract itself. The auction type is defined by the code of a smart contract (English auction ,Dutch auction, Sealed first-price auction, Vickrey auction and others). The proposal contains the geographical coordinates of the land and auction parameters, such as Min. number of Land Plots to sell to create tokens, Auction duration, Min. goal for crowdfunding, Address of Community of Homeowners contract, Auction currency ETH/ERC20 and others.
 
