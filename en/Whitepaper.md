@@ -348,7 +348,7 @@ The token model assumes a constant increase in its value due to the following fa
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of the Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of the Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
 
 ## Conclusion
-The proposed mechanism can completely change the way people own and carry out operations with land and real estate as well as unite them to create public budgets for its management and protection. All data on property, transactions, votings, etc. will be stored forever on millions of computers in blockchain and will be protected by the cryptographic algorithm, that prevents double ownership. 
+The proposed mechanism can completely change the way people own and carry out operations with land and real estate as well as unite them to create public budgets for its management and protection. All data on property, transactions, votings, etc. will be stored forever on millions of computers in blockchain, can't be faked and can't be changed.
 Using the Galt Project, people will be able to instantly and globally make property transactions without third parties, resolve disputes, perform other operations (rental, insurance, mortgage, etc.) and unite in Communities of Homeowners.
 
 ## References
