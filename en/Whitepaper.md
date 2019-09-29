@@ -209,7 +209,7 @@ In this case, the auction mechanics are used for creating land-plot tokens. Anyo
 
 Protocol participants vote on the Proposal through Global Governance Voting Contract. If it is accepted, then the auction begins. Anyone can bet on the land plot. If the bet is won, as well as the minimum required number of plots is sold or the goal of raising funds is achieved, new tokens of land plots are created. The tokens are transferred to new owners, and all received funds are sent to Community Multisig. Unsold land plots may be sold later.
 
-The participants in the new community choose managers who will manage the funds – to pay for the construction of infrastructure, physical protection of property, etc. They also vote for the adoption of laws and the collection of additional funds.
+The participants in the new community choose managers who will manage the funds – to pay for the construction of infrastructure, physical protection of property, etc. They also vote for the adoption of laws and the collection of additional funds(a detailed description of the Communities is provided in the corresponding section).
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
 Unlike land plots in the territories of existing states, these land plots are unchanged. Their geographical coordinates (latitude and longitude) can't be changed. The altitude coordinates can be changed by Cadastral engineers.
 
