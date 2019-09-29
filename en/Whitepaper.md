@@ -212,7 +212,6 @@ The participants in the new community choose managers who will manage the funds 
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
 Unlike land plots in the territories of existing states, these land plots are unchanged. Their geographical coordinates (latitude and longitude) can't be changed. The altitude coordinates can be changed by Cadastral engineers.
 
-
 ### Creating and updating property records for Real estate
 Unlike land plots that are unchanged, buildings are created and destroyed. Thus, the creation of such tokens requires Cadastral engineers and Notaries. It happens the same way as in the territory of existing states. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating or updating a token through a smart contract (as described in the "Creating property records, disputes resolution and use cases on the territories of existing States" section).
 
@@ -245,7 +244,10 @@ Also they upgrade group contracts.
 On the "Global governance" level, the by voting protocol participants (Property owners, Oracles, Galt Holders) determine global parameters such as:
 
 - size of the general protocol commission and commision for particular smart contracts;
-- upgrade contracts and start Auctions for unclaimed territories (This is described in the "Creating property records, property protection and use cases on the territories without existing states" section).
+- commission distribution between GALT Auto buyback Contract and Reputation Staking Reward Contract (This is described in the "Commission distribution" section);
+- upgrade contracts; 
+- start Auctions for unclaimed territories (This is described in the "Creating property records, property protection and use cases on the territories without existing states" section);
+- others.
 
 ### Reputation
 The Property owners, GALT holders, and Oracles have Reputation, through which they manage the protocol. They elect the Arbitrators, determine protocol parameters, and upgrade smart contracts. The Property owners and GALT holders create a personal locker smart contract. They can transfer a Property token or GALT tokens to this contract and create Reputation in the Global Reputation contracts proportionally to the area of their property or the balance of the GALT tokens. From the global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in the GALT tokens in the Governance group and receive Reputation in exchange. All of the described roles stake Reputation on the Arbitrators and receive the reward from the general commission of the protocol.
