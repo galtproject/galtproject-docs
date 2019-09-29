@@ -119,7 +119,8 @@ Operations with land and real estate may lead to disputes and disagreements both
 - the initial creation of tokens contains an error. Geographic coordinates or property rights weren't determined correctly. The owner of the token wants to receive compensation from the Cadastral engineer;
 - an error in geographic coordinates while applying for token creation. The landowner can't create a token since the land intersects with the land that was originally created incorrectly;
 - when making a purchase and sale transaction, one of the parties wants to cancel it. For example, due to the fact that the seller withheld significant information;
-- the Custodian committed fraud and sold the property. The owner of the token wants to receive the compensation necessary for the return of ownership through a state court. the Custodian committed fraud and sold the property. The owner of the token wants to receive the compensation necessary for the return of ownership through a state court. 
+- the Custodian committed fraud and sold the property. The owner of the token wants to receive the compensation necessary for the return of ownership through a state court.
+
 The solution to these problems comes down to three types of operations:
 - the possibility to write off the Oracle's deposit;
 - the ability to block the work of a dishonest Oracle;
