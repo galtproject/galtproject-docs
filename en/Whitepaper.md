@@ -223,8 +223,8 @@ There are two levels of Governance:
 
 On the "Arbitrators Governance groups" level, the protocol participants (the Property owners, Oracles, Galt Holders) elect the Arbitrators and determine the Group parameters such as:
 
-- the Oracles' and Arbitrators' Deposit amounts;
-- the Oracles' and Arbitrators' minimum fee;
+- the Oracles and Arbitrators Deposit amounts;
+- the Oracles and Arbitrators minimum fee;
 - voting thresholds;
 - the total number of the Arbitrators in the group;
 - the number of the Arbitrators who consider the claim;
