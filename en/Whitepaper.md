@@ -352,6 +352,9 @@ The token model assumes a constant increase in its value due to the following fa
 - a part of the protocol commission is distributed as a reward for staking the GALT tokens on the Arbitrators. This makes the GALT token a source of income and stimulates demand for it;
 - to become an Oracle, you need to place a deposit in the GALT tokens. The world has millions of land and real estate objects that can be tokenized. All of them will require thousands of Cadastral engineers, Notaries, and Custodians, which will increase the demand for GALT and its price.
 
+### Risk of strong price reduction due to token sale by holders through Automated Market Maker contract
+In the case of simultaneous sale of a large number of tokens through the Automated Market Maker contract, the price of the token can significantly decrease. What is not profitable for token holders, who will primarily try to sell the token through decentralized or centralized exchanges at a price equal to or slightly below the contract. Thus, the market price of the token on the exchanges will be approximately equal to the current price of the contract.
+
 ## Protocol interoperability
 The set of smart contracts described above can be executed in any Turing-complete virtual machine. Thus, the same or different version of contracts can simultaneously work on different blockchains with a different set of the Oracle and Arbitrators. Thus, tokens of land and real estate can be simultaneously created in the main chain of Ethereum, Polkadot or in TON. Each chain will have its own set of the Oracles and Arbitrators. Tokens with their geospatial data can be transferred by owners from one chain to another.
 
