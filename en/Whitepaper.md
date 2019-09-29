@@ -124,6 +124,7 @@ The solution to these problems comes down to three types of operations:
 - the possibility to write off the Oracle's deposit;
 - the ability to block the work of a dishonest Oracle;
 - the possibility of forcibly changing the geographical boundaries of a land plot or property. 
+
 Their fulfillment requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties in the dispute – the Arbitrator. 
 
 #### Arbitrators 
