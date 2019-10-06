@@ -79,9 +79,11 @@ The smart contract employs three methods to uniquely verify the intersection of 
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
  
-## Types of property ownership - "with State" / "with out State"
+## Types of property ownership - "with State" / "with out State" / Private Registry
 
 In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in both types of territories.
+
+Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. This registry can be used for transactions and collective investment in real estate.
 
 ## Creating property records, disputes resolution and use cases on the territories of existing States
 
@@ -221,6 +223,11 @@ Since the guarantor of the property rights are the owners themselves, in this ca
 
 ### Property protection
 In the territories not related to existing states, owners must provide protection of property themselves. For this purpose, they must create Homeowners Community (a detailed description of the communities is provided in the corresponding section). The owners create a regular tariff in the community and replenish the multisig with ETH, DAI, or any ERC20. These funds are used to pay for the services of the private police or army that provides physical protection for land and real estate.
+
+## Creating property records, disputes resolution and use cases in Private property registries
+
+### Creating and updating property records
+In the case of using a private registry, operations to create and update data on a land plot or property are carried out by the owner of the registry or by those who have been given the corresponding rights by the owner.
 
 ## Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
