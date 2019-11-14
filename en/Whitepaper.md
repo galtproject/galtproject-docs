@@ -83,9 +83,12 @@ The problem of checking the intersection of one polygon with an unlimited number
 
 In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in both types of territories.
 
-Registration of such rights can be made in a single decentralized registry or many registries that have an owner can be created.
-
+Registration of such rights can be made in a single decentralized registry or many registries that have an Owner who can initially create tokens.
 Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. This registry can be used for transactions and collective investment in real estate.
+
+Thus, we define the following types of registries:
+- single consistent decentralized property registry;
+- private property registries;
 
 ## Creating property records, disputes resolution and use cases on the territories of existing States in single decentralized registry
 
@@ -228,8 +231,10 @@ In the territories not related to existing states, owners must provide protectio
 
 ## Creating property records, disputes resolution and use cases in Private property registries
 
-### Creating and updating property records
-In the case of using a private registry, operations to create and update data on a land plot or property are carried out by the owner of the registry or by those who have been given the corresponding rights by the owner.
+### Creating property records
+In the case of using a private registry, operations to create token for land plot or property is carried out by the owner of the registry or by those who have been given the corresponding rights by the Owner.
+
+### Updating property records
 
 ## Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
