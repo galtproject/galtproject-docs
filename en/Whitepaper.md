@@ -1,6 +1,6 @@
 <!--- 
  * Copyright ©️ 2018 Galt•Core Blockchain Company
-  [Basic Agreement](ipfs/QmaCiXUmSrP16Gz8Jdzq6AJESY1EAANmmwha15uR3c1bsS).
+  Nikolai Popeka [Basic Agreement](ipfs/QmaCiXUmSrP16Gz8Jdzq6AJESY1EAANmmwha15uR3c1bsS).
 
 --->
 
@@ -382,6 +382,7 @@ Using the Galt Project, people will be able to instantly and globally make prope
 - [Bonding Curves Explained By Yos Riady](https://yos.io/2018/11/10/bonding-curves/)
 - [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
+- [Weiler, Kevin and Atherton, Peter. "Hidden Surface Removal using Polygon Area Sorting", Computer Graphics, 11(2):214-222, 1977.](https://www.cs.drexel.edu/~david/Classes/CS430/HWs/p214-weiler.pdf)
 
 ## Appendix A: Bonding curve JS model
 
