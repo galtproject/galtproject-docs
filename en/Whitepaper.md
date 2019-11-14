@@ -388,6 +388,7 @@ Using the Galt Project, people will be able to instantly and globally make prope
 - [Introducing Continuous Organizations by @thibauld](https://hackernoon.com/introducing-continuous-organizations-22ad9d1f63b7)
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
 - [Weiler, Kevin and Atherton, Peter. "Hidden Surface Removal using Polygon Area Sorting", Computer Graphics, 11(2):214-222, 1977.](https://www.cs.drexel.edu/~david/Classes/CS430/HWs/p214-weiler.pdf)
+- [A new algorithm for computing Boolean operations on polygons (2008, 2013) by Francisco Martinez, Antonio Jesus Rueda, Francisco Ramon Feito (and its C++ code)](http://www.cs.ucr.edu/~vbz/cs230papers/martinez_boolean.pdf)
 
 ## Appendix A: Bonding curve JS model
 
