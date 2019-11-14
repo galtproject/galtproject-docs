@@ -380,6 +380,8 @@ The proposed mechanism can completely change the way people own and carry out op
 Using the Galt Project, people will be able to instantly and globally make property transactions without third parties, resolve disputes, perform other operations (rental, insurance, mortgage, etc.) and unite in Communities of Homeowners.
 
 ## References
+- [DAOs, DACs, DAs and More: An Incomplete Terminology Guide
+Posted by Vitalik Buterin on May 6, 2014](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/)
 - [Mean Sea Level, GPS, and the Geoid By Witold Fraczek, Esri Applications Prototype Lab](https://www.esri.com/news/arcuser/0703/geoid1of3.html)
 - [DAOstack. An Operating System for Collective Intelligence](https://daostack.io/wp/DAOstack-White-Paper-en.pdf)
 - [Aragon Network](https://github.com/aragon/whitepaper)
