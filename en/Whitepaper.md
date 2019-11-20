@@ -202,7 +202,8 @@ The consistent global registry also makes it possible to perform the following r
 - short or long term rental;
 - mortgage. It can be issued in Stablecoins. The calculation of payments and the procedure for transferring a real estate token in case of violation of the payment schedule is determined by a smart contract;
 - real-estate insurance;
-- collective investment and construction management. For the construction of the property, a DAO can be created. The DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership of the property.
+- collective investment and construction management. For the construction of the property, a DAO can be created. The DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership of the property;
+- use ERC20 tokens as shares in co-op. Token holders can vote and decide on a board.
 
 ## Creating property records, property protection and use cases on the territories without existing states in single decentralized registry
 There are the territories that are out of a state's sovereignty and the territories the rights to which were renounced by the state. They're called "Terra nullius" or "nobody's land". Examples of such territories are Bir Tawil in Africa and Marie Byrd Land in Antarctica, to name a few. Due to their isolated geographical position, associated risks, and harsh climate conditions, the settlement of such territories implies substantial financial expenses and a high likelihood of losing investments. Neither states themselves, nor private enterprises and investors are ready to do this. However, with sufficient financial resources, it's possible to create anything one could imagine in these territories: cities, industries, commercial centers, tax-free areas, etc.
@@ -231,10 +232,16 @@ In the territories not related to existing states, owners must provide protectio
 
 ## Creating property records, disputes resolution and use cases in Private property registries
 
+### Creating Private property registry
+Anyone can create a private registry using the smart contract factory by paying a fee in ETH or GALT. The private registry Owner has the ability to create tokens with geographic coordinates and other data without any restriction and double ownership check. Tokens can be created for commercial purposes, as digital objects representing the right of ownership, lease rights, leasing agreements, shares in co-op, etc. As well as for the self-government of property owners. In this case, the token gives the right to make a decision and vote in the created Community of Homeowners. The purpose and legal meaning of the token is fully determined by agreement with the Owner of the private registry, as an individual or legal entity.
+
 ### Creating property records
-In the case of using a private registry, operations to create token for land plot or property is carried out by the owner of the registry or by those who have been given the corresponding rights by the Owner.
+In the case of using a private registry, operations to create token for land plot, house, appartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
 
 ### Updating property records
+In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry.
+
+### Private registries general architecture
 
 ## Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
