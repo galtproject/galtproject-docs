@@ -240,11 +240,15 @@ The purpose and legal meaning of the token is fully determined by agreement with
 In the case of using a private registry, operations to create token for land plot, house, appartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
 
 ### Updating property records
-In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry.
+In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
 
 ### Private registries general architecture
 
-## Governance
+### Private registries Governance
+
+### Private registries Commission
+
+## Decentralized registry Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard5.png" alt="Decentralized governance"/></p>
 There are two levels of Governance:
