@@ -66,7 +66,7 @@ To determine the fact of the intersection of polygons and intersection points, w
 - Weiler–Atherton clipping algorithm; 
 - Martinez-Rueda clipping algorithm.
 
-#### Off-chain and on-chain hybrid sollution
+#### Off-chain and on-chain hybrid sollution with Oracles when creating tokens
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and doesn't require substantial gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all those written earlier must is a subject to an off-chain check. Anyone can put a deposit in the GALT tokens into a smart contract to become "Polygon intersection verification Oracle" and run the script. The script checks applications with new polygons one by one. The applicant pays for the Oracles in ETH. Verification of each application requires several independent Oracles. If all Oracles confirm that there is no intersection, then they withdraw the reward. If a part of the Oracles confirms there is no intersection and at least one Oracle provides the ID of the token, with which there is an intersection, the smart contract automatically rejects the application, pays all the reward to the honest Oracles and removes the deposit from dishonest ones in favor of the honest.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard10.png" alt="Off-chain double ownership check when creating Token for Land plot, Building or Room"/></p>
 The smart contract employs three methods to uniquely verify the intersection of polygons:
@@ -74,6 +74,9 @@ The smart contract employs three methods to uniquely verify the intersection of 
 - "ray casting algorithm" to determine the occurrence of one of the vertices of the polygon in another polygon;
 - the intersection of two lines in the plane to determine the fact of the intersection of the edges of the polygons;
 - the occurrence of a point along the height coordinate in the interval.
+
+#### Off-chain and on-chain hybrid sollution with Fishers
+To guarantee 100% impossibility of double ownership, the following mechanics can be used. It can be used as an alternative or addition to the one described above. When creating a token of land plot or real estate, the owner of the token must make a deposit in GALT tokens.
 
 #### Sidechain sollution
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
