@@ -95,6 +95,24 @@ Thus, we define the following types of registries:
 - single consistent decentralized property registry;
 - private property registries.
 
+## Creating property records, disputes resolution and use cases in Private property registries
+
+### Creating Private property registry
+Anyone can create a private registry using the smart contract factory by paying a fee in ETH or GALT. The private registry Owner has the ability to create tokens with geographic coordinates and other data without any restriction and double ownership check. Tokens can be created for commercial purposes, as digital objects representing the right of ownership, lease rights, leasing agreements, shares in co-op, membership rights, etc. As well as for the self-government of property owners. In this case, the token gives the right to make a decision and vote in the created Community of Homeowners. 
+The purpose and legal meaning of the token is fully determined by agreement with the Owner of the Private registry, as an individual or legal entity.
+
+### Creating property records
+In the case of using a private registry, operations to create token for land plot, house, appartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
+
+### Updating property records
+In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
+
+### Private registries general architecture
+
+### Private registries Governance
+
+### Private registries Commission
+
 ## Creating property records, disputes resolution and use cases on the territories of existing States in single decentralized registry
 
 ### Creating property records
@@ -235,24 +253,6 @@ Since the guarantor of the property rights are the owners themselves, in this ca
 ### Property protection
 In the territories not related to existing states, owners must provide protection of property themselves. For this purpose, they must create Homeowners Community (a detailed description of the communities is provided in the corresponding section). The owners create a regular tariff in the community and replenish the multisig with ETH, DAI, or any ERC20. These funds are used to pay for the services of the private police or army that provides physical protection for land and real estate.
 
-## Creating property records, disputes resolution and use cases in Private property registries
-
-### Creating Private property registry
-Anyone can create a private registry using the smart contract factory by paying a fee in ETH or GALT. The private registry Owner has the ability to create tokens with geographic coordinates and other data without any restriction and double ownership check. Tokens can be created for commercial purposes, as digital objects representing the right of ownership, lease rights, leasing agreements, shares in co-op, membership rights, etc. As well as for the self-government of property owners. In this case, the token gives the right to make a decision and vote in the created Community of Homeowners. 
-The purpose and legal meaning of the token is fully determined by agreement with the Owner of the Private registry, as an individual or legal entity.
-
-### Creating property records
-In the case of using a private registry, operations to create token for land plot, house, appartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
-
-### Updating property records
-In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
-
-### Private registries general architecture
-
-### Private registries Governance
-
-### Private registries Commission
-
 ## Decentralized registry Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard5.png" alt="Decentralized governance"/></p>
@@ -281,13 +281,13 @@ On the "Global governance" level, the protocol participants (Property owners, Or
 - start Auctions for unclaimed territories (This is described in the "Creating property records, property protection and use cases on the territories without existing states" section);
 - others.
 
-### Reputation
+### Reputation in Decentralized registry
 The Property owners, GALT holders, and Oracles have Reputation, through which they manage the protocol. They elect the Arbitrators, determine protocol parameters, and upgrade smart contracts. The Property owners and GALT holders create a personal locker smart contract. They can transfer a Property token or GALT tokens to this contract and create Reputation in the Global Reputation contracts proportionally to the area of their property or the balance of the GALT tokens. From the global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in the GALT tokens in the Governance group and receive Reputation in exchange. All of the described roles stake Reputation on the Arbitrators and receive the reward from the general commission of the protocol.
 ![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard18.png)
 The Property owners and GALT holders create voting proposals in Global Governance and vote for them. The Oracles have Reputation only in the Governance groups, so they vote using it. 
 For voting in a particular Governance Group, all the participants use their Reputation in this group.
 
-### Staking rewards
+### Staking rewards in Decentralized registry
 Protocol participants are rewarded for choosing the Arbitrators. The reward is proportional to how much Reputation staked on the Arbitrators in a particular group. The Reward is given to:
 
 - the GALT token holders for locking GALT and staking Reputation on the Arbitrators;
@@ -296,7 +296,7 @@ Protocol participants are rewarded for choosing the Arbitrators. The reward is p
 
 We provide the opportunity to receive rewards not only to the GALT holders to encourage people to become the Oracles and register their property (a land and real estate). For example, the Property owners participating in the election of the Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate and other contracts.
 
-### Commission distribution
+### Commission distribution in Decentralized registry
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
 <p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
 
