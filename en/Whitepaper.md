@@ -98,7 +98,7 @@ Thus, we define the following types of registries:
 ## Creating property records, disputes resolution and use cases in Private property registries
 
 ### Creating Private property registry
-Anyone can create a private registry using the smart contract factory by paying a fee in ETH or GALT. The private registry Owner has the ability to create tokens with geographic coordinates and other data without any restriction and double ownership check. Tokens can be created for commercial purposes, as digital objects representing the right of ownership, lease rights, leasing agreements, shares in co-op, membership rights, etc. As well as for the self-government of property owners. In this case, the token gives the right to make a decision and vote in the created Community of Homeowners. 
+Private property registry is ERC721 Ownable Smart contract on Ethereum. Anyone can create a private registry using the smart contract Factory by paying a fee in ETH or GALT. The private registry Owner has the ability to create tokens with geographic coordinates and other linked data(address, floor, apartment or room number, photo and video, etc.) without any restriction and double ownership check. Tokens can be created for commercial purposes, as digital objects representing the right of ownership, lease rights, leasing agreements, shares in co-op, membership rights, etc. As well as for the self-government of property owners. In this case, the token gives the right to make a decision and vote in the created Community of Homeowners. 
 The purpose and legal meaning of the token is fully determined by agreement with the Owner of the Private registry, as an individual or legal entity.
 
 ### Creating property records
