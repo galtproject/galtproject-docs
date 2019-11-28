@@ -42,7 +42,7 @@ There are four types of tokens:
 - room tokens - are similar to land-plot tokens, with the difference that each of them represents a specific area of a building rather than a land plot. Just as land-plot tokens, room tokens store geographical coordinates. The information about room topology (wall and ceiling geometry) is kept in IPLD with the help of IPFS protocol;<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard9.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
 - package tokens represent one or several room tokens united by their Owner.
 
-### Ownership
+### Token Ownership
 We define a land or real-estate token ownership as the ability to transfer, sell, and perform various operations with a token in smart contracts using a private key. The token owner can be an external Ethereum address or an internal one, i.e., a smart contract. If a land or real-estate token is a joint property, then its owner is a multi-signature wallet. That said, a decentralized autonomous organization (DAO) or other smart contracts can own a token.
  
 ### Geospatial Data Management
