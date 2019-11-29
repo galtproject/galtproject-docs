@@ -75,10 +75,9 @@ The smart contract employs three methods to uniquely verify the intersection of 
 - the intersection of two lines in the plane to determine the fact of the intersection of the edges of the polygons;
 - the occurrence of a point along the height coordinate in the interval.
 
-#### Off-chain and on-chain hybrid sollution with Fishers
-To guarantee 100% impossibility of double ownership, the following mechanics can be used as an alternative or addition to the one described above. When creating a token of land plot or real estate, the Owner of the token must make a deposit in GALT ERC20 tokens. The deposit is stored in a contract that has the rights to create and destroy tokens. 
-Anyone can provide the ID of two tokens that intersect to this contract. The contract verifies on-chain that the intersection exists. If it really is, both tokens are destroyed, and the one who provided information to the contract receives both deposits.
-A deposit can be withdrawn by the Owner only if the the land or real estate token is voluntarily destroyed by the Owner.
+#### Off-chain and on-chain hybrid sollution with Deposits
+To guarantee 100% impossibility of double ownership, the following mechanics can be used as an alternative or addition to the one described above. When creating a token of land plot or real estate, the Owner of the token must make a deposit in GALT ERC20 tokens. The deposit is stored in a contract that has the rights to create and destroy tokens. A deposit can be withdrawn by the Owner only if the land or real estate token is voluntarily destroyed. 
+Anyone can provide the ID of two tokens that intersect to this contract. The contract verifies on-chain that the intersection exists. If it really is, token with last creation timestamp is destroyed, and the one who provided information to the contract receives deposit.
 
 #### Sidechain sollution
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
