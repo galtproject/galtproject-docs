@@ -75,7 +75,7 @@ The smart contract employs three methods to uniquely verify the intersection of 
 - the intersection of two lines in the plane to determine the fact of the intersection of the edges of the polygons;
 - the occurrence of a point along the height coordinate in the interval.
 
-#### Off-chain and on-chain hybrid sollution with Deposits
+#### Off-chain and on-chain hybrid sollution with Deposits after creating tokens
 To guarantee 100% impossibility of double ownership, the following mechanics can be used as an alternative or addition to the one described above. When creating a token of land plot or real estate, the Owner of the token must make a deposit in GALT ERC20 tokens. The deposit is stored in a contract that has the rights to create and destroy tokens. A deposit can be withdrawn by the Owner only if the land or real estate token is voluntarily destroyed. 
 Anyone can provide the ID of two tokens that intersect to this contract. The contract verifies on-chain that the intersection exists. If it really is, token with last creation timestamp is destroyed, and the one who provided information to the contract receives deposit.
 
