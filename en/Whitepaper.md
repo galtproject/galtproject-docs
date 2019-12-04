@@ -112,6 +112,10 @@ In this case, the geographical and other data of the token are changed by the ap
 
 ### Private registries Commission
 
+### Communities of Property owners in Private property registries
+Creating Communities of homeowners in this case is no different from creating them in a Single consistent decentralized registry. Anyone can create a community and add members to it by voting of existing members. One community may contain tokens from different private registries. And at the same time, the owner of one token can be simultaneously in several communities(community of residents of one house, street, district or the whole city, etc.). More details are in "Communities of Property Owners" section. 
+Since the community is a set of smart contracts, it itself can be the Owner of a private registry contract thus ensuring its decentralization.
+
 ## Creating property records, disputes resolution and use cases on the territories of existing States in single decentralized registry
 
 ### Creating property records
