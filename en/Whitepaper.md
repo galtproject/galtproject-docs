@@ -37,9 +37,9 @@ Land or real estate objects, unlike other real assets, like cars, art objects, a
 
 There are four types of tokens:
 
-- land-plot tokens represent a particular land plot with its unique geographical coordinates. Each token stores details on the boundaries of the land plot in the smart contract. They're set in the form of coordinates of the vertices of the plot. The token contains accurate coordinates in a different form: Latitude and Longitude, UTM (Universal Transverse Mercator), Geohash, and other Geodetic datums. Coordinates are three-dimensional. Every point of the land plot has its Altitude coordinate (also in different Geodetic datums). All this information is kept in blockchain;<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard7.png" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
-- whole-building tokens. They represent a whole building and contain its geographical coordinates, topology, and other identification data. The data regarding the topology of the building (wall and roof geometry) is stored in IPLD with the help of IPFS protocol;<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard8.png" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
-- room tokens - are similar to land-plot tokens, with the difference that each of them represents a specific area of a building rather than a land plot. Just as land-plot tokens, room tokens store geographical coordinates. The information about room topology (wall and ceiling geometry) is kept in IPLD with the help of IPFS protocol;<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard9.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
+- land-plot tokens represent a particular land plot with its unique geographical coordinates. Each token stores details on the boundaries of the land plot in the smart contract. They're set in the form of coordinates of the vertices of the plot. The token contains accurate coordinates in a different form: Latitude and Longitude, UTM (Universal Transverse Mercator), Geohash, and other Geodetic datums. Coordinates are three-dimensional. Every point of the land plot has its Altitude coordinate (also in different Geodetic datums). All this information is kept in blockchain;<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard7.png" alt="Accurate land plots coordinates in smart contract" width="700"/></p>
+- whole-building tokens. They represent a whole building and contain its geographical coordinates, topology, and other identification data. The data regarding the topology of the building (wall and roof geometry) is stored in IPLD with the help of IPFS protocol;<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard8.png" alt="Accurate Buildings coordinates and topology in smart contract" width="700"/></p>
+- room tokens - are similar to land-plot tokens, with the difference that each of them represents a specific area of a building rather than a land plot. Just as land-plot tokens, room tokens store geographical coordinates. The information about room topology (wall and ceiling geometry) is kept in IPLD with the help of IPFS protocol;<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard9.png" alt="Accurate Rooms coordinates and topology in smart contract" width="700"/></p>
 - package tokens represent one or several room tokens united by their Owner.
 
 ### Token Ownership
@@ -47,7 +47,7 @@ We define a land or real-estate token ownership as the ability to transfer, sell
  
 ### Geospatial Data Management
 The existence of a consistent registry of land plots, building and room objects enables owners to split and unite objects of the kind without involving any third parties. An owner can split and merge the geospatial data of the object within its original boundaries. If the token contains geographic coordinates of the land plot, the owner can split the initial plot for any amount of land plots within initial boundaries. Another case is if the owner has two tokens of two bordering land plots – in this circumstance, the owner can merge them into one. This principle is also applicable to Rooms. For such operations, computational geometry algorithms are used: the Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm, and many others.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard2.png" alt="Smart contract Land surveying" width="700"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard2.png" alt="Smart contract Land surveying" width="700"/></p>
 If an Owner wants to change the original boundaries of a Land Plot or Room, they must make use of the Oracles. In both cases, all changes to geospatial data can be made only by a token owner themselves. There are likely cases, in which the initial recording of geographical coordinates occurred with an error and the owner of the token doesn’t want to change them for personal gain. In such cases, a claim may be created. Claims are resolved by the Arbitrators. This will be described in more detail below.
 
 ### Double ownership problem and its solutions
@@ -55,12 +55,12 @@ By "Land and Real estate double ownership", we mean the impossibility of sharing
 
 #### The algorithm for solving the problem
 Each land plot, building, or room has a polygonal representation. The vertices of a polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thereby, the task is reduced to mathematical verification of the new polygon intersecting with the already existing ones in the three-dimensional space. For consistency purposes, the calculation of intersections in the three-dimensional space is too complicated and can be reduced to checking intersections in a rectangular coordinate system in the Mercator projection considering altitude.
-![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard16.png)
+![Polygon intersection](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard16.png)
 
 The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding the altitude. 
 The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane in the Mercator projection, taking into account the minimum and maximum heights of the room.
 
-![Polygon intersection](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard14.png)
+![Polygon intersection](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard14.png)
 
 To determine the fact of the intersection of polygons and intersection points, we use the following algorithms:
 - Weiler–Atherton clipping algorithm; 
@@ -68,7 +68,7 @@ To determine the fact of the intersection of polygons and intersection points, w
 
 #### Off-chain and on-chain hybrid sollution with Oracles when creating tokens
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and doesn't require substantial gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all those written earlier must is a subject to an off-chain check. Anyone can put a deposit in the GALT tokens into a smart contract to become "Polygon intersection verification Oracle" and run the script. The script checks applications with new polygons one by one. The applicant pays for the Oracles in ETH. Verification of each application requires several independent Oracles. If all Oracles confirm that there is no intersection, then they withdraw the reward. If a part of the Oracles confirms there is no intersection and at least one Oracle provides the ID of the token, with which there is an intersection, the smart contract automatically rejects the application, pays all the reward to the honest Oracles and removes the deposit from dishonest ones in favor of the honest.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard10.png" alt="Off-chain double ownership check when creating Token for Land plot, Building or Room"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard10.png" alt="Off-chain double ownership check when creating Token for Land plot, Building or Room"/></p>
 The smart contract employs three methods to uniquely verify the intersection of polygons:
 
 - "ray casting algorithm" to determine the occurrence of one of the vertices of the polygon in another polygon;
@@ -81,7 +81,7 @@ Anyone can provide the ID of two tokens that intersect to this contract. The con
 
 #### Sidechain sollution
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
  
 ## Types of property ownership - "with State" / "with out State" / Private Registry
 
@@ -127,7 +127,7 @@ Since the community is a set of smart contracts, it itself can be the Owner of a
 ### Creating property records
 
 In Galt Project, any land and real-estate property owners can create their property tokens with the help of the decentralized community of cadastral engineers and notaries. Each Token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating a token through a smart contract. The application contains the geographical coordinates of the object, topology, IPFS media hashes (photos, video, point cloud file, Building Information Model, etc.), additional identification data (address, area, floor, room ID, etc.). The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data and the applicant's property rights in a particular jurisdiction for a fee. With the application approved, a new object is checked for dual ownership. After that, a token is created.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard12.png" alt="A decentralized community of Cadastral engineers and Notaries"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard12.png" alt="A decentralized community of Cadastral engineers and Notaries"/></p>
 This done, a Property Owner can:
 
 - perform commercial operations with their property on the Ethereum smart contracts;
@@ -151,7 +151,7 @@ If someone wants to create a token of a land plot, building or room, there shoul
 
 #### Custodians
 In some jurisdictions, to make operations like land and real estate trading and p2p loans (with land and real estate as collateral) on Ethereum, Property owners need a decentralized third-party - the Custodians. The Custodians are legal entities in reliable jurisdictions. They're temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the token owner. Also, they can convert their income from real estate to Ether or Stablecoins and transfer it to token owners. To provide paid services, they need a security deposit blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover. The Custodians get a reward from token holders for interaction with government agencies and other Oracles. They act as a supranational property guarantor. For reducing the risks of fraud, each property is divided between 2-3 Custodians. If dishonest behavior is detected, their deposits will be fully withdrawn and used to retrieve property to their real owners.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard13.png" alt="custodians"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard13.png" alt="custodians"/></p>
 Each Custodian has a unique address. This way, the very Custodian can be a DAO – decentralized autonomous organization. In some cases, the Custodians are not necessary, if a state accepts blockchain transactions or there is no state at all, and the community of property owners itself acts as the guarantor of their rights.
 
 #### Disputes resolution
@@ -181,11 +181,11 @@ Property owners, the GALT token holders, and the Oracles elect the Arbitrators, 
 - etc.
 
 After that, they vote on each proposal. If the claim is approved, the deposit will be written off, the geographical coordinates will be changed, or the escrow contract will be canceled, etc. That said, the Arbitrators will also get their reward. If the decision isn't made on time, the Arbitrators will receive no reward, lose their deposits, and the claim can be taken up by another set of the Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he or she can create a new claim or ask the community to re-elect the Arbitrators.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard1.png" alt="Arbitrators"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard1.png" alt="Arbitrators"/></p>
 
 #### Arbitrators Governance groups
 In general, there are some technological restrictions in the current Ethereum that limit a possible maximum number of the Arbitrators. Also, there is a limit on the number of claims that can be considered by the Arbitrators during a specific period of time. So, to make this system scalable and facilitate operation with a large number of users, we should divide GALT Holders, Property Owners, Arbitrators, and Oracles into separate groups. The most obvious solution is to combine according to the geographical principle. There can be an unlimited number of Governance groups. In each group, the GALT holders, Property Owners, and Oracles vote to elect the Arbitrators. The Arbitrators deposit GALT as a deposit and provide their service in this group.
-![Governance groups](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard17.png)
+![Governance groups](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard17.png)
 In addition to voting for the Arbitrators, by voting, the members of the group determine such parameters as:
 
 - the size of the Oracles and Arbitrators deposits;
@@ -197,7 +197,7 @@ In addition to voting for the Arbitrators, by voting, the members of the group d
 
 #### Arbitrators elections
 To make the governance system more reliable, the Arbitrators should be easily elected and re-elected, they should have economic incentive to honestly resolve disputes and they should represent all the participants of the Protocol – the property owners, Oracles and GALT token holders. In some cases, the goals of the property owners, Oracles and GALT token holders may not meet. So, they should have equal voting rights. The Property owners have the ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have, the more votes you have. The Oracles have deposits in GALT. Deposits are used as a Voting variable. For the Galt tokens holders, the balance of tokens locked in a personal smart contract is used as voting power. 
-![Arbitrators elections](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard15.png)
+![Arbitrators elections](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard15.png)
 Each of these groups has only 1/3 оf the total Votes. The property owners, Oracles and GALT token holder get rewarded for staking reputation from protocol commission. We will describe it in the "Commission distribution" section. Also, the reputation accounting scheme is more complex – you can find more details below.
 
 #### Possible Attack - Property owners and Arbitrators conspiracy 
@@ -224,7 +224,7 @@ In this case, Galt Protocol should be integrated with the Government property re
 Today, investment in Land and Real Estate can only be made through an inefficient process involving a lot of useless intermediaries and lots of paperwork. For many people, it's too complicated and expensive. One of the reasons is that most REITs (Real Estate Investment Trusts) have restrictions on the minimum amount of investment, which makes it unaffordable for most people. The second main reason is that they don't accept cryptocurrencies as payment, which makes a quick cross-border purchase impossible. As a result, a large number of retail investors don't have access to Real Estate investments, which are the safest way to build long term savings.
 
 Any Land or Real estate token can be blocked in the smart contract, as collateral. At the same time, a fixed number of the ERC20 tokens is issued and can be sold to investors. Each token represents a share in a specific property. The Custodian manages the property and converts property rental income (if rental income comes in fiat currencies) minus his commission into ETH or Stable Coins. The ERC20 token holders can withdraw this income from the smart contract with their ERC20 token balance. Also, if they are no longer satisfied with the Custodian, they will be able to change it to another by voting. As a result, anyone, from a New York student to Jakarta fruit seller can invest 20 dollars a month in a real estate object using their smartphones and get income.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard6.png" alt="Collective investment in real estate"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard6.png" alt="Collective investment in real estate"/></p>
 
 #### Property protection from Custodian malicious behavior
 One of the main risks is dishonest actions of the Custodians, who, in the eyes of the state, are the owners of real estate. The Custodian may violate the legal agreement and sell the property or restrict access to it from the token owner. In this case, the token owner will be forced to go to the court to cancel the transaction and terminate the agreement with the Custodian. Such a legal procedure is costly and time-consuming. The solution to this problem is insurance of the risk of the Custodians' dishonest behavior. The real-estate token holders unite into small groups (300 - 500 owners) and regularly send ETH or Stable Coin, like DAI, to an insurance smart contract. If one of the token holders has a problem with a dishonest Custodian, they may receive a payment from the smart contract equivalent to the value of their property. The token itself is transferred to a smart contract and becomes the common property of other participants of the insurance fund. To return their property, the participants may allocate funds from the fund by voting. After the property is returned, the token can be sold by the fund to its original owner or put up for sale on the market.
@@ -250,7 +250,7 @@ In this case, the auction mechanics are used for creating land-plot tokens. Anyo
 Protocol participants vote on the Proposal through Global Governance Voting Contract. If it is accepted, then the auction begins. Anyone can bet on the land plot. If the bet is won, as well as the minimum required number of plots is sold or the goal of raising funds is achieved, new tokens of land plots are created. The tokens are transferred to new owners, and all received funds are sent to Community Multisig. Unsold land plots may be sold later.
 
 The participants in the new community choose managers who will manage the funds – to pay for the construction of infrastructure, physical protection of property, etc. They also vote for the adoption of laws and the collection of additional funds(a detailed description of the Communities is provided in the corresponding section).
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
 Unlike land plots in the territories of existing states, these land plots are unchanged. Their geographical coordinates (latitude and longitude) can't be changed. The altitude coordinates can be changed by Cadastral engineers.
 
 ### Creating and updating property records for Real estate
@@ -264,7 +264,7 @@ In the territories not related to existing states, owners must provide protectio
 
 ## Decentralized registry Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard5.png" alt="Decentralized governance"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard5.png" alt="Decentralized governance"/></p>
 There are two levels of Governance:
 
 - Arbitrators Governance groups;
@@ -292,7 +292,7 @@ On the "Global governance" level, the protocol participants (Property owners, Or
 
 ### Reputation in Decentralized registry
 The Property owners, GALT holders, and Oracles have Reputation, through which they manage the protocol. They elect the Arbitrators, determine protocol parameters, and upgrade smart contracts. The Property owners and GALT holders create a personal locker smart contract. They can transfer a Property token or GALT tokens to this contract and create Reputation in the Global Reputation contracts proportionally to the area of their property or the balance of the GALT tokens. From the global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in the GALT tokens in the Governance group and receive Reputation in exchange. All of the described roles stake Reputation on the Arbitrators and receive the reward from the general commission of the protocol.
-![Reputation](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard18.png)
+![Reputation](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard18.png)
 The Property owners and GALT holders create voting proposals in Global Governance and vote for them. The Oracles have Reputation only in the Governance groups, so they vote using it. 
 For voting in a particular Governance Group, all the participants use their Reputation in this group.
 
@@ -307,7 +307,7 @@ We provide the opportunity to receive rewards not only to the GALT holders to en
 
 ### Commission distribution in Decentralized registry
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
 
 ## Communities of Property Owners
 In both types of the territories in Decentralized registry ("with State" / "with out State") or in any Private property registries, the Property owners can unite in communities for self-governance. The main goal of such a community is to unite owners in a specific territory, enact laws, and raise funds in ETH, DAI or any ERC20 to achieve common goals (physical protection of property, management of common property, construction of common infrastructure, etc.). In fact, the Community is a decentralized autonomous organization (DAO) of Property owners and may be an alternative to the municipal government. Such a system is devoid of the shortcomings of the existing public administration system since it can't be taken over by corrupt officials. 
@@ -325,7 +325,7 @@ Voting smart contract can:
 - apply fines and exclude members from the community;
 - set tariffs for regular and one-time fundraising in the community budget.
 
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard20.png" alt="General community architecture" width="700"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard20.png" alt="General community architecture" width="700"/></p>
 
 ### Community Reputation
 Every member of a Community has Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. In other words, Bob has more influence in Community, then Alice. A community member gets a reputation for:
@@ -334,11 +334,11 @@ Every member of a Community has Reputation. This is the number that determines t
 - through a financial contribution to the community budget;
 - for voting on important topics.
 
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard4.png" alt="Reputation"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard4.png" alt="Reputation"/></p>
 
 ### Liquid democracy
 If a Community member doesn't participate in the voting, they can pass their vote to another trusted member of the Community. In turn, the latter can give his or her votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and the active "minority." Each Community member can get the vote back instantly whenever he or she wants. This way we solve the “apathy of voting” and “usurpation of power” problems.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard3.png" alt="Liquid democracy" width=700/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard3.png" alt="Liquid democracy" width=700/></p>
 
 ### Community Laws
 Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and the IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
@@ -379,15 +379,15 @@ Automated Market Maker contract has a CW=20% in Bancor Formula.
 
 #### GALT token Price by GALT sold
 This chart describes how the price of the token changes depending on how many tokens are purchased from the contract. With each purchase, the price increases along the curve, and with the sale decreases.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Price-by-TotalSupply.png" alt="GALT Price by TotalSupply" width="700"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Price-by-TotalSupply.png" alt="GALT Price by TotalSupply" width="700"/></p>
 
 #### GALT token Price by ETH balance
 This chart describes how the price of the token changes depending on the ETH balance on the contract. The buyer sends ETH to the contract and receives GALT back, while the contract balance in ETH increases, and in GALT decreases. The seller, on the contrary, sends GALT and receives ETH back. The GALT balance increases, and the ETH balance decreases.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Price-by-ETH-on-contract.png" alt="GALT Price by ETH on contract" width="700"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Price-by-ETH-on-contract.png" alt="GALT Price by ETH on contract" width="700"/></p>
 
 #### Galt sold by ETH received
 This chart describes how the amount of GALT sold by the contract depends on its ETH balance. To buy all total supply (42 million GALT), it will take 10 million ETH.
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/Galt-sold-by-ETH-received.png" alt="GALT sold by ETH received" width="700"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Galt-sold-by-ETH-received.png" alt="GALT sold by ETH received" width="700"/></p>
 
 ### Economic model
 The token model assumes a constant increase in its value due to the following factors:
