@@ -110,10 +110,13 @@ In the case of using a private registry, operations to create token for land plo
 In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
 
 ### Private registries general architecture
+![Private registries general architecture](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard22.jpg)
 
 ### Private registries Governance
+![Private registries Governance](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard24.jpg)
 
 ### Private registries Commission
+![Private registries Commission](https://github.com/galtproject/galtproject-docs/blob/master/images/Artboard23.jpg)
 
 ### Communities of Property owners in Private property registries
 Creating Communities of homeowners in this case is no different from creating them in a Single consistent decentralized registry. Anyone can create a community and add members to it by voting of existing members. One community may contain tokens from different private registries. And at the same time, the owner of one token can be simultaneously in several communities(community of residents of one house, street, district or the whole city, etc.). More details are in "Communities of Property Owners" section. 
