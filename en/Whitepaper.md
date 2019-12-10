@@ -5,7 +5,7 @@
 --->
 
 # Galt Project Whitepaper
-Nikolai Popeka @npopeka
+by Nikolai Popeka @npopeka
 
 "Civil government, so far as it is instituted for the security of property, is in reality instituted for the defense of the rich against the poor, or of those who have some property against those who have none at all. 
 
