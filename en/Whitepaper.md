@@ -97,7 +97,7 @@ Some states are currently transferring land and real estate accounting functions
 
 Thus, we define the following types of registries:
 - single consistent decentralized property registry;
-- private property registries.
+- unlimited number of private property registries.
 
 ## Creating property records, disputes resolution and use cases in Private property registries
 
