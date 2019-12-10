@@ -115,6 +115,7 @@ In the case of using a private registry, operations to create token for land plo
 In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
 
 ### Private registries general architecture
+Anyone can choose a contract Factory, pay a commission, and create their own private registry. Approved factories are in a contract registry managed by a decentralized community. After creating the registry, its owner can create tokens and transfer them to the owners. After the token has been transferred to the owner, a change in its geographical coordinates and data, as well as the destruction of the token, can only occur through the Token modification contract(Controller). For this, the Owner of the token or the Owner of the contract should create a proposal for changing the data. Proposal must be approved by the other party. After that, the Controller changes the data. In case of loss of the private key of the Token Holder, a "burn after timeout" procedure is provided. The token Owner can set the time after which the token can be destroyed by the registry owner.The registry owner in this case initiates the destruction of the token. After the time has expired, the token is destroyed and the registry owner can issue a new token.
 ![Private registries general architecture](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard22.jpg)
 
 ### Private registries Governance
