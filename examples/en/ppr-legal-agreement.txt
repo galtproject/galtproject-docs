@@ -1,0 +1,77 @@
+By owning the Property tokens of this smart contract on the Ethereum blockchain, you agree to the terms of this agreement.
+
+TERMS AND DEFINITIONS
+
+Private property registry is a set of smart contracts on Ethereum blockchain.
+
+Property token - a ERC721 standard (http://erc721.org/) cryptographic token on Ethereum blockchain with additional geospatial and other data stored in Ethereum blockchain and IPFS.
+
+Ethereum (Ethereum, from the English. Ether [ˈiːθə] - “ether”) is a platform for creating decentralized online services based on the blockchain (decentralized applications) operating on the basis of smart contracts. Implemented as a single decentralized virtual machine.
+
+A cryptographic token is an accounting unit that is not a cryptocurrency, intended to represent a digital balance in an asset, in other words, performing the function of a "substitute for securities" in the digital world. Tokens are a registry entry distributed in a blockchain. Access to the token is possible through special applications that use electronic signature schemes.
+
+A blockchain (initially block chain) is a continuous sequential chain of blocks (a linked list) that contains information according to certain rules. Copies of blockchains are stored on many different computers independently of each other.
+
+Ethers (ETH or Ether) is the Ethereum blockchain cryptographic token, used to write data to the blockchain.
+
+The account in the Ethereum blockchain is a public / private key pair used to sign transactions. Transaction is a sequence of characters sent as a message to a computer containing Ethereum software. Used to interact with the blockchain to change data in a single decentralized virtual machine.
+
+The address in the Ethereum blockchain - a unique sequence of characters that identifies a user account in the Ethereum blockchain or Ethereum Contract, is a public key. It is used to identify the recipient of cryptographic tokens and Ethers.
+
+A private key is a secret component of a key pair used in asymmetric ciphers, that is, ciphers in which different keys are used for the direct and inverse transformations. It is a sequence of characters used to sign messages and transactions. Accepted by the Parties as an electronic digital signature.
+
+A decentralized autonomous organization (DAO), sometimes labeled a decentralized autonomous corporation (DAC), is an organization represented by rules encoded as a computer program that is transparent, controlled by shareholders and not influenced by a central government. A DAO's financial transaction record and program rules are maintained on a blockchain
+
+IPFS - content-addressable, versioned, P2P file system, more details at https://ipfs.io/.
+
+Private Property registry Owner - Ethereum address that has the rights to set the following roles in the smart contract of Private property registry: Owner, Minter, Controller.
+
+Timeout burn - In case of loss of the private key of the Token Owner, a "burn after timeout" procedure is provided. The token Owner can set the time after which the token can be destroyed by the private registry Owner. The registry owner in this case initiates the destruction of the token. After the time has expired( and the token Owner didn't cancel the destruction), the token is destroyed and the registry owner can issue a new token with same geographically coordinates and data.
+
+Minter - Ethereum address that has the rights to create new Property tokens.
+
+Controller - a smart contract that has the rights to change property token’s geospatial and other data and destroy tokens.
+
+Controller owner - Ethereum address that has the rights to set Burner, Geo Data Manager, Geo Fee Manager roles in Controller smart contract.
+
+Geo Data Manager - Ethereum address that has the rights (along with the token Owner) to create proposals in Controller and approve them to change property token data and to destroy tokens.
+
+Geo Fee Manager - Ethereum address that has the rights to set additional commissions for operations with Property token.
+
+Burner - Ethereum address that has the rights to start timeout burn of Property Token.
+
+Property token Owner - Ethereum address that has the rights to transfer token, change its data and perform additional operations. Property token Owner can create proposal in Controller to change token data and destroy it.
+
+Community of Homeowners is a DAO in the form of smart contracts on Ethereum, which enable Property token Owners to unite, jointly make decisions, collect and dispose of ETH or ERC20 by voting. Property token can be a part of different communities.
+
+Locker - smart contract on Ethereum which is necessary to join Community of Homeowners. Property token Owner need to create Locker contract and to deposit his Property token to it. After that, he will be able to join the community. Locker creation may need a donation.
+
+All parties have agreed that the interpretation of technical terms uses information available on the Internet at https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md and at http://www.ethdocs.org/en/latest/.
+
+SUBJECT OF THE AGREEMENT
+
+In accordance with this agreement, the Private Property registry Owner provide smart contracts for token Owners. He can create tokens at his discretion and transfer, sell or exchange them for other tokens, goods or services. The registry owner may at his discretion approve changes to Property tokens, initiate changes or they destruction.
+
+Property token Owner can transfer, sell or exchange Property tokens at his discretion. Property token Owner can approve changes to Property tokens, initiate changes or they destruction. Property token Owner can set time for Timeout burn. Property token Owner can use his token in third-party smart contracts and applications.
+
+MEANING AND PURPOSE OF PROPERTY TOKEN
+
+!!!PUT YOUR TOKEN DESCRIPTION HERE!!!
+
+POSSIBLE DECENTRALIZATION
+
+Private Property registry Owner may at its discretion transfer ownership of the Private Property registry to Community of Homeowners which consists of Property token Owners or any other DAO.
+
+SOFTWARE UPGRADE
+
+Private Property registry Owner may at its discretion upgrade smart contracts according to current smart contracts code.
+
+VOLUNTARY DONATIONS
+
+Operations with Property tokens and interactions with smart contracts may require voluntary donations to Private Property registry Owner and / or software developers. The size of these donations and their assignments is determined by Property registry Owner and / or software developers. Donations cannot be returned and are not an obligation.
+
+DISCLAIMER
+
+None of the parties is responsible for the operability of the software, as well as any financial or other losses caused by the use of this software.
+
+When transferring the token to a third party, the current owner must convey to third party the terms of this agreement. Responsibility for any consequences, including financial losses resulting from failure to fulfill this requirement, lies with the token Owner.
