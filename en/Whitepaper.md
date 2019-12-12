@@ -155,7 +155,10 @@ There are several types of Tariffs:
 - mandatory – community members are required to send funds. If a member of the community doesn't fulfill his or her obligations to the community, he or she will receive a fine and can be excluded;
 - voluntary - community members can voluntarily replenish the budget and receive rewards in the form of additional Reputation. For example, part of the community may pay for the construction of a new playground and get Reputation.
 
-The spending of funds is controlled by professional managers, which are selected by voting. Each manager must have a deposit in ETH or ERC20, as a guarantee. The total amount of funds that can be paid from the budget for a period of time (week, month, or year) is equal to the total deposit of managers. Thus, in case of suspicion of corruption, Managers can be quickly re-elected, and deposits will remain in the community and cover all losses. Managers are rewarded from Community budget.
+The spending of funds is controlled by professional managers (Multisig managers), which are selected by voting. Each manager must have a deposit in ETH or ERC20, as a guarantee. The total amount of funds that can be paid from the budget for a period of time (week, month, or year) is equal to the total deposit of managers. Thus, in case of suspicion of corruption, Managers can be quickly re-elected, and deposits will remain in the community and cover all losses. Managers are rewarded from Community budget.
+
+### Many Multisig wallets in one Community
+A community for different purposes can create several Multisig wallets and through direct elections set their Multisig managers. For example, one Multisig wallet can be created for road construction, and another for energy network maintenance.
 
 ### GeeSome - An unstoppable social network protocol on top of IPFS
 We've created the GeeSome protocol for Communities to freely communicate in encrypted chat groups, share images, video, text, or any data without risk of censorship or blocking.
