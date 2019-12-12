@@ -188,6 +188,9 @@ and the token Owner didn't cancel the destruction), the token is destroyed and t
 ![Private registries general architecture](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard22.jpg)
 
 ### Private registries Governance
+We want smart contracts and related software to be reliable and not require complex technical skills from ordinary users. To do this, we use the mechanism of Factories, when a user, paying a commission, creates a private registry, community (or other smart contracts) using an allredy existing, reliable contract on mainnet. Software development is a complex process in which probable errors and critical vulnerabilities. Thus, someone with technical skills and financial motivation should monitor the reliability of existing Factory contracts (or simple contracts), upgrade them and create new contracts and Factories that users need. And this should not be one person or a small group of people, but a decentralized community, where there will be no single point of failure. 
+
+We lay it on the GALT ERC20 Token Holders.They stake tokens and can create proposals and vote for existing smart contracts upgrades, setting commissions, approving new smart contracts and others. For this, they receive a percentage of the total commission of smart contracts in proportion to their stake.
 ![Private registries Governance](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard24.jpg)
 
 ### Private registries Commission
