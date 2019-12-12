@@ -52,6 +52,9 @@ Absolutely the same, the collection of public budgets for property protection an
 
 ### Token Ownership
 We define a land or real-estate token ownership as the ability to transfer, sell, and perform various operations with a token in smart contracts using a private key. The token owner can be an external Ethereum address or an internal one, i.e., a smart contract. If a land or real-estate token is a joint property, then its owner is a multi-signature wallet. That said, a decentralized autonomous organization (DAO) or other smart contracts can own a token.
+
+### Token rental
+We define a land or real-estate token rental as the ability to perform various operations with a token according smart contracts between Token Owners and Token Tenant using a private key.
  
 ### Geospatial Data Management
 The existence of a consistent registry of land plots, building and room objects enables owners to split and unite objects of the kind without involving any third parties. An owner can split and merge the geospatial data of the object within its original boundaries. If the token contains geographic coordinates of the land plot, the owner can split the initial plot for any amount of land plots within initial boundaries. Another case is if the owner has two tokens of two bordering land plots – in this circumstance, the owner can merge them into one. This principle is also applicable to Rooms. For such operations, computational geometry algorithms are used: the Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm, and many others.
