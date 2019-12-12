@@ -194,6 +194,7 @@ We lay it on the GALT ERC20 Token Holders. They stake tokens and can create prop
 ![Private registries Governance](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard24.jpg)
 
 ### Private registries Commission
+Most of the smart contracts in Private registries have a commission in Ether and/or GALT ERC20 for tokens trading, creating smart contracts with Factories (Private registries, communities of homeowners, property token lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission mixer Contract, which distributes it between GALT Auto buyback Contract and Staking Reward Contract in proportion set by the Governance voting contract. Staking Reward Contract distributes ETH and GALT to the GALT holders proportionally to their stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
 ![Private registries Commission](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard23.jpg)
 
 ### Communities of Property owners in Private property registries
