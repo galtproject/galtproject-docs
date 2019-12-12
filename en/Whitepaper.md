@@ -96,7 +96,9 @@ The problem of checking the intersection of one polygon with an unlimited number
 In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in both types of territories.
 
 Registration of such rights can be made in a single decentralized registry or many registries that have an Owner who can initially create tokens.
-Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. This registry can be used for transactions and collective investment in real estate.
+Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. A community of property owners living in the same territory can also create their own registry without any legal entities. 
+
+This registry can be used for property transactions, collective investment in real estate, self-governance and other purposes.
 
 Thus, we define the following types of registries:
 - single consistent decentralized property registry;
