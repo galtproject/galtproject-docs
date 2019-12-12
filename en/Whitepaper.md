@@ -110,7 +110,7 @@ Communities of Property Owners can be as small as an apartment house, or several
 We suggest using a land plot or real estate token as a basis for the Community of Homeowners for the following reasons:
 - each token is unique, two tokens in the general case cannot occupy the same geographical coordinates. The creation of non-existent tokens is easily revealed by the community and fake votes is almost impossible;
 - each token is located in a specific geographic area. Token holders living in this place (property owners or tenants) are more than anyone else have the right and interest in the proper management of this area according to the right of residence. An individual who does not live in this area should not have the right to make decisions that determine the life of society;
-- everyone knows their neighbors and where they live, which means that the process of verification of community members by members themselves is greatly simplified.
+- everyone knows their neighbors and where they live, which means that the process of verification of community members by members themselves is simple and reliable.
 
 ### General community architecture
 Each community is a set of smart contracts created with a factory. The Property owners create their personal Locker smart contract and transfer the token of the land plot or real estate to it. With this contract, they can create Reputation in proportion to the number of square meters of property. The opportunity to join the community is determined by voting of existing members. Owners use their Reputation to create Proposals and vote on them in Voting smart contract.
