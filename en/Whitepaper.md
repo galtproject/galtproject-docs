@@ -108,6 +108,7 @@ Thus, we define the following types of registries:
 - unlimited number of private property registries.
 
 ## Communities of Property Owners
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard25.png" alt="Communities of Property Owners"/></p>
 In both types of the territories in Decentralized registry ("with State" / "with out State") or in any Private property registries, the Property owners(or tenants) can unite in communities for self-governance. The main goal of such a community is to unite owners in a specific territory, enact laws, and raise funds in ETH, DAI or any ERC20 to achieve common goals (physical protection of property, management of common property, construction of common infrastructure, etc.). In fact, the Community is a decentralized autonomous organization (DAO) of Property owners and may be an alternative to the municipal government. Such a system is devoid of the shortcomings of the existing public administration system since it can't be taken over by corrupt officials. 
 
 Communities of Property Owners can be as small as an apartment house, or several neighboring houses, or as big as a whole city or region. Imagine a city where all residents (tenants and homeowners) can use their smartphone to raise funds to the budget in ETH or any ERC20, vote on important issues and choose city managers. All operations are performed on smart contracts and therefore cannot be blocked, restricted, or tampered.
