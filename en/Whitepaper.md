@@ -101,6 +101,62 @@ Thus, we define the following types of registries:
 - single consistent decentralized property registry;
 - unlimited number of private property registries.
 
+## Communities of Property Owners
+In both types of the territories in Decentralized registry ("with State" / "with out State") or in any Private property registries, the Property owners(or tenants) can unite in communities for self-governance. The main goal of such a community is to unite owners in a specific territory, enact laws, and raise funds in ETH, DAI or any ERC20 to achieve common goals (physical protection of property, management of common property, construction of common infrastructure, etc.). In fact, the Community is a decentralized autonomous organization (DAO) of Property owners and may be an alternative to the municipal government. Such a system is devoid of the shortcomings of the existing public administration system since it can't be taken over by corrupt officials. 
+
+Communities of Property Owners can be as small as an apartment house, or several neighboring houses, or as big as a whole city or region. Imagine a city where all residents (tenants and homeowners) can use their smartphone to raise funds to the budget in ETH or any ERC20, vote on important issues and choose city managers. All operations are performed on smart contracts and therefore cannot be blocked, restricted, or tampered.
+
+### The need to use Property token as a basis for community membership and voting
+We suggest using a land plot or real estate token as a basis for the Community of Homeowners for the following reasons:
+- each token is unique, two tokens in the general case cannot occupy the same geographical coordinates. The creation of non-existent tokens is easily revealed by the community and fake votes is almost impossible;
+- each token is located in a specific geographic area. Token holders living in this place (property owners or tenants) are more than anyone else have the right and interest in the proper management of this area according to the right of residence. An individual who does not live in this area should not have the right to make decisions that determine the life of society;
+- everyone knows their neighbors and where they live, which means that the process of verification of community members by members themselves is greatly simplified.
+
+### General community architecture
+Each community is a set of smart contracts created with a factory. The Property owners create their personal Locker smart contract and transfer the token of the land plot or real estate to it. With this contract, they can create Reputation in proportion to the number of square meters of property. The opportunity to join the community is determined by voting of existing members. Owners use their Reputation to create Proposals and vote on them in Voting smart contract.
+
+Voting smart contract can:
+- approve new community members;
+- change community parameters;
+- enable and disable community Laws;
+- choose professional managers, who manage the community budget;
+- apply fines and exclude members from the community;
+- set tariffs for regular and one-time fundraising in the community budget.
+
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard20.png" alt="General community architecture" width="700"/></p>
+
+### Community Reputation
+Every member of a Community has Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. In other words, Bob has more influence in Community, then Alice. A community member gets a reputation for:
+- the number of square meters of his or her property(own or rented);
+- by voting of other members for Community service;
+- through a financial contribution to the community budget;
+- for voting on important topics.
+
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard4.png" alt="Reputation"/></p>
+
+### Liquid democracy
+If a Community member doesn't participate in the voting, they can pass their vote to another trusted member of the Community. In turn, the latter can give his or her votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and the active "minority." Each Community member can get the vote back instantly whenever he or she wants. This way we solve the “apathy of voting” and “usurpation of power” problems.
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard3.png" alt="Liquid democracy" width=700/></p>
+
+### Community Laws
+Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and the IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
+
+### Community Budget
+Community Budget is stored on a Multisig wallet in the ETH and ERC20 tokens. It's replenished by community members through several Tariff smart contracts, which determine how and with what regularity community members should send ETH or ERC20 to Budget. 
+There are several types of Tariffs:
+- regular – community members regularly send funds in ETH or ERC20, for example, to pay for garbage collection or for the police services;
+- one-time – community members send their funds once in ETH or ERC20 to achieve a common goal, such as building a road;
+- mandatory – community members are required to send funds. If a member of the community doesn't fulfill his or her obligations to the community, he or she will receive a fine and can be excluded;
+- voluntary - community members can voluntarily replenish the budget and receive rewards in the form of additional Reputation. For example, part of the community may pay for the construction of a new playground and get Reputation.
+
+The spending of funds is controlled by professional managers, which are selected by voting. Each manager must have a deposit in ETH or ERC20, as a guarantee. The total amount of funds that can be paid from the budget for a period of time (week, month, or year) is equal to the total deposit of managers. Thus, in case of suspicion of corruption, Managers can be quickly re-elected, and deposits will remain in the community and cover all losses. Managers are rewarded from Community budget.
+
+### GeeSome - An unstoppable social network protocol on top of IPFS
+We've created the GeeSome protocol for Communities to freely communicate in encrypted chat groups, share images, video, text, or any data without risk of censorship or blocking.
+
+### Compatibility with different frameworks for DAO
+To create communities of homeowners, Property owners can use not only the Galt Project Community Framework, but also other frameworks for DAO’s such as DAOStack or Aragon.
+
 ## Creating property records, disputes resolution and use cases in Private property registries
 
 ### Creating Private property registry
@@ -317,56 +373,6 @@ We provide the opportunity to receive rewards not only to the GALT holders to en
 ### Commission distribution in Decentralized registry
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
-
-## Communities of Property Owners
-In both types of the territories in Decentralized registry ("with State" / "with out State") or in any Private property registries, the Property owners can unite in communities for self-governance. The main goal of such a community is to unite owners in a specific territory, enact laws, and raise funds in ETH, DAI or any ERC20 to achieve common goals (physical protection of property, management of common property, construction of common infrastructure, etc.). In fact, the Community is a decentralized autonomous organization (DAO) of Property owners and may be an alternative to the municipal government. Such a system is devoid of the shortcomings of the existing public administration system since it can't be taken over by corrupt officials. 
-
-Communities of Property Owners can be as small as an apartment house, or several neighboring houses, or as big as a whole city or region. Imagine a city where all residents (tenants and homeowners) can use their smartphone to raise funds to the budget in ETH or any ERC20, vote on important issues and choose city managers. All operations are performed on smart contracts and therefore cannot be blocked, restricted, or tampered.
-
-### General community architecture
-Each community is a set of smart contracts created with a factory. The Property owners create their personal Locker smart contract and transfer the token of the land plot or real estate to it. With this contract, they can create Reputation in proportion to the number of square meters of property. The opportunity to join the community is determined by voting of existing members. Owners use their Reputation to create Proposals and vote on them in Voting smart contract.
-
-Voting smart contract can:
-- approve new community members;
-- change community parameters;
-- enable and disable community Laws;
-- choose professional managers, who manage the community budget;
-- apply fines and exclude members from the community;
-- set tariffs for regular and one-time fundraising in the community budget.
-
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard20.png" alt="General community architecture" width="700"/></p>
-
-### Community Reputation
-Every member of a Community has Reputation. This is the number that determines the weight of the vote of each participant in the voting for decisions. Alice can have Reputation 45, Bob 52. In other words, Bob has more influence in Community, then Alice. A community member gets a reputation for:
-- the number of square meters of his or her property(own or rented);
-- by voting of other members for Community service;
-- through a financial contribution to the community budget;
-- for voting on important topics.
-
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard4.png" alt="Reputation"/></p>
-
-### Liquid democracy
-If a Community member doesn't participate in the voting, they can pass their vote to another trusted member of the Community. In turn, the latter can give his or her votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and the active "minority." Each Community member can get the vote back instantly whenever he or she wants. This way we solve the “apathy of voting” and “usurpation of power” problems.
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard3.png" alt="Liquid democracy" width=700/></p>
-
-### Community Laws
-Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and the IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
-
-### Community Budget
-Community Budget is stored on a Multisig wallet in the ETH and ERC20 tokens. It's replenished by community members through several Tariff smart contracts, which determine how and with what regularity community members should send ETH or ERC20 to Budget. 
-There are several types of Tariffs:
-- regular – community members regularly send funds in ETH or ERC20, for example, to pay for garbage collection or for the police services;
-- one-time – community members send their funds once in ETH or ERC20 to achieve a common goal, such as building a road;
-- mandatory – community members are required to send funds. If a member of the community doesn't fulfill his or her obligations to the community, he or she will receive a fine and can be excluded;
-- voluntary - community members can voluntarily replenish the budget and receive rewards in the form of additional Reputation. For example, part of the community may pay for the construction of a new playground and get Reputation.
-
-The spending of funds is controlled by professional managers, which are selected by voting. Each manager must have a deposit in ETH or ERC20, as a guarantee. The total amount of funds that can be paid from the budget for a period of time (week, month, or year) is equal to the total deposit of managers. Thus, in case of suspicion of corruption, Managers can be quickly re-elected, and deposits will remain in the community and cover all losses. Managers are rewarded from Community budget.
-
-### GeeSome - An unstoppable social network protocol on top of IPFS
-We've created the GeeSome protocol for Communities to freely communicate in encrypted chat groups, share images, video, text, or any data without risk of censorship or blocking.
-
-### Compatibility with different frameworks for DAO
-To create communities of homeowners, Property owners can use not only the Galt Project Community Framework, but also other frameworks for DAO’s such as DAOStack or Aragon.
 
 ## ERC20 GALT Token
 GALT token is the ERC20 standard Ethereum utility token with a fixed supply of 42 mln. All 100% of GALT is distributed by means of the Automated Market Maker contract with Bonding curve. The project team receives GALT tokens by buying them from a contract.
