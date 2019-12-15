@@ -177,9 +177,6 @@ The purpose and legal meaning of the token is fully determined by agreement with
 ### Private property registry Owner
 The Owner of a private registry is an address in the Ethereum blockchain, which can create tokens, change the parameters of registry contracts, change and destroy tokens with the approve of token holders, and also perform other operations. The owner may be an individual, legal entity, or DAO (for example Aragon organisation). In the last case, such a registry is decentralized since all operations are carried out by voting of DAO participants.
 
-### Economic incentives for Private registry Owners
-![conomic incentives for Private registry Owners](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard27.png)
-
 ### Creating property records
 In the case of using a private registry, operations to create token for land plot, house, appartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
 
@@ -189,6 +186,9 @@ In this case, the geographical and other data of the token are changed by the ap
 ### Private registries general architecture
 Anyone can choose a Private registry Factory contract from Approved Factrories registry contract (a whitelist of contracts managed by a decentralized community), pay a commission, and create his own private registry. After creating the Private registry, its Owner can create tokens and transfer them to the Token owners. After the token has been transferred to the owner, a change in its geographical coordinates and data, as well as the destruction of the token, can only occur through the Token modification contract(Controller). For this, the Owner of the token or the Owner of the contract should create a proposal for changing the data. Proposal must be approved by the other party. After that, the Controller changes the data. In case of loss of the private key of the Token Owner, a "burn after timeout" procedure is provided. The token Owner can set the time after which the token can be destroyed by the private registry Owner. The registry owner in this case initiates the destruction of the token. After the time has expired(and the token Owner didn't cancel the destruction), the token is destroyed and the registry owner can issue a new token with same geographicall coordinates and data.
 ![Private registries general architecture](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard22.png)
+
+### Economic incentives for Private registry Owners
+![conomic incentives for Private registry Owners](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard27.png)
 
 ### Private registries Governance
 We want smart contracts and related software to be reliable and not require complex technical skills from ordinary users. To do this, we use the mechanism of Factories, when a user, paying a commission, creates a private registry, community (or other smart contracts) using an allredy existing, reliable contract on mainnet. Software development is a complex process in which probable errors and critical vulnerabilities. Thus, someone with technical skills and financial motivation should monitor the reliability of existing Factory contracts (or simple contracts), upgrade them and create new contracts and Factories that users need. And this should not be one person or a small group of people, but a decentralized community, where there will be no single point of failure. 
