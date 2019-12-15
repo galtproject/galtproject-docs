@@ -188,6 +188,11 @@ Anyone can choose a Private registry Factory contract from Approved Factrories r
 ![Private registries general architecture](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard22.png)
 
 ### Economic incentives for Private registry Owners
+The simplest scenario for creating a private registry is as follows. 
+
+An opinion leader in a certain territory decides to create his own private register for registering property rights and self-government.He creates a private registry, issues property tokens and distributes them to his neighbours. Together they create Community of Homeowners. After some time, he transfers the rights to manage the registry to this community. Such work requires a lot of effort and should be accompanied by economic benefits.
+
+To do this, we have included the ability to set additional built-in fees. The Token Owner, when performing various operations with the token (blocking the token for joining the community, placing an order to sell the token, executing a transaction, and others) pays a small commission to the Registry Owner. After decentralisation, the Token Owners themselves decide on the size of these commissions.
 ![conomic incentives for Private registry Owners](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard27.png)
 
 ### Private registries Governance
