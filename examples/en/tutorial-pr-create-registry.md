@@ -10,4 +10,4 @@
 
 More information on Private property registries you can [find in corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
 
-- **Token name** - name of the token accroding to ERC721 standart.
+- **Token name** - name of the token according to ERC721 standart.
