@@ -22,4 +22,4 @@ Click on the registry card to get to the registry token catalog page.
 
 Click on the "Create registry" button to create new Private Property Registry.
 
-![tutorial-pr-catalog-04](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-catalog-04.jpg)
+![tutorial-pr-catalog-04](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-catalog-04.png)
