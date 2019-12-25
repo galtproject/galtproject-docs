@@ -9,5 +9,5 @@
 
 # Private Property Registry List 
 
-This page displays all the private registers of tokens of land and real estate that have been created by users.
+This page displays all the Private registries of land and real estate tokens that have been created by Users.
 ![tutorial-pr-catalog-01](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-catalog-01.jpg)
