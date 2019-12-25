@@ -15,3 +15,7 @@ This page displays all the Private registries of land and real estate tokens tha
 Use "Filter by map" checkbox in order to display only those registries whose tokens are on the map.
 
 ![tutorial-pr-catalog-02](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-catalog-02.jpg)
+
+Click on the registry card to get to the registry token catalog page.
+
+![tutorial-pr-catalog-03](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-catalog-03.jpg)
