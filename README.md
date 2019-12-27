@@ -1,3 +1,6 @@
+![logo-black-360](https://github.com/galtproject/galtproject-docs/blob/master/images/logo-black-360.png)
+
+
 # Galt Project Documentation
 This repository contains Software Design Documents for Galt Project.
 
