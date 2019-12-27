@@ -17,9 +17,7 @@ For each smart contract Documentation contains:
 
 ## About Galt Project
 
-Galt Project is international decentralized land and real estate property registry, governed by DAO, and self-governance platform for communities of homeowners on Ethereum blockchain. 
-
-Here anyone can register one's land plots or real estate as tokens, perform commercial operations with them on Ethereum blockchain(buy, sell, rent, mortgage, etc.) without borders with all legal formalities or create a community of homeowners for self-governance. Most of the operations, like trading, land survey or voting are performed by smart contracts, but also protocol provides governance system to resolve disputes and interact with government agencies.
+Galt Project is an international decentralized land and real estate property registry governed by DAO (Decentralized autonomous organization) and self-governance protocol for communities of homeowners built on top of Ethereum blockchain. Unlike the state property registries, the Galt Project is managed by a decentralized community of property owners using smart contracts. Creation of property records, resolution of disputes between owners, trading, mortgage, title insurance, and many other operations are performed on smart contracts. Also, property owners can unite in communities for voting, fundraising, and managing the common property.
 
 ### Galt Project Tokens
 GALT - ERC20 standart ethereum based token.
