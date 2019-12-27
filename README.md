@@ -1,4 +1,4 @@
-![logo-black-360](https://github.com/galtproject/galtproject-docs/blob/master/images/logo-black-360.png)
+![logo-black-360](https://github.com/galtproject/galtproject-docs/blob/master/images/logo-black-1.png)
 
 
 # Galt Project Documentation
