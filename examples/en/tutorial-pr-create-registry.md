@@ -32,7 +32,7 @@ After the transaction is confirmed, you need to log in to GeeSome. GeeSome is a 
 You can run your Geesome node or use our hosting. On our own hosting we offer free upload up to 100 megabytes per month. You can also buy additional tariff plans.
 ![tutorial-pr-create-registry](https://github.com/galtproject/galtproject-docs/blob/master/examples/en/images/tutorial-pr-create-registry-5.png)
 After clicking the Authorize in Geesome button, Metamask will start and ask you to sign the message.
-
+![tutorial-pr-create-registry](https://github.com/galtproject/galtproject-docs/blob/master/examples/en/images/tutorial-pr-create-registry-6.png)
 Push "Go to Registry page" and mint your first Property token"
 
 
