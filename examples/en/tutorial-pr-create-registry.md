@@ -12,7 +12,7 @@ Using this modal window, you can create your Private property Registry.
 More information on Private property registries you can find in [corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
 
 In the upper part of the modal window, you can follow the link and see the source codes of the factory contract. With the help of this factory, you will create your own set of contracts.
-![tutorial-pr-create-registry](https://raw.githubusercontent.com/galtproject/galtproject-docs/blob/master/examples/en/images/tutorial-pr-create-registry.png)
+![tutorial-pr-create-registry](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-create-registry.png)
 Fill in the fields required to create Private Registry contracts:
 - **Token name** - name of the token according to ERC721 standart.
 - **Token symbol** - token symbol according to ERC721 standart.
