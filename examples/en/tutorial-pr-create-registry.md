@@ -8,7 +8,7 @@
 
 # Create Private Property Registry
 
-More information on Private property registries you can [find in corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
+More information on Private property registries you can find in [corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
 
 - **Token name** - name of the token according to ERC721 standart.
 - **Token symbol** - token symbol according to ERC721 standart.
