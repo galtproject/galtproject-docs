@@ -20,7 +20,7 @@ Fill in the fields required to create Private Registry contracts:
 - **Unit** - minutes, hours or days. E.g. "days".
 - **Property Locker Fee** - Each Token Owner must lock it in smart contract in order to join one or several Communities of Property Owners. For each such operation, he will pay commission to Private Registry.
 - **Property Market Fee** - The protocol contains smart contracts for the purchase and sale of Property tokens. The owner of the token can create a sales order, receive offers and sell tokens. Each time Token Owner creates a sale order, the Token Owner will pay commission to Private Registry.
-- **Controller Proposal Fee** - Property token Owner can create proposals to change geographic coordinates and other data or burn his tokens. This proposal needs to be approved by Private Registry owner or other address assigned by him. For each such operation, he will commission to Private Registry.
+- **Controller Proposal Fee** - Property token Owner can create proposals to change geographic coordinates and other data or burn his tokens. This proposal needs to be approved by Private Registry owner or other address assigned by him. For each such operation, he will pay commission to Private Registry.
 
 Push "Next step" button.
 
