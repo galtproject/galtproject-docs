@@ -14,7 +14,7 @@ More information on Private property registries you can find in [corresponding s
 In the upper part of the window, you can see Factory contract address. This Factory will create your Private property Registry.
 ![tutorial-pr-create-registry](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-create-registry.png)
 Fill in the fields required to create Private Registry contracts:
-- **Token name** - name of the token according to ERC721 standart. E.g. "Malibu Property registry"
+- **Token name** - name of the token according to ERC721 standart. E.g. "Malibu Property registry".
 - **Token symbol** - token symbol according to ERC721 standart. E.g. "MAL".
 - **Default burn timeout for lost tokens** - The token holder's private key may be lost. In this case, the Owner of the registry, can create a new token. Registry Owner can also initiate the destruction of the old token after a specified time. The Owner of the token can always change this parameter, as well as cancel the destruction of the token. E.g. "28".
 - **Unit** - minutes, hours or days. E.g. "days".
