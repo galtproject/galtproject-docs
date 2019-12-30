@@ -7,7 +7,7 @@
 --->
 
 # Create Private Property Registry
-Use this modal window to create your Private property Registry.
+Use  modal window to create your Private property Registry.
 
 More information on Private property registries you can find in [corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
 
@@ -16,7 +16,7 @@ In the upper part of the window, you can see Factory contract address. This Fact
 Fill in the fields required to create Private Registry contracts:
 - **Token name** - name of the token according to ERC721 standart. E.g. "Malibu Property registry".
 - **Token symbol** - token symbol according to ERC721 standart. E.g. "MAL".
-- **Default burn timeout for lost tokens** - The token holder's private key may be lost. In this case, the Owner of the registry, can create a new token. Registry Owner can also initiate the destruction of the old token after a specified time. The Owner of the token can always change this parameter, as well as cancel the destruction of the token. E.g. "28".
+- **Default burn timeout for lost tokens** - The Token Owner's private key may be lost. In this case, the Registry Owner, can create a new token. Registry Owner can also initiate the destruction of the old token after a specified preiod of time. The Token Owner can always change this parameter, as well as cancel the destruction of the token. E.g. "28".
 - **Unit** - minutes, hours or days. E.g. "days".
 - **Property Locker Fee** - Each Token Owner must lock it in smart contract in order to join one or several Communities of Property Owners. For each such operation, he will pay commission to Private Registry.
 - **Property Market Fee** - The protocol contains smart contracts for the purchase and sale of Property tokens. The owner of the token can create a sales order, receive offers and sell tokens. Each time Token Owner creates a sale order, the Token Owner will pay commission to Private Registry.
