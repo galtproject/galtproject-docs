@@ -9,7 +9,7 @@
 # Create Private Property Registry
 Use  modal window to create your Private property Registry.
 
-More information on Private property registries you can find in [corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md). 
+More information on Private property registries you can find in [corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
 
 In the upper part of the window, you can see Factory contract address. This Factory will create your Private property Registry.
 ![tutorial-pr-create-registry](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-create-registry.png)
