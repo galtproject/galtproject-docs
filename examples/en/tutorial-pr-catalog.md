@@ -10,6 +10,8 @@
 
 This page displays all the Private registries of land and real estate tokens that have been created by Users.
 
+More information on Private property registries you can find in [corresponding section in our Whitepaper](https://github.com/galtproject/galtproject-docs/blob/master/en/Whitepaper.md#creating-property-records-disputes-resolution-and-use-cases-in-private-property-registries). 
+
 ![tutorial-pr-catalog-01](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/examples/en/images/tutorial-pr-catalog-01.jpg)
 
 Use "Filter by map" checkbox in order to display only those registries whose tokens are on the map.
