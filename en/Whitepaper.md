@@ -59,7 +59,7 @@ We define a land or real-estate token rental as the ability to perform various o
 ### Geospatial Data Management
 The existence of a consistent registry of land plots, building and room objects enables owners to split and unite objects of the kind without involving any third parties. An owner can split and merge the geospatial data of the object within its original boundaries. If the token contains geographic coordinates of the land plot, the owner can split the initial plot for any amount of land plots within initial boundaries. Another case is if the owner has two tokens of two bordering land plots – in this circumstance, the owner can merge them into one. This principle is also applicable to Rooms. For such operations, computational geometry algorithms are used: the Weiler–Atherton clipping algorithm, Martinez-Rueda clipping algorithm, Sweep line algorithm, Ray casting algorithm, and many others.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard2.png" alt="Smart contract Land surveying" width="700"/></p>
-If a Token Owner wants to change the original boundaries of a Land Plot or Room, he must use the Oracles(in single consistent decentralized property registry) or Private Registry Owner(in Private property registry). In both cases, all changes to geospatial data can be made only by a token owner themselves. There are likely cases, in which the initial recording of geographical coordinates occurred with an error and the owner of the token doesn’t want to change them for personal gain. In such cases, a claim may be created. Claims are resolved by the Arbitrators or Private registry Owners. This will be described in more detail below.
+If a Token Owner wants to change the original boundaries of a land plot, building or room/apartment, he must use procedures defined by the code of the corresponding registry (Ownable Private property registry, Prof of Location Token Curated Property Registry, Oracles property registry, Dynamic Prof of Location Property Registry). This will be described in more detail below.
 
 ### Double ownership problem and its solutions
 By "Land and Real estate double ownership", we mean the impossibility of sharing the same geographic coordinates at the same time. Unfortunately, the existing centralized registries aren't equipped with built-in independent automated solutions to block the creation of new records. In cases where there already is a record, it conflicts with a created one. For instance, when you try to create a new record regarding the boundaries of a land plot in the state registry, such a record can be created. Since the decision to create a record is settled by a specific authorized person – not a code, there will be two conflicting entries in the registry. Resolving this conflict will require the use of the state judicial system.
@@ -95,18 +95,29 @@ Anyone can provide the ID of two tokens that intersect to this contract. The con
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
  
-## Types of property ownership - "with State" / "with out State" / Private Registry
+## Types of property ownership - "with State" / "with out State"
 
-In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in both types of territories.
+In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in all types of territories.
 
-Registration of such rights can be made in a single decentralized registry or many registries that have an Owner who can initially create tokens.
-Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. A community of property owners living in the same territory can also create their own registry without any legal entities. 
+## Types of registries and methods of initial registration of tokens
 
-This registry can be used for property transactions, collective investment in real estate, self-governance and other purposes.
+### Ownable property registries (or Private property registries, Ownable Private property registries, OPPR)
+Property tokens are initially created by single entity. Any individual, company or DAO can create property registry, verify geographic coordinates and ownership rights of land plot, house or room/apartment, create property tokens and distribute them. If necessary, ownership of the registry can be transferred to DAO of property token owners (or any other DAO). In this case property token owners create new tokens, approve data change or burn tokens by voting. There is an economic incentive to create new tokens and update data on them. Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. A community of property owners living in the same territory can also create their own registry without any legal entities.
+
+### Prof of Location Token Curated Property Registry (PoLTCPR) 
+Anyone can put deposit in ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period(no more than one time per month, first 5 years) by submitting an equal amount of ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. 
+
+### Dynamic Prof of Location Property Registry (DPoLPR) 
+
+### Oracles property registry (OPR)
+Property tokens are initially created by decentralized community of Cadastral engineers and notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation. Property token owners, oracles and Galt token holders elect Arbitrators. Anyone can create a claim on property token or Oracle. Arbitrators make decision on claims, slash deposits from oracles and change data or destroy property tokens.
+
+All registries can be used for property transactions, collective investment in real estate, self-governance and other purposes.
 
 Thus, we define the following types of registries:
-- single consistent decentralized property registry;
-- unlimited number of private property registries.
+- single consistent Oracles decentralized property registry;
+- unlimited number of Ownable private property registries, governed by single entity or DAO;
+- unlimited number of Prof of Location Token Curated Property Registries;
 
 ## Communities of Property Owners
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard25.png" alt="Communities of Property Owners"/></p>
@@ -168,7 +179,7 @@ We've created the GeeSome protocol for Communities to freely communicate in encr
 ### Compatibility with different frameworks for DAO
 To create communities of homeowners, Property owners can use not only the Galt Project Community Framework, but also other frameworks for DAO’s such as DAOStack or Aragon.
 
-## Creating property records, disputes resolution and use cases in Private property registries
+## Ownable property registries (or Private property registries)
 
 ### Creating Private property registry
 Private property registry is ERC721 Ownable Smart contract on Ethereum. Anyone can create a private registry using the smart contract Factory by paying a fee in ETH or GALT and become its owner. The private registry Owner has the ability to create tokens with geographic coordinates and other linked data(address, floor, apartment or room number, photo and video, etc.) without any restriction and double ownership check. Tokens can be created for commercial purposes, as digital objects representing the right of ownership, lease rights, leasing agreements, shares in co-op, membership rights, etc. As well as for the self-government of property owners. In this case, the token gives the right to make a decision and vote in the created Community of Homeowners. 
@@ -209,7 +220,7 @@ Most of the smart contracts in Private registries have a commission in Ether and
 Creating Communities of homeowners in this case is no different from creating them in a Single consistent decentralized registry. Anyone can create a community and add members to it by voting of existing members. One community may contain tokens from different private registries. And at the same time, the owner of one token can be simultaneously in several communities(community of residents of one house, street, district or the whole city, etc.). More details are in "Communities of Property Owners" section. 
 Since the community is a set of smart contracts, it itself can be the Owner of a private registry contract thus ensuring its decentralization.
 
-## Creating property records, disputes resolution and use cases on the territories of existing States in single decentralized registry
+## Oracles property registry (OPR)
 
 ### Creating property records
 
@@ -324,7 +335,7 @@ The consistent global registry also makes it possible to perform the following r
 - collective investment and construction management. For the construction of the property, a DAO can be created. The DAO Token Holders vote for contractor selection and construction financing. After the construction is completed, they receive shared ownership of the property;
 - use ERC20 tokens as shares in co-op. Token holders can vote and decide on a board.
 
-## Creating property records, property protection and use cases on the territories without existing states in single decentralized registry
+## Creating property records, property protection and use cases on the territories without existing states in Oracles property registry (OPR)
 There are the territories that are out of a state's sovereignty and the territories the rights to which were renounced by the state. They're called "Terra nullius" or "nobody's land". Examples of such territories are Bir Tawil in Africa and Marie Byrd Land in Antarctica, to name a few. Due to their isolated geographical position, associated risks, and harsh climate conditions, the settlement of such territories implies substantial financial expenses and a high likelihood of losing investments. Neither states themselves, nor private enterprises and investors are ready to do this. However, with sufficient financial resources, it's possible to create anything one could imagine in these territories: cities, industries, commercial centers, tax-free areas, etc.
 
 An effective solution to the settlement problem may be crowdfunding with a large number of backers supporting the project through smart contracts. A particular territory can be divided into land plots. Potential buyers would participate in auctions that sell those land plots. All the funds collected from selling them would be passed to the community fund that is used for developing the infrastructure and serves as a guarantee of physical protection and legal recognition (if needed). Several billion dollars collected in cryptocurrency by a strong community of like-minded people would make it possible to build an airport, energy and transportation infrastructure, hire a private military company, and get other states' support.
@@ -349,7 +360,7 @@ Since the guarantor of the property rights are the owners themselves, in this ca
 ### Property protection
 In the territories not related to existing states, owners must provide protection of property themselves. For this purpose, they must create Homeowners Community (a detailed description of the communities is provided in the corresponding section). The owners create a regular tariff in the community and replenish the multisig with ETH, DAI, or any ERC20. These funds are used to pay for the services of the private police or army that provides physical protection for land and real estate.
 
-## Decentralized registry Governance
+## Oracles property registry (OPR) Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard5.png" alt="Decentralized governance"/></p>
 There are two levels of Governance:
@@ -377,13 +388,13 @@ On the "Global governance" level, the protocol participants (Property owners, Or
 - start Auctions for unclaimed territories (This is described in the "Creating property records, property protection and use cases on the territories without existing states" section);
 - others.
 
-### Reputation in Decentralized registry
+### Reputation in Oracles property registry (OPR)
 The Property owners, GALT holders, and Oracles have Reputation, through which they manage the protocol. They elect the Arbitrators, determine protocol parameters, and upgrade smart contracts. The Property owners and GALT holders create a personal locker smart contract. They can transfer a Property token or GALT tokens to this contract and create Reputation in the Global Reputation contracts proportionally to the area of their property or the balance of the GALT tokens. From the global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in the GALT tokens in the Governance group and receive Reputation in exchange. All of the described roles stake Reputation on the Arbitrators and receive the reward from the general commission of the protocol.
 ![Reputation](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard18.png)
 The Property owners and GALT holders create voting proposals in Global Governance and vote for them. The Oracles have Reputation only in the Governance groups, so they vote using it. 
 For voting in a particular Governance Group, all the participants use their Reputation in this group.
 
-### Staking rewards in Decentralized registry
+### Staking rewards in Oracles property registry (OPR)
 Protocol participants are rewarded for choosing the Arbitrators. The reward is proportional to how much Reputation staked on the Arbitrators in a particular group. The Reward is given to:
 
 - the GALT token holders for locking GALT and staking Reputation on the Arbitrators;
@@ -392,7 +403,7 @@ Protocol participants are rewarded for choosing the Arbitrators. The reward is p
 
 We provide the opportunity to receive rewards not only to the GALT holders to encourage people to become the Oracles and register their property (a land and real estate). For example, the Property owners participating in the election of the Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate and other contracts.
 
-### Commission distribution in Decentralized registry
+### Commission distribution in Oracles property registry (OPR)
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
 
