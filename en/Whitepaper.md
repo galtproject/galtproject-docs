@@ -101,15 +101,17 @@ In the modern world, there is land (and real estate objects) divided between own
 
 ## Types of registries and methods of initial registration of tokens
 
-### Ownable property registries (or Private property registries, Ownable Private property registries, OPPR)
+### Ownable Property Registries (or Private Property Registries, Ownable Private property registries, OPPR)
 Property tokens are initially created by single entity. Any individual, company or DAO can create property registry, verify geographic coordinates and ownership rights of land plot, house or room/apartment, create property tokens and distribute them. If necessary, ownership of the registry can be transferred to DAO of property token owners (or any other DAO). In this case property token owners create new tokens, approve data change or burn tokens by voting. There is an economic incentive to create new tokens and update data on them. Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. A community of property owners living in the same territory can also create their own registry without any legal entities.
 
-### Prof of Location Token Curated Property Registry (PoLTCPR) 
-Anyone can put deposit in ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period(no more than one time per month, first 5 years) by submitting an equal amount of ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. 
+### Prof of Location Token Curated Property Registries (PoLTCPR) 
+Anyone can put deposit in regitry ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period(no more than one time per month, first 5 years) by submitting an equal amount of ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. 
+
+We assume that there can be an unlimited number of such registries, each of which will use its own ERC20 token. For example, at the same time, there may exist a registry curated by the owners of the GALT token, FOAM tokens, or any other.
 
 ### Dynamic Prof of Location Property Registry (DPoLPR) 
 
-### Oracles property registry (OPR)
+### Oracles Property Registry (OPR)
 Property tokens are initially created by decentralized community of Cadastral engineers and notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation. Property token owners, oracles and Galt token holders elect Arbitrators. Anyone can create a claim on property token or Oracle. Arbitrators make decision on claims, slash deposits from oracles and change data or destroy property tokens.
 
 All registries can be used for property transactions, collective investment in real estate, self-governance and other purposes.
@@ -463,6 +465,8 @@ Posted by Vitalik Buterin on May 6, 2014](https://blog.ethereum.org/2014/05/06/d
 - [Bonding Curves In Depth: Intuition & Parametrization by Slava Balasanov](https://blog.relevant.community/bonding-curves-in-depth-intuition-parametrization-d3905a681e0a)
 - [Weiler, Kevin and Atherton, Peter. "Hidden Surface Removal using Polygon Area Sorting", Computer Graphics, 11(2):214-222, 1977.](https://www.cs.drexel.edu/~david/Classes/CS430/HWs/p214-weiler.pdf)
 - [A new algorithm for computing Boolean operations on polygons (2008, 2013) by Francisco Martinez, Antonio Jesus Rueda, Francisco Ramon Feito (and its C++ code)](http://www.cs.ucr.edu/~vbz/cs230papers/martinez_boolean.pdf)
+- [FOAM
+Whitepaper](https://foam.space/publicAssets/FOAM_Whitepaper.pdf)
 
 ## Appendix A: Bonding curve JS model
 
