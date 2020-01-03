@@ -77,7 +77,7 @@ To determine the fact of the intersection of polygons and intersection points, w
 - Weiler–Atherton clipping algorithm; 
 - Martinez-Rueda clipping algorithm.
 
-#### Off-chain and on-chain hybrid sollution with Oracles when creating tokens
+#### Option1: Off-chain and on-chain hybrid sollution with Oracles when creating tokens
 Checking the intersection of two polygons is feasible on the Ethereum blockchain and doesn't require substantial gas costs. At the same time, checking the intersection of one polygon with an unlimited number of polygons is impossible due to limitations in the number of calculations per block. Based on this, the intersection of the new polygon with all those written earlier must is a subject to an off-chain check. Anyone can put a deposit in the GALT tokens into a smart contract to become "Polygon intersection verification Oracle" and run the script. The script checks applications with new polygons one by one. The applicant pays for the Oracles in ETH. Verification of each application requires several independent Oracles. If all Oracles confirm that there is no intersection, then they withdraw the reward. If a part of the Oracles confirms there is no intersection and at least one Oracle provides the ID of the token, with which there is an intersection, the smart contract automatically rejects the application, pays all the reward to the honest Oracles and removes the deposit from dishonest ones in favor of the honest.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard10.png" alt="Off-chain double ownership check when creating Token for Land plot, Building or Room"/></p>
 The smart contract employs three methods to uniquely verify the intersection of polygons:
@@ -86,40 +86,56 @@ The smart contract employs three methods to uniquely verify the intersection of 
 - the intersection of two lines in the plane to determine the fact of the intersection of the edges of the polygons;
 - the occurrence of a point along the height coordinate in the interval.
 
-#### Off-chain and on-chain hybrid sollution with Deposits after creating tokens
+#### Option 2: Off-chain and on-chain hybrid sollution with Deposits after creating tokens
 To guarantee 100% impossibility of double ownership, the following mechanics can be used as an alternative or addition to the one described above. When creating a token of land plot or real estate, the Owner of the token must make a deposit in GALT ERC20 tokens. The deposit is stored in a contract that has the rights to create and destroy tokens. A deposit can be withdrawn by the Owner only if the land or real estate token is voluntarily destroyed. 
 Anyone can provide the ID of two tokens that intersect to this contract. The contract verifies on-chain that the intersection exists. If it really is, token with last creation timestamp is destroyed, and the one who provided information to the contract receives deposit. If the creation of the token was approved by the Oracles (Cadastral engineer and Notary), then they also lose their deposits.
 ![Polygon intersection](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard26.png)
 
-#### Sidechain sollution
+#### Option 3: Sidechain sollution
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
+
+Unfortunately, checking intersections of a large number of polygons will still lead to a large load on the validator nodes and delays in creating blocks.
+
+#### Conclusion
+The simplest and most reliable verification method, which will be used primarily - Option 2: Off-chain and on-chain hybrid sollution with Deposits after creating tokens.
  
 ## Types of property ownership - "with State" / "with out State"
 
 In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in all types of territories.
 
-## Types of registries and methods of initial registration of tokens
+## Types of registries and methods of initial creation of tokens
+In previous sections, a description of Property token was given, as well as mechanisms to ensure its uniqueness. But the most important question is how the initial creation of the token occurs and how the Owners of the tokens reach a general consensus that the tokens are created correctly and really reflect ownership. Unfortunately, there is no single answer to this question.
+We offer several theoretical methods, each of which has its advantages and disadvantages. 
 
-### Ownable Property Registries (or Private Property Registries, Ownable Private property registries, OPPR)
-Property tokens are initially created by single entity. Any individual, company or DAO can create property registry, verify geographic coordinates and ownership rights of land plot, house or room/apartment, create property tokens and distribute them. If necessary, ownership of the registry can be transferred to DAO of property token owners (or any other DAO). In this case property token owners create new tokens, approve data change or burn tokens by voting. There is an economic incentive to create new tokens and update data on them. Some states are currently transferring land and real estate accounting functions to private companies. In this way, any private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. A community of property owners living in the same territory can also create their own registry without any legal entities.
+But given the complexity of the question, a definite answer can only be obtained on a large number of real users. We assume that several competing registries that implement different methods of creating tokens and changing their data may exist simultaneously. In the end, one of the most reliable will be chosen by people. The rest will cease to be used as unnecessary.
+
+### Ownable Property Registries (or Private Property Registries / Ownable Private property registries / OPPR)
+Property tokens are initially created by single entity. Any individual, company or DAO can create property registry, verify geographic coordinates and ownership rights of land plot, house or room/apartment, create property tokens and distribute them. If necessary, ownership of the registry can be transferred to DAO of property token owners (or any other DAO). In this case property token owners create new tokens, approve data change or burn tokens by voting. There is an economic incentive to create new tokens and update data on them. Some states are currently transferring land and real estate accounting functions to private companies. In this way, private company can create its own registry for this purpose. Also Trust fund or any other legal entity can create its own registry in which it will be a guarantor of rights. A community of property owners living in the same territory can also create their own registry without any legal entities.
 
 ### Prof of Location Token Curated Property Registries (PoLTCPR) 
-Anyone can put deposit in Registry's ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period(no more than one time per month, first 5 years) by submitting an equal amount of ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. 
+Anyone can put deposit in Registry's ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period (no more than one time per month, first 5 years) by submitting an equal amount of Registry's ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. 
 
 We assume that there can be an unlimited number of such registries, each of which will use its own ERC20 token. For example, at the same time, there may exist a registry curated by the owners of the GALT token, FOAM tokens, or any other.
 
 ### Dynamic Prof of Location Property Registry (DPoLPR) 
 
 ### Oracles Property Registry (OPR)
-Property tokens are initially created by decentralized community of Cadastral engineers and notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation. Property token owners, oracles and Galt token holders elect Arbitrators. Anyone can create a claim on property token or Oracle. Arbitrators make decision on claims, slash deposits from oracles and change data or destroy property tokens.
+Property tokens are initially created by decentralized community of Cadastral engineers and Notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation for fee. Property token owners, oracles and Galt token holders elect Arbitrators. Anyone can create a claim on property token or Oracle. Arbitrators make decision on claims, slash deposits from oracles and change data or destroy property tokens.
 
-All registries can be used for property transactions, collective investment in real estate, self-governance and other purposes.
+
+### The impossibility of double ownership in different registries
+All described registries can be used for property transactions, collective investment in real estate, self-governance and other purposes.
+
+In order to ensure the overall consistency of described registries, they must voluntarily use the same "Double ownership verification" Сontract. When connecting this contract to the registry, Property Token Owners make a deposit in GALT ERC20 tokens. They must do this within a month. If, after the set deadline, the deposit is not placed, then the Property tokens can be automatically destroyed by contract. After placing a deposit, tokens can be tested for dual ownership, as described above in the section "Off-chain and on-chain hybrid sollution with Deposits after creating tokens".
+
+GALT ERC20 token Holders may forcibly disconnect bad registry from contract by voting.
 
 Thus, we define the following types of registries:
 - single consistent Oracles decentralized property registry;
 - unlimited number of Ownable private property registries, governed by single entity or DAO;
 - unlimited number of Prof of Location Token Curated Property Registries;
+- single consistent Dynamic Prof of Location Property Registry.
 
 ## Communities of Property Owners
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard25.png" alt="Communities of Property Owners"/></p>
