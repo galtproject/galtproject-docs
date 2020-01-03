@@ -304,14 +304,14 @@ There are several ways to avoid this attack:
 
 If a part of the Arbitrators will try to withdraw GALT from a contract, this will be noticed by the community, and all the Arbitrators or a part of them will be re-elected. The losses will be covered by the dishonest Arbitrators deposits.
  
-## Creating property records on the territories without existing states in Oracles property registry (OPR)
+### Creating property records on the territories without existing states in Oracles property registry (OPR)
 There are the territories that are out of a state's sovereignty and the territories the rights to which were renounced by the state. They're called "Terra nullius" or "nobody's land". Examples of such territories are Bir Tawil in Africa and Marie Byrd Land in Antarctica, to name a few. Due to their isolated geographical position, associated risks, and harsh climate conditions, the settlement of such territories implies substantial financial expenses and a high likelihood of losing investments. Neither states themselves, nor private enterprises and investors are ready to do this. However, with sufficient financial resources, it's possible to create anything one could imagine in these territories: cities, industries, commercial centers, tax-free areas, etc.
 
 An effective solution to the settlement problem may be crowdfunding with a large number of backers supporting the project through smart contracts. A particular territory can be divided into land plots. Potential buyers would participate in auctions that sell those land plots. All the funds collected from selling them would be passed to the community fund that is used for developing the infrastructure and serves as a guarantee of physical protection and legal recognition (if needed). Several billion dollars collected in cryptocurrency by a strong community of like-minded people would make it possible to build an airport, energy and transportation infrastructure, hire a private military company, and get other states' support.
 
 This approach can be used both on Earth and beyond it. For example, on Moon on Mars. In the near future, the cost of a flight to Mars may amount 100,000 dollars at most. Just as in the Age of Discovery, hundreds and thousands of explorers will rush to those new worlds trying to find a better life and opportunities. With smart contracts, such a settler community will be able to unite, gather necessary funds, and build the society devoid of the imperfections of the existing state systems.
 
-### Creating an updating property records for land
+#### Creating an updating property records for land
 In this case, the auction mechanics are used for creating land-plot tokens. Anyone can pay a fee in ETH or GALT and create a Proposal to start an auction for land plots located on an unclaimed or disputed territory. The creator of the proposal creates Community of Homeowners in advance, to which all funds from the auction will be transferred, as well as the smart auction contract itself. The auction type is defined by the code of a smart contract (English auction ,Dutch auction, Sealed first-price auction, Vickrey auction and others). The proposal contains the geographical coordinates of the land and auction parameters, such as Min. number of Land Plots to sell to create tokens, Auction duration, Min. goal for crowdfunding, Address of Community of Homeowners contract, Auction currency ETH/ERC20 and others.
 
 Protocol participants vote on the Proposal through Global Governance Voting Contract. If it is accepted, then the auction begins. Anyone can bet on the land plot. If the bet is won, as well as the minimum required number of plots is sold or the goal of raising funds is achieved, new tokens of land plots are created. The tokens are transferred to new owners, and all received funds are sent to Community Multisig. Unsold land plots may be sold later.
@@ -320,16 +320,16 @@ The participants in the new community choose managers who will manage the funds 
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
 Unlike land plots in the territories of existing states, these land plots are unchanged. Their geographical coordinates (latitude and longitude) can't be changed. The altitude coordinates can be changed by Cadastral engineers.
 
-### Creating and updating property records for Real estate
+#### Creating and updating property records for Real estate
 Unlike land plots that are unchanged, buildings are created and destroyed. Thus, the creation of such tokens requires Cadastral engineers and Notaries. It happens the same way as in the territory of existing states. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating or updating a token through a smart contract (as described in the "Creating property records, disputes resolution and use cases on the territories of existing States" section).
 
-### Commercial operations with property
+#### Commercial operations with property
 Since the guarantor of the property rights are the owners themselves, in this case, commercial operations don't require the Custodians participation. Ownership is transferred only through a smart contract. Such transactions should be accepted by all property owners in these territories.
 
-### Property protection
+#### Property protection
 In the territories not related to existing states, owners must provide protection of property themselves. For this purpose, they must create Homeowners Community (a detailed description of the communities is provided in the corresponding section). The owners create a regular tariff in the community and replenish the multisig with ETH, DAI, or any ERC20. These funds are used to pay for the services of the private police or army that provides physical protection for land and real estate.
 
-## Oracles property registry (OPR) Governance
+### Oracles property registry (OPR) Governance
 The described system of smart contracts has a large number of parameters that require changes (depending on the current situation) as well as updating the code. These actions should be as decentralized as possible and at the same time carried out in the interests of the majority of participants.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard5.png" alt="Decentralized governance"/></p>
 There are two levels of Governance:
@@ -357,13 +357,13 @@ On the "Global governance" level, the protocol participants (Property owners, Or
 - start Auctions for unclaimed territories (This is described in the "Creating property records, property protection and use cases on the territories without existing states" section);
 - others.
 
-### Reputation in Oracles property registry (OPR)
+#### Reputation in Oracles property registry (OPR)
 The Property owners, GALT holders, and Oracles have Reputation, through which they manage the protocol. They elect the Arbitrators, determine protocol parameters, and upgrade smart contracts. The Property owners and GALT holders create a personal locker smart contract. They can transfer a Property token or GALT tokens to this contract and create Reputation in the Global Reputation contracts proportionally to the area of their property or the balance of the GALT tokens. From the global Reputation contracts, they create an additional Reputation in the Arbitrators Governance Group. The Oracles place a deposit in the GALT tokens in the Governance group and receive Reputation in exchange. All of the described roles stake Reputation on the Arbitrators and receive the reward from the general commission of the protocol.
 ![Reputation](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard18.png)
 The Property owners and GALT holders create voting proposals in Global Governance and vote for them. The Oracles have Reputation only in the Governance groups, so they vote using it. 
 For voting in a particular Governance Group, all the participants use their Reputation in this group.
 
-### Staking rewards in Oracles property registry (OPR)
+#### Staking rewards in Oracles property registry (OPR)
 Protocol participants are rewarded for choosing the Arbitrators. The reward is proportional to how much Reputation staked on the Arbitrators in a particular group. The Reward is given to:
 
 - the GALT token holders for locking GALT and staking Reputation on the Arbitrators;
@@ -372,7 +372,7 @@ Protocol participants are rewarded for choosing the Arbitrators. The reward is p
 
 We provide the opportunity to receive rewards not only to the GALT holders to encourage people to become the Oracles and register their property (a land and real estate). For example, the Property owners participating in the election of the Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate and other contracts.
 
-### Commission distribution in Oracles property registry (OPR)
+#### Commission distribution in Oracles property registry (OPR)
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
 
