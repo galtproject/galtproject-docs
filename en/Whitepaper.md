@@ -224,7 +224,7 @@ Since the community is a set of smart contracts, it itself can be the Owner of a
 
 ### Creating property records
 
-In Single decentralized registry, any land and real-estate property owners can create their property tokens with the help of the decentralized community of cadastral engineers and notaries. Each Token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating a token through a smart contract. The application contains the geographical coordinates of the object, topology, IPFS media hashes (photos, video, point cloud file, Building Information Model, etc.), additional identification data (address, area, floor, room ID, etc.). The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data and the applicant's property rights in a particular jurisdiction for a fee. With the application approved, a new object is checked for dual ownership. After that, a token is created.
+In Oracles property registry, any land and real-estate property owners can create their property tokens with the help of the decentralized community of cadastral engineers and notaries. Each Token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating a token through a smart contract. The application contains the geographical coordinates of the object, topology, IPFS media hashes (photos, video, point cloud file, Building Information Model, etc.), additional identification data (address, area, floor, room ID, etc.). The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data and the applicant's property rights in a particular jurisdiction for a fee. With the application approved, a new object is checked for dual ownership. After that, a token is created.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard12.png" alt="A decentralized community of Cadastral engineers and Notaries"/></p>
 This done, a Property Owner can:
 
@@ -242,12 +242,10 @@ In some cases, it may be necessary to update the data of land or real-estate tok
 
 In this case, the data change occurs in the same way as the initial creation of the Token specified above. The owner submits an application in a smart contract, pays a commission. The Oracles check it and approve changes.
 
-### Economic agents necessary for operations with land and real estate in the territory of existing States
-
-#### Oracles
+### Oracles
 If someone wants to create a token of a land plot, building or room, there should be a decentralized self-governed mechanism for checking property rights and geographic coordinates. In single decentralized registry, this function is fulfilled by the Oracles. They're independent economic agents, who approve new token creation for a reward. Moreover, they perform a wide range of different operations: valuation, custodian service, etc. The Oracles have a deposit, which can be written off. To be able to earn the reward, they buy and deposit protocol governance token - ERC20 GALT Token. This deposit can be written off by the governance mechanism described below.
 
-#### Disputes resolution
+### Disputes resolution
 Operations with land and real estate may lead to disputes and disagreements both between owners and professional participants: cadastral engineers, notaries, appraisers, custodians, etc. Here are some examples of such disputes:
 - the initial creation of tokens contains an error. Geographic coordinates or property rights weren't determined correctly. The owner of the token wants to receive compensation from the Cadastral engineer;
 - an error in geographic coordinates while applying for token creation. The landowner can't create a token since the land intersects with the land that was originally created incorrectly;
@@ -261,10 +259,10 @@ The solution to these problems comes down to three types of operations:
 
 Their fulfillment requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties in the dispute – the Arbitrator. 
 
-#### GALT token Holders and their role
+### GALT token Holders and their role in Oracles property registry (OPR)
 GALT Token Holders are the third force designed to balance the interests of Property owners and Oracles. Since one of the most effective decision-making systems is even-numbered odd vote (2 to 3, 4 to 7, etc.). They are protocol developers, enthusiasts and, possibly, speculators who are financially interested in the protocol developing, and the market price of the token increasing. The GALT token is described in more detail in the corresponding section.
 
-#### Arbitrators 
+### Arbitrators 
 Property owners, the GALT token holders, and the Oracles elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Any Property owner or Oracle or Arbitrator himself can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
 
 - what the size of the deposit is;
@@ -276,7 +274,7 @@ Property owners, the GALT token holders, and the Oracles elect the Arbitrators, 
 After that, they vote on each proposal. If the claim is approved, the deposit will be written off, the geographical coordinates will be changed, or the escrow contract will be canceled, etc. That said, the Arbitrators will also get their reward. If the decision isn't made on time, the Arbitrators will receive no reward, lose their deposits, and the claim can be taken up by another set of the Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he or she can create a new claim or ask the community to re-elect the Arbitrators.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard1.png" alt="Arbitrators"/></p>
 
-#### Arbitrators Governance groups
+### Arbitrators Governance groups
 In general, there are some technological restrictions in the current Ethereum that limit a possible maximum number of the Arbitrators. Also, there is a limit on the number of claims that can be considered by the Arbitrators during a specific period of time. So, to make this system scalable and facilitate operation with a large number of users, we should divide GALT Holders, Property Owners, Arbitrators, and Oracles into separate groups. The most obvious solution is to combine according to the geographical principle. There can be an unlimited number of Governance groups. In each group, the GALT holders, Property Owners, and Oracles vote to elect the Arbitrators. The Arbitrators deposit GALT as a deposit and provide their service in this group.
 ![Governance groups](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard17.png)
 In addition to voting for the Arbitrators, by voting, the members of the group determine such parameters as:
@@ -288,12 +286,12 @@ In addition to voting for the Arbitrators, by voting, the members of the group d
 - the required number for making a decision
 - etc.
 
-#### Arbitrators elections
+### Arbitrators elections
 To make the governance system more reliable, the Arbitrators should be easily elected and re-elected, they should have economic incentive to honestly resolve disputes and they should represent all the participants of the Protocol – the property owners, Oracles and GALT token holders. In some cases, the goals of the property owners, Oracles and GALT token holders may not meet. So, they should have equal voting rights. The Property owners have the ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have, the more votes you have. The Oracles have deposits in GALT. Deposits are used as a Voting variable. For the Galt tokens holders, the balance of tokens locked in a personal smart contract is used as voting power. 
 ![Arbitrators elections](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/images/Artboard15.png)
 Each of these groups has only 1/3 оf the total Votes. The property owners, Oracles and GALT token holder get rewarded for staking reputation from protocol commission. We will describe it in the "Commission distribution" section. Also, the reputation accounting scheme is more complex – you can find more details below.
 
-#### Possible Attack - Property owners and Arbitrators conspiracy 
+### Possible Attack - Property owners and Arbitrators conspiracy 
 There is a chance that a part of the Arbitrators and Property owners will conspire. The Property owners will create baseless claims, and the Arbitrators will approve them and write off deposits from the Oracles to the Arbitrators' and Property owners' benefit. If this will take mass proportions, the whole governance system will be disrupted, which isn't beneficial to all the participants. The majority of the Property Owners, Oracles, and GALT holders will change their vote and the Arbitrators will lose their votes and deposits. The only question is whether those deposits would be enough to cover the losses. 
 There are several ways to avoid this attack:
 
@@ -304,7 +302,7 @@ There are several ways to avoid this attack:
 
 If a part of the Arbitrators will try to withdraw GALT from a contract, this will be noticed by the community, and all the Arbitrators or a part of them will be re-elected. The losses will be covered by the dishonest Arbitrators deposits.
  
-## Creating property records, property protection and use cases on the territories without existing states in Oracles property registry (OPR)
+## Creating property records on the territories without existing states in Oracles property registry (OPR)
 There are the territories that are out of a state's sovereignty and the territories the rights to which were renounced by the state. They're called "Terra nullius" or "nobody's land". Examples of such territories are Bir Tawil in Africa and Marie Byrd Land in Antarctica, to name a few. Due to their isolated geographical position, associated risks, and harsh climate conditions, the settlement of such territories implies substantial financial expenses and a high likelihood of losing investments. Neither states themselves, nor private enterprises and investors are ready to do this. However, with sufficient financial resources, it's possible to create anything one could imagine in these territories: cities, industries, commercial centers, tax-free areas, etc.
 
 An effective solution to the settlement problem may be crowdfunding with a large number of backers supporting the project through smart contracts. A particular territory can be divided into land plots. Potential buyers would participate in auctions that sell those land plots. All the funds collected from selling them would be passed to the community fund that is used for developing the infrastructure and serves as a guarantee of physical protection and legal recognition (if needed). Several billion dollars collected in cryptocurrency by a strong community of like-minded people would make it possible to build an airport, energy and transportation infrastructure, hire a private military company, and get other states' support.
