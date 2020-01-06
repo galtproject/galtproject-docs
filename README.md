@@ -27,6 +27,3 @@ SPACE - ERC721 standart ethereum based token.
 ### Galt Project Contact information
 https://galtproject.io/
 
-### About Copyright and Software licenses
-The main purpose of Galt Protocol is to create open and reliable instrument for self-government communities of property owners. According to that, one of our main goals in Galt Project is to create pure community driven and open software product. For now Galt Project if fully self-funded, we have certain vision and we want to implement it. To ensure the achievement of our vision, before the launch, protocol is open-sourced, but it is and it will be our intellectual property.
-
