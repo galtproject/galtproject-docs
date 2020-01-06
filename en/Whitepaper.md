@@ -431,10 +431,11 @@ GALT token is the ERC20 standard Ethereum utility token with a fixed supply of 4
 
 ### Token purpose
 By issuing a token, we pursue four main goals:
+- to create a single base for double ownership verification;
 - to create a single base for accounting the Oracles' deposits;
 - to create a strong community of the Property owners, Oracles, Custodians, and sofware developers by incentive systems that enable coordination of network participants to achieve shared goals. Tokens incentivize them in an economic game towards an outcome that are mutually beneficial;
 - create an incentive for the Arbitrators elections. The Galt holders can stake tokens to elect the Arbitrators and get the reward from protocol commission;
-- create an incentive for protocol governance;
+- create an incentive for Smart contracts governance;
 - create an incentive to spread information about the project. The GALT token holders will distribute information about the project, as each subsequent buyer of tokens increases their value.
 
 ### Token distribution
