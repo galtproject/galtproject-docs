@@ -3,6 +3,7 @@
   Nikolai Popeka [Basic Agreement](ipfs/QmaCiXUmSrP16Gz8Jdzq6AJESY1EAANmmwha15uR3c1bsS).
 
 --->
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/logo-black-1.png" alt="logo-black-360" width="200"/></p>
 
 # Galt Project Whitepaper
 by Nikolai Popeka @npopeka
