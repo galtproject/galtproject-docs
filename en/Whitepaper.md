@@ -117,7 +117,7 @@ Property tokens are initially created by single entity. Any individual, company 
 ### Prof of Location Token Curated Property Registries (PoLTCPR) 
 Anyone can put deposit in Registry's ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period (no more than one time per month, first 5 years) by submitting an equal amount of Registry's ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. The verification itself can be quite simple, as the confirmation will be the location of the Owner within the geographical coordinates of the token.
 
-We assume that there can be an unlimited number of such registries, each of which will use its own ERC20 token. For example, at the same time, there may exist a registry curated by the owners of the GALT token, FOAM tokens, or any other.
+We assume that there can be an unlimited number of such registries, each of which will use its own ERC20 token. For example, at the same time, there may exist a registry curated by the owners of the GALT token or any other ERC20 tokens.
 
 ### Dynamic Prof of Location Property Registry (DPoLPR) 
 
