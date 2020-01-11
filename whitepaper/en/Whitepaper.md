@@ -225,7 +225,7 @@ An opinion leader in a certain territory decides to create his own private regis
 To do this, we have included the ability to set additional built-in fees. The Token Owner, when performing various operations with the token (changing token data, blocking the token for joining the community, placing an order to sell the token, executing a sale transaction, and others) pays a small commission to the Registry Owner. After decentralisation, the Token Owners themselves decide on the size of these commissions.
 ![conomic incentives for Private registry Owners](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard27.png)
 
-### Decentralized governance for Private registries
+### Decentralized governance for Private property registries
 At some point, the rights to manage Private property registry contracts(create tokens, destroy tokens, change tokens data, set additional commissions, etc. ) should be decentralized. The most correct solution for this is to transfer those rights to the Property tokens Owners.
 
 Property tokens Owners cache token area on particular block in smart contract. This value is used to vote on Proposals in Proposal Manager contract. For example, the owner of a token can create a proposal to issue a new token. After that, the remaining token holders vote. If the offer is accepted, then Controller contract creates a new token. Absolutely in the same way all other operations are performed.
