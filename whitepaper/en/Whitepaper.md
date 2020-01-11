@@ -208,7 +208,7 @@ The purpose and legal meaning of the token is fully determined by agreement with
 The Owner of a private registry is an address in the Ethereum blockchain, which can create tokens, change the parameters of registry contracts, change and destroy tokens with the approve of token holders, and also perform other operations. The owner may be an individual, legal entity, or DAO (for example Aragon organisation). In the last case, such a registry is decentralized since all operations are carried out by voting of DAO participants.
 
 ### Creating property records
-In the case of using a private registry, operations to create token for land plot, house, appartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
+In the case of using a private registry, operations to create token for land plot, house, apartment or office is carried out by the Owner of the registry or by those who have been given the corresponding rights by the Owner. Once created, the token can be transferred.
 
 ### Updating property records
 In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
