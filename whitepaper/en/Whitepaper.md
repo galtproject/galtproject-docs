@@ -213,17 +213,23 @@ In the case of using a private registry, operations to create token for land plo
 ### Updating property records
 In this case, the geographical and other data of the token are changed by the approval of the changes by the Token Holder and the Owner of the private registry. In the same way, if necessary, the token can be destroyed(burned).
 
-### Private registries general architecture
+### Private property registries general architecture
 Anyone can choose a Private registry Factory contract from Approved Factories registry contract (a whitelist of contracts managed by a decentralized community), pay a commission, and create his own private registry. After creating the Private registry, its Owner can create tokens and transfer them to the Token owners. After the token has been transferred to the owner, a change in its geographical coordinates and data, as well as the destruction of the token, can only occur through the Token modification contract(Controller). For this, the Owner of the token or the Owner of the contract should create a proposal for changing the data. Proposal must be approved by the other party. After that, the Controller changes the data. In case of loss of the private key of the Token Owner, a "burn after timeout" procedure is provided. The token Owner can set the time after which the token can be destroyed by the private registry Owner. The registry owner in this case initiates the destruction of the token. After the time has expired(and the token Owner didn't cancel the destruction), the token is destroyed and the registry owner can issue a new token with same geographicall coordinates and data.
 ![Private registries general architecture](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard22.png)
 
-### Economic incentives for Private registry Owners
+### Economic incentives for Private property registry Owners
 The simplest scenario for creating a private registry is as follows. 
 
-An opinion leader in a certain territory decides to create his own private register for registering property rights and self-government. He creates a private registry, issues property tokens and distributes them to his neighbours. Together they create Community of Homeowners. After some time, he transfers the rights to manage the Private registry to this community. Such work requires a lot of effort and should be accompanied by economic benefits.
+An opinion leader in a certain territory decides to create his own private register for registering property rights and self-government. He creates a private registry, issues property tokens and distributes them to his neighbours. Together they create Community of Homeowners. After some time, he transfers the rights to manage the Private registry to Property token Owners. Such work requires a lot of effort and should be accompanied by economic benefits.
 
 To do this, we have included the ability to set additional built-in fees. The Token Owner, when performing various operations with the token (changing token data, blocking the token for joining the community, placing an order to sell the token, executing a sale transaction, and others) pays a small commission to the Registry Owner. After decentralisation, the Token Owners themselves decide on the size of these commissions.
 ![conomic incentives for Private registry Owners](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard27.png)
+
+### Decentralized governance for Private registries
+At some point, the rights to manage Private property registry contracts(create tokens, destroy tokens, change tokens data, set additional commissions, etc. ) should be decentralized. The most correct solution for this is to transfer those rights to the Property tokens Owners.
+
+Property tokens Owners cache token area on particular block in smart contract. This value is used to vote on Proposals in Proposal Manager contract. For example, the owner of a token can create a proposal to issue a new token. After that, the remaining token holders vote. If the offer is accepted, then Controller contract creates a new token. Absolutely in the same way all other operations are performed.
+ ![conomic incentives for Private registry Owners](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard28.png)
 
 ### Private registries System Governance
 We want smart contracts and related software to be reliable and not require complex technical skills from ordinary users. To do this, we use the mechanism of Factories, when a user, paying a commission, creates a private registry, community (or other smart contracts) using an allredy existing, reliable contract on mainnet. Software development is a complex process in which probable errors and critical vulnerabilities. Thus, someone with technical skills and financial motivation should monitor the reliability of existing Factory contracts (or simple contracts), upgrade them and create new contracts and Factories that users need. And this should not be one person or a small group of people, but a decentralized community, where there will be no single point of failure. 
