@@ -1,5 +1,8 @@
 # Private property verification
 
+![](./contour-verification.png)
+
+
 * in the verification contract we already take into account the creation date of the token in the createdAt option (separate mapping)
 we need to add a change account (we will write by keys in propertyExtraData https://github.com/galtproject/galtproject-private-property-registry/blob/c9300cb5661cf641cfc6721ada382d3638bf9ad5/contracts/PPToken.sol#L34)
 contour + height contourUpdatedAt
