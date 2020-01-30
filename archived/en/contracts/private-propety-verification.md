@@ -21,3 +21,5 @@ check
 * controller keeps track of depositHolder address, the owner can change this address
 * Token contract is not changeable
 * a deposit amount can't be changed after enabling contour verification
+* DepositHolder is a single contract which keeps deposits of different private property registries
+* DepositHolder provides ContourVerification contract full permisssion on managing assets deposited by corresponding token holders
