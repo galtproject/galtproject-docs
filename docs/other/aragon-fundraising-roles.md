@@ -1,103 +1,111 @@
+## How the grant permissions works
+ACL create a permissions granting **entity** the ability to perform actions, setting **manager** as the permission's manager.
+
+## Permissions
+**entity**: Address of the whitelisted entity that will be able to perform the role
+
+**manager**: Address of the entity that will be able to grant and revoke the permission further.
+
 ## Presale
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|presale.OPEN_ROLE|x|||Run presale|
-|presale.CONTRIBUTE_ROLE|x|x||Buy tokens on presale|
-|controller.OPEN_PRESALE_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|presale.OPEN_ROLE|shareVoting|controller|Run presale|
+|presale.CONTRIBUTE_ROLE|shareVoting|controller, anyone|Buy tokens on presale|
+|controller.OPEN_PRESALE_ROLE|shareVoting|controller||
 
 ## Fundraising for User
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|marketMaker.OPEN_BUY_ORDER_ROLE|x|x|||
-|marketMaker.OPEN_SELL_ORDER_ROLE|x|x|||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|marketMaker.OPEN_BUY_ORDER_ROLE|shareVoting|controller,anyone||
+|marketMaker.OPEN_SELL_ORDER_ROLE|shareVoting|controller,anyone||
 
 ## Fundraising tapped balance: control, widthdraw
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|tap.UPDATE_BENEFICIARY_ROLE|x||||
-|tap.UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE|x||||
-|tap.UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE|x||||
-|tap.ADD_TAPPED_TOKEN_ROLE|x||||
-|tap.UPDATE_TAPPED_TOKEN_ROLE|x||||
-|tap.RESET_TAPPED_TOKEN_ROLE|x||||
-|tap.WITHDRAW_ROLE|x|x||Withdraw funds to beneficiar|
-|controller.UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE|x||||
-|controller.UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE|x||||
-|controller.ADD_TOKEN_TAP_ROLE|x||||
-|controller.UPDATE_TOKEN_TAP_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|tap.UPDATE_BENEFICIARY_ROLE|shareVoting|shareVoting||
+|tap.UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE|shareVoting|shareVoting||
+|tap.UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE|shareVoting|shareVoting||
+|tap.ADD_TAPPED_TOKEN_ROLE|shareVoting|controller||
+|tap.UPDATE_TAPPED_TOKEN_ROLE|shareVoting|controller||
+|tap.RESET_TAPPED_TOKEN_ROLE|shareVoting|controller||
+|tap.WITHDRAW_ROLE|shareVoting|controller,anyone|Withdraw funds to beneficiar|
+|controller.UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE|shareVoting|controller||
+|controller.UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE|shareVoting|controller||
+|controller.ADD_TOKEN_TAP_ROLE|shareVoting|shareVoting||
+|controller.UPDATE_TOKEN_TAP_ROLE|shareVoting|shareVoting||
 
 ## Market Fees
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|marketMaker.UPDATE_BENEFICIARY_ROLE|x||||
-|marketMaker.UPDATE_FEES_ROLE|x||||
-|controller.UPDATE_BENEFICIARY_ROLE|x||||
-|controller.UPDATE_FEES_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|marketMaker.UPDATE_BENEFICIARY_ROLE|shareVoting|controller||
+|marketMaker.UPDATE_FEES_ROLE|shareVoting|controller||
+|controller.UPDATE_BENEFICIARY_ROLE|shareVoting|shareVoting||
+|controller.UPDATE_FEES_ROLE|shareVoting|shareVoting||
 
 ## Market tokens control
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|marketMaker.ADD_COLLATERAL_TOKEN_ROLE|x||||
-|marketMaker.REMOVE_COLLATERAL_TOKEN_ROLE|x||||
-|marketMaker.UPDATE_COLLATERAL_TOKEN_ROLE|x||||
-|controller.REMOVE_COLLATERAL_TOKEN_ROLE|x||||
-|controller.UPDATE_COLLATERAL_TOKEN_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|marketMaker.ADD_COLLATERAL_TOKEN_ROLE|shareVoting|controller||
+|marketMaker.REMOVE_COLLATERAL_TOKEN_ROLE|shareVoting|controller||
+|marketMaker.UPDATE_COLLATERAL_TOKEN_ROLE|shareVoting|controller||
+|controller.REMOVE_COLLATERAL_TOKEN_ROLE|shareVoting|shareVoting||
+|controller.UPDATE_COLLATERAL_TOKEN_ROLE|shareVoting|shareVoting||
 
 ## Market other
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|marketMaker.OPEN_ROLE|x|||Run fundraising|
-|controller.OPEN_TRADING_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|marketMaker.OPEN_ROLE|shareVoting|controller|Run fundraising|
+|controller.OPEN_TRADING_ROLE|shareVoting|presale||
 
 ## BOARD token
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|boardTM.MINT_ROLE|x||||
-|boardTM.BURN_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|boardTM.MINT_ROLE|shareVoting|boardVoting||
+|boardTM.BURN_ROLE|shareVoting|boardVoting||
 
 ## SHARE token
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|shareTM.MINT_ROLE|||x||
-|shareTM.ISSUE_ROLE|x||||
-|shareTM.ASSIGN_ROLE|x||||
-|shareTM.REVOKE_VESTINGS_ROLE|x||||
-|shareTM.BURN_ROLE|||x||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|shareTM.MINT_ROLE|noone|marketMaker||
+|shareTM.ISSUE_ROLE|shareVoting|presale||
+|shareTM.ASSIGN_ROLE|shareVoting|presale||
+|shareTM.REVOKE_VESTINGS_ROLE|shareVoting|presale||
+|shareTM.BURN_ROLE|noone|marketMaker,presale||
 
 ## Finance
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|vault.TRANSFER_ROLE|x||||
-|finance.EXECUTE_PAYMENTS_ROLE|x||||
-|finance.MANAGE_PAYMENTS_ROLE|x||||
-|finance.CREATE_PAYMENTS_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|vault.TRANSFER_ROLE|shareVoting|finance||
+|finance.EXECUTE_PAYMENTS_ROLE|shareVoting|boardVoting||
+|finance.MANAGE_PAYMENTS_ROLE|shareVoting|boardVoting||
+|finance.CREATE_PAYMENTS_ROLE|shareVoting|boardVoting||
 
 ## SHARE voting
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|shareVoting.MODIFY_QUORUM_ROLE|x||||
-|shareVoting.MODIFY_SUPPORT_ROLE|`o`||`x`||
-|shareVoting.CREATE_VOTES_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|shareVoting.MODIFY_QUORUM_ROLE|shareVoting|shareVoting||
+|shareVoting.MODIFY_SUPPORT_ROLE|`shareVoting => noone`|`shareVoting => noone`||
+|shareVoting.CREATE_VOTES_ROLE|shareVoting|boardTM||
 
 ## BOARD voting
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|boardVoting.MODIFY_QUORUM_ROLE|x||||
-|boardVoting.MODIFY_SUPPORT_ROLE|x||||
-|boardVoting.CREATE_VOTES_ROLE|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|boardVoting.MODIFY_QUORUM_ROLE|shareVoting|boardVoting||
+|boardVoting.MODIFY_SUPPORT_ROLE|shareVoting|boardVoting||
+|boardVoting.CREATE_VOTES_ROLE|shareVoting|boardTM||
 
 ## DAO managment
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|**registry.REGISTRY_MANAGER_ROLE**|x||||
-|**registry.REGISTRY_ADD_EXECUTOR_ROLE**|x||||
-|**dao.APP_MANAGER_ROLE**|x||||
-|**acl.CREATE_PERMISSIONS_ROLE**|x||||
+|Role|manager|entity|Description|
+|---|---|---|---|
+|**registry.REGISTRY_MANAGER_ROLE**|shareVoting|shareVoting||
+|**registry.REGISTRY_ADD_EXECUTOR_ROLE**|shareVoting|shareVoting||
+|**dao.APP_MANAGER_ROLE**|shareVoting|shareVoting||
+|**acl.CREATE_PERMISSIONS_ROLE**|shareVoting|shareVoting||
 
 ## Other
-|Role|shareVoting|anyone|noone|Description|
-|---|---|---|---|---|
-|reserve.SAFE_EXECUTE_ROLE|x|||???|
-|reserve.ADD_PROTECTED_TOKEN_ROLE|x|||???|
-|reserve.TRANSFER_ROLE|x|||???|
+|Role|manager|entity|Description|
+|---|---|---|---|
+|reserve.SAFE_EXECUTE_ROLE|shareVoting|shareVoting|???|
+|reserve.ADD_PROTECTED_TOKEN_ROLE|shareVoting|controller|???|
+|reserve.TRANSFER_ROLE|shareVoting|tap,marketMaker|???|
 
