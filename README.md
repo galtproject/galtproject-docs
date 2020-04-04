@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/images/logo-black-1.png" alt="logo-black-360" width="200"/></p>
+<p align="center"> <img src="https://github.com/galtproject/galtproject-docs/blob/master/whitepaper/images/logo-black-1.png" alt="logo-black-360" width="200"/></p>
 
 # Galt Project Documentation
 This repository contains Software Design Documents for Galt Project.
