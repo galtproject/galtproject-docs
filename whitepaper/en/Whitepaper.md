@@ -119,10 +119,8 @@ Anyone can put deposit in Registry's ERC20 tokens and create token for land plot
 
 We assume that there can be an unlimited number of such registries, each of which will use its own ERC20 token. For example, at the same time, there may exist a registry curated by the owners of the GALT token or any other ERC20 tokens.
 
-### Dynamic Prof of Location Property Registry (DPoLPR) 
-
 ### Oracles Property Registry (OPR)
-Property tokens are initially created by decentralized community of Cadastral engineers and Notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation for fee. Property token owners, oracles and Galt token holders elect Arbitrators. Anyone can create a claim on property token or Oracle. Arbitrators make decision on claims, slash deposits from oracles and change data or destroy property tokens.
+Property tokens are initially created by decentralized community of Cadastral engineers and Notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation for fee. Anyone can put a deposit in GALT ERC20 token and create a dispute on property token or Oracle. GALT token owners vote on claims, slash deposits from oracles and change data or destroy property tokens.
 
 ### The impossibility of double ownership in different registries
 All described registries can be used for property transactions, collective investment in real estate, self-governance and other purposes.
