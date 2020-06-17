@@ -102,7 +102,6 @@ Unfortunately, checking intersections of a large number of polygons will still l
 The simplest and most reliable verification method, which will be used primarily - Option 2: Off-chain and on-chain hybrid sollution with Deposits after creating tokens.
  
 ## Types of property ownership - "with State" / "with out State"
-
 In the modern world, there is land (and real estate objects) divided between owners according to state registers. Recording in these registers and protecting the rights of owners is the responsibility of a state located in a particular territory. There are also territories not controlled by states. Correspondingly, they lack their registries and formal guarantors of the rights. Examples of such territories are Bir Tawil and Antarctica. The proposed system of smart contracts allows one to register ownership of land and real estate, in all types of territories.
 
 ## Types of registries and methods of initial creation of tokens
@@ -118,9 +117,11 @@ Property tokens are initially created by single entity. Any individual, company 
 Anyone can put deposit in Registry's ERC20 tokens and create token for land plot, house or apartment / room without any verification or permission. Anyone can challenge token creation multiple times during challenging period (no more than one time per month, first 5 years) by submitting an equal amount of Registry's ERC20 tokens. This initiates a voting period among ERC20 token holders. If challenge is succeed, then Property token is burned and its deposit is distributed between Challenger and winning voters. On opposite if challenge failed, then Challenger deposit is distributed between Property token owner and winning voters. The verification itself can be quite simple, as the confirmation will be the location of the Owner within the geographical coordinates of the token.
 
 We assume that there can be an unlimited number of such registries, each of which will use its own ERC20 token. For example, at the same time, there may exist a registry curated by the owners of the GALT token or any other ERC20 tokens.
+<!--- 
 
 ### Dynamic Prof of Location Property Registry (DPoLPR) 
 
+--->
 ### Oracles Property Registry (OPR)
 Property tokens are initially created by decentralized community of Cadastral engineers and Notaries. Anyone can pay fee and create proposal to create token for his land plot, house or apartment. Also anyone can put deposit in GALT ERC20 tokens, become Oracle and approve property tokens creation for fee. Property token owners, oracles and Galt token holders elect Arbitrators. Anyone can create a claim on property token or Oracle. Arbitrators make decision on claims, slash deposits from oracles and change data or destroy property tokens.
 
