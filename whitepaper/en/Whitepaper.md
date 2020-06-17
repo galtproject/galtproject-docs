@@ -269,7 +269,7 @@ In some cases, it may be necessary to update the data of land or real-estate tok
 In this case, the data change occurs in the same way as the initial creation of the Token specified above. The owner submits an application in a smart contract, pays a commission. The Oracles check it and approve changes.
 
 ### Oracles
-If someone wants to create a token of a land plot, building or room, there should be a decentralized self-governed mechanism for checking property rights and geographic coordinates. In Oracles property registry, this function is fulfilled by the Oracles. They're independent economic agents, who approve new token creation for a reward. Moreover, they perform a wide range of different operations: valuation, custodian service, etc. The Oracles have a deposit, which can be written off. To be able to earn the reward, they buy and deposit protocol utility token - ERC20 GALT Token. This deposit can be written off by the governance mechanism described below.
+If someone wants to create a token of a land plot, building or room, there should be a decentralized self-governed mechanism for checking property rights and geographic coordinates. In Oracles property registry, this function is fulfilled by the Oracles. They're independent economic agents, who approve new token creation for a reward. Moreover, they can perform a wide range of different operations: valuation, custodian service, etc. To be able to earn the reward, they buy and stake ERC20 GALT Token. This deposit can be written off by the governance mechanism described below.
 
 ### Disputes resolution
 Operations with land and real estate may lead to disputes and disagreements both between owners and professional participants: cadastral engineers, notaries, appraisers, custodians, etc. Here are some examples of such disputes:
@@ -286,7 +286,7 @@ The solution to these problems comes down to three types of operations:
 Their fulfillment requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties in the dispute – the Arbitrator. 
 
 ### Arbitrators 
-The GALT token holders use their stake to elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Anyone can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
+The GALT token holders use their stake to elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Anyone can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH or GALT in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
 
 - what the size of the deposit is;
 - from whom it should be written off;
