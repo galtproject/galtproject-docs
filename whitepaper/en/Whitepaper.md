@@ -295,7 +295,7 @@ The GALT token holders use their stake to elect the Arbitrators, which is a spec
 - etc.
 
 After that, they vote on each proposal. If the claim is approved, the deposit will be written off, the geographical coordinates will be changed, or the escrow contract will be canceled, etc. That said, the Arbitrators will also get their reward. If the decision isn't made on time, the Arbitrators will receive no reward, lose their deposits, and the claim can be taken up by another set of the Arbitrators. If the applicant is dissatisfied with the decision of the Arbitrators, he or she can create a new claim or ask the community to re-elect the Arbitrators.
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard30.png" alt="Arbitrators"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard31.png" alt="Arbitrators"/></p>
 
 ### Arbitrators Governance groups
 In general, there are some technological restrictions in the current Ethereum that limit a possible maximum number of the Arbitrators. Also, there is a limit on the number of claims that can be considered by the Arbitrators during a specific period of time. So, to make this system scalable and facilitate operation with a large number of users, we should divide Arbitrators and Oracles into separate groups. The most obvious solution is to combine according to the geographical principle. There can be an unlimited number of such groups. In each group, the GALT holders vote to elect the Arbitrators. The Arbitrators deposit GALT as a deposit and provide their service in this group.
