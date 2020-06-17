@@ -380,7 +380,8 @@ With a consistent registry of property rights, various operations can be perform
 
 ### Custodians
 In some jurisdictions, to make operations like land and real estate trading, mortgage and others on Ethereum, Property owners need a decentralized third-party - the Custodians. The Custodians are legal entities in reliable jurisdictions. They're temporary owners of land or real estate and are legally obliged to re-register these rights in the state registry to the token owner. Also, they can convert their income from real estate to Ether or Stablecoins and transfer it to token owners. To provide paid services, they need a deposit blocked in the smart contract. In case of an error or fraud, the deposit will be written off and used for prosecution and damages cover. The Custodians get a reward from token holders for interaction with government agencies and other Oracles. They act as a supranational property guarantor. For reducing the risks of fraud, each property can be divided between 2-3 Custodians. If dishonest behavior is detected, their deposits will be fully withdrawn and used to retrieve property to their real owners.
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard13.png" alt="custodians"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard13.png" alt="custodians" width="600"/></p>
+
 Each Custodian has a unique address. This way, the very Custodian can be a DAO – decentralized autonomous organization. In some cases, the Custodians are not necessary, if a state accepts blockchain transactions or there is no state at all, and the community of property owners itself acts as the guarantor of their rights.
 
 ### Property trading with Custodians
