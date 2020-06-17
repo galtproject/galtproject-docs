@@ -171,11 +171,11 @@ Every member of a Community has Reputation. This is the number that determines t
 - through a financial contribution to the community budget;
 - for voting on important topics.
 
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard4.png" alt="Reputation"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard4.png" alt="Reputation" width="600"/></p>
 
 ### Liquid democracy
 If a Community member doesn't participate in the voting, they can pass their vote to another trusted member of the Community. In turn, the latter can give his or her votes to another trusted member of the Community. As a result, the votes of the passive "majority" will be transferred to the expert and the active "minority." Each Community member can get the vote back instantly whenever he or she wants. This way we solve the “apathy of voting” and “usurpation of power” problems.
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard3.png" alt="Liquid democracy" width=700/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard3.png" alt="Liquid democracy" width=600/></p>
 
 ### Community Laws
 Community members can pass and repeal laws by Voting. Each law is a record in a smart contract that contains the name of the law and the IPFS hash of a detailed document. Adopted laws are binding on all community members. Violating them may result in a community member being fined or expelled. The decision to impose a fine or exclusion is made by voting in Voting smart contract.
