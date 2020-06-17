@@ -94,7 +94,7 @@ Anyone can provide the ID of two tokens that intersect to this contract. The con
 
 #### Option 3: Sidechain sollution
 The problem of checking the intersection of one polygon with an unlimited number of polygons is completely on-chain solvable. In this case, the initial creation of tokens of land plots and real estate objects occurs on the sidechain, in which a large volume of calculations can be made. Such a sidechain could be the blockchain on Parity Substrate or Cosmos SDK or any other. During the initial creation of the Token, the Validator nodes check for intersections and confirm the creation of the Token.
-<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard11.png" alt="Sidechain double ownership check when creating Token for Land plot, Building or Room" width="700"/></p>
 
 Unfortunately, checking intersections of a large number of polygons will still lead to a large load on the validator nodes and delays in creating blocks.
 
