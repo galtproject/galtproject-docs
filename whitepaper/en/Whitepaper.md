@@ -371,15 +371,6 @@ The Property owners, GALT holders, and Oracles have Reputation, through which th
 The Property owners and GALT holders create voting proposals in Global Governance and vote for them. The Oracles have Reputation only in the Governance groups, so they vote using it. 
 For voting in a particular Governance Group, all the participants use their Reputation in this group.
 
-#### Staking rewards in Oracles property registry (OPR)
-Protocol participants are rewarded for choosing the Arbitrators. The reward is proportional to how much GALT staked on the Arbitrators in a particular group. The Reward is given to:
-
-- the GALT token holders for locking GALT and staking Reputation on the Arbitrators;
-- the Property owners for locking a land plot or real estate token and staking Reputation on the Arbitrators;
-- the Oracles for depositing GALT and staking Reputation on the Arbitrators.
-
-We provide the opportunity to receive rewards not only to the GALT holders to encourage people to become the Oracles and register their property (a land and real estate). For example, the Property owners participating in the election of the Arbitrators will receive a part of the commission from all future registrations of new land plots and real estate and other contracts.
-
 #### Commission distribution in Oracles property registry (OPR)
 Most of the smart contracts have a commission in Ether and GALT for land and real estate tokens registration, tokens trading, Creating smart contracts with Factories (communities of homeowners, personal lockers, etc.), and so on. Commission amounts for different operations, and its distribution is set by voting. Commission from all contracts goes to Commission distribution Contract, which distributes it between GALT Auto buyback Contract and Reputation Staking Reward Contract in proportion set by the Global governance. Reputation Staking Reward Contract distribute ETH and GALT to the GALT holders, Property owners, and Oracles proportionally to their Reputation stakes. The GALT Auto buyback Contract uses the ETHs received to automatically purchase GALT from the GALT Automated Market Maker Contract, thereby increasing their price. The GALT tokens purchased and received from the commission are locked forever in the GALT Auto buyback Contract.
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard19.png" alt="Commission distribution" width="700"/></p>
