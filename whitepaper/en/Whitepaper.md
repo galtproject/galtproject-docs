@@ -311,7 +311,7 @@ In addition to voting for the Arbitrators, by voting, the members of the group d
 
 ### Arbitrators elections
 To make the governance system more reliable, the Arbitrators should be easily elected and re-elected, they should have economic incentive to honestly resolve disputes and they should represent all the participants of the Protocol. GALT token holders use their stake to vote to add or remove Arbitrators in partucular group. 
-![Arbitrators elections](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard15.png)
+![Arbitrators elections](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard29.png)
  
 ### Creating property records on the territories without existing states in Oracles property registry (OPR)
 There are the territories that are out of a state's sovereignty and the territories the rights to which were renounced by the state. They're called "Terra nullius" or "nobody's land". Examples of such territories are Bir Tawil in Africa and Marie Byrd Land in Antarctica, to name a few. Due to their isolated geographical position, associated risks, and harsh climate conditions, the settlement of such territories implies substantial financial expenses and a high likelihood of losing investments. Neither states themselves, nor private enterprises and investors are ready to do this. However, with sufficient financial resources, it's possible to create anything one could imagine in these territories: cities, industries, commercial centers, tax-free areas, etc.
