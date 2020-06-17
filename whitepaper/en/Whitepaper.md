@@ -250,14 +250,14 @@ Since the community is a set of smart contracts, it itself can be the Owner of a
 
 ### Creating property records
 
-In Oracles property registry, any land and real-estate property owners can create their property tokens with the help of the decentralized community of cadastral engineers and notaries. Each Token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating a token through a smart contract. The application contains the geographical coordinates of the object, topology, IPFS media hashes (photos, video, point cloud file, Building Information Model, etc.), additional identification data (address, area, floor, room ID, etc.). The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data and the applicant's property rights in a particular jurisdiction for a fee. With the application approved, a new object is checked for dual ownership. After that, a token is created.
+In Oracles property registry, any land and real-estate property owners can create their property tokens with the help of the decentralized community of cadastral engineers and notaries. Each Token represents property rights record for land or real estate. Anyone can pay a commission in ETH or GALT ERC20 and apply for creating a token through a smart contract. The application contains the geographical coordinates of the object, topology, IPFS media hashes (photos, video, point cloud file, Building Information Model, etc.), additional identification data (address, area, floor, room ID, etc.). The application is taken into work by the Cadastral Engineer and the Notary. They verify the correctness of the data and the applicant's property rights in a particular jurisdiction for a fee. With the application approved, a new token is created.
+
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard12.png" alt="A decentralized community of Cadastral engineers and Notaries"/></p>
 This done, a Property Owner can:
 
 - perform commercial operations with their property on the Ethereum smart contracts;
 - split and merge the geospatial data of their tokens;
-- unite in a community of homeowners and ensure self-governance;
-- transfer property token to personal locker smart contract, stake Reputation from token, participate in governance and get part of the commission from all future registrations of new land plots and real estate and other contracts (see "Governance" and "Commission distribution" sections).
+- unite in a community of homeowners and ensure self-governance.
 
 ### Updating property records
 In some cases, it may be necessary to update the data of land or real-estate token. This may happen if:
