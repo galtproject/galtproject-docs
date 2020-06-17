@@ -286,7 +286,7 @@ The solution to these problems comes down to three types of operations:
 Their fulfillment requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties in the dispute – the Arbitrator. 
 
 ### Arbitrators 
-Property owners, the GALT token holders, and the Oracles elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Anyone can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
+The GALT token holders use their stake to elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Anyone can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
 
 - what the size of the deposit is;
 - from whom it should be written off;
