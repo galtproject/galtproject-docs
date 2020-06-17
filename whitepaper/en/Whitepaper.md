@@ -67,7 +67,7 @@ By "Land and Real estate double ownership", we mean the impossibility of sharing
 
 #### The algorithm for solving the problem
 Each land plot, building, or room has a polygonal representation. The vertices of a polygon have coordinates in the [WGS84 standart](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) — latitude, longitude, and altitude. Thereby, the task is reduced to mathematical verification of the new polygon intersecting with the already existing ones in the three-dimensional space. For consistency purposes, the calculation of intersections in the three-dimensional space is too complicated and can be reduced to checking intersections in a rectangular coordinate system in the Mercator projection considering altitude.
-![Polygon intersection](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard16.png)
+<p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard16.png" alt="Polygon intersection" width="500"/></p>
 
 The task of checking the intersection of polygons for land plots and buildings comes down to checking the intersection on a plane in the Mercator projection excluding the altitude. 
 The task of checking the intersection of the polygons of Rooms is reduced to checking the intersection on the plane in the Mercator projection, taking into account the minimum and maximum heights of the room.
