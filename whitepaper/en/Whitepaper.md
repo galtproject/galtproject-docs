@@ -285,11 +285,8 @@ The solution to these problems comes down to three types of operations:
 
 Their fulfillment requires the presence of a special elective role of a judge, who will act impartially in the interests of all parties in the dispute – the Arbitrator. 
 
-### GALT token Holders and their role in Oracles property registry (OPR)
-GALT Token Holders are the third force designed to balance the interests of Property owners and Oracles. Since one of the most effective decision-making systems is even-numbered odd vote (2 to 3, 4 to 7, etc.). They are protocol developers, enthusiasts and, possibly, speculators who are financially interested in the protocol developing, and the market price of the token increasing. The GALT token is described in more detail in the corresponding section.
-
 ### Arbitrators 
-Property owners, the GALT token holders, and the Oracles elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Any Property owner or Oracle or Arbitrator himself can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
+Property owners, the GALT token holders, and the Oracles elect the Arbitrators, which is a special governance role. Each Arbitrator has a deposit in the GALT token. Anyone can create a claim about the Oracles, Arbitrators or Property owners dishonest behavior or mistake and pay the fee in ETH in the smart contract. Several Arbitrators take this claim for consideration. Each of them can create a proposal on what is to be done:
 
 - what the size of the deposit is;
 - from whom it should be written off;
@@ -301,7 +298,7 @@ After that, they vote on each proposal. If the claim is approved, the deposit wi
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard1.png" alt="Arbitrators"/></p>
 
 ### Arbitrators Governance groups
-In general, there are some technological restrictions in the current Ethereum that limit a possible maximum number of the Arbitrators. Also, there is a limit on the number of claims that can be considered by the Arbitrators during a specific period of time. So, to make this system scalable and facilitate operation with a large number of users, we should divide GALT Holders, Property Owners, Arbitrators, and Oracles into separate groups. The most obvious solution is to combine according to the geographical principle. There can be an unlimited number of Governance groups. In each group, the GALT holders, Property Owners, and Oracles vote to elect the Arbitrators. The Arbitrators deposit GALT as a deposit and provide their service in this group.
+In general, there are some technological restrictions in the current Ethereum that limit a possible maximum number of the Arbitrators. Also, there is a limit on the number of claims that can be considered by the Arbitrators during a specific period of time. So, to make this system scalable and facilitate operation with a large number of users, we should divide Arbitrators and Oracles into separate groups. The most obvious solution is to combine according to the geographical principle. There can be an unlimited number of such groups. In each group, the GALT holders vote to elect the Arbitrators. The Arbitrators deposit GALT as a deposit and provide their service in this group.
 ![Governance groups](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard17.png)
 In addition to voting for the Arbitrators, by voting, the members of the group determine such parameters as:
 
@@ -313,20 +310,8 @@ In addition to voting for the Arbitrators, by voting, the members of the group d
 - etc.
 
 ### Arbitrators elections
-To make the governance system more reliable, the Arbitrators should be easily elected and re-elected, they should have economic incentive to honestly resolve disputes and they should represent all the participants of the Protocol – the property owners, Oracles and GALT token holders. In some cases, the goals of the property owners, Oracles and GALT token holders may not meet. So, they should have equal voting rights. The Property owners have the ERC721 tokens. Each token has its area in square meters. This is a basic variable for voting. The more land or real estate you have, the more votes you have. The Oracles have deposits in GALT. Deposits are used as a Voting variable. For the Galt tokens holders, the balance of tokens locked in a personal smart contract is used as voting power. 
+To make the governance system more reliable, the Arbitrators should be easily elected and re-elected, they should have economic incentive to honestly resolve disputes and they should represent all the participants of the Protocol. GALT token holders use their stake to vote to add or remove Arbitrators in partucular group. 
 ![Arbitrators elections](https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard15.png)
-Each of these groups has only 1/3 оf the total Votes. The property owners, Oracles and GALT token holder get rewarded for staking reputation from protocol commission. We will describe it in the "Commission distribution" section. Also, the reputation accounting scheme is more complex – you can find more details below.
-
-### Possible Attack - Property owners and Arbitrators conspiracy 
-There is a chance that a part of the Arbitrators and Property owners will conspire. The Property owners will create baseless claims, and the Arbitrators will approve them and write off deposits from the Oracles to the Arbitrators' and Property owners' benefit. If this will take mass proportions, the whole governance system will be disrupted, which isn't beneficial to all the participants. The majority of the Property Owners, Oracles, and GALT holders will change their vote and the Arbitrators will lose their votes and deposits. The only question is whether those deposits would be enough to cover the losses. 
-There are several ways to avoid this attack:
-
-- the Arbitrators should be public persons;
-- the amount of GALT, which can be written off from a contract, should be limited for a particular period of time.
-- the sum of all the Arbitrators deposits should be more than that amount;
-- there should be a fast mechanism for casting votes and re-electing the Arbitrators. 
-
-If a part of the Arbitrators will try to withdraw GALT from a contract, this will be noticed by the community, and all the Arbitrators or a part of them will be re-elected. The losses will be covered by the dishonest Arbitrators deposits.
  
 ### Creating property records on the territories without existing states in Oracles property registry (OPR)
 There are the territories that are out of a state's sovereignty and the territories the rights to which were renounced by the state. They're called "Terra nullius" or "nobody's land". Examples of such territories are Bir Tawil in Africa and Marie Byrd Land in Antarctica, to name a few. Due to their isolated geographical position, associated risks, and harsh climate conditions, the settlement of such territories implies substantial financial expenses and a high likelihood of losing investments. Neither states themselves, nor private enterprises and investors are ready to do this. However, with sufficient financial resources, it's possible to create anything one could imagine in these territories: cities, industries, commercial centers, tax-free areas, etc.
@@ -338,7 +323,7 @@ This approach can be used both on Earth and beyond it. For example, on Moon on M
 #### Creating an updating property records for land
 In this case, the auction mechanics are used for creating land-plot tokens. Anyone can pay a fee in ETH or GALT and create a Proposal to start an auction for land plots located on an unclaimed or disputed territory. The creator of the proposal creates Community of Homeowners in advance, to which all funds from the auction will be transferred, as well as the smart auction contract itself. The auction type is defined by the code of a smart contract (English auction ,Dutch auction, Sealed first-price auction, Vickrey auction and others). The proposal contains the geographical coordinates of the land and auction parameters, such as Min. number of Land Plots to sell to create tokens, Auction duration, Min. goal for crowdfunding, Address of Community of Homeowners contract, Auction currency ETH/ERC20 and others.
 
-Protocol participants vote on the Proposal through Global Governance Voting Contract. If it is accepted, then the auction begins. Anyone can bet on the land plot. If the bet is won, as well as the minimum required number of plots is sold or the goal of raising funds is achieved, new tokens of land plots are created. The tokens are transferred to new owners, and all received funds are sent to Community Multisig. Unsold land plots may be sold later.
+GALT token holders use their stake to vote on the Proposal through Governance Voting Contract. If it is accepted, then the auction begins. Anyone can bet on the land plot. If the bet is won, as well as the minimum required number of plots is sold or the goal of raising funds is achieved, new tokens of land plots are created. The tokens are transferred to new owners, and all received funds are sent to Community Multisig. Unsold land plots may be sold later.
 
 The participants in the new community choose managers who will manage the funds – to pay for the construction of infrastructure, physical protection of property, etc. They also vote for the adoption of laws and the collection of additional funds(a detailed description of the Communities is provided in the corresponding section).
 <p align="center"> <img src="https://raw.githubusercontent.com/galtproject/galtproject-docs/master/whitepaper/images/Artboard21.png" alt="Creating property records, property protection and use cases on the territories without existing states"/></p>
@@ -361,7 +346,7 @@ There are two levels of Governance:
 - Arbitrators Governance groups;
 - Global governance;
 
-On the "Arbitrators Governance groups" level, the protocol participants (the Property owners, Oracles, Galt Holders) elect the Arbitrators and determine the Group parameters such as:
+On the "Arbitrators Governance groups" level, the GALT holders use their stake to elect the Arbitrators and determine the Group parameters such as:
 
 - the Oracles and Arbitrators Deposit amounts;
 - the Oracles and Arbitrators minimum fee;
@@ -373,10 +358,9 @@ On the "Arbitrators Governance groups" level, the protocol participants (the Pro
 
 Also they upgrade group contracts. 
 
-On the "Global governance" level, the protocol participants (Property owners, Oracles, Galt Holders) determine global parameters such as:
+On the "Global governance" level, the GALT holders use their stake to determine global parameters such as:
 
 - size of the general protocol commission and commision for particular smart contracts;
-- commission distribution between GALT Auto buyback Contract and Reputation Staking Reward Contract (This is described in the "Commission distribution" section);
 - upgrade contracts; 
 - start Auctions for unclaimed territories (This is described in the "Creating property records, property protection and use cases on the territories without existing states" section);
 - others.
@@ -388,7 +372,7 @@ The Property owners and GALT holders create voting proposals in Global Governanc
 For voting in a particular Governance Group, all the participants use their Reputation in this group.
 
 #### Staking rewards in Oracles property registry (OPR)
-Protocol participants are rewarded for choosing the Arbitrators. The reward is proportional to how much Reputation staked on the Arbitrators in a particular group. The Reward is given to:
+Protocol participants are rewarded for choosing the Arbitrators. The reward is proportional to how much GALT staked on the Arbitrators in a particular group. The Reward is given to:
 
 - the GALT token holders for locking GALT and staking Reputation on the Arbitrators;
 - the Property owners for locking a land plot or real estate token and staking Reputation on the Arbitrators;
